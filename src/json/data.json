@@ -1,0 +1,20 @@
+{
+    "navigation" : [
+        {
+            "name" : "Inicio",
+            "url" : "/"
+        },
+        {
+            "name" : "Nosotros",
+            "url" : "/about"
+        },
+        {
+            "name" : "Servicios",
+            "url" : "/services"
+        },
+        {
+            "name" : "Contactanos",
+            "url" : "/contact"
+        }
+    ]
+}
