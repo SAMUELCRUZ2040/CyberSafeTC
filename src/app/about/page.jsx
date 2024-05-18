@@ -1,6 +1,9 @@
+
 export default function About() {
     return (
-      <>hola desde about</>
+      <section>
+        hola desde about
+      </section>
     );
   }
   

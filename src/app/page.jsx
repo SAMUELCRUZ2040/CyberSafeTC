@@ -1,5 +1,9 @@
+import Portada from "./home/portada";
+
 export default function Home() {
   return (
-    <>hola desde el home</>
+    <>
+    <Portada />
+    </>
   );
 }
