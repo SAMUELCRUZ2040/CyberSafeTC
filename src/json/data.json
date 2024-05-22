@@ -59,21 +59,34 @@
                 }
                 
             ],
-            "clientes" : [
+            "strategies" : [
                 {
-                    "name" : "pepito",
-                    "apeliido" : "lopez",
-                    "telefono" : "65654654"
+                    "strategieOne" : [
+                        {   
+                            "subtitle" : "Innovación",
+                            "description" : "Implementamos soluciones tecnológicas personalizadas para tu empresa, mejorando la comunicación, automatización y seguridad, para maximizar tu eficiencia y rendimiento."
+                        }
+                    ],
+                    "strategieTwo" : [
+                        {   
+                            "subtitle" : "Excelencia",
+                            "description" : "Proveemos tecnología avanzada adaptada a tu empresa, optimizando procesos, mejorando la comunicación y asegurando tus datos, para alcanzar el máximo potencial."
+                        }
+                    ]
                 },
                 {
-                    "name" : "pepito",
-                    "apeliido" : "lopez",
-                    "telefono" : "65654654"
-                },
-                {
-                    "name" : "pepito",
-                    "apeliido" : "lopez",
-                    "telefono" : "65654654"
+                    "strategieOne" : [
+                        {   
+                            "subtitle" : "Eficiencia",
+                            "description" : "Ofrecemos soluciones tecnológicas a medida que optimizan el rendimiento de tu empresa, mejorando procesos, comunicación y seguridad, garantizando resultados efectivos."
+                        }
+                    ],
+                    "strategieTwo" : [
+                        {   
+                            "subtitle" : "Progreso",
+                            "description" : "Desarrollamos tecnología personalizada para tu empresa, potenciando la eficiencia, automatización y protección de datos, asegurando un crecimiento constante y sostenible."
+                        }
+                    ]
                 }
             ]
         }

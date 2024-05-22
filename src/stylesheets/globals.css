@@ -3,14 +3,9 @@
 @tailwind utilities;
 
 ::selection{
-    background: #8785857b;
+    background: #8785867b;
 }
-body{
-    background: url(../../public/image/grid.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 section{
     width: 100%;
@@ -21,3 +16,15 @@ section{
     align-items: center;
     /* backdrop-filter: blur(); */
 }
+.front_page{
+    background: url(../../public/image/grid.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .locas{
+    background: url(https://img.freepik.com/fotos-premium/espirografo-fondo-blanco-alta-calidad-ultra_889056-10068.jpg?w=740);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */
