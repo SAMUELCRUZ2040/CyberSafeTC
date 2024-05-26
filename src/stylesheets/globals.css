@@ -10,25 +10,20 @@
 section{
     width: 100%;
     height: 100vh;
-    /* background: #ff4; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* backdrop-filter: blur(); */
+    /* background: #76787f; */
 }
+
 .front_page{
     background: url(../../public/image/grid.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .lopes{
     padding: 3rem 2rem;
-    background: radial-gradient(circle, #3f5efb2b 10%, #1106f035 10%, #46f9fc00 60%, #0cdbde0b 100%);
+    background: radial-gradient(circle, #5f60642b 10%, #83829735 10%, #667a7b00 60%, #7385850b 100%);
 }
-/* .locas{
-    background: url(https://img.freepik.com/foto-gratis/mezclando-gotitas-pintura-coloreada_23-2147748912.jpg?t=st=1716435641~exp=1716439241~hmac=507220c4215f42c2f833b5989ddacc867a96fefbdb8ae9ba334b5021e188dbb0&w=740);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-} */

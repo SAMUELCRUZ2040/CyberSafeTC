@@ -122,39 +122,39 @@
                     "informationServices" : [
                         {
                             "id" : 0,
-                            "title" : "Infraestructura",
+                            "title" : "Gestion de Infraestructura",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum architecto unde repellat, minus eligendi iusto quibusdam quas ducimus ipsa minima delectus accusamus.",
-                            "picture" : "https://img.freepik.com/fotos-premium/representacion-colorida-abstracta-cara-ojos-cerrados-cara-esta-rodeada-diseno-vibrante-giratorio-que-da-apariencia-dinamica-energica_251319-1072.jpg?w=740"
+                            "picture" : "https://img.freepik.com/foto-gratis/simbolo-bucle-sobre-vista-inspiradora_23-2150022272.jpg?t=st=1716673837~exp=1716677437~hmac=086fe5872bdd7469c00a50aa32cf79d6cac8d8506615ddaac602324bf76ed48b&w=740"
                         },
                         {
                             "id" : 1,
-                            "title" : "Tecnología TI",
+                            "title" : "Desarrollo en Tecnología TI",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum architecto unde repellat, minus eligendi iusto quibusdam quas ducimus ipsa minima delectus accusamus.",
-                            "picture" : "https://img.freepik.com/fotos-premium/representacion-colorida-abstracta-cara-ojos-cerrados-cara-esta-rodeada-diseno-vibrante-giratorio-que-da-apariencia-dinamica-energica_251319-1072.jpg?w=740"
+                            "picture" : "https://img.freepik.com/foto-gratis/perspectiva-futurista-estilo-vida-nomadas-digitales_23-2151252472.jpg?t=st=1716670258~exp=1716673858~hmac=1199f173aa7c8d1bfb20e0ae397d505527a06c2582825c39fd0e0fec9ea800eb&w=360"
                         },
                         {
                             "id" : 2,
-                            "title" : "Telefonía IP",
+                            "title" : "Servicios en Telefonía IP",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum architecto unde repellat, minus eligendi iusto quibusdam quas ducimus ipsa minima delectus accusamus.",
-                            "picture" : "https://img.freepik.com/fotos-premium/representacion-colorida-abstracta-cara-ojos-cerrados-cara-esta-rodeada-diseno-vibrante-giratorio-que-da-apariencia-dinamica-energica_251319-1072.jpg?w=740"
+                            "picture" : "https://img.freepik.com/foto-gratis/concepto-naturaleza-muerta-dia-mundial-poblacion-peones_23-2149409017.jpg?t=st=1716673059~exp=1716676659~hmac=d4f5c6667ddbb673345996cfe3728b35d210194d9ec269af8fd1e8041e3bcb9a&w=740"
                         },
                         {
                             "id" : 3,
                             "title" : "Desarrollo de paginas web",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum architecto unde repellat, minus eligendi iusto quibusdam quas ducimus ipsa minima delectus accusamus.",
-                            "picture" : "https://img.freepik.com/fotos-premium/representacion-colorida-abstracta-cara-ojos-cerrados-cara-esta-rodeada-diseno-vibrante-giratorio-que-da-apariencia-dinamica-energica_251319-1072.jpg?w=740"
+                            "picture" : "https://img.freepik.com/vector-gratis/plantilla-correo-electronico-fitness_23-2148733915.jpg?t=st=1716666860~exp=1716670460~hmac=905ea30239a6389a8d6a9926df02c1115e651c97562194fa9cfc29c2046b51ad&w=360"
                         },
                         {
                             "id" : 4,
                             "title" : "Desarrollo de software",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum architecto unde repellat, minus eligendi iusto quibusdam quas ducimus ipsa minima delectus accusamus.",
-                            "picture" : "https://img.freepik.com/fotos-premium/representacion-colorida-abstracta-cara-ojos-cerrados-cara-esta-rodeada-diseno-vibrante-giratorio-que-da-apariencia-dinamica-energica_251319-1072.jpg?w=740"
+                            "picture" : "https://img.freepik.com/foto-gratis/concepto-collage-html-css-persona_23-2150061978.jpg?t=st=1716671422~exp=1716675022~hmac=2db6399a4f0438f11299aa9891cdfaded3a9018318434894d2c0e4ceeca0356e&w=740"
                         },
                         {
                             "id" : 5,
-                            "title" : "SEO",
+                            "title" : "Analisis y Desarollo en SEO",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum architecto unde repellat, minus eligendi iusto quibusdam quas ducimus ipsa minima delectus accusamus.",
-                            "picture" : "https://img.freepik.com/fotos-premium/representacion-colorida-abstracta-cara-ojos-cerrados-cara-esta-rodeada-diseno-vibrante-giratorio-que-da-apariencia-dinamica-energica_251319-1072.jpg?w=740"
+                            "picture" : "https://img.freepik.com/foto-gratis/hombre-disenador-grafico-que-mira-documento-grafico_1170-880.jpg?t=st=1716666279~exp=1716669879~hmac=895f393df4623a6be6680c20cf4378aabf4e4a676ce790d9e3395077163f71ae&w=740"
                         }
                     ]
                 }
