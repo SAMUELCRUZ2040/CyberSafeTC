@@ -28,9 +28,9 @@ export function PictureServices({ idService }) {
         src={idInformation.picture}
         width={500}
         height={500}
-        style={{width : "80%", height : "100%"}}
+        style={{width : "100%", height : "100%"}}
         alt="asd"
-        className="shadow-md grayscale rounded-lg opacity-80"
+        className="shadow-xl rounded-lg opacity-80 shadow-md border-2 p-5"
       />
   );
 };

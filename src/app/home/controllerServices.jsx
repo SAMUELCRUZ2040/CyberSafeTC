@@ -47,9 +47,6 @@ export default function ControllerServices() {
                         idService={service}
                     />
                 </div>
-                <div className="col-span-2 flex items-center justify-center">
-                    <span>1/4</span>
-                </div>
             </div>
         </section>
   )

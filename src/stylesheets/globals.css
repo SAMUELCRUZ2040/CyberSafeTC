@@ -13,7 +13,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: #76787f; */
+    /* background: #ff0101; */
 }
 
 .front_page{
@@ -22,6 +22,7 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 .lopes{
     padding: 3rem 2rem;

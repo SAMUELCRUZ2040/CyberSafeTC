@@ -1,8 +1,6 @@
 import data from '@/json/data';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEarthAmericas } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Strategies() {
@@ -10,23 +8,7 @@ export default function Strategies() {
         <section>
             <div className="columns-2  container h-full locas">
                 <div className="information flex h-full">
-                    <div className="line flex flex-col justify-center items-center w-[10rem] opacity-50">
-                        <span 
-                            className="w-1 inline-block h-[10%]"
-                            style={{background : "linear-gradient(transparent, #000 40%)"}}
-                        />
-                        <span className='h-[5%] flex lopes items-center text-2xl'>
-                            <FontAwesomeIcon 
-                                icon={faEarthAmericas}
-                                className="text-[#000] ]"
-                            />
-                        </span>
-                        <span 
-                            className='w-1 inline-block h-[85%]'
-                            style={{background : "linear-gradient(#000 40%, transparent)"}}
-                        />
-                    </div>
-                    <div className="dataStrategies flex flex-col justify-center gap-8">
+                    <div className="dataStrategies flex flex-col justify-center items-start gap-8">
                         <h2 className=' flex flex-col scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl'>
                             <span>Lo Primordial</span>
                             <span>Es el Cliente</span>
