@@ -59,6 +59,36 @@
                 }
                 
             ],
+            "metod" : [
+                {
+                    "picture" : "https://img.freepik.com/foto-gratis/concepto-marketing-redes-sociales-marketing-aplicaciones_23-2150063164.jpg?t=st=1717270422~exp=1717274022~hmac=c60bbfb44eb4e66b39a2b380d9b6e4d9c5470c6c0d47f6a41c4aa9ac50ce5002&w=900",
+                    "title" : "Create content at scale",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
+                    "action" : "/",
+                    "direction" : "first"
+                },
+                {
+                    "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169158.jpg?t=st=1717270502~exp=1717274102~hmac=797c8d16c23e458149d4ed4e8659aca4a985d44deda4141453b3659de21e5f96&w=740",
+                    "title" : "Create content at scale",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
+                    "action" : "/",
+                    "direction" : "last"
+                },
+                {
+                    "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169142.jpg?t=st=1717270352~exp=1717273952~hmac=8047d5b3dc56c109cd86e7299b97ce225ca1a6a2fd5d6dd59246fbc0166deba3&w=740",
+                    "title" : "Create content at scale",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
+                    "action" : "/",
+                    "direction" : "first"
+                },
+                {
+                    "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169140.jpg?t=st=1717270523~exp=1717274123~hmac=81b3d84c7a1086d5faf920e47ee459cdea71e671942515db2599106e6efa8b51&w=740",
+                    "title" : "Create content at scale",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
+                    "action" : "/",
+                    "direction" : "last"
+                }
+            ],
             "strategies" : [
                 {
                     "strategieOne" : [
@@ -85,6 +115,74 @@
                         {   
                             "subtitle" : "Progreso",
                             "description" : "Desarrollamos tecnología personalizada para tu empresa, potenciando la eficiencia, automatización y protección de datos, asegurando un crecimiento constante y sostenible."
+                        }
+                    ]
+                }
+            ],
+            "strategiesGrid" : [
+                {
+                    "strategiesGridOne" : [
+                        {
+                            "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169146.jpg?t=st=1717270516~exp=1717274116~hmac=3c9aa89d012873ec23f7c93a0f9b66157570f47cd1b1f6b8a5bf13bdf36f14cf&w=740",
+                            "icon" : "¥",
+                            "title" : "The Dawn of Innovation",
+                            "description" : "Explore the birth of groundbreaking ideas and inventions."
+                        }
+                    ],
+                    "strategiesGridTwo" : [
+                        {
+                            "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169155.jpg?t=st=1717480841~exp=1717484441~hmac=2e22eaf3596e0cb1d69792ca39540de6779105382a5d8f2496c03290c93b5d68&w=1380",
+                            "icon" : "¥",
+                            "title" : "The Dawn of Innovation",
+                            "description" : "Explore the birth of groundbreaking ideas and inventions."
+                        }
+                    ],
+                    "strategiesGridThree" : [
+                        {
+                            "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169144.jpg?t=st=1717480952~exp=1717484552~hmac=590f3acb95d68474ad5fc43a56d13212eeb96629f77b04b3b6caffd28b43d226&w=1380",
+                            "icon" : "¥",
+                            "title" : "The Dawn of Innovation",
+                            "description" : "Explore the birth of groundbreaking ideas and inventions."
+                        }
+                    ]
+                },
+                {
+                    "strategiesGridOne" : [
+                        {
+                            "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169149.jpg?t=st=1717480819~exp=1717484419~hmac=290461c5452858494ffce44c0c0cda0276c49592454af0211e594b923e38ba0b&w=1480",
+                            "icon" : "¥",
+                            "title" : "The Dawn of Innovation",
+                            "description" : "Explore the birth of groundbreaking ideas and inventions.",
+                            "className" : "col-span-2"
+                        }
+                    ],
+                    "strategiesGridTwo" : [
+                        {
+                            "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169152.jpg?t=st=1717480911~exp=1717484511~hmac=2c63abf450ee41b07a61fc0aaec742c993689b0c552ea95e3d9d337d2fd9a065&w=740",
+                            "icon" : "¥",
+                            "title" : "The Dawn of Innovation",
+                            "description" : "Explore the birth of groundbreaking ideas and inventions.",
+                            "className" : "col-span-1"
+                        }
+                    ]
+                },
+                {
+                    "strategiesGridOne" : [
+                        {
+                            "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169156.jpg?t=st=1717480885~exp=1717484485~hmac=7a887ec9e7902f3c05b36e8a76c0d8b4d8a4984654cfba98e73fc14e49e2a56d&w=740",
+                            "icon" : "¥",
+                            "title" : "The Dawn of Innovation",
+                            "description" : "Explore the birth of groundbreaking ideas and inventions.",
+                            "className" : "col-span-1"
+                        }
+                    ],
+                    "strategiesGridTwo" : [
+                        {
+                            "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169134.jpg?t=st=1717480846~exp=1717484446~hmac=f996823a4bc90dc687b4edd6ac729e2ff0fbf684e621a3f082bd4a996d1ff4c3&w=1380",
+                            "icon" : "¥",
+                            "title" : "The Dawn of Innovation",
+                            "description" : "Explore the birth of groundbreaking ideas and inventions.",
+                            "className" : "col-span-2"
                         }
                     ]
                 }

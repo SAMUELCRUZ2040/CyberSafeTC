@@ -40,15 +40,36 @@ export default function Strategies() {
                             </Link>
                     </div>
                 </div>
-                <div className="h-full flex justify-center items-center">
-                    <Image 
-                        src={"https://img.freepik.com/fotos-premium/rueda-viento-fuego-fondo-blanco-alta-calidad_889056-18135.jpg?w=740"}
-                        width={5000}
-                        height={5000}
-                        alt='robot'
-                        style={{width : "100%", height : "auto"}}
-                        lazy="load"
-                    />
+                <div className="h-full w-full flex flex-col items-center justify-center">
+                    {data.home[0].strategiesGrid.map((GenerateColGrid, KeyColGrid)=>{
+                        //obtener el numero de columnas 
+                        const count = Object.entries(GenerateColGrid).length;
+                        return(
+                            <div 
+                                className={`grid grid-cols-${count < 3 ? count + 1 : count} w-fulls`}
+                                key={KeyColGrid}
+                            >
+                                {Object.entries(GenerateColGrid).map((dataStrategies, keyStrategies)=>(
+                                    <div 
+                                        className={`${count < 3 ? dataStrategies[1][0].className : {}} m-2 flex flex-col items-start overflow-hidden rounded-lg p-2 shadow-xl border-2 hover:scale-[1.01]  gap-4`}
+                                        key={keyStrategies}
+                                    >
+                                        <div className="container_image w-full h-28 overflow-hidden flex justify-center items-center">
+                                        <Image  
+                                            src={dataStrategies[1][0].picture}
+                                            width={400}
+                                            height={400}
+                                            alt="Picture of the author"
+                                            style={{ width: "100%", height: "auto" }}
+                                        />
+                                        </div>
+                                        <h4 className='text-md font-semibold tracking-wide'>{dataStrategies[1][0].title}</h4>
+                                        <p className='text-sm'>{dataStrategies[1][0].description}</p>
+                                    </div>
+                                ))}
+                            </div>
+                        )
+                    })}
                 </div>
             </div>
         </section>
