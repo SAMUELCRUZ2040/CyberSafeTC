@@ -18,33 +18,35 @@ export default function Action() {
   ]
   return (
     <div className="fall__action flex justify-center items-center bg-[#2929290a]">
-        <div className="container grid grid-cols-12 my-14 py-14">
-            <div className="col-span-3 flex items-center justify-center">
-              <h2 className="flex  flex-col croll-m-20 text-4xl font-extrabold tracking-tight lg:text-4xl">
+        <div className="container grid grid-cols-3 my-14 py-14 max-sm:grid-cols-1">
+            <div className=" col-span-1 flex items-center justify-center">
+              <h2 className=" max-sm:flex-row gap-2 flex flex-col croll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">
                 <span>¿Y si nos</span>
                 <span>reunimos?</span>
               </h2>
             </div>
-            <div className="col-span-9">
-              <div className="card grid grid-cols-12 " >
+            <div className="col-span-2 max-sm:mt-8">
+              <div className="card grid grid-cols-2 max-sm:grid-cols-1 gap-28" >
                 {dataAction.map((datas, key) => (
-                    <div className="col-span-6 flex justify-center items-center gap-5 p-5 border-2 rounded-lg ms-4 shadow-md hover:shadow-xl overflow-hidden" key={key}>
-                      <div className="picture">
-                          <div className="container_picture rounded-full w-[130px] h-[130px] overflow-hidden flex justify-center items-center">
+                    <div 
+                      className="relative flex justify-center items-center border-2 rounded-3xl shadow-md hover:shadow-xl py-11 px-[5rem] max-sm:ps-[3rem] max-sm:px-0 max-sm:py-8" 
+                      key={key}
+                      style={{borderBottomLeftRadius : "0"}}
+                    >
+                        <div className="max-sm:top-[25%] top-[18.5%] left-[-12.5%] absolute max-sm:w-[70px] max-sm:h-[70px] rounded-full w-[105px] h-[105px] overflow-hidden flex justify-center items-center">
                             <Image 
                               src={datas.picture}
                               width={1000}
                               height={1000}
-                              style={{width : "150%", height : "auto" , maxWidth : "none"}}
+                              style={{width : "180%", height : "auto" , maxWidth : "none"}}
                               alt="asd"
                             />
-                          </div>
-                      </div>
+                        </div>
                       <div className="description">
-                          <h2 className="croll-m-20 text-lg font-extrabold tracking-tight lg:text-xl mb-4">{datas.description}</h2>
+                          <h2 className="croll-m-20 text-sm font-extrabold tracking-tight lg:text-xl mb-4">{datas.description}</h2>
                           <Link 
                             href={"/"}
-                            className="ps-4 color text-md text-[#008ced] underline underline-offset-8 hover:text-cyan-400"
+                            className="ps-4 color text-xs text-[#008ced] underline underline-offset-8 hover:text-cyan-400"
                           >
                             ESCRIBENOS +
                           </Link>

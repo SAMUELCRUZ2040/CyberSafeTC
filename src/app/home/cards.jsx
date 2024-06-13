@@ -9,7 +9,7 @@ export default function Cards() {
         {data.home[0].frontPage.map((data, key)=>(
             // crear el numero de columnas 
             <div key={key} 
-                className={`mt-2 columns-${Object.keys(data).length}`}
+                className={`mt-2 columns-${Object.keys(data).length} max-sm:columns-1`}
             >
                 {Object.entries(data).map((dataCard, keyCard)=>(
                     //crear el numero de comonentes que hay dentro de cada columna
@@ -18,7 +18,7 @@ export default function Cards() {
                         key={keyCard}
                     >
                         <div 
-                            className={`bg-[#dfdfdf2b] shadow-md h-auto backdrop-blur-lg overflow-hidden border-2 p-4 rounded-lg flex content-center hover:shadow-lg items-center flex-${dataCard[1][0].direction}`}
+                            className={`bg-[#dfdfdf2b] shadow-md h-auto backdrop-blur-lg overflow-hidden border-2 p-4 rounded-lg flex content-center hover:shadow-lg items-center flex-${dataCard[1][0].direction} max-md:flex-col max-md:mt-4`}
                         >
                             <Image  
                                 src={`/image/home/frontPage/image-${dataCard[1][0].picture}.webP`}

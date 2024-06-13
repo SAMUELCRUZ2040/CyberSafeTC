@@ -26,7 +26,7 @@ export default  function Footer() {
       <Action />
         <div className="flex items-center justify-center flex-col">
           <div className="container py-14">
-            <div className="about flex justify-between px-14">
+            <div className="max-sm:items-center max-sm:gap-5 flex justify-between px-14 max-sm:flex-col max-sm:p-0 max-sm:text-center">
               <div className="logo w-[150px]">
                 <Image 
                   src={"https://www.userogue.com/_next/image?url=%2Fimages%2Flogo-v3-dark%2Flogo.png&w=128&q=75"}
@@ -48,8 +48,8 @@ export default  function Footer() {
               ))}
             </div>
           </div>
-          <div className="container grid grid-cols-12 py-14">
-              <div className="col-span-6">
+          <div className="container grid grid-cols-2 max-sm:grid-cols-1 max-sm:gap-5 py-14">
+              <div className="">
                 <span>siguenos en nuestras redes
                 {socialNetworks.map((data, key)=>(
                   <Link 
@@ -61,7 +61,7 @@ export default  function Footer() {
                 ))}
                 </span>
               </div>
-              <div className="col-span-6 text-sm">
+              <div className="text-sm">
                 <span>Esta pagina esta 100% hecha por cyberSafe igual que todos los proyectos formados ademas se mantiene una privacidad al 100%</span>
               </div>
           </div>

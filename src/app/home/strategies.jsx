@@ -5,18 +5,18 @@ import Link from 'next/link';
 
 export default function Strategies() {
     return (
-        <section className='locas'>
-            <div className="columns-2  container h-full ">
+        <section>
+            <div className="grid grid-cols-2 max-sm:grid-cols-1 container h-full ">
                 <div className="information flex h-full">
                     <div className="dataStrategies flex flex-col justify-center items-start gap-8">
-                        <h2 className=' flex flex-col scroll-m-20 text-6xl font-bold tracking-tight lg:text-6xl'>
+                        <h2 className='flex flex-col scroll-m-20 text-5xl font-bold tracking-tight lg:text-6xl'>
                             <span>Lo Primordial</span>
                             <span>Es el <span className='text-[#347faa]'>Cliente</span></span>
                         </h2>
                         {data.home[0].strategies.map((generateCol, keyCol)=>(
                             //crear el numero de columnas que va a conentener las descripciones
                             <div 
-                                className="columns-2"
+                                className="grid grid-cols-2 max-sm:grid-cols-1"
                                 key={keyCol}
                             >
                                 {Object.entries(generateCol).map((dataStrategies, keyStrategies)=>(
@@ -25,13 +25,13 @@ export default function Strategies() {
                                         key={keyStrategies}
                                         className='me-5'
                                     >
-                                        <h3 className='text-3xl font-bold mb-2'>{dataStrategies[1][0].subtitle}</h3>
-                                        <p className='text-lg'>{dataStrategies[1][0].description}</p>
+                                        <h3 className='text-3xl font-bold mb-2 max-sm:text-2xl'>{dataStrategies[1][0].subtitle}</h3>
+                                        <p className='text-lg max-sm:text-sm'>{dataStrategies[1][0].description}</p>
                                     </div>
                                 ))}
                             </div>
                         ))}
-                            <h2 className='croll-m-20 text-4xl font-extrabold tracking-tight lg:text-4xl'>No esperes mas es el momento</h2>
+                            <h2 className='croll-m-20 text-2xl font-extrabold tracking-tight lg:text-4xl'>No esperes mas es el momento</h2>
                             <Link 
                                 href={"/"}
                                 className="hover:scale-[1.04] shadow-xl py-4 px-12 border-2 rounded-xl text-xl font-bold text-center"
@@ -40,13 +40,11 @@ export default function Strategies() {
                             </Link>
                     </div>
                 </div>
-                <div className="h-full w-full flex flex-col items-center justify-center">
+                <div className="h-full w-full flex flex-col items-center justify-center max-sm:mt-5">
                     {data.home[0].strategiesGrid.map((GenerateColGrid, KeyColGrid)=>{
-                        //obtener el numero de columnas 
-                        const count = Object.entries(GenerateColGrid).length;
                         return(
                             <div 
-                                className={`grid grid-cols-3 w-full`}
+                                className={`grid grid-cols-3 w-full max-sm:grid-cols-1`}
                                 key={KeyColGrid}
                             >
                                 {Object.entries(GenerateColGrid).map((dataStrategies, keyStrategies)=>(

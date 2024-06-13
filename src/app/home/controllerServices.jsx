@@ -20,15 +20,15 @@ export default function ControllerServices() {
 
   return (
         <section>
-            <div className="container grid grid-cols-12">
-                <div className="col-span-1 flex flex-col justify-between items-center p-14">
+            <div className="container grid grid-cols-4 max-sm:grid-cols-1 flex-col max-sm:mt-14">
+                <div className="max-sm:flex-row max-sm:p-0 max-sm:flex-wrap col-span-1 flex flex-col justify-between items-center p-2">
                     {data.home[0].summaryServices[0].controllerServices.map((data, key)=>{
                         //obtener el id del servicio
                         const iconData = icons.find(icon => icon.name === data.icon);
                         const icon = iconData ? iconData.icon : null;
                         return(
                             <div 
-                                className="text-[#000] mt-5 p-4 cursor-pointer border-2 text-center flex items-center justify-center rounded-lg hover:scale-[1.1] hover:shadow-xl"
+                                className="max-sm:text-sm max-sm:p-3 flex items-center justify-center mt-5 p-4 text-[#000] cursor-pointer border-2 text-center rounded-lg hover:scale-[1.1] hover:shadow-xl"
                                 key={key} 
                                 onClick={()=>setService(data.id)}
                             >
@@ -37,12 +37,12 @@ export default function ControllerServices() {
                         );
                     })}
                 </div>
-                <div className="col-span-6 p-8 flex flex-col justify-center items-start gap-8">
+                <div className="col-span-2 p-8 flex flex-col justify-center items-start gap-8">
                     <DescriptionServices 
                         idService={service}
                     />
                 </div>
-                <div className="col-span-3">
+                <div className="col-span-1 ">
                     <PictureServices 
                         idService={service}
                     />
