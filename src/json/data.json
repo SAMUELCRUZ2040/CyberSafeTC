@@ -61,29 +61,33 @@
             ],
             "metod" : [
                 {
-                    "picture" : "https://img.freepik.com/foto-gratis/concepto-marketing-redes-sociales-marketing-aplicaciones_23-2150063164.jpg?t=st=1717270422~exp=1717274022~hmac=c60bbfb44eb4e66b39a2b380d9b6e4d9c5470c6c0d47f6a41c4aa9ac50ce5002&w=900",
+                    "picture" : "1",
                     "title" : "Create content at scale",
+                    "alt" : "Esta imagen representa Create content at scale",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
                     "action" : "/",
                     "direction" : true
                 },
                 {
-                    "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169158.jpg?t=st=1717270502~exp=1717274102~hmac=797c8d16c23e458149d4ed4e8659aca4a985d44deda4141453b3659de21e5f96&w=740",
+                    "picture" : "2",
                     "title" : "Create content at scale",
+                    "alt" : "Esta imagen representa Create content at scale",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
                     "action" : "/",
                     "direction" : false
                 },
                 {
-                    "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169142.jpg?t=st=1717270352~exp=1717273952~hmac=8047d5b3dc56c109cd86e7299b97ce225ca1a6a2fd5d6dd59246fbc0166deba3&w=740",
+                    "picture" : "3",
                     "title" : "Create content at scale",
+                    "alt" : "Esta imagen representa Create content at scale",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
                     "action" : "/",
                     "direction" : true
                 },
                 {
-                    "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169140.jpg?t=st=1717270523~exp=1717274123~hmac=81b3d84c7a1086d5faf920e47ee459cdea71e671942515db2599106e6efa8b51&w=740",
+                    "picture" : "4",
                     "title" : "Create content at scale",
+                    "alt" : "Esta imagen representa Create content at scale",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
                     "action" : "/",
                     "direction" : false
@@ -123,24 +127,24 @@
                 {
                     "strategiesGridOne" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/nina-nino-hablando-despues-final-cuarentena_23-2148639775.jpg?t=st=1718204642~exp=1718208242~hmac=bbceef8ac5927bc140fe3cb54d4fdd937f8f570550961d66ae95cd053d800480&w=900",
-                            "icon" : "¥",
+                            "picture" : "1",
+                            "alt" : "imagen de Escucha Activa",
                             "title" : "Escucha Activa",
                             "description" : "Explore the birth of groundbreaking ideas and inventions."
                         }
                     ],
                     "strategiesGridTwo" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/pareja-sonriente-mirando-portatil_23-2148372525.jpg?t=st=1718203986~exp=1718207586~hmac=c955e78a9d77e98f69a7926c4b4161dd23027ba6dfe513f5e3cba5662c2ececc&w=740",
-                            "icon" : "¥",
+                            "picture" : "2",
+                            "alt" : "imagen de Respuesta Rápida y Eficiente",
                             "title" : "Respuesta Rápida y Eficiente",
                             "description" : "Explore the birth of groundbreaking ideas and inventions."
                         }
                     ],
                     "strategiesGridThree" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/mujer-joven-apuntando-al-bocadillo-mirando-alegre_176474-95756.jpg?t=st=1718204309~exp=1718207909~hmac=a55a42d008ac1833b9ca320ffa583cfc05204a3161ee87bb1ba925cdde1d8393&w=900",
-                            "icon" : "¥",
+                            "picture" : "3",
+                            "alt" : "imagen de Comuniacion Acertiba",
                             "title" : "Comuniacion Acertiba",
                             "description" : "Explore the birth of groundbreaking ideas and inventions."
                         }
@@ -149,8 +153,8 @@
                 {
                     "strategiesGridOne" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/afroamericano-listo-hacer-renovacion-casa_273609-36977.jpg?t=st=1718203106~exp=1718206706~hmac=907ac2b3699d5eebaaaebf2b1ff53df7977530700a9cc5e9c30ab92026a64028&w=900",
-                            "icon" : "¥",
+                            "picture" : "4",
+                            "alt" : "imagen de Transparencia y Honestidad",
                             "title" : "Transparencia y Honestidad",
                             "description" : "Explore the birth of groundbreaking ideas and inventions.",
                             "className" : 1
@@ -158,8 +162,8 @@
                     ],
                     "strategiesGridTwo" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hombre-guapo-pensando-usando-tabletas-digitales-comprando-linea-reflexionando-sobre-ideas-mirando-parte-superior_1258-149843.jpg?t=st=1718203664~exp=1718207264~hmac=0b9803d816e6caae75a5a70ebcd8be0bece1c9556bf83303b7d84c206c247ee5&w=1060",
-                            "icon" : "¥",
+                            "picture" : "5",
+                            "alt" : "imagen de Ofrecer Experiencias Excepcionales",
                             "title" : "Ofrecer Experiencias Excepcionales",
                             "description" : "Explore the birth of groundbreaking ideas and inventions.",
                             "className" : 2
@@ -169,8 +173,8 @@
                 {
                     "strategiesGridOne" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/equipo-negocios-trabajando-juntos-su-proyecto-empresarial-oficina_155003-3322.jpg?t=st=1718205762~exp=1718209362~hmac=8aa2e7da0a27d545d413bc35cd0fa2087e4cc9c8910a448c28b6b2809035e29e&w=900",
-                            "icon" : "¥",
+                            "picture" : "6",
+                            "alt" : "imagen de Proactividad en la Resolución de Problemas",
                             "title" : "Proactividad en la Resolución de Problemas",
                             "description" : "Explore the birth of groundbreaking ideas and inventions.",
                             "className" : 2
@@ -178,8 +182,8 @@
                     ],
                     "strategiesGridTwo" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/colegas-alegres-mujer-hombre-raza-mixta-celebran-que-trabajo-terminado-exito-hacen-que-puno-plantee-documentos-papel-miran-alegria-al-otro_273609-45123.jpg?t=st=1718206251~exp=1718209851~hmac=a4727c9ff9b044d63e506bfc392084d5cb530892408eef90a5ea4c04b3af3f84&w=900",
-                            "icon" : "¥",
+                            "picture" : "7",
+                            "alt" : "imagen de Uso de Feedback",
                             "title" : "Uso de Feedback",
                             "description" : "Explore the birth of groundbreaking ideas and inventions.",
                             "className" : 1
@@ -259,22 +263,24 @@
             ],
             "summary" : [
                 {
-                    "picture" : "https://img.freepik.com/foto-gratis/pareja-joven-hombre-mujer-ropa-casual-confundido-hombre-sosteniendo-telefono-inteligente-su-novia-pie-detras-el-asomandose-expresion-esceptica-sobre-pared-verde_141793-57117.jpg?t=st=1718250166~exp=1718253766~hmac=5fa95d0cb9ed6c961e7f205d840298ecd082cd25a59b9d518c0577b514e9ac0a&w=1380",
+                    "picture" : "1",
+                    "alt"  : "esta imagen respresenta",
                     "title"  : "Lorem ipsum dolor sit amet consectetur",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
                 },
                 {
-                    "picture" : "https://img.freepik.com/foto-gratis/satisfecho-joven-calvo-call-center-hombre-apuntando-al-lado-aislado-sobre-fondo-verde-oliva-espacio-copia_141793-84074.jpg?t=st=1718250211~exp=1718253811~hmac=cd80f41f6d09086b0599a4d8548b440a71f8a853afe52b72ba513d86bafbf402&w=1380",
+                    "picture" : "2",
+                    "alt"  : "esta imagen respresenta",
                     "title"  : "Lorem ipsum dolor sit amet consectetur",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
                 },
                 {
-                    "picture" : "https://img.freepik.com/foto-gratis/joven-bonita-mujer-asiatica-abraza-si-misma-mira-lado-viste-puente-verde-aislado_273609-36970.jpg?t=st=1718250458~exp=1718254058~hmac=87f4dc4f5c7a93046cec9f2befa1a59e205c96a1c93655db9781d0e06797d7db&w=1380",
+                    "picture" : "3",
+                    "alt"  : "esta imagen respresenta",
                     "title"  : "Lorem ipsum dolor sit amet consectetur",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
                 }
             ]
-            
         }
     ]
 }

@@ -9,7 +9,7 @@ export default function Cards() {
         {data.home[0].frontPage.map((data, key)=>(
             // crear el numero de columnas 
             <div key={key} 
-                className={`mt-2 columns-${Object.keys(data).length} max-sm:columns-1`}
+                className={`max-lg:mt-8 max-sm:grid-cols-1 mt-2 grid grid-cols-${Object.keys(data).length} gap-5 `}
             >
                 {Object.entries(data).map((dataCard, keyCard)=>(
                     //crear el numero de comonentes que hay dentro de cada columna
@@ -18,18 +18,22 @@ export default function Cards() {
                         key={keyCard}
                     >
                         <div 
-                            className={`bg-[#dfdfdf2b] shadow-md h-auto backdrop-blur-lg overflow-hidden border-2 p-4 rounded-lg flex content-center hover:shadow-lg items-center flex-${dataCard[1][0].direction} max-md:flex-col max-md:mt-4`}
+                            className={`
+                                max-md:flex-col max-lg:flex-row max-md:mt-4
+                                flex items-center flex-${dataCard[1][0].direction}
+                                bg-[#dfdfdf2b] shadow-md h-auto backdrop-blur-lg border-2 p-4 rounded-lg hover:shadow-lg overflow-hidden 
+                            `}
                         >
                             <Image  
                                 src={`/image/home/frontPage/image-${dataCard[1][0].picture}.webP`}
                                 width={dataCard[1][0].width}
                                 height={dataCard[1][0].height}
-                                alt="Picture of the author"
+                                alt={`${dataCard[1][0].alt}`}
                                 priority={true}
                                 style={{ width: "100%", height: "auto" }}
                             />
                             <p 
-                                className="p-4"
+                                className="p-4 max-xl:text-sm"
                             >   
                                 {dataCard[1][0].description}
                             </p>

@@ -10,7 +10,6 @@ export default function Home() {
       <FrontPage />
       <Method />
       <Strategies />
-      <ControllerServices />
       <Summary />
     </> 
   );

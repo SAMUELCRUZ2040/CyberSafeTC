@@ -2,9 +2,9 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import "@/stylesheets/globals.css";
 
-import { config } from '@fortawesome/fontawesome-svg-core';
-import '@fortawesome/fontawesome-svg-core/styles.css'; // Importa el CSS
-config.autoAddCss = false; // Evita que FontAwesome inserte su propio CSS
+// import { config } from '@fortawesome/fontawesome-svg-core';
+// import '@fortawesome/fontawesome-svg-core/styles.css'; // Importa el CSS
+// config.autoAddCss = false; // Evita que FontAwesome inserte su propio CSS
 
 
 export const metadata = {

@@ -8,8 +8,8 @@ export function DescriptionServices({ idService }) {
 
   return (
     <>
-      <h2 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-7xl leading-none">{idInformation.title}</h2>
-      <p className="ms-10 text-lg max-sm:text-sm">{idInformation.description}</p>
+      <h2 className="text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-extrabold tracking-tight">{idInformation.title}</h2>
+      <p className="ms-10 text-lg max-md:text-sm">{idInformation.description}</p>
       <Link 
         href={"/"}
         className="hover:scale-[1.04] shadow-xl py-4 px-12 border-2 rounded-xl text-xl font-bold"

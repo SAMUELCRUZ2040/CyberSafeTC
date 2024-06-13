@@ -5,7 +5,7 @@
  */
 const nextConfig = {
   images: {
-    domains: ['img.freepik.com', "www.userogue.com", "rockcontent.com", "images.unsplash.com"],
+    domains: [ "www.userogue.com", "images.unsplash.com"],
   },
 }
  

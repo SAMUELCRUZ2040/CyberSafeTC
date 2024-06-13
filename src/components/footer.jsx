@@ -26,7 +26,7 @@ export default  function Footer() {
       <Action />
         <div className="flex items-center justify-center flex-col">
           <div className="container py-14">
-            <div className="max-sm:items-center max-sm:gap-5 flex justify-between px-14 max-sm:flex-col max-sm:p-0 max-sm:text-center">
+            <div className="max-md:items-center max-md:gap-5 flex justify-between px-14 max-md:flex-col max-md:p-0 max-md:text-center">
               <div className="logo w-[150px]">
                 <Image 
                   src={"https://www.userogue.com/_next/image?url=%2Fimages%2Flogo-v3-dark%2Flogo.png&w=128&q=75"}
@@ -41,15 +41,17 @@ export default  function Footer() {
                     className="list_item"
                     key={key}
                   >
-                    <h2 className="font-bold text-xl mb-4">{data.title}</h2>
-                    <li className="item text-sm ms-4">{data.description}</li>
+                    <li>
+                      <span className="font-bold text-xl">{data.title}</span>
+                    </li>
+                    <li className="item text-sm ms-4 mt-4">{data.description}</li>
                       {data.descriptionTwo && <li className="item text-md ms-4">{data.descriptionTwo}</li>}
                   </ul>
               ))}
             </div>
           </div>
-          <div className="container grid grid-cols-2 max-sm:grid-cols-1 max-sm:gap-5 py-14">
-              <div className="">
+          <div className="container grid grid-cols-2 max-md:grid-cols-1 max-md:gap-5 py-14">
+              <div className="max-md:text-center">
                 <span>siguenos en nuestras redes
                 {socialNetworks.map((data, key)=>(
                   <Link 
@@ -61,7 +63,7 @@ export default  function Footer() {
                 ))}
                 </span>
               </div>
-              <div className="text-sm">
+              <div className="text-sm max-md:text-center">
                 <span>Esta pagina esta 100% hecha por cyberSafe igual que todos los proyectos formados ademas se mantiene una privacidad al 100%</span>
               </div>
           </div>

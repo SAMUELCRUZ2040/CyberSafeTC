@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Strategies() {
     return (
         <section>
-            <div className="grid grid-cols-2 max-sm:grid-cols-1 container h-full ">
+            <div className="grid grid-cols-2 max-lg:grid-cols-1 container h-full space-sm">
                 <div className="information flex h-full">
                     <div className="dataStrategies flex flex-col justify-center items-start gap-8">
                         <h2 className='flex flex-col scroll-m-20 text-5xl font-bold tracking-tight lg:text-6xl'>
@@ -25,8 +25,8 @@ export default function Strategies() {
                                         key={keyStrategies}
                                         className='me-5'
                                     >
-                                        <h3 className='text-3xl font-bold mb-2 max-sm:text-2xl'>{dataStrategies[1][0].subtitle}</h3>
-                                        <p className='text-lg max-sm:text-sm'>{dataStrategies[1][0].description}</p>
+                                        <h3 className='text-3xl font-bold mb-2 max-md:text-2xl'>{dataStrategies[1][0].subtitle}</h3>
+                                        <p className='text-lg max-md:text-sm'>{dataStrategies[1][0].description}</p>
                                     </div>
                                 ))}
                             </div>
@@ -40,7 +40,7 @@ export default function Strategies() {
                             </Link>
                     </div>
                 </div>
-                <div className="h-full w-full flex flex-col items-center justify-center max-sm:mt-5">
+                <div className="h-full w-full flex flex-col items-center justify-center max-md:mt-5">
                     {data.home[0].strategiesGrid.map((GenerateColGrid, KeyColGrid)=>{
                         return(
                             <div 
@@ -55,14 +55,14 @@ export default function Strategies() {
                                     >
                                         <div className="w-full h-32 overflow-hidden flex justify-center items-center rounded-lg">
                                             <Image  
-                                                src={dataStrategies[1][0].picture}
+                                                src={`/image/home/strategiesGrid/img-${dataStrategies[1][0].picture}.webP`}
                                                 width={400}
                                                 height={400}
-                                                alt="Picture of the author"
+                                                alt={`${dataStrategies[1][0].alt}`}
                                                 style={{ width: "100%", height: "auto" }}
                                             />
                                         </div>
-                                        <h4 className='text-md font-semibold tracking-wide'>{dataStrategies[1][0].title}</h4>
+                                        <span className='text-md font-semibold tracking-wide'>{dataStrategies[1][0].title}</span>
                                         <p className='text-sm'>{dataStrategies[1][0].description}</p>
                                     </div>
                                 ))}
