@@ -5,13 +5,13 @@ import Link from 'next/link';
 
 export default function Strategies() {
     return (
-        <section>
-            <div className="columns-2  container h-full locas">
+        <section className='locas'>
+            <div className="columns-2  container h-full ">
                 <div className="information flex h-full">
                     <div className="dataStrategies flex flex-col justify-center items-start gap-8">
-                        <h2 className=' flex flex-col scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl'>
+                        <h2 className=' flex flex-col scroll-m-20 text-6xl font-bold tracking-tight lg:text-6xl'>
                             <span>Lo Primordial</span>
-                            <span>Es el Cliente</span>
+                            <span>Es el <span className='text-[#347faa]'>Cliente</span></span>
                         </h2>
                         {data.home[0].strategies.map((generateCol, keyCol)=>(
                             //crear el numero de columnas que va a conentener las descripciones
@@ -46,22 +46,23 @@ export default function Strategies() {
                         const count = Object.entries(GenerateColGrid).length;
                         return(
                             <div 
-                                className={`grid grid-cols-${count < 3 ? count + 1 : count} w-fulls`}
+                                className={`grid grid-cols-3 w-full`}
                                 key={KeyColGrid}
                             >
                                 {Object.entries(GenerateColGrid).map((dataStrategies, keyStrategies)=>(
                                     <div 
-                                        className={`${count < 3 ? dataStrategies[1][0].className : {}} m-2 flex flex-col items-start overflow-hidden rounded-lg p-2 shadow-xl border-2 hover:scale-[1.01]  gap-4`}
+                                        className={`m-2 flex flex-col items-start overflow-hidden rounded-lg p-2 shadow-xl border-2 hover:scale-[1.01] gap-4 backdrop-blur-lg bg-[#ffffff1a]`}
+                                        style={{gridColumn : `span ${dataStrategies[1][0].className} / span ${dataStrategies[1][0].className}`}}
                                         key={keyStrategies}
                                     >
-                                        <div className="container_image w-full h-28 overflow-hidden flex justify-center items-center">
-                                        <Image  
-                                            src={dataStrategies[1][0].picture}
-                                            width={400}
-                                            height={400}
-                                            alt="Picture of the author"
-                                            style={{ width: "100%", height: "auto" }}
-                                        />
+                                        <div className="w-full h-32 overflow-hidden flex justify-center items-center rounded-lg">
+                                            <Image  
+                                                src={dataStrategies[1][0].picture}
+                                                width={400}
+                                                height={400}
+                                                alt="Picture of the author"
+                                                style={{ width: "100%", height: "auto" }}
+                                            />
                                         </div>
                                         <h4 className='text-md font-semibold tracking-wide'>{dataStrategies[1][0].title}</h4>
                                         <p className='text-sm'>{dataStrategies[1][0].description}</p>

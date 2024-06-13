@@ -18,7 +18,7 @@ export default function Cards() {
                         key={keyCard}
                     >
                         <div 
-                            className={`shadow-md h-auto backdrop-blur-sm overflow-hidden border-2 p-4 rounded-lg flex content-center hover:shadow-lg items-center flex-${dataCard[1][0].direction}`}
+                            className={`bg-[#dfdfdf2b] shadow-md h-auto backdrop-blur-lg overflow-hidden border-2 p-4 rounded-lg flex content-center hover:shadow-lg items-center flex-${dataCard[1][0].direction}`}
                         >
                             <Image  
                                 src={`/image/home/frontPage/image-${dataCard[1][0].picture}.webP`}

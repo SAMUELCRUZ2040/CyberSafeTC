@@ -6,7 +6,6 @@
     background: #737d7f58;
 }
 
-
 section{
     width: 100%;
     height: 100vh;
@@ -14,10 +13,18 @@ section{
     justify-content: center;
     align-items: center;
     /* background: #ff0101; */
+    grid-column-start: 5;
 }
 
-.front_page{
-    background: url(../../public/image/grid.png);
+.background_principal{
+    background: url(../../public/image/punto2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background_secondary{
+    background: url(../../public/image/punto.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,4 +34,10 @@ section{
 .lopes{
     padding: 3rem 2rem;
     background: radial-gradient(circle, #5f60642b 10%, #83829735 10%, #667a7b00 60%, #7385850b 100%);
+}
+
+@media screen and (max-width: 1024px){
+    section{
+        height: auto;
+    }
 }

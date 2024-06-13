@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import Cards from './cards'
 import TypedTex from '@/components/TypedTex'
+import { AnimatedTooltipPreview } from '@/components/tooltip'
 
 export default function FrontPage() {
   return (
-    <section className='front_page'>
-        <div className="columns-2 h-full container px-5">
-            <div className={`information h-full flex justify-center flex-col  overflow-hidden gap-7`}>
+    <section className='background_principal'>
+        <div className="grid grid-cols-1 lg:grid-cols-2 h-full container max-lg:gap-10 max-lg:pt-[15rem]" >
+            <div className="information h-full flex justify-center flex-col gap-7">
                 <h1 className="flex flex-col scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-6xl leading-none">
                     <span>Diseñamos soluciones</span>
                     <span>Tecnológicas que</span>
@@ -25,6 +26,7 @@ export default function FrontPage() {
             <div className="pictures h-full flex justify-center items-center">
                 <div className="w-full">
                     <Cards />
+                    <AnimatedTooltipPreview />
                 </div>
             </div>
         </div>

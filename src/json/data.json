@@ -65,28 +65,28 @@
                     "title" : "Create content at scale",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
                     "action" : "/",
-                    "direction" : "first"
+                    "direction" : true
                 },
                 {
                     "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169158.jpg?t=st=1717270502~exp=1717274102~hmac=797c8d16c23e458149d4ed4e8659aca4a985d44deda4141453b3659de21e5f96&w=740",
                     "title" : "Create content at scale",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
                     "action" : "/",
-                    "direction" : "last"
+                    "direction" : false
                 },
                 {
                     "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169142.jpg?t=st=1717270352~exp=1717273952~hmac=8047d5b3dc56c109cd86e7299b97ce225ca1a6a2fd5d6dd59246fbc0166deba3&w=740",
                     "title" : "Create content at scale",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
                     "action" : "/",
-                    "direction" : "first"
+                    "direction" : true
                 },
                 {
                     "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169140.jpg?t=st=1717270523~exp=1717274123~hmac=81b3d84c7a1086d5faf920e47ee459cdea71e671942515db2599106e6efa8b51&w=740",
                     "title" : "Create content at scale",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
                     "action" : "/",
-                    "direction" : "last"
+                    "direction" : false
                 }
             ],
             "strategies" : [
@@ -123,25 +123,25 @@
                 {
                     "strategiesGridOne" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169146.jpg?t=st=1717270516~exp=1717274116~hmac=3c9aa89d012873ec23f7c93a0f9b66157570f47cd1b1f6b8a5bf13bdf36f14cf&w=740",
+                            "picture" : "https://img.freepik.com/foto-gratis/nina-nino-hablando-despues-final-cuarentena_23-2148639775.jpg?t=st=1718204642~exp=1718208242~hmac=bbceef8ac5927bc140fe3cb54d4fdd937f8f570550961d66ae95cd053d800480&w=900",
                             "icon" : "¥",
-                            "title" : "The Dawn of Innovation",
+                            "title" : "Escucha Activa",
                             "description" : "Explore the birth of groundbreaking ideas and inventions."
                         }
                     ],
                     "strategiesGridTwo" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169155.jpg?t=st=1717480841~exp=1717484441~hmac=2e22eaf3596e0cb1d69792ca39540de6779105382a5d8f2496c03290c93b5d68&w=1380",
+                            "picture" : "https://img.freepik.com/foto-gratis/pareja-sonriente-mirando-portatil_23-2148372525.jpg?t=st=1718203986~exp=1718207586~hmac=c955e78a9d77e98f69a7926c4b4161dd23027ba6dfe513f5e3cba5662c2ececc&w=740",
                             "icon" : "¥",
-                            "title" : "The Dawn of Innovation",
+                            "title" : "Respuesta Rápida y Eficiente",
                             "description" : "Explore the birth of groundbreaking ideas and inventions."
                         }
                     ],
                     "strategiesGridThree" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169144.jpg?t=st=1717480952~exp=1717484552~hmac=590f3acb95d68474ad5fc43a56d13212eeb96629f77b04b3b6caffd28b43d226&w=1380",
+                            "picture" : "https://img.freepik.com/foto-gratis/mujer-joven-apuntando-al-bocadillo-mirando-alegre_176474-95756.jpg?t=st=1718204309~exp=1718207909~hmac=a55a42d008ac1833b9ca320ffa583cfc05204a3161ee87bb1ba925cdde1d8393&w=900",
                             "icon" : "¥",
-                            "title" : "The Dawn of Innovation",
+                            "title" : "Comuniacion Acertiba",
                             "description" : "Explore the birth of groundbreaking ideas and inventions."
                         }
                     ]
@@ -149,40 +149,40 @@
                 {
                     "strategiesGridOne" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169149.jpg?t=st=1717480819~exp=1717484419~hmac=290461c5452858494ffce44c0c0cda0276c49592454af0211e594b923e38ba0b&w=1480",
+                            "picture" : "https://img.freepik.com/foto-gratis/afroamericano-listo-hacer-renovacion-casa_273609-36977.jpg?t=st=1718203106~exp=1718206706~hmac=907ac2b3699d5eebaaaebf2b1ff53df7977530700a9cc5e9c30ab92026a64028&w=900",
                             "icon" : "¥",
-                            "title" : "The Dawn of Innovation",
+                            "title" : "Transparencia y Honestidad",
                             "description" : "Explore the birth of groundbreaking ideas and inventions.",
-                            "className" : "col-span-2"
+                            "className" : 1
                         }
                     ],
                     "strategiesGridTwo" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169152.jpg?t=st=1717480911~exp=1717484511~hmac=2c63abf450ee41b07a61fc0aaec742c993689b0c552ea95e3d9d337d2fd9a065&w=740",
+                            "picture" : "https://img.freepik.com/foto-gratis/hombre-guapo-pensando-usando-tabletas-digitales-comprando-linea-reflexionando-sobre-ideas-mirando-parte-superior_1258-149843.jpg?t=st=1718203664~exp=1718207264~hmac=0b9803d816e6caae75a5a70ebcd8be0bece1c9556bf83303b7d84c206c247ee5&w=1060",
                             "icon" : "¥",
-                            "title" : "The Dawn of Innovation",
+                            "title" : "Ofrecer Experiencias Excepcionales",
                             "description" : "Explore the birth of groundbreaking ideas and inventions.",
-                            "className" : "col-span-1"
+                            "className" : 2
                         }
                     ]
                 },
                 {
                     "strategiesGridOne" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169156.jpg?t=st=1717480885~exp=1717484485~hmac=7a887ec9e7902f3c05b36e8a76c0d8b4d8a4984654cfba98e73fc14e49e2a56d&w=740",
+                            "picture" : "https://img.freepik.com/foto-gratis/equipo-negocios-trabajando-juntos-su-proyecto-empresarial-oficina_155003-3322.jpg?t=st=1718205762~exp=1718209362~hmac=8aa2e7da0a27d545d413bc35cd0fa2087e4cc9c8910a448c28b6b2809035e29e&w=900",
                             "icon" : "¥",
-                            "title" : "The Dawn of Innovation",
+                            "title" : "Proactividad en la Resolución de Problemas",
                             "description" : "Explore the birth of groundbreaking ideas and inventions.",
-                            "className" : "col-span-1"
+                            "className" : 2
                         }
                     ],
                     "strategiesGridTwo" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/composicion-concepto-redes-sociales_23-2150169134.jpg?t=st=1717480846~exp=1717484446~hmac=f996823a4bc90dc687b4edd6ac729e2ff0fbf684e621a3f082bd4a996d1ff4c3&w=1380",
+                            "picture" : "https://img.freepik.com/foto-gratis/colegas-alegres-mujer-hombre-raza-mixta-celebran-que-trabajo-terminado-exito-hacen-que-puno-plantee-documentos-papel-miran-alegria-al-otro_273609-45123.jpg?t=st=1718206251~exp=1718209851~hmac=a4727c9ff9b044d63e506bfc392084d5cb530892408eef90a5ea4c04b3af3f84&w=900",
                             "icon" : "¥",
-                            "title" : "The Dawn of Innovation",
+                            "title" : "Uso de Feedback",
                             "description" : "Explore the birth of groundbreaking ideas and inventions.",
-                            "className" : "col-span-2"
+                            "className" : 1
                         }
                     ]
                 }
@@ -256,7 +256,25 @@
                         }
                     ]
                 }
+            ],
+            "summary" : [
+                {
+                    "picture" : "https://img.freepik.com/foto-gratis/pareja-joven-hombre-mujer-ropa-casual-confundido-hombre-sosteniendo-telefono-inteligente-su-novia-pie-detras-el-asomandose-expresion-esceptica-sobre-pared-verde_141793-57117.jpg?t=st=1718250166~exp=1718253766~hmac=5fa95d0cb9ed6c961e7f205d840298ecd082cd25a59b9d518c0577b514e9ac0a&w=1380",
+                    "title"  : "Lorem ipsum dolor sit amet consectetur",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                },
+                {
+                    "picture" : "https://img.freepik.com/foto-gratis/satisfecho-joven-calvo-call-center-hombre-apuntando-al-lado-aislado-sobre-fondo-verde-oliva-espacio-copia_141793-84074.jpg?t=st=1718250211~exp=1718253811~hmac=cd80f41f6d09086b0599a4d8548b440a71f8a853afe52b72ba513d86bafbf402&w=1380",
+                    "title"  : "Lorem ipsum dolor sit amet consectetur",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                },
+                {
+                    "picture" : "https://img.freepik.com/foto-gratis/joven-bonita-mujer-asiatica-abraza-si-misma-mira-lado-viste-puente-verde-aislado_273609-36970.jpg?t=st=1718250458~exp=1718254058~hmac=87f4dc4f5c7a93046cec9f2befa1a59e205c96a1c93655db9781d0e06797d7db&w=1380",
+                    "title"  : "Lorem ipsum dolor sit amet consectetur",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                }
             ]
+            
         }
     ]
 }
