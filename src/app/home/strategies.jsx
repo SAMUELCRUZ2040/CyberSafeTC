@@ -41,19 +41,18 @@ export default function Strategies() {
                     </div>
                 </div>
                 <div className="h-full w-full flex flex-col items-center justify-center max-md:mt-5">
-                    {data.home[0].strategiesGrid.map((GenerateColGrid, KeyColGrid)=>{
-                        return(
+                    {data.home[0].strategiesGrid.map((GenerateColGrid, KeyColGrid)=>( 
                             <div 
                                 className={`grid grid-cols-3 w-full max-sm:grid-cols-1`}
                                 key={KeyColGrid}
                             >
                                 {Object.entries(GenerateColGrid).map((dataStrategies, keyStrategies)=>(
                                     <div 
-                                        className={`m-2 flex flex-col items-start overflow-hidden rounded-lg p-2 shadow-xl border-2 hover:scale-[1.01] gap-4 backdrop-blur-lg bg-[#ffffff1a]`}
+                                        className={`m-2 flex flex-col items-start overflow-hidden rounded-lg p-2 border-2 hover:scale-[1.01] hover:shadow-xl gap-1 backdrop-blur-lg bg-[#ffffff1a]`}
                                         style={{gridColumn : `span ${dataStrategies[1][0].className} / span ${dataStrategies[1][0].className}`}}
                                         key={keyStrategies}
                                     >
-                                        <div className="w-full h-32 overflow-hidden flex justify-center items-center rounded-lg">
+                                        <div className="w-full h-28 overflow-hidden flex justify-center items-center rounded-lg opacity-80">
                                             <Image  
                                                 src={`/image/home/strategiesGrid/img-${dataStrategies[1][0].picture}.webP`}
                                                 width={400}
@@ -67,8 +66,7 @@ export default function Strategies() {
                                     </div>
                                 ))}
                             </div>
-                        )
-                    })}
+                    ))}
                 </div>
             </div>
         </section>

@@ -62,7 +62,7 @@
             "metod" : [
                 {
                     "picture" : "1",
-                    "title" : "Create content at scale",
+                    "title" : "Inpiraciones",
                     "alt" : "Esta imagen representa Create content at scale",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
                     "action" : "/",
@@ -70,7 +70,7 @@
                 },
                 {
                     "picture" : "2",
-                    "title" : "Create content at scale",
+                    "title" : "Perfeccionismos",
                     "alt" : "Esta imagen representa Create content at scale",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
                     "action" : "/",
@@ -78,19 +78,25 @@
                 },
                 {
                     "picture" : "3",
-                    "title" : "Create content at scale",
+                    "title" : "morfismo",
                     "alt" : "Esta imagen representa Create content at scale",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
                     "action" : "/",
                     "direction" : true
+                }
+            ],
+            "average" : [
+                {
+                    "number" : "+ 210",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
                 },
                 {
-                    "picture" : "4",
-                    "title" : "Create content at scale",
-                    "alt" : "Esta imagen representa Create content at scale",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
-                    "action" : "/",
-                    "direction" : false
+                    "number" : "+ 70",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                },
+                {
+                    "number" : "+ 150",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
                 }
             ],
             "strategies" : [
@@ -263,22 +269,58 @@
             ],
             "summary" : [
                 {
-                    "picture" : "1",
+                    "icon" : "1",
                     "alt"  : "esta imagen respresenta",
+                    "subtitle" : "ebok",
                     "title"  : "Lorem ipsum dolor sit amet consectetur",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "url" : "/",
+                    "background" : "dfdaff"
                 },
                 {
-                    "picture" : "2",
+                    "icon" : "2",
                     "alt"  : "esta imagen respresenta",
+                    "subtitle" : "ebok",
                     "title"  : "Lorem ipsum dolor sit amet consectetur",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "url" : "/",
+                    "background" : "cbdfff"
                 },
                 {
-                    "picture" : "3",
+                    "icon" : "3",
                     "alt"  : "esta imagen respresenta",
+                    "subtitle" : "ebok",
                     "title"  : "Lorem ipsum dolor sit amet consectetur",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "url" : "/",
+                    "background" : "cbdfff"
+                },
+                {
+                    "icon" : "4",
+                    "alt"  : "esta imagen respresenta",
+                    "subtitle" : "ebok",
+                    "title"  : "Lorem ipsum dolor sit amet consectetur",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "url" : "/",
+                    "background" : "cbdfff"
+                },
+                {
+                    "icon" : "5",
+                    "alt"  : "esta imagen respresenta",
+                    "subtitle" : "ebok",
+                    "title"  : "Lorem ipsum dolor sit amet consectetur",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "url" : "/",
+                    "background" : "cbdfff"
+                },
+                {
+                    "icon" : "6",
+                    "alt"  : "esta imagen respresenta",
+                    "subtitle" : "ebok",
+                    "title"  : "Lorem ipsum dolor sit amet consectetur",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "url" : "/",
+                    "background" : "c5f2fb"
                 }
             ]
         }

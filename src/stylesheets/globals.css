@@ -5,6 +5,9 @@
 ::selection{
     background: #737d7f58;
 }
+body{
+    /* background:  url(../../public/image/bg-over.webp); */
+}
 
 section{
     width: 100%;
@@ -16,15 +19,8 @@ section{
     grid-column-start: 5;
 }
 
-.background_principal{
-    background: url(../../public/image/punto2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .background_secondary{
-    background: url(../../public/image/grid.png);
+    background: url(../../public/image/grid.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
