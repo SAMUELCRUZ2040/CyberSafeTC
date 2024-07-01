@@ -12,11 +12,11 @@ export default function Method() {
                 </h2>
                 {data.home[0].metod.map((methodData, keyData)=>(
                     <div 
-                        className=" max-lg:p-0 max-md:grid-cols-1 max-md:p-0 grid grid-cols-3 ps-[10vw] mb-[5rem]"
+                        className=" max-lg:p-0 max-md:grid-cols-1 max-md:p-0 grid grid-cols-3 ps-[10vw]"
                         key={keyData}
                     >
                         <div 
-                            className={`max-md:order-first max-md:justify-center flex items-center justify-center ${methodData.direction ? 'order-first' : 'order-last'}`}
+                            className={`max-md:order-first max-md:justify-center flex items-center justify-center  ${methodData.direction ? 'order-first max-md:order-last' : 'order-last max-md:order-last'}`}
                         >
                             <Image 
                                     src={`/image/home/metod/img-${methodData.picture}.webp`}
@@ -24,7 +24,7 @@ export default function Method() {
                                     height={500}
                                     alt={`${methodData.alt}`}
                                     style={{height: "auto" }}
-                                    className="max-xl:w-full w-[80%]"
+                                    className="max-xl:w-[60%]"
                             /> 
                         </div>
                         <div className={`max-md:mt-6 max-md:p-0 max-md:justify-start flex items-center  col-span-2`}>

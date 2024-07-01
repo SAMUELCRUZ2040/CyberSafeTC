@@ -9,9 +9,9 @@ export default function Strategies() {
             <div className="grid grid-cols-2 max-lg:grid-cols-1 container h-full space-sm">
                 <div className="information flex h-full">
                     <div className="dataStrategies flex flex-col justify-center items-start gap-8">
-                        <h2 className='flex flex-col scroll-m-20 text-5xl font-bold tracking-tight lg:text-6xl'>
-                            <span>Lo Primordial</span>
-                            <span>Es el <span className='text-[#347faa]'>Cliente</span></span>
+                        <h2 className='text-6xl tracking-tight max-lg:text-5xl flex flex-col'>
+                            <span>Para nosotros lo</span>
+                            <span><span className='font-semibold'>Primordial es el</span> <span className='text-[#347faa] font-semibold'>Cliente</span></span>
                         </h2>
                         {data.home[0].strategies.map((generateCol, keyCol)=>(
                             //crear el numero de columnas que va a conentener las descripciones
