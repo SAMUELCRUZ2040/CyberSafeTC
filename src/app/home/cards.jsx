@@ -9,7 +9,7 @@ export default function Cards() {
         {data.home[0].frontPage.map((data, key)=>(
             // crear el numero de columnas 
             <div key={key} 
-                className={`max-lg:mt-8 max-sm:grid-cols-1 mt-2 grid grid-cols-${Object.keys(data).length} gap-5 `}
+                className={`max-lg:mt-8 max-sm:grid-cols-1 mt-4 grid grid-cols-${Object.keys(data).length} gap-5 `}
             >
                 {Object.entries(data).map((dataCard, keyCard)=>(
                     //crear el numero de comonentes que hay dentro de cada columna

@@ -9,7 +9,7 @@ export default function FrontPage() {
             <div className="flex justify-center items-start flex-col gap-7">
                 <h1 className="text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl flex flex-col  font-extrabold tracking-tight  leading-none">
                     <span>Diseñamos soluciones</span>
-                    <span className='flex flex-col'>Tecnológicas que Impulsaran tus <TypedTex /> </span>
+                    <span className='max-lg:flex max-lg:flex-col'>Tecnológicas que Impulsaran tus <TypedTex /> </span>
                 </h1>
                 <p className="text-xl me-4">Personalizamos soluciones tecnológicas para tu empresa, impulsando su rendimiento y eficiencia en comunicación, automatización y seguridad.</p>
                 <div className="mt-8 flex gap-5">
