@@ -1,9 +1,8 @@
+import FrontPage from "./components/frontPage";
 
 export default function About() {
     return (
-      <section>
-        hola desde about
-      </section>
+      <FrontPage />
     );
   }
   
