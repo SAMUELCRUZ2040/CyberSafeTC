@@ -59,214 +59,6 @@
                 }
                 
             ],
-            "metod" : [
-                {
-                    "picture" : "1",
-                    "title" : "Inpiraciones",
-                    "alt" : "Esta imagen representa Create content at scale",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
-                    "action" : "/",
-                    "direction" : true
-                },
-                {
-                    "picture" : "2",
-                    "title" : "Perfeccionismos",
-                    "alt" : "Esta imagen representa Create content at scale",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
-                    "action" : "/",
-                    "direction" : false
-                },
-                {
-                    "picture" : "3",
-                    "title" : "morfismo",
-                    "alt" : "Esta imagen representa Create content at scale",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi architecto corrupti id, culpa exercitationem quibusdam tenetur iure, cupiditate recusandae eum accusantium et nisi voluptas possimus, maiores assumenda aliquam eius consequatur?",
-                    "action" : "/",
-                    "direction" : true
-                }
-            ],
-            "average" : [
-                {
-                    "number" : "+ 210",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
-                },
-                {
-                    "number" : "+ 70",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
-                },
-                {
-                    "number" : "+ 150",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
-                }
-            ],
-            "strategies" : [
-                {
-                    "strategieOne" : [
-                        {   
-                            "subtitle" : "Innovación",
-                            "description" : "Implementamos soluciones tecnológicas personalizadas para tu empresa, mejorando la comunicación, automatización y seguridad, para maximizar tu eficiencia y rendimiento."
-                        }
-                    ],
-                    "strategieTwo" : [
-                        {   
-                            "subtitle" : "Excelencia",
-                            "description" : "Proveemos tecnología avanzada adaptada a tu empresa, optimizando procesos, mejorando la comunicación y asegurando tus datos, para alcanzar el máximo potencial."
-                        }
-                    ]
-                },
-                {
-                    "strategieOne" : [
-                        {   
-                            "subtitle" : "Eficiencia",
-                            "description" : "Ofrecemos soluciones tecnológicas a medida que optimizan el rendimiento de tu empresa, mejorando procesos, comunicación y seguridad, garantizando resultados efectivos."
-                        }
-                    ],
-                    "strategieTwo" : [
-                        {   
-                            "subtitle" : "Progreso",
-                            "description" : "Desarrollamos tecnología personalizada para tu empresa, potenciando la eficiencia, automatización y protección de datos, asegurando un crecimiento constante y sostenible."
-                        }
-                    ]
-                }
-            ],
-            "strategiesGrid" : [
-                {
-                    "strategiesGridOne" : [
-                        {
-                            "picture" : "1",
-                            "alt" : "imagen de Escucha Activa",
-                            "title" : "Escucha Activa",
-                            "description" : "Explore the birth of groundbreaking ideas and inventions."
-                        }
-                    ],
-                    "strategiesGridTwo" : [
-                        {
-                            "picture" : "2",
-                            "alt" : "imagen de Respuesta Rápida y Eficiente",
-                            "title" : "Respuesta Rápida y Eficiente",
-                            "description" : "Explore the birth of groundbreaking ideas and inventions."
-                        }
-                    ],
-                    "strategiesGridThree" : [
-                        {
-                            "picture" : "3",
-                            "alt" : "imagen de Comuniacion Acertiba",
-                            "title" : "Comuniacion Acertiba",
-                            "description" : "Explore the birth of groundbreaking ideas and inventions."
-                        }
-                    ]
-                },
-                {
-                    "strategiesGridOne" : [
-                        {
-                            "picture" : "4",
-                            "alt" : "imagen de Transparencia y Honestidad",
-                            "title" : "Transparencia y Honestidad",
-                            "description" : "Explore the birth of groundbreaking ideas and inventions.",
-                            "className" : 1
-                        }
-                    ],
-                    "strategiesGridTwo" : [
-                        {
-                            "picture" : "5",
-                            "alt" : "imagen de Ofrecer Experiencias Excepcionales",
-                            "title" : "Ofrecer Experiencias Excepcionales",
-                            "description" : "Explore the birth of groundbreaking ideas and inventions.",
-                            "className" : 2
-                        }
-                    ]
-                },
-                {
-                    "strategiesGridOne" : [
-                        {
-                            "picture" : "6",
-                            "alt" : "imagen de Proactividad en la Resolución de Problemas",
-                            "title" : "Proactividad en la Resolución de Problemas",
-                            "description" : "Explore the birth of groundbreaking ideas and inventions.",
-                            "className" : 2
-                        }
-                    ],
-                    "strategiesGridTwo" : [
-                        {
-                            "picture" : "7",
-                            "alt" : "imagen de Uso de Feedback",
-                            "title" : "Uso de Feedback",
-                            "description" : "Explore the birth of groundbreaking ideas and inventions.",
-                            "className" : 1
-                        }
-                    ]
-                }
-            ],
-            "summaryServices" : [
-                {
-                    "controllerServices" : [
-                        {
-                            "id" : 0,
-                            "icon" : "infraestructure"
-                        },
-                        {
-                            "id" : 1,
-                            "icon" : "technologyTI"
-                        },
-                        {
-                            "id" : 2,
-                            "icon" : "telephonieIp"
-                        },
-                        {
-                            "id" : 3,
-                            "icon" : "pageWeb"
-                        },
-                        {
-                            "id" : 4,
-                            "icon" : "software"
-                        },
-                        {
-                            "id" : 5,
-                            "icon" : "seo"
-                        }
-                    ]
-                },
-                {
-                    "informationServices" : [
-                        {
-                            "id" : 0,
-                            "title" : "Gestion de Infraestructura",
-                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum architecto unde repellat, minus eligendi iusto quibusdam quas ducimus ipsa minima delectus accusamus.",
-                            "picture" : "https://img.freepik.com/foto-gratis/simbolo-bucle-sobre-vista-inspiradora_23-2150022272.jpg?t=st=1716673837~exp=1716677437~hmac=086fe5872bdd7469c00a50aa32cf79d6cac8d8506615ddaac602324bf76ed48b&w=740"
-                        },
-                        {
-                            "id" : 1,
-                            "title" : "Desarrollo en Tecnología TI",
-                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum architecto unde repellat, minus eligendi iusto quibusdam quas ducimus ipsa minima delectus accusamus.",
-                            "picture" : "https://img.freepik.com/foto-gratis/equipo-trabajando-proyecto-animacion_23-2149269901.jpg?t=st=1716705412~exp=1716709012~hmac=f91bdf4c53eed2eb424a93f262980b8f2cfd200dbbc7d08536e99a7a957db40e&w=740"
-                        },
-                        {
-                            "id" : 2,
-                            "title" : "Servicios en Telefonía IP",
-                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum architecto unde repellat, minus eligendi iusto quibusdam quas ducimus ipsa minima delectus accusamus.",
-                            "picture" : "https://img.freepik.com/foto-gratis/programador-oficina_1098-21517.jpg?t=st=1716705363~exp=1716708963~hmac=207b0bec300e5eee728a245448621e4a8df7a678e63d42454d72f1c19cb050ed&w=740"
-                        },
-                        {
-                            "id" : 3,
-                            "title" : "Desarrollo de paginas web",
-                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum architecto unde repellat, minus eligendi iusto quibusdam quas ducimus ipsa minima delectus accusamus.",
-                            "picture" : "https://img.freepik.com/vector-gratis/plantilla-correo-electronico-blogs-fotos_23-2148731408.jpg?t=st=1716704969~exp=1716708569~hmac=775576157f3f5bff2270a2a4bd07ae0c62d1ae331903fd016fdd5e10c94ea2a6&w=740"
-                        },
-                        {
-                            "id" : 4,
-                            "title" : "Desarrollo de software",
-                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum architecto unde repellat, minus eligendi iusto quibusdam quas ducimus ipsa minima delectus accusamus.",
-                            "picture" : "https://img.freepik.com/foto-gratis/colegas-tiro-medio-debatiendo-ideas-oficina_23-2149345250.jpg?t=st=1716706222~exp=1716709822~hmac=bb8fdbf0fd380cbf8e6194bc8670fdd54153792d2da91302521a7147d5fb9753&w=740"
-                        },
-                        {
-                            "id" : 5,
-                            "title" : "Analisis y Desarollo en SEO",
-                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum architecto unde repellat, minus eligendi iusto quibusdam quas ducimus ipsa minima delectus accusamus.",
-                            "picture" : "https://img.freepik.com/foto-gratis/hombre-disenador-grafico-que-mira-documento-grafico_1170-880.jpg?t=st=1716666279~exp=1716669879~hmac=895f393df4623a6be6680c20cf4378aabf4e4a676ce790d9e3395077163f71ae&w=740"
-                        }
-                    ]
-                }
-            ],
             "summary" : [
                 {
                     "icon" : "1",
@@ -320,7 +112,72 @@
                     "title"  : "Lorem ipsum dolor sit amet consectetur",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
                     "url" : "/",
-                    "background" : "c5f2fb85"
+                    "background" : "c5f2fb63"
+                }
+            ],
+            "average" : [
+                {
+                    "number" : "+ 210",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                },
+                {
+                    "number" : "+ 70",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                },
+                {
+                    "number" : "+ 150",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                }
+            ],
+            "strategies" : [
+                {
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat"
+                },
+                {
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat"
+                },
+                {
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat"
+                }
+            ],
+            "subStrategies" : [
+                {
+                    "punctuation" : 5,
+                    "title" : "Trunspilot",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                },
+                {
+                    "punctuation" : 5,
+                    "title" : "Trunspilot",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                },
+                {
+                    "punctuation" : 5,
+                    "title" : "Trunspilot",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                }
+            ],
+            "users" : [
+                {
+                    "name" : "roberto diaz",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cum vitae reprehenderit quasi asperiores, veniam consequatur voluptatum ut, sit quae velit quis. Iste ad magni magnam atque eligendi sunt maxime?",
+                    "image" : "https://img.freepik.com/foto-gratis/primer-plano-ejecutivo_1098-2482.jpg?t=st=1720386431~exp=1720390031~hmac=1f4769f072e6f78447ba5f523a8c7e0516df280ea8f71179cfd77b9cac7c2be6&w=740",
+                    "punctuation" : 5,
+                    "profession" : "Analista de calidad"
+                },
+                {
+                    "name" : "roberto diaz",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cum vitae reprehenderit quasi asperiores, veniam consequatur voluptatum ut, sit quae velit quis. Iste ad magni magnam atque eligendi sunt maxime?",
+                    "image" : "https://img.freepik.com/foto-gratis/mujer-talla-media-que-trabaja-como-abogada_23-2151152400.jpg?t=st=1720386449~exp=1720390049~hmac=06bac4770d5e2b3a3c37663b355998ab073d3a2da426603bcc6b42c0f7877587&w=740",
+                    "punctuation" :4,
+                    "profession" : "Analista de calidad"
+                },
+                {
+                    "name" : "roberto diaz",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cum vitae reprehenderit quasi asperiores, veniam consequatur voluptatum ut, sit quae velit quis. Iste ad magni magnam atque eligendi sunt maxime?",
+                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "punctuation" : 5,
+                    "profession" : "Analista de calidad"
                 }
             ]
         }

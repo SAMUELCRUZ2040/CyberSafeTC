@@ -2,7 +2,7 @@ import data from '@/json/data';
 
 export default function Average() {
   return (
-    <div className="flex justify-center items-center bg-[#a0f2f03d] py-[10rem] my-14">
+    <div className="flex justify-center items-center bg-[#5cdedb30] py-[10rem] my-14">
         <div className="container">
             <h2 className="text-center text-7xl tracking-tight max-lg:text-5xl flex flex-col">
                 <span>Nuestros clientes crean <span className="font-bold text-[#347faa]">experiencias</span></span>

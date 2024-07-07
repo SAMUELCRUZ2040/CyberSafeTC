@@ -1,8 +1,8 @@
 import Average from "./home/average";
 import FrontPage from "./home/frontPage";
-import Method from "./home/method";
 import Strategies from "./home/strategies";
 import Summary from "./home/summary";
+import Users from "./home/users";
 
 export default function Home() {
   return (
@@ -10,8 +10,8 @@ export default function Home() {
       <FrontPage />
       <Summary />
       <Average />
-      <Method />
-      {/* <Strategies /> */}
+      <Strategies />
+      <Users />
     </> 
   );
 }
