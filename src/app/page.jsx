@@ -9,9 +9,9 @@ export default function Home() {
     <>
       <FrontPage />
       <Summary />
-      <Method />
       <Average />
-      <Strategies />
+      <Method />
+      {/* <Strategies /> */}
     </> 
   );
 }

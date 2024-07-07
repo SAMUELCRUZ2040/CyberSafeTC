@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Summary() {
   return (
-    <div className="flex justify-center align-center">
+    <div className="flex justify-center align-center locas">
         <div className="container flex items-center flex-col">
             <div className="title">
                 <h2 className='text-7xl font-normal tracking-tight max-lg:text-5xl leading-none flex flex-col text-center'>
@@ -15,7 +15,7 @@ export default function Summary() {
             <div className="grid grid-cols-3 gap-5 my-14 py-14 max-lg:grid-cols-1 justify-center items-center flex">
                 {data.home[0].summary.map((dataSummary, keySummary)=>(
                     <div 
-                        className="p-5 h-full rounded-2xl flex flex-col gap-14 w-[22rem] max-xl:w-full"
+                        className="p-5 h-full rounded-2xl flex flex-col gap-14 w-[22rem] max-xl:w-full backdrop-blur-sm"
                         key={keySummary}
                         style={{background : `#${dataSummary.background}`}}
                     >

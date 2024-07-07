@@ -25,7 +25,12 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.locas{
+    background: url(../../public/image/lines.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .space{
     padding: 8rem 0;
 }

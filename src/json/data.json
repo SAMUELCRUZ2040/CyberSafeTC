@@ -275,7 +275,7 @@
                     "title"  : "Lorem ipsum dolor sit amet consectetur",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
                     "url" : "/",
-                    "background" : "dfdaff"
+                    "background" : "dfdaff7a"
                 },
                 {
                     "icon" : "2",
@@ -284,7 +284,7 @@
                     "title"  : "Lorem ipsum dolor sit amet consectetur",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
                     "url" : "/",
-                    "background" : "cbdfff"
+                    "background" : "cbdfff61"
                 },
                 {
                     "icon" : "3",
@@ -293,7 +293,7 @@
                     "title"  : "Lorem ipsum dolor sit amet consectetur",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
                     "url" : "/",
-                    "background" : "cbdfff"
+                    "background" : "cbdfff61"
                 },
                 {
                     "icon" : "4",
@@ -302,7 +302,7 @@
                     "title"  : "Lorem ipsum dolor sit amet consectetur",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
                     "url" : "/",
-                    "background" : "cbdfff"
+                    "background" : "cbdfff61"
                 },
                 {
                     "icon" : "5",
@@ -311,7 +311,7 @@
                     "title"  : "Lorem ipsum dolor sit amet consectetur",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
                     "url" : "/",
-                    "background" : "cbdfff"
+                    "background" : "cbdfff61"
                 },
                 {
                     "icon" : "6",
@@ -320,7 +320,7 @@
                     "title"  : "Lorem ipsum dolor sit amet consectetur",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
                     "url" : "/",
-                    "background" : "c5f2fb"
+                    "background" : "c5f2fb85"
                 }
             ]
         }

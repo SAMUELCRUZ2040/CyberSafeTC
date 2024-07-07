@@ -44,7 +44,7 @@ export default function FrontPage() {
                   href={"/"}>Ver Mas</Link>
               </div>
               <div className="col-span-1 ">
-    <h1>asd</h1>
+                  <h1>asd</h1>
               </div>
           </div>
         </div>
