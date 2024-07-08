@@ -8,7 +8,7 @@ export default function Average() {
                 <span>Nuestros clientes crean <span className="font-bold text-[#347faa]">experiencias</span></span>
                 <span><span className="font-bold text-[#347faa]">de contenido </span>valiosas</span>
             </h2>
-            <div className=" gap-[7rem] flex items-center justify-center py-[6rem]">
+            <div className=" gap-[7rem] flex items-center justify-center py-[6rem] max-lg:flex-col">
                 {data.home[0].average.map((dataAverage, keyAverage)=>(
                     <div
                         className='text-center'

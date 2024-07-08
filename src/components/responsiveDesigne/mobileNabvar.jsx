@@ -19,22 +19,22 @@ export default function MobileNabvar() {
 
   return (
     <>
-        <div className="tooltip fixed right-12 top-12 z-50 max-md:flex hidden cursor-pointer justify-center items-center" 
+        <div className="tooltip fixed right-12 top-12 z-50 max-md:flex hidden cursor-pointer justify-center items-center w-[3rem] h-[3rem]" 
             onClick={toggleActive}
         >
-            s
             <Image
-                src={"/icons/enter.webP"}
-                width={400}
-                height={400}
+                src={"/icons/enter.webp"}
+                width={500}
+                height={500}
                 alt={`logo`}
-                style={{ width: "100%", height: "auto" }}
+                style={{ width: "50%", height: "auto" }}
                 className={`absolute ${state.toggle ?  "hidden" : "flex"  }`}
+
             />
             <Image
-                src={"/icon/exit.webP"}
-                width={400}
-                height={400}
+                src={"/icons/exit.webp"}
+                width={500}
+                height={500}
                 alt={`logo`}
                 style={{ width: "100%", height: "auto" }}
                 className={`absolute ${state.toggle ?  "flex" : "hidden"  }`}
@@ -59,7 +59,7 @@ export default function MobileNabvar() {
                 {data.navigation.map((item, key)=> (
                     <li 
                     style={{WebkitTextStroke : "1px #000000b3", color : "transparent"}}
-                    className="item flex gap-5 text-4xl font-bold hover:translate-x-1 transition-75" key={key}
+                    className="item flex gap-5 text-4xl font-bold hover:translate-x-1 transition ease-in-out " key={key}
                     onClick={toggleActive}
                     >
                         <Image

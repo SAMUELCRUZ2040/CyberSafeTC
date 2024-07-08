@@ -181,5 +181,59 @@
                 }
             ]
         }
+    ],
+    "services" : [
+        {
+            "servicesLogo" : [
+                {
+                    "image" : "1",
+                    "title" : "Trunspilot",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "url" : "/"
+                },
+                {
+                    "image" : "1",
+                    "title" : "Trunspilot",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "url" : "/"
+                },
+                {
+                    "image" : "1",
+                    "title" : "Trunspilot",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "url" : "/"
+                },
+                {
+                    "image" : "1",
+                    "title" : "Trunspilot",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "url" : "/"
+                },
+                {
+                    "image" : "1",
+                    "title" : "Trunspilot",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "url" : "/"
+                },
+                {
+                    "image" : "1",
+                    "title" : "Trunspilot",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "url" : "/"
+                },
+                {
+                    "image" : "1",
+                    "title" : "Trunspilot",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "url" : "/"
+                },
+                {
+                    "image" : "1",
+                    "title" : "Trunspilot",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "url" : "/"
+                }
+            ]
+        }
     ]
 }

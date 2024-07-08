@@ -7,7 +7,7 @@ export default function Summary() {
     <div className="flex justify-center align-center locas">
         <div className="container flex items-center flex-col">
             <div className="title">
-                <h2 className='text-7xl font-normal tracking-tight max-lg:text-5xl leading-none flex flex-col text-center'>
+                <h2 className='text-7xl font-normal tracking-tight max-lg:text-5xl leading-none flex flex-col text-center '>
                     <span>¿Quieres saber <span className="text-[#347faa]">porque somos</span></span>
                     <span className='font-semibold'>La mejor opción para tu negocio?</span>
                 </h2>
