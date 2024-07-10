@@ -186,52 +186,230 @@
         {
             "servicesLogo" : [
                 {
+                    "id" : 1,
                     "image" : "1",
-                    "title" : "Trunspilot",
+                    "title" : "Trunspilot1",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "/"
+                    "url" : "services/1"
                 },
                 {
+                    "id" : 2,
                     "image" : "1",
-                    "title" : "Trunspilot",
+                    "title" : "Trunspilot2",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "/"
+                    "url" : "services/2"
                 },
                 {
+                    "id" : 3,
                     "image" : "1",
-                    "title" : "Trunspilot",
+                    "title" : "Trunspilot3",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "/"
+                    "url" : "services/3"
                 },
                 {
+                    "id" : 4,
                     "image" : "1",
-                    "title" : "Trunspilot",
+                    "title" : "Trunspilot4",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "/"
+                    "url" : "services/4"
                 },
                 {
+                    "id" : 5,
                     "image" : "1",
-                    "title" : "Trunspilot",
+                    "title" : "Trunspilot5",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "/"
+                    "url" : "services/5"
                 },
                 {
+                    "id" : 6,
                     "image" : "1",
-                    "title" : "Trunspilot",
+                    "title" : "Trunspilot6",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "/"
+                    "url" : "services/6"
                 },
                 {
+                    "id" : 7,
                     "image" : "1",
-                    "title" : "Trunspilot",
+                    "title" : "Trunspilot7",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "/"
+                    "url" : "services/7"
                 },
                 {
+                    "id" : 8,
                     "image" : "1",
-                    "title" : "Trunspilot",
+                    "title" : "Trunspilot8",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "/"
+                    "url" : "services/8"
+                }
+            ],
+            "informationLogo" : [
+                {
+                    "title" : "Branding e Identidad Corporativa",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "details" : [
+                        {
+                            "options" : [
+                                {"optionOne" : "lorem1"},
+                                {"optionTwo" : "lorem2"},
+                                {"optionThree" : "lorem3"},
+                                {"optionFour" : "lorem4"}
+                            ],
+                            "picture" : [
+                                {"image" : 1},
+                                {"image" : 2},
+                                {"image" : 3},
+                                {"image" : 4}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title" : "Branding e Identidad Corporativa",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "details" : [
+                        {
+                            "options" : [
+                                {"optionOne" : "lorem1"},
+                                {"optionTwo" : "lorem2"},
+                                {"optionThree" : "lorem3"},
+                                {"optionFour" : "lorem4"}
+                            ],
+                            "picture" : [
+                                {"image" : 1},
+                                {"image" : 2},
+                                {"image" : 3},
+                                {"image" : 4}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title" : "Branding e Identidad Corporativa",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "details" : [
+                        {
+                            "options" : [
+                                {"optionOne" : "lorem1"},
+                                {"optionTwo" : "lorem2"},
+                                {"optionThree" : "lorem3"},
+                                {"optionFour" : "lorem4"}
+                            ],
+                            "picture" : [
+                                {"image" : 1},
+                                {"image" : 2},
+                                {"image" : 3},
+                                {"image" : 4}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title" : "Branding e Identidad Corporativa",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "details" : [
+                        {
+                            "options" : [
+                                {"optionOne" : "lorem1"},
+                                {"optionTwo" : "lorem2"},
+                                {"optionThree" : "lorem3"},
+                                {"optionFour" : "lorem4"}
+                            ],
+                            "picture" : [
+                                {"image" : 1},
+                                {"image" : 2},
+                                {"image" : 3},
+                                {"image" : 4}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title" : "Branding e Identidad Corporativa",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "details" : [
+                        {
+                            "options" : [
+                                {"optionOne" : "lorem1"},
+                                {"optionTwo" : "lorem2"},
+                                {"optionThree" : "lorem3"},
+                                {"optionFour" : "lorem4"}
+                            ],
+                            "picture" : [
+                                {"image" : 1},
+                                {"image" : 2},
+                                {"image" : 3},
+                                {"image" : 4}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title" : "Branding e Identidad Corporativa",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "details" : [
+                        {
+                            "options" : [
+                                {"optionOne" : "lorem1"},
+                                {"optionTwo" : "lorem2"},
+                                {"optionThree" : "lorem3"},
+                                {"optionFour" : "lorem4"}
+                            ],
+                            "picture" : [
+                                {"image" : 1},
+                                {"image" : 2},
+                                {"image" : 3},
+                                {"image" : 4}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title" : "Branding e Identidad Corporativa",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "details" : [
+                        {
+                            "options" : [
+                                {"optionOne" : "lorem1"},
+                                {"optionTwo" : "lorem2"},
+                                {"optionThree" : "lorem3"},
+                                {"optionFour" : "lorem4"}
+                            ],
+                            "picture" : [
+                                {"image" : 1},
+                                {"image" : 2},
+                                {"image" : 3},
+                                {"image" : 4}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title" : "Branding e Identidad Corporativa",
+                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "details" : [
+                        {
+                            "options" : [
+                                {"optionOne" : "lorem1"},
+                                {"optionTwo" : "lorem2"},
+                                {"optionThree" : "lorem3"},
+                                {"optionFour" : "lorem4"}
+                            ],
+                            "picture" : [
+                                {"image" : 1},
+                                {"image" : 2},
+                                {"image" : 3},
+                                {"image" : 4}
+                            ]
+                        }
+                    ]
                 }
             ]
         }
