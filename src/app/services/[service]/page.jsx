@@ -31,7 +31,9 @@ export default  function Template({ params }) {
                   style={{ width: "100%", height: "auto" }}
               />
             </div>
-            <Details />
+            <Details 
+              idPage = {params.service}
+            />
         </div>
       </div>
     </div>

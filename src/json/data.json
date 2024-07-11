@@ -266,13 +266,13 @@
                                     "id" : 1,
                                     "title" : "Diseño Responsivo y Adaptativo",
                                     "description" : "Crear páginas web que se adapten a diferentes dispositivos y tamaños de pantalla, garantizando una experiencia de usuario (UX) óptima en móviles, tablets y escritorios. Utilizar frameworks y técnicas modernas para asegurar layouts fluidos y flexibles.",
-                                    "image" : "https://img.freepik.com/vector-gratis/diseno-plano-diseno-sitio-web-receptivo_23-2149477719.jpg?t=st=1720716843~exp=1720720443~hmac=b93d8e09b82df500f2d7edc0a54f398caf085cc7b9cf3b642aac1f3e291f9609&w=900"
+                                    "image" : 1
                                 },
                                 {
                                     "id" : 2,
                                     "title" : "Optimización de Velocidad y Rendimiento",
                                     "description" : "Implementar técnicas que mejoren el tiempo de carga, como la compresión de imágenes, la minificación de archivos y el uso de CDNs. Un rendimiento mejorado reduce las tasas de rebote, mejora la experiencia del usuario y favorece el SEO.",
-                                    "image" : "https://img.freepik.com/vector-gratis/coleccion-elementos-degradados-ui-ux_79603-1923.jpg?t=st=1720719385~exp=1720722985~hmac=c62d3fab8bc7dc17e07c3996fa17fafca742f3eb4c282099e7a1466320292f14&w=900"
+                                    "image" : 2
                                 },
                                 {
                                     "id" : 3,
