@@ -246,44 +246,44 @@
                             "options" : [
                                 {
                                     "id" : 1,
-                                    "option" : "lorem1"
+                                    "option" : "Diseño Responsivo y Adaptativo"
                                 },
                                 {
                                     "id" : 2,
-                                    "option" : "lorem2"
+                                    "option" : "Optimización de Velocidad y Rendimiento"
                                 },
                                 {
                                     "id" : 3,
-                                    "option" : "lorem3"
+                                    "option" : "SEO (Optimización para Motores de Búsqueda)"
                                 },
                                 {
                                     "id" : 4,
-                                    "option" : "lorem4"
+                                    "option" : "Seguridad y Protección de Datos"
                                 }
                             ],
                             "picture" : [
                                 {
                                     "id" : 1,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 1
+                                    "title" : "Diseño Responsivo y Adaptativo",
+                                    "description" : "Crear páginas web que se adapten a diferentes dispositivos y tamaños de pantalla, garantizando una experiencia de usuario (UX) óptima en móviles, tablets y escritorios. Utilizar frameworks y técnicas modernas para asegurar layouts fluidos y flexibles.",
+                                    "image" : "https://img.freepik.com/vector-gratis/diseno-plano-diseno-sitio-web-receptivo_23-2149477719.jpg?t=st=1720716843~exp=1720720443~hmac=b93d8e09b82df500f2d7edc0a54f398caf085cc7b9cf3b642aac1f3e291f9609&w=900"
                                 },
                                 {
                                     "id" : 2,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 2
+                                    "title" : "Optimización de Velocidad y Rendimiento",
+                                    "description" : "Implementar técnicas que mejoren el tiempo de carga, como la compresión de imágenes, la minificación de archivos y el uso de CDNs. Un rendimiento mejorado reduce las tasas de rebote, mejora la experiencia del usuario y favorece el SEO.",
+                                    "image" : "https://img.freepik.com/vector-gratis/coleccion-elementos-degradados-ui-ux_79603-1923.jpg?t=st=1720719385~exp=1720722985~hmac=c62d3fab8bc7dc17e07c3996fa17fafca742f3eb4c282099e7a1466320292f14&w=900"
                                 },
                                 {
                                     "id" : 3,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "title" : "SEO (Optimización para Motores de Búsqueda)",
+                                    "description" : "Incorporar prácticas de SEO durante el desarrollo web, optimizando palabras clave, creando contenido relevante y mejorando la estructura del sitio. Estas prácticas aumentan la visibilidad en motores de búsqueda, atrayendo más tráfico orgánico.",
                                     "image" : 3
                                 },
                                 {
                                     "id" : 4,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "title" : "Seguridad y Protección de Datos",
+                                    "description" : "Implementar medidas de seguridad robustas, incluyendo HTTPS, protección contra inyecciones SQL y XSS, y el uso de WAFs. Asegurar la protección de datos sensibles y la integridad del sitio web, construyendo confianza entre los usuarios.",
                                     "image" : 4
                                 }
                             ]

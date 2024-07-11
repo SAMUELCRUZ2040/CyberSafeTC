@@ -14,7 +14,7 @@ export default  function Template({ params }) {
   return (
     <div className="flex justify-center items-center relative">
       <div className="container py-14 my-14 px-14 max-lg:px-0">
-        <div className="title my-8">
+        <div className="title my-14">
           <h1 className='"text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl flex flex-col  font-extrabold tracking-tight  leading-none'>
             <span>{service.title}</span>
             <span>{service.addTitle}</span>
