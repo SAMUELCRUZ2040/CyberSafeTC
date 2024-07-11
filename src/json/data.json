@@ -186,227 +186,512 @@
         {
             "servicesLogo" : [
                 {
-                    "id" : 1,
                     "image" : "1",
-                    "title" : "Trunspilot1",
+                    "title" : "Desarrollo de Páginas Web",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "services/1"
+                    "url" : "services/desarrollo-de-paginas-web"
                 },
                 {
-                    "id" : 2,
                     "image" : "1",
-                    "title" : "Trunspilot2",
+                    "title" : "Asesorias y Mantenimientos",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "services/2"
+                    "url" : "services/asesorias-y-mantenimientos"
                 },
                 {
-                    "id" : 3,
                     "image" : "1",
-                    "title" : "Trunspilot3",
+                    "title" : "Desarrollo de software",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "services/3"
+                    "url" : "services/desarrollo-de-software"
                 },
                 {
-                    "id" : 4,
                     "image" : "1",
-                    "title" : "Trunspilot4",
+                    "title" : "Gestion de despliegues",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "services/4"
+                    "url" : "services/gestion-de-despliegues"
                 },
                 {
-                    "id" : 5,
                     "image" : "1",
-                    "title" : "Trunspilot5",
+                    "title" : "Máquinas Virtuales",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "services/5"
+                    "url" : "services/maquinas-virtuales"
                 },
                 {
-                    "id" : 6,
                     "image" : "1",
-                    "title" : "Trunspilot6",
+                    "title" : "Dominios",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "services/6"
+                    "url" : "services/dominios"
                 },
                 {
-                    "id" : 7,
                     "image" : "1",
-                    "title" : "Trunspilot7",
+                    "title" : "Integracion de microservicios",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "services/7"
+                    "url" : "services/integracion-de-microservicios"
                 },
                 {
-                    "id" : 8,
                     "image" : "1",
-                    "title" : "Trunspilot8",
+                    "title" : "Telefonia IP",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                    "url" : "services/8"
+                    "url" : "services/telefonia-IP"
                 }
             ],
-            "informationLogo" : [
+            "informationService" : [
                 {
-                    "title" : "Branding e Identidad Corporativa",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
-                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "id" : "desarrollo-de-paginas-web",
+                    "title" : "Expertos en la Construcción ",
+                    "addTitle" : "Digital de Páginas Web",
+                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "image" : "https://img.freepik.com/psd-gratis/plantilla-pagina-destino-clases-estudio-baile_23-2149524247.jpg?t=st=1720668960~exp=1720672560~hmac=0662fedcb59f81c86c62ea1a48bf2390b2cbab4bebca718c856527f46a798a88&w=996",
                     "details" : [
                         {
                             "options" : [
-                                {"optionOne" : "lorem1"},
-                                {"optionTwo" : "lorem2"},
-                                {"optionThree" : "lorem3"},
-                                {"optionFour" : "lorem4"}
+                                {
+                                    "id" : 1,
+                                    "option" : "lorem1"
+                                },
+                                {
+                                    "id" : 2,
+                                    "option" : "lorem2"
+                                },
+                                {
+                                    "id" : 3,
+                                    "option" : "lorem3"
+                                },
+                                {
+                                    "id" : 4,
+                                    "option" : "lorem4"
+                                }
                             ],
                             "picture" : [
-                                {"image" : 1},
-                                {"image" : 2},
-                                {"image" : 3},
-                                {"image" : 4}
+                                {
+                                    "id" : 1,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 1
+                                },
+                                {
+                                    "id" : 2,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 2
+                                },
+                                {
+                                    "id" : 3,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 3
+                                },
+                                {
+                                    "id" : 4,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 4
+                                }
                             ]
                         }
                     ]
                 },
                 {
-                    "title" : "Branding e Identidad Corporativa",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "id" : "asesorias-y-mantenimientos",
+                    "title" : "Estrategias Continuas y Personalizadas",
+                    "addTitle" :  "En Asesorías y Mantenimientos",
+                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
                     "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
                     "details" : [
                         {
                             "options" : [
-                                {"optionOne" : "lorem1"},
-                                {"optionTwo" : "lorem2"},
-                                {"optionThree" : "lorem3"},
-                                {"optionFour" : "lorem4"}
+                                {
+                                    "id" : 1,
+                                    "option" : "lorem1"
+                                },
+                                {
+                                    "id" : 2,
+                                    "option" : "lorem2"
+                                },
+                                {
+                                    "id" : 3,
+                                    "option" : "lorem3"
+                                },
+                                {
+                                    "id" : 4,
+                                    "option" : "lorem4"
+                                }
                             ],
                             "picture" : [
-                                {"image" : 1},
-                                {"image" : 2},
-                                {"image" : 3},
-                                {"image" : 4}
+                                {
+                                    "id" : 1,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 1
+                                },
+                                {
+                                    
+                                    "id" : 2,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 2
+                                },
+                                {
+                                    
+                                    "id" : 3,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 3
+                                },
+                                {
+                                    
+                                    "id" : 4,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 4
+                                }
                             ]
                         }
                     ]
                 },
                 {
-                    "title" : "Branding e Identidad Corporativa",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "id" : "desarrollo-de-software",
+                    "title" : "Innovación Digital en Desarrollo",
+                    "addTitle" : "Personalizado de Software",
+                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
                     "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
                     "details" : [
                         {
                             "options" : [
-                                {"optionOne" : "lorem1"},
-                                {"optionTwo" : "lorem2"},
-                                {"optionThree" : "lorem3"},
-                                {"optionFour" : "lorem4"}
+                                {
+                                    "id" : 1,
+                                    "option" : "lorem1"
+                                },
+                                {
+                                    "id" : 2,
+                                    "option" : "lorem2"
+                                },
+                                {
+                                    "id" : 3,
+                                    "option" : "lorem3"
+                                },
+                                {
+                                    "id" : 4,
+                                    "option" : "lorem4"
+                                }
                             ],
                             "picture" : [
-                                {"image" : 1},
-                                {"image" : 2},
-                                {"image" : 3},
-                                {"image" : 4}
+                                {
+                                    "id" : 1,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 1
+                                },
+                                {
+                                    
+                                    "id" : 2,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 2
+                                },
+                                {
+                                    
+                                    "id" : 3,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 3
+                                },
+                                {
+                                    
+                                    "id" : 4,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 4
+                                }
                             ]
                         }
                     ]
                 },
                 {
-                    "title" : "Branding e Identidad Corporativa",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "id" : "gestion-de-despliegues",
+                    "title" : "Implementación Eficiente y Avanzada en",
+                    "addTitle" : "Gestion de despliegues",
+                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
                     "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
                     "details" : [
                         {
                             "options" : [
-                                {"optionOne" : "lorem1"},
-                                {"optionTwo" : "lorem2"},
-                                {"optionThree" : "lorem3"},
-                                {"optionFour" : "lorem4"}
+                                {
+                                    "id" : 1,
+                                    "option" : "lorem1"
+                                },
+                                {
+                                    "id" : 2,
+                                    "option" : "lorem2"
+                                },
+                                {
+                                    "id" : 3,
+                                    "option" : "lorem3"
+                                },
+                                {
+                                    "id" : 4,
+                                    "option" : "lorem4"
+                                }
                             ],
                             "picture" : [
-                                {"image" : 1},
-                                {"image" : 2},
-                                {"image" : 3},
-                                {"image" : 4}
+                                {
+                                    "id" : 1,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 1
+                                },
+                                {
+                                    
+                                    "id" : 2,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 2
+                                },
+                                {
+                                    
+                                    "id" : 3,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 3
+                                },
+                                {
+                                    
+                                    "id" : 4,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 4
+                                }
                             ]
                         }
                     ]
                 },
                 {
-                    "title" : "Branding e Identidad Corporativa",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "id" : "maquinas-virtuales",
+                    "title" : "Infraestructura Flexible en Creación y",
+                    "addTitle" : "Gestión de Máquinas Virtuales",
+                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
                     "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
                     "details" : [
                         {
                             "options" : [
-                                {"optionOne" : "lorem1"},
-                                {"optionTwo" : "lorem2"},
-                                {"optionThree" : "lorem3"},
-                                {"optionFour" : "lorem4"}
+                                {
+                                    "id" : 1,
+                                    "option" : "lorem1"
+                                },
+                                {
+                                    "id" : 2,
+                                    "option" : "lorem2"
+                                },
+                                {
+                                    "id" : 3,
+                                    "option" : "lorem3"
+                                },
+                                {
+                                    "id" : 4,
+                                    "option" : "lorem4"
+                                }
                             ],
                             "picture" : [
-                                {"image" : 1},
-                                {"image" : 2},
-                                {"image" : 3},
-                                {"image" : 4}
+                                {
+                                    "id" : 1,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 1
+                                },
+                                {
+                                    
+                                    "id" : 2,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 2
+                                },
+                                {
+                                    
+                                    "id" : 3,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 3
+                                },
+                                {
+                                    
+                                    "id" : 4,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 4
+                                }
                             ]
                         }
                     ]
                 },
                 {
-                    "title" : "Branding e Identidad Corporativa",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "id" : "dominios",
+                    "title" : "Identidad Online y Gestión",
+                    "addTitle" : "De dominios",
+                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
                     "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
                     "details" : [
                         {
                             "options" : [
-                                {"optionOne" : "lorem1"},
-                                {"optionTwo" : "lorem2"},
-                                {"optionThree" : "lorem3"},
-                                {"optionFour" : "lorem4"}
+                                {
+                                    "id" : 1,
+                                    "option" : "lorem1"
+                                },
+                                {
+                                    "id" : 2,
+                                    "option" : "lorem2"
+                                },
+                                {
+                                    "id" : 3,
+                                    "option" : "lorem3"
+                                },
+                                {
+                                    "id" : 4,
+                                    "option" : "lorem4"
+                                }
                             ],
                             "picture" : [
-                                {"image" : 1},
-                                {"image" : 2},
-                                {"image" : 3},
-                                {"image" : 4}
+                                {
+                                    "id" : 1,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 1
+                                },
+                                {
+                                    
+                                    "id" : 2,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 2
+                                },
+                                {
+                                    
+                                    "id" : 3,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 3
+                                },
+                                {
+                                    
+                                    "id" : 4,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 4
+                                }
                             ]
                         }
                     ]
                 },
                 {
-                    "title" : "Branding e Identidad Corporativa",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "id" : "integracion-de-microservicios",
+                    "title" : "Agilidad y Escalabilidad en Integración",
+                    "addTitle" : "De Microservicios",
+                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
                     "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
                     "details" : [
                         {
                             "options" : [
-                                {"optionOne" : "lorem1"},
-                                {"optionTwo" : "lorem2"},
-                                {"optionThree" : "lorem3"},
-                                {"optionFour" : "lorem4"}
+                                {
+                                    "id" : 1,
+                                    "option" : "lorem1"
+                                },
+                                {
+                                    "id" : 2,
+                                    "option" : "lorem2"
+                                },
+                                {
+                                    "id" : 3,
+                                    "option" : "lorem3"
+                                },
+                                {
+                                    "id" : 4,
+                                    "option" : "lorem4"
+                                }
                             ],
                             "picture" : [
-                                {"image" : 1},
-                                {"image" : 2},
-                                {"image" : 3},
-                                {"image" : 4}
+                                {
+                                    "id" : 1,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 1
+                                },
+                                {
+                                    
+                                    "id" : 2,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 2
+                                },
+                                {
+                                    
+                                    "id" : 3,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 3
+                                },
+                                {
+                                    
+                                    "id" : 4,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 4
+                                }
                             ]
                         }
                     ]
                 },
                 {
-                    "title" : "Branding e Identidad Corporativa",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "id" : "telefonia-IP",
+                    "title" : "Comunicación Moderna y Soluciones",
+                    "addTitle" : "En telefonia IP",
+                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
                     "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
                     "details" : [
                         {
                             "options" : [
-                                {"optionOne" : "lorem1"},
-                                {"optionTwo" : "lorem2"},
-                                {"optionThree" : "lorem3"},
-                                {"optionFour" : "lorem4"}
+                                {
+                                    "id" : 1,
+                                    "option" : "lorem1"
+                                },
+                                {
+                                    "id" : 2,
+                                    "option" : "lorem2"
+                                },
+                                {
+                                    "id" : 3,
+                                    "option" : "lorem3"
+                                },
+                                {
+                                    "id" : 4,
+                                    "option" : "lorem4"
+                                }
                             ],
                             "picture" : [
-                                {"image" : 1},
-                                {"image" : 2},
-                                {"image" : 3},
-                                {"image" : 4}
+                                {
+                                    "id" : 1,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 1
+                                },
+                                {
+                                    
+                                    "id" : 2,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 2
+                                },
+                                {
+                                    
+                                    "id" : 3,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 3
+                                },
+                                {
+                                    
+                                    "id" : 4,
+                                    "title" : "Agilidad y Escalabilidad en Integración",
+                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                                    "image" : 4
+                                }
                             ]
                         }
                     ]
