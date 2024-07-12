@@ -22,15 +22,9 @@ export default  function Template({ params }) {
         </div>
         <div className="body">
             <p className='w-3/6 text-xl mb-14'>{service.description}</p>
-            <div className="container_image bg-[blue]  w-full relative h-[50rem] overflow-hidden">
-              <Image
-                  src={service.image}
-                  width={400}
-                  height={400}
-                  alt={`check`}
-                  style={{ width: "100%", height: "auto" }}
-              />
-            </div>
+            <div className="container_image bg-[blue]  w-full relative h-[50rem] overflow-hidden bg-cover bg-no-repeat bg-center"
+              style={{backgroundImage : `url(${service.image})`}}
+            ></div>
             <Details 
               idPage = {params.service}
             />

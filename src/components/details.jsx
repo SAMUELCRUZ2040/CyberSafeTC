@@ -53,14 +53,10 @@ export function StructureDetails({id, idPage}){
                 <h2 className='text-5xl w-1/3'>{inyectInformation.title}</h2>
                 <p className='text-xl w-3/6'>{inyectInformation.description}</p>
             </div>
-            <div className="container_image w-full relative h-[40rem] overflow-hidden flex justify-center items-center ">
-                <Image
-                    src={`/image/services/${inyectInformation.image}.jpg`}
-                    width={500}
-                    height={500}
-                    alt={`logo`}
-                    style={{ width: "100%", height: "auto" }}
-                />
+            <div 
+                className="container_image w-full relative w-full h-[40rem]  bg-cover bg-no-repeat bg-center"
+                style={{backgroundImage : `url(/image/services/${inyectInformation.image}.jpg)`}}
+            >
             </div>
         </>
     )
