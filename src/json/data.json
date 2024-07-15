@@ -186,49 +186,49 @@
         {
             "servicesLogo" : [
                 {
-                    "image" : "1",
+                    "image" : 1,
                     "title" : "Desarrollo de Páginas Web",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
                     "url" : "services/desarrollo-de-paginas-web"
                 },
                 {
-                    "image" : "1",
+                    "image" : 2,
                     "title" : "Asesorias y Mantenimientos",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
                     "url" : "services/asesorias-y-mantenimientos"
                 },
                 {
-                    "image" : "1",
+                    "image" : 3,
                     "title" : "Desarrollo de software",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
                     "url" : "services/desarrollo-de-software"
                 },
                 {
-                    "image" : "1",
+                    "image" : 4,
                     "title" : "Gestion de despliegues",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
                     "url" : "services/gestion-de-despliegues"
                 },
                 {
-                    "image" : "1",
+                    "image" : 5,
                     "title" : "Máquinas Virtuales",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
                     "url" : "services/maquinas-virtuales"
                 },
                 {
-                    "image" : "1",
+                    "image" : 6,
                     "title" : "Dominios",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
                     "url" : "services/dominios"
                 },
                 {
-                    "image" : "1",
+                    "image" : 7,
                     "title" : "Integracion de microservicios",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
                     "url" : "services/integracion-de-microservicios"
                 },
                 {
-                    "image" : "1",
+                    "image" : 8,
                     "title" : "Telefonia IP",
                     "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
                     "url" : "services/telefonia-IP"

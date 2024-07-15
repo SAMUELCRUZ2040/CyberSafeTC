@@ -5,8 +5,19 @@
 ::selection{
     background: #737d7f58;
 }
+
+::-webkit-scrollbar {
+    width: 1px;
+    height: 7px;
+  }
+  
+
+::-webkit-scrollbar-thumb {
+    background: #e1dddd;
+}
+  
 body{
-    /* background:  url(../../public/image/bg-over.webp); */
+    background: #f6f6f6;
 }
 
 section{

@@ -5,7 +5,9 @@ import Link from 'next/link';
 
 export default function Services() {
   return (
-    <div className="flex justify-center items-center mb-[8rem] ">
+    <div className="flex justify-center items-center mb-[8rem] bg-cover bg-center bg-no-repeat bg-fixed"
+        style={{backgroundImage : "url(/image/figure.png)"}}
+    >
         <div className="container px-[5rem]">
             <div className="title py-[10rem]">
                 <h1 className='text-4xl lg:text-4xl xl:text-5xl 2xl:text-7xl flex flex-col  font-extrabold tracking-tight  leading-none'>
@@ -13,11 +15,11 @@ export default function Services() {
                     <span>En lo que hacemos</span>    
                 </h1>
             </div>
-            <div className="services grid grid-cols-3 gap-[10rem] my-14">
+            <div className="services grid grid-cols-3 gap-[8rem] my-14">
                 {data.services[0].servicesLogo.map((ServiceData, keyService)=>(
                     <div className="card flex flex-col gap-5" key={keyService}>
                         <Image
-                            src={"/icons/enter.webp"}
+                            src={`/icons/services/${ServiceData.image}.png`}
                             width={500}
                             height={500}
                             alt={`logo`}
