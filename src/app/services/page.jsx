@@ -15,21 +15,23 @@ export default function Services() {
                     <span>En lo que hacemos</span>    
                 </h1>
             </div>
-            <div className="services grid grid-cols-3 gap-[8rem] my-14">
+            <div className="services grid grid-cols-3 gap-[8rem] my-14 flex-wrap max-lg:grid-cols-2 max-sm:grid-cols-1">
                 {data.services[0].servicesLogo.map((ServiceData, keyService)=>(
-                    <div className="card flex flex-col gap-5" key={keyService}>
-                        <Image
-                            src={`/icons/services/${ServiceData.image}.png`}
-                            width={500}
-                            height={500}
-                            alt={`logo`}
-                            style={{ width: "4rem", height: "auto" }}
+                    <Link href={ServiceData.url}>
+                        <div className="card flex flex-col gap-5" key={keyService}>
+                            <Image
+                                src={`/icons/services/${ServiceData.image}.png`}
+                                width={500}
+                                height={500}
+                                alt={`logo`}
+                                style={{ width: "5rem", height: "auto" }}
 
-                        />
-                        <h2 className='text-2xl font-semibold tracking-wide' >{ServiceData.title}</h2>
-                        <p className='text-md' >{ServiceData.description}</p>
-                        <Link className='text-[#347faa] underline underline-offset-8'  href={ServiceData.url}>VER DETALLE</Link>
-                    </div>
+                            />
+                            <h2 className='text-xl font-semibold tracking-wide' >{ServiceData.title}</h2>
+                            <p className='text-sm' >{ServiceData.description}</p>
+                            <Link className='text-[#347faa] underline underline-offset-8 hover:text-cyan-400'  href={ServiceData.url}>VER DETALLE</Link>
+                        </div>
+                    </Link>
                 ))}
             </div>
         </div>

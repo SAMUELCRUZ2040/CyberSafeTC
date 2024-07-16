@@ -188,49 +188,49 @@
                 {
                     "image" : 1,
                     "title" : "Desarrollo de Páginas Web",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "description" : "Transforma tu presencia online con páginas web profesionales, responsivas y optimizadas para SEO.",
                     "url" : "services/desarrollo-de-paginas-web"
                 },
                 {
                     "image" : 2,
                     "title" : "Asesorias y Mantenimientos",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "description" : "Mantén tus sistemas en óptimo funcionamiento con asesorías y mantenimientos personalizados y continuos.",
                     "url" : "services/asesorias-y-mantenimientos"
                 },
                 {
                     "image" : 3,
                     "title" : "Desarrollo de software",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "description" : "Desarrollamos software a medida para mejorar la eficiencia operativa y darte una ventaja competitiva.",
                     "url" : "services/desarrollo-de-software"
                 },
                 {
                     "image" : 4,
                     "title" : "Gestion de despliegues",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "description" : "Gestiona tus despliegues con confianza, asegurando una transición fluida y un rendimiento superior.",
                     "url" : "services/gestion-de-despliegues"
                 },
                 {
                     "image" : 5,
                     "title" : "Máquinas Virtuales",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "description" : "Optimiza tus recursos con máquinas virtuales flexibles y escalables, reduciendo costos y facilitando la gestión.",
                     "url" : "services/maquinas-virtuales"
                 },
                 {
                     "image" : 6,
                     "title" : "Dominios",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "description" : "Asegura tu presencia online con nuestro servicio de registro y gestión de dominios atractivos.",
                     "url" : "services/dominios"
                 },
                 {
                     "image" : 7,
                     "title" : "Integracion de microservicios",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "description" : "Mejora la agilidad y escalabilidad de tus aplicaciones con nuestra integración profesional de microservicios.",
                     "url" : "services/integracion-de-microservicios"
                 },
                 {
                     "image" : 8,
                     "title" : "Telefonia IP",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "description" : "Moderniza tu comunicación con soluciones avanzadas de telefonía IP, mejorando la productividad y colaboración.",
                     "url" : "services/telefonia-IP"
                 }
             ],
