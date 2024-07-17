@@ -17,21 +17,19 @@ export default function Services() {
             </div>
             <div className="services grid grid-cols-3 gap-[8rem] my-14 flex-wrap max-lg:grid-cols-2 max-sm:grid-cols-1">
                 {data.services[0].servicesLogo.map((ServiceData, keyService)=>(
-                    <Link href={ServiceData.url}>
-                        <div className="card flex flex-col gap-5" key={keyService}>
-                            <Image
-                                src={`/icons/services/${ServiceData.image}.png`}
-                                width={500}
-                                height={500}
-                                alt={`logo`}
-                                style={{ width: "5rem", height: "auto" }}
+                    <div className="card flex flex-col gap-5" key={keyService}>
+                        <Image
+                            src={`/icons/services/${ServiceData.image}.png`}
+                            width={500}
+                            height={500}
+                            alt={`logo`}
+                            style={{ width: "5rem", height: "auto" }}
 
-                            />
-                            <h2 className='text-xl font-semibold tracking-wide' >{ServiceData.title}</h2>
-                            <p className='text-sm' >{ServiceData.description}</p>
-                            <Link className='text-[#347faa] underline underline-offset-8 hover:text-cyan-400'  href={ServiceData.url}>VER DETALLE</Link>
-                        </div>
-                    </Link>
+                        />
+                        <h2 className='text-xl font-semibold tracking-wide' >{ServiceData.title}</h2>
+                        <p className='text-sm' >{ServiceData.description}</p>
+                        <Link className='text-[#347faa] underline underline-offset-8 hover:text-cyan-400'  href={ServiceData.url}>VER DETALLE</Link>
+                    </div>
                 ))}
             </div>
         </div>

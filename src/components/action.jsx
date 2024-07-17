@@ -17,7 +17,7 @@ export default function Action() {
     }
   ]
   return (
-    <div className="fall__action flex justify-center items-center bg-[#5cdedb30]">
+    <div className="fall__action flex justify-center items-center bg-[#c2dbdb30]">
         <div className="container grid grid-cols-3 my-14 py-14 max-xl:grid-cols-1">
             <div className=" col-span-1 flex items-center justify-center">
               <h2 className="gap-2 flex flex-col croll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">

@@ -23,10 +23,10 @@ export function Details({ idPage }) {
   return (
     <div className="flex justify-center items-center mb-14">
         <div className="container">
-            <ul className="flex justify-center gap-5 w-full p-5 m-5 my-14 max-md:justify-start max-md:overflow-hidden max-md:overflow-x-scroll">
+            <ul className="flex justify-center gap-14 w-full pt-[10rem] mt-[10rem] max-md:justify-start max-md:overflow-hidden max-md:overflow-x-scroll">
                 {resultInformation.map((options, keyOptions)=>(
                     <li 
-                        className='item cursor-pointer border-2 w-[11rem] h-[11rem]  justify-center text-center p-2 rounded-full flex justify-center items-center hover:bg-[#0000000f] max-lg:w-[8rem] max-lg:h-[8rem] max-lg:text-sm p-8 ' 
+                        className='item cursor-pointer border-2 border-[#347faa] w-[11rem] h-[11rem]  justify-center text-center p-2 rounded-full flex justify-center items-center hover:bg-[#0000000f] max-lg:w-[8rem] max-lg:h-[8rem] max-lg:text-sm p-8 ' 
                         key={keyOptions} 
                         onClick={()=>updateState(options.id)}
                     >
@@ -52,15 +52,14 @@ export function StructureDetails({id, idPage}){
 
     return(
         <>
-            <div className="flex justify-between w-full my-14 max-lg:flex-col">
+            <div className="flex justify-between w-full my-14 max-lg:flex-col px-14">
                 <h2 className='w-1/3 text-5xl tracking-tight max-lg:text-3xl max-lg:w-full'>{inyectInformation.title}</h2>
-                <p className='text-xl w-3/6 max-lg:w-full max-lg:text-sm max-lg:mt-8'>{inyectInformation.description}</p>
+                <p className='text-lg w-3/6 max-lg:w-full max-lg:text-sm max-lg:mt-8'>{inyectInformation.description}</p>
             </div>
             <div 
-                className="container_image w-full relative w-[90%] h-[40rem]  bg-cover bg-no-repeat bg-center max-lg:w-full max-lg:h-[18rem]"
+                className="container_image w-full relative w-[88%] h-[38rem]  bg-cover bg-no-repeat bg-center max-lg:w-full max-lg:h-[18rem]"
                 style={{backgroundImage : `url(/image/services/${inyectInformation.image}.jpg)`}}
-            >
-            </div>
+            />
         </>
     )
 }
