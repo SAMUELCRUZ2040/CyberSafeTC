@@ -58,7 +58,7 @@ export function StructureDetails({id, idPage}){
             </div>
             <div 
                 className="container_image w-full relative w-[88%] h-[38rem]  bg-cover bg-no-repeat bg-center max-lg:w-full max-lg:h-[18rem]"
-                style={{backgroundImage : `url(/image/services/${inyectInformation.image}.jpg)`}}
+                style={{backgroundImage : `url(/image/services/${inyectInformation.image}.webp)`}}
             />
         </>
     )

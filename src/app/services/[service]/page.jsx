@@ -1,5 +1,6 @@
 import { Details } from '@/components/details';
 import data from '@/json/data';
+import Link from 'next/link';
 
 export default  function Template({ params }) {
   
@@ -22,15 +23,22 @@ export default  function Template({ params }) {
           </h1>
           <p className='w-3/5 text-lg my-[8rem] max-lg:w-full max-lg:text-sm ps-14 text-[#555555] container'>{service.description}</p>
         </div>
-        <div className="w-full relative overflow-hidden h-[50rem] max-lg:h-[20rem]">
+        <div className="w-full relative overflow-hidden h-[60rem] max-lg:h-[20rem]">
           <div 
             className="bg-[blue] absolute right-0 bg-cover bg-no-repeat bg-center h-full"
-            style={{backgroundImage : `url(https://img.freepik.com/psd-gratis/plantilla-helado-pagina-destino_23-2148782073.jpg?t=st=1721192543~exp=1721196143~hmac=7eeb6db4ce0f71582fc37fba115e315e71471d0dc3f21459c3e8c1948e1f8993&w=1800)`, width : "calc(100% - 257px)"}}
+            style={{backgroundImage : `url(/image/services/${service.image}.webp)`, width : "calc(100% - 257px)"}}
           />
         </div>
         <Details 
           idPage = {params.service}
         />
+        <div className="container flex flex-col items-center gap-5 p-14 my-14">
+          <h2 className='text-center text-7xl tracking-tight max-lg:text-5xl flex flex-col '>
+            <span>Quieres saber más,</span>
+            <span>Contactanos</span>
+          </h2>
+          <Link href={"/contact"} className='hover:scale-[1.04] shadow-xl py-4 px-12 border-2 rounded-xl text-xl font-bold text-center text-[#347faa]'>Contactar asesor</Link>
+        </div>
     </div>
   )
 }
