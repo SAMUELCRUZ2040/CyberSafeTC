@@ -29,7 +29,7 @@ export default function Action() {
               <div className="max-lg:gap-10 max-md:grid-cols-1 card grid grid-cols-2 gap-28" >
                 {dataAction.map((datas, key) => (
                     <div 
-                      className="max-lg:py-6 max-md:ps-[3rem] max-md:px-0 max-md:py-8 relative flex justify-center items-center border-2 rounded-3xl shadow-md hover:shadow-xl py-11 px-[5rem] " 
+                      className="max-lg:py-6 max-md:ps-[3rem] max-md:px-0 max-md:py-8 relative flex justify-center items-center border-2 rounded-3xl shadow-sm hover:shadow-xl py-11 px-[5rem] bg-white" 
                       key={key}
                       style={{borderBottomLeftRadius : "0"}}
                     >

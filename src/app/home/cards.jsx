@@ -21,7 +21,7 @@ export default function Cards() {
                             className={`
                                 max-md:flex-col max-lg:flex-row max-md:mt-4
                                 flex items-center flex-${dataCard[1][0].direction}
-                                bg-[#dfdfdf2b] shadow-md border-2 h-auto backdrop-blur-[5px]  p-4 rounded-lg hover:shadow-lg overflow-hidden 
+                                bg-[#dfdfdf08] shadow-md border-2 h-auto backdrop-blur-[3px]  p-4 rounded-lg hover:shadow-lg overflow-hidden 
                             `}
                         >
                             <Image  

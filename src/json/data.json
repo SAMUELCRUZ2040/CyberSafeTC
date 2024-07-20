@@ -239,7 +239,7 @@
                     "id" : "desarrollo-de-paginas-web",
                     "title" : "Expertos en la Construcción ",
                     "addTitle" : "Digital de Páginas Web",
-                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
+                    "description" : "En Cybersafe, somos expertos en crear páginas web profesionales y atractivas. Nos especializamos en diseño responsivo y optimizado para SEO, asegurando que tu negocio se destaque en el competitivo mercado online. Con un enfoque en funcionalidad y estética, transformamos tus ideas en una presencia digital impactante y efectiva. Utilizamos las últimas tecnologías para desarrollar sitios rápidos, seguros y adaptados a tus necesidades específicas, brindando una experiencia de usuario excepcional",
                     "image" : "webPage",
                     "details" : [
                         {
@@ -266,25 +266,25 @@
                                     "id" : 1,
                                     "title" : "Diseño Responsivo y Adaptativo",
                                     "description" : "Crear páginas web que se adapten a diferentes dispositivos y tamaños de pantalla, garantizando una experiencia de usuario (UX) óptima en móviles, tablets y escritorios. Utilizar frameworks y técnicas modernas para asegurar layouts fluidos y flexibles.",
-                                    "image" : 1
+                                    "image" : "webPage1"
                                 },
                                 {
                                     "id" : 2,
                                     "title" : "Optimización de Velocidad y Rendimiento",
                                     "description" : "Implementar técnicas que mejoren el tiempo de carga, como la compresión de imágenes, la minificación de archivos y el uso de CDNs. Un rendimiento mejorado reduce las tasas de rebote, mejora la experiencia del usuario y favorece el SEO.",
-                                    "image" : 2
+                                    "image" : "webPage2"
                                 },
                                 {
                                     "id" : 3,
                                     "title" : "SEO (Optimización para Motores de Búsqueda)",
                                     "description" : "Incorporar prácticas de SEO durante el desarrollo web, optimizando palabras clave, creando contenido relevante y mejorando la estructura del sitio. Estas prácticas aumentan la visibilidad en motores de búsqueda, atrayendo más tráfico orgánico.",
-                                    "image" : 3
+                                    "image" : "webPage3"
                                 },
                                 {
                                     "id" : 4,
                                     "title" : "Seguridad y Protección de Datos",
                                     "description" : "Implementar medidas de seguridad robustas, incluyendo HTTPS, protección contra inyecciones SQL y XSS, y el uso de WAFs. Asegurar la protección de datos sensibles y la integridad del sitio web, construyendo confianza entre los usuarios.",
-                                    "image" : 4
+                                    "image" : "webPage4"
                                 }
                             ]
                         }
@@ -292,57 +292,46 @@
                 },
                 {
                     "id" : "asesorias-y-mantenimientos",
-                    "title" : "Estrategias Continuas y Personalizadas",
-                    "addTitle" :  "En Asesorías y Mantenimientos",
-                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
-                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "title" : "Estrategias Personalizadas en",
+                    "addTitle" :  "Asesorías y Mantenimientos",
+                    "description" : "Ofrecemos estrategias personalizadas en asesorías y mantenimientos para asegurar que tus sistemas operen sin interrupciones. Nuestro equipo de expertos proporciona soluciones adaptadas a tus necesidades específicas, identificando y resolviendo problemas de manera proactiva. Con un enfoque integral y continuo, mejoramos la eficiencia y productividad de tus operaciones. Además, nuestras asesorías están diseñadas para anticiparse a posibles inconvenientes y optimizar el rendimiento de tus sistemas, brindándote la tranquilidad y el soporte confiable que tu negocio necesita para prosperar.",
+                    "image" : "asesoriaMantenimiento",
                     "details" : [
                         {
                             "options" : [
                                 {
                                     "id" : 1,
-                                    "option" : "lorem1"
+                                    "option" : "Monitoreo Proactivo y Preventivo"
                                 },
                                 {
                                     "id" : 2,
-                                    "option" : "lorem2"
+                                    "option" : "Optimización y Actualización de Sistemas"
                                 },
                                 {
                                     "id" : 3,
-                                    "option" : "lorem3"
-                                },
-                                {
-                                    "id" : 4,
-                                    "option" : "lorem4"
+                                    "option" : "Soporte Técnico y Capacitación"
                                 }
                             ],
                             "picture" : [
                                 {
                                     "id" : 1,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 1
+                                    "title" : "Monitoreo Proactivo y Preventivo",
+                                    "description" : "Implementar sistemas de monitoreo continuo que detecten y prevengan problemas antes de que afecten el rendimiento del sistema. Esto incluye la supervisión de la red, servidores y aplicaciones críticas para identificar posibles fallos y realizar mantenimientos preventivos.",
+                                    "image" : "asesoriaMantenimiento1"
                                 },
                                 {
                                     
                                     "id" : 2,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 2
+                                    "title" : "Optimización y Actualización de Sistemas",
+                                    "description" : "Realizar evaluaciones periódicas para identificar áreas de mejora y aplicar actualizaciones necesarias. Esto incluye la optimización de configuraciones, la actualización de software y la implementación de nuevas tecnologías que mejoren el rendimiento y la seguridad.",
+                                    "image" : "asesoriaMantenimiento2"
                                 },
                                 {
                                     
                                     "id" : 3,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 3
-                                },
-                                {
-                                    
-                                    "id" : 4,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 4
+                                    "title" : "Soporte Técnico y Capacitación",
+                                    "description" : "Ofrecer soporte técnico accesible y formación personalizada para el personal. Esto incluye la resolución rápida de incidencias y la capacitación en el uso y mantenimiento de los sistemas, asegurando que el equipo esté preparado para manejar situaciones comunes.",
+                                    "image" : "asesoriaMantenimiento3"
                                 }
                             ]
                         }
@@ -352,55 +341,66 @@
                     "id" : "desarrollo-de-software",
                     "title" : "Innovación Digital en Desarrollo",
                     "addTitle" : "Personalizado de Software",
-                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
-                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "description" : "Nos especializamos en el desarrollo de software personalizado que se adapta a las necesidades específicas de tu negocio. Nuestro equipo de desarrolladores trabaja estrechamente contigo para entender tus requisitos y objetivos, creando soluciones tecnológicas que mejoran la eficiencia operativa y te brindan una ventaja competitiva. Utilizamos las últimas tecnologías y metodologías ágiles para asegurar que cada proyecto se entregue a tiempo y dentro del presupuesto, con un enfoque en la calidad y la satisfacción del cliente. Desde aplicaciones empresariales complejas hasta soluciones móviles innovadoras, proporcionamos software robusto, seguro y fácil de usar, que integra perfectamente con tus sistemas existentes y mejora significativamente tus procesos empresariales.",
+                    "image" : "software",
                     "details" : [
                         {
                             "options" : [
                                 {
                                     "id" : 1,
-                                    "option" : "lorem1"
+                                    "option" : "Análisis de Requisitos Detallado"
                                 },
                                 {
                                     "id" : 2,
-                                    "option" : "lorem2"
+                                    "option" : "Metodología Ágil"
                                 },
                                 {
                                     "id" : 3,
-                                    "option" : "lorem3"
+                                    "option" : "Integración Continua y Despliegue"
                                 },
                                 {
                                     "id" : 4,
-                                    "option" : "lorem4"
+                                    "option" : "Pruebas Exhaustivas"
+                                },
+                                {
+                                    "id" : 5,
+                                    "option" : "Documentación y Capacitación"
                                 }
                             ],
                             "picture" : [
                                 {
                                     "id" : 1,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 1
+                                    "title" : "Análisis de Requisitos Detallado",
+                                    "description" : "Realizar un análisis exhaustivo de las necesidades del cliente para definir los requisitos y objetivos del software, asegurando que la solución final se alinee perfectamente con las expectativas del usuario",
+                                    "image" : "software1"
                                 },
                                 {
                                     
                                     "id" : 2,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 2
+                                    "title" : "Metodología Ágil",
+                                    "description" : "Adoptar un enfoque ágil para el desarrollo, con ciclos iterativos y mejoras continuas basadas en la retroalimentación del cliente, permitiendo ajustes rápidos y adaptaciones según sea necesario.",
+                                    "image" : "software2"
                                 },
                                 {
                                     
                                     "id" : 3,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 3
+                                    "title" : "Integración Continua y Despliegue",
+                                    "description" : "Implementar prácticas de integración continua y despliegue automatizado para detectar errores tempranamente y asegurar entregas rápidas y eficientes del software",
+                                    "image" : "software3"
                                 },
                                 {
                                     
                                     "id" : 4,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 4
+                                    "title" : "Pruebas Exhaustivas",
+                                    "description" : "Realizar pruebas rigurosas en todas las etapas del desarrollo para identificar y corregir errores, garantizando que el software funcione correctamente y cumpla con los estándares de calidad.",
+                                    "image" : "software4"
+                                },
+                                {
+                                    
+                                    "id" : 5,
+                                    "title" : "Documentación y Capacitación",
+                                    "description" : "Proporcionar documentación completa y capacitación para usuarios y administradores, facilitando la implementación y el uso del software.",
+                                    "image" : "software5"
                                 }
                             ]
                         }
@@ -408,57 +408,46 @@
                 },
                 {
                     "id" : "gestion-de-despliegues",
-                    "title" : "Implementación Eficiente y Avanzada en",
-                    "addTitle" : "Gestion de despliegues",
-                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
-                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "title" : "Implementación Eficiente y ",
+                    "addTitle" : "Avanzada en gestion de despliegues",
+                    "description" : "En la implementación eficiente y avanzada de la gestión de despliegues, nos enfocamos en asegurar que tus aplicaciones y sistemas se lancen de manera fluida y sin contratiempos. Nuestro enfoque se centra en la planificación meticulosa y la ejecución precisa para garantizar una transición sin problemas desde el entorno de desarrollo hasta la producción. Utilizamos herramientas y metodologías modernas para automatizar el proceso, minimizando el riesgo de errores y maximizando la estabilidad del sistema. Con nuestra experiencia en la gestión de despliegues, te ayudamos a optimizar la velocidad y la calidad de las actualizaciones, asegurando que tus usuarios finales experimenten un rendimiento confiable y sin interrupciones.",
+                    "image" : "gestionDespliegue",
                     "details" : [
                         {
                             "options" : [
                                 {
                                     "id" : 1,
-                                    "option" : "lorem1"
+                                    "option" : "Automatización del Proceso de Despliegue"
                                 },
                                 {
                                     "id" : 2,
-                                    "option" : "lorem2"
+                                    "option" : "Despliegue Contínuo y Integración Continua"
                                 },
                                 {
                                     "id" : 3,
-                                    "option" : "lorem3"
-                                },
-                                {
-                                    "id" : 4,
-                                    "option" : "lorem4"
+                                    "option" : "Pruebas de Despliegue en Entornos de Staging"
                                 }
                             ],
                             "picture" : [
                                 {
                                     "id" : 1,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 1
+                                    "title" : "Automatización del Proceso de Despliegue",
+                                    "description" : "Implementar herramientas de automatización para gestionar y ejecutar despliegues de manera consistente y rápida, reduciendo el riesgo de errores manuales y acelerando el tiempo de entrega.",
+                                    "image" : "gestionDespliegue1"
                                 },
                                 {
                                     
                                     "id" : 2,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 2
+                                    "title" : "Despliegue Contínuo y Integración Continua",
+                                    "description" : "Adoptar prácticas de integración continua y despliegue continuo para realizar actualizaciones frecuentes y automáticas en el entorno de producción, permitiendo una entrega constante de nuevas funcionalidades y correcciones.",
+                                    "image" : "gestionDespliegue2"
                                 },
                                 {
                                     
                                     "id" : 3,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 3
-                                },
-                                {
-                                    
-                                    "id" : 4,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 4
+                                    "title" : "Pruebas de Despliegue en Entornos de Staging",
+                                    "description" : "Realizar pruebas exhaustivas en un entorno de staging que simule el entorno de producción antes de realizar el despliegue final, para identificar y solucionar posibles problemas.",
+                                    "image" : "gestionDespliegue3"
                                 }
                             ]
                         }
@@ -468,55 +457,55 @@
                     "id" : "maquinas-virtuales",
                     "title" : "Infraestructura Flexible en Creación y",
                     "addTitle" : "Gestión de Máquinas Virtuales",
-                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
-                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "description" : "Ofrecemos soluciones de infraestructura flexibles para la creación y gestión de máquinas virtuales, adaptadas a las necesidades específicas de tu negocio. Nuestro enfoque garantiza que puedas escalar tus recursos de manera eficiente, optimizando el uso de hardware y reduciendo costos operativos. Utilizando las últimas tecnologías de virtualización, proporcionamos un entorno seguro y estable, que permite la implementación rápida y sencilla de aplicaciones y servicios. Con nuestras soluciones, obtienes la flexibilidad de gestionar tus recursos informáticos de manera dinámica, mejorando la agilidad y la capacidad de respuesta de tu negocio.",
+                    "image" : "maquinasVirtuales",
                     "details" : [
                         {
                             "options" : [
                                 {
                                     "id" : 1,
-                                    "option" : "lorem1"
+                                    "option" : "Automatización de la Gestión de Recursos"
                                 },
                                 {
                                     "id" : 2,
-                                    "option" : "lorem2"
+                                    "option" : "Optimización de la Utilización de Hardware"
                                 },
                                 {
                                     "id" : 3,
-                                    "option" : "lorem3"
+                                    "option" : "Seguridad y Respaldo Automatizado"
                                 },
                                 {
                                     "id" : 4,
-                                    "option" : "lorem4"
+                                    "option" : "Escalabilidad Dinámica"
                                 }
                             ],
                             "picture" : [
                                 {
                                     "id" : 1,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 1
+                                    "title" : "Automatización de la Gestión de Recursos",
+                                    "description" : "Aumenta la eficiencia operativa y reduce el tiempo y esfuerzo necesarios para gestionar la infraestructura virtual.",
+                                    "image" : "maquinasVirtuales1"
                                 },
                                 {
                                     
                                     "id" : 2,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 2
+                                    "title" : "Optimización de la Utilización de Hardware",
+                                    "description" : "Reduce costos operativos y maximiza el rendimiento de la infraestructura, aprovechando al máximo los recursos disponibles.",
+                                    "image" : "maquinasVirtuales2"
                                 },
                                 {
                                     
                                     "id" : 3,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 3
+                                    "title" : "Seguridad y Respaldo Automatizado",
+                                    "description" : "Asegura la integridad y disponibilidad de los datos, minimizando el riesgo de pérdida de información y mejorando la resiliencia del sistema",
+                                    "image" : "maquinasVirtuales3"
                                 },
                                 {
                                     
                                     "id" : 4,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 4
+                                    "title" : "Escalabilidad Dinámica",
+                                    "description" : "Proporciona flexibilidad y adaptabilidad, asegurando que los recursos estén disponibles cuando se necesiten, mejorando el rendimiento y la eficiencia operativa.",
+                                    "image" : "maquinasVirtuales4"
                                 }
                             ]
                         }
@@ -524,57 +513,46 @@
                 },
                 {
                     "id" : "dominios",
-                    "title" : "Identidad Online y Gestión",
-                    "addTitle" : "De dominios",
-                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
-                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "title" : "Identidad Online y ",
+                    "addTitle" : "Gestión de dominios",
+                    "description" : "Ofrecemos servicios especializados en la gestión y registro de dominios para asegurar que tu presencia en línea sea profesional y efectiva. Nos encargamos de todo el proceso, desde la búsqueda y selección del dominio perfecto hasta la renovación y protección contra amenazas. Con nuestro soporte continuo, puedes estar seguro de que tu dominio estará siempre bajo control y operando sin interrupciones. Además, te brindamos asesoría para optimizar el uso de tus dominios, mejorando tu visibilidad en la web y facilitando el crecimiento de tu negocio en el entorno digital.",
+                    "image" : "dominios",
                     "details" : [
                         {
                             "options" : [
                                 {
                                     "id" : 1,
-                                    "option" : "lorem1"
+                                    "option" : "Protección contra Amenazas y Seguridad"
                                 },
                                 {
                                     "id" : 2,
-                                    "option" : "lorem2"
+                                    "option" : "Gestión Proactiva de Renovaciones"
                                 },
                                 {
                                     "id" : 3,
-                                    "option" : "lorem3"
-                                },
-                                {
-                                    "id" : 4,
-                                    "option" : "lorem4"
+                                    "option" : "Selección Estratégica de Dominios"
                                 }
                             ],
                             "picture" : [
                                 {
                                     "id" : 1,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 1
+                                    "title" : "Protección contra Amenazas y Seguridad",
+                                    "description" : "Aumenta el reconocimiento de la marca y mejora el posicionamiento en los resultados de búsqueda.",
+                                    "image" : "dominios1"
                                 },
                                 {
                                     
                                     "id" : 2,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 2
+                                    "title" : "Gestión Proactiva de Renovaciones",
+                                    "description" : "Garantiza la continuidad de la presencia en línea y protege contra la pérdida de dominios valiosos.",
+                                    "image" : "dominios2"
                                 },
                                 {
                                     
                                     "id" : 3,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 3
-                                },
-                                {
-                                    
-                                    "id" : 4,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 4
+                                    "title" : "Selección Estratégica de Dominios",
+                                    "description" : "Asegura la integridad y seguridad del dominio, protegiendo la reputación y los activos digitales de la empresa.",
+                                    "image" : "dominios3"
                                 }
                             ]
                         }
@@ -582,57 +560,46 @@
                 },
                 {
                     "id" : "integracion-de-microservicios",
-                    "title" : "Agilidad y Escalabilidad en Integración",
-                    "addTitle" : "De Microservicios",
-                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
-                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "title" : "Agilidad y Escalabilidad en",
+                    "addTitle" : "Integración de Microservicios",
+                    "description" : "Ofrecemos soluciones avanzadas en la integración de microservicios, permitiendo a tu negocio aprovechar la flexibilidad y escalabilidad que este enfoque arquitectónico proporciona. Nuestro equipo trabaja en la descomposición de aplicaciones monolíticas en componentes independientes que pueden desarrollarse, desplegarse y gestionarse de manera autónoma. Esto mejora la agilidad y facilita la implementación de nuevas funcionalidades sin interrumpir el sistema existente. Además, garantizamos la comunicación eficiente entre microservicios a través de interfaces bien definidas, asegurando un rendimiento óptimo y una alta disponibilidad.",
+                    "image" : "microservicios",
                     "details" : [
                         {
                             "options" : [
                                 {
                                     "id" : 1,
-                                    "option" : "lorem1"
+                                    "option" : "Desarrollo de Nuevas Funcionalidades"
                                 },
                                 {
                                     "id" : 2,
-                                    "option" : "lorem2"
+                                    "option" : "Integración de APIs Externas"
                                 },
                                 {
                                     "id" : 3,
-                                    "option" : "lorem3"
-                                },
-                                {
-                                    "id" : 4,
-                                    "option" : "lorem4"
+                                    "option" : "Implementación de Microservicios Especializados"
                                 }
                             ],
                             "picture" : [
                                 {
                                     "id" : 1,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 1
+                                    "title" : "Desarrollo de Nuevas Funcionalidades",
+                                    "description" : "Facilita la incorporación de innovaciones y mejoras continuas, asegurando que el sistema se mantenga actualizado y competitivo.",
+                                    "image" : "microservicios1"
                                 },
                                 {
                                     
                                     "id" : 2,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 2
+                                    "title" : "Integración de APIs Externas",
+                                    "description" : "Aumenta la funcionalidad del sistema sin necesidad de desarrollar nuevas características internamente, aprovechando soluciones ya existentes.",
+                                    "image" : "microservicios2"
                                 },
                                 {
                                     
                                     "id" : 3,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 3
-                                },
-                                {
-                                    
-                                    "id" : 4,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 4
+                                    "title" : "Implementación de Microservicios Especializados",
+                                    "description" : "Mejora la eficiencia y el rendimiento del sistema, permitiendo una gestión más precisa y eficaz de las diferentes funcionalidades.",
+                                    "image" : "microservicios3"
                                 }
                             ]
                         }
@@ -640,57 +607,35 @@
                 },
                 {
                     "id" : "telefonia-IP",
-                    "title" : "Comunicación Moderna y Soluciones",
-                    "addTitle" : "En telefonia IP",
-                    "description" : "LoremLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conseLorem ipsum dolor sit amet conse ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi repellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendirepellat deleniti eligendi",
-                    "image" : "https://img.freepik.com/foto-gratis/hombre-negocios-hablando-telefono-parque_23-2148018571.jpg?t=st=1720386468~exp=1720390068~hmac=eed57e23df65cc89b4414e6ad8dddb09938b51c8305d5b026ed6fc1bf609bee4&w=740",
+                    "title" : "Comunicación Moderna y",
+                    "addTitle" : "Soluciones En telefonia IP",
+                    "description" : "Ofrecemos soluciones avanzadas en telefonía IP, diseñadas para mejorar la comunicación y colaboración en tu empresa. Nuestras soluciones permiten realizar llamadas de alta calidad a través de internet, integrándose perfectamente con tus sistemas existentes y ofreciendo características avanzadas como conferencias, grabación de llamadas y desvío de llamadas. Con nuestra tecnología, obtendrás una comunicación más eficiente y económica, eliminando los costos asociados a las líneas telefónicas tradicionales. Además, brindamos soporte y mantenimiento continuo para garantizar que tu sistema de telefonía IP funcione de manera óptima en todo momento.",
+                    "image" : "telefoniaIP",
                     "details" : [
                         {
                             "options" : [
                                 {
                                     "id" : 1,
-                                    "option" : "lorem1"
+                                    "option" : "Implementación de Soluciones de Telefonía IP"
                                 },
                                 {
                                     "id" : 2,
-                                    "option" : "lorem2"
-                                },
-                                {
-                                    "id" : 3,
-                                    "option" : "lorem3"
-                                },
-                                {
-                                    "id" : 4,
-                                    "option" : "lorem4"
+                                    "option" : "Monitoreo y Mantenimiento Proactivos"
                                 }
                             ],
                             "picture" : [
                                 {
                                     "id" : 1,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 1
+                                    "title" : "Implementación de Soluciones de Telefonía IP",
+                                    "description" : "Facilita la expansión sin complicaciones y asegura que la infraestructura de comunicación pueda evolucionar junto con la empresa.",
+                                    "image" : "telefoniaIP1"
                                 },
                                 {
                                     
                                     "id" : 2,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 2
-                                },
-                                {
-                                    
-                                    "id" : 3,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 3
-                                },
-                                {
-                                    
-                                    "id" : 4,
-                                    "title" : "Agilidad y Escalabilidad en Integración",
-                                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
-                                    "image" : 4
+                                    "title" : "Monitoreo y Mantenimiento Proactivos",
+                                    "description" : "Minimiza el tiempo de inactividad y mantiene la calidad de las llamadas, garantizando una comunicación confiable y sin interrupciones.",
+                                    "image" : "telefoniaIP2"
                                 }
                             ]
                         }

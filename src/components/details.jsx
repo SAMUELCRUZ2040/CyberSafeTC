@@ -22,7 +22,7 @@ export function Details({ idPage }) {
 
   return (
     <div className="flex justify-center items-center mb-14">
-        <div className="container">
+        <div className="container flex justify-center items-center flex-col">
             <ul className="flex justify-center gap-14 w-full pt-[10rem] mt-[10rem] max-md:justify-start max-md:overflow-hidden max-md:overflow-x-scroll">
                 {resultInformation.map((options, keyOptions)=>(
                     <li 
@@ -52,13 +52,13 @@ export function StructureDetails({id, idPage}){
 
     return(
         <>
-            <div className="flex justify-between w-full my-14 max-lg:flex-col px-14">
-                <h2 className='w-1/3 text-5xl tracking-tight max-lg:text-3xl max-lg:w-full'>{inyectInformation.title}</h2>
+            <div className="flex justify-between w-full my-14 max-lg:flex-col px-[12rem]">
+                <h2 className='w-2/5 text-5xl tracking-tight max-lg:text-3xl max-lg:w-full'>{inyectInformation.title}</h2>
                 <p className='text-lg w-3/6 max-lg:w-full max-lg:text-sm max-lg:mt-8'>{inyectInformation.description}</p>
             </div>
             <div 
-                className="container_image w-full relative w-[88%] h-[38rem]  bg-cover bg-no-repeat bg-center max-lg:w-full max-lg:h-[18rem]"
-                style={{backgroundImage : `url(/image/services/${inyectInformation.image}.webp)`}}
+                className="container_image w-full relative h-[30rem]  bg-cover bg-no-repeat bg-center max-lg:w-full max-lg:h-[18rem] grayscale"
+                style={{backgroundImage : `url(/image/services/${inyectInformation.image}.webp)`, width : "69%"}}
             />
         </>
     )
