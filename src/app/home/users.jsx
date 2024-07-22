@@ -1,7 +1,6 @@
 import React from 'react'
 import data from '@/json/data';
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function Users() {
   return (
@@ -13,54 +12,35 @@ export default function Users() {
                     <span className='font-semibold'>Hablan por si mismos</span>
                 </h2>
             </div>
-            <div className="grid grid-cols-3 gap-5 my-14 max-lg:grid-cols-1">
-                {data.home[0].users.map((dataUser, userKey)=>(
-                        <div 
-                            className="h-full rounded-lg flex flex-col  w-[22rem] max-xl:w-full backdrop-blur-sm border-2 shadow-md" 
-                            key={userKey}
-                        >
-                            <div className="p-8">
-                                <div className="flex gap-3 pb-10">
-                                    {Array.from({ length: dataUser.punctuation }, (_, index) => (
-                                        <Image
-                                            src={`/icons/start.webP`}
-                                            width={400}
-                                            height={400}
-                                            alt={`start`}
-                                            style={{ width: "22px", height: "auto" }}
-                                            key={index}
+            <div className="grid grid-cols-3 gap-5 my-14 max-lg:grid-cols-1 relative p-14">
+                {data.home[0].users.map((ColumnUser, ColIndex_)=>(
+                    <div className='flex flex-col gap-8' key={ColIndex_}>
+                        {Object.entries(ColumnUser).map((cardUser, index_)=>(
+                            <div className="card p-8 border-2 shadow-lg rounded-lg" key={index_}>
+                                <div className="flex gap-8">
+                                    <div className="overflow-hidden rounded-full flex justify-center items-center w-[3rem] h-[3rem]">
+                                        <Image  
+                                            src={`${cardUser[1][0].picture}`}
+                                            width={500}
+                                            height={500}
+                                            alt={`model`}
+                                            style={{ width: "100%", height: "auto" }}
                                         />
-                                    ))}
+                                    </div>
+                                <div className="">
+                                    <h2 className='text-sm text-gray-400'>{cardUser[1][0].name}</h2>
+                                    <h3 className='text-sm text-gray-400'>{cardUser[1][0].profession}</h3>
                                 </div>
-                                <p className="tex-lg">
-                                    {dataUser.description}
-                                </p>
+                                </div>
+                                <p className='pt-4 text-md'>{cardUser[1][0].description}</p>
                             </div>
-                            <hr />
-                            <div className="flex p-5 items-center gap-8 bg-[#cdcde52e]">
-                                <div className="container_image w-[5.8rem] h-[5.5rem] rounded-full overflow-hidden flex justify-center items-center">
-                                    <Image
-                                        src={`${dataUser.image}`}
-                                        width={400}
-                                        height={400}
-                                        alt={`start`}
-                                        className='w-[150%] h-[auto]'
-                                    />
-                                </div>
-                                <div className="information">
-                                    <h4>{dataUser.name}</h4>
-                                    <p>{dataUser.profession}</p>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
+                ))}
+                <span className="z-50 backgroud absolute left-0 bottom-0 w-full h-[50rem]"
+                    style={{background : "linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 6.67%, rgba(255, 255, 255, 0.04) 13.33%, rgba(255, 255, 255, 0.08) 20%, rgba(255, 255, 255, 0.15) 26.67%, rgba(255, 255, 255, 0.23) 33.33%, rgba(255, 255, 255, 0.33) 40%, rgba(255, 255, 255, 0.44) 46.67%, rgba(255, 255, 255, 0.56) 53.33%, rgba(255, 255, 255, 0.67) 60%, rgba(255, 255, 255, 0.77) 66.67%, rgba(255, 255, 255, 0.85) 73.33%, rgba(255, 255, 255, 0.92) 80%, rgba(255, 255, 255, 0.96) 86.67%, rgba(255, 255, 255, 0.99) 93.33%, #fff 100%);"}}
+                ></span>
             </div>
-            <Link 
-                href={"/"}
-                className="hover:scale-[1.04] shadow-xl py-4 px-12 border-2 rounded-xl text-xl font-bold text-center text-[#347faa]"
-            >
-                Ver más historias
-            </Link>
         </div>
     </div>
   )

@@ -5,7 +5,7 @@ import { ReactTyped } from 'react-typed'
 export default function TypedTex() {
   return (
         <ReactTyped
-            strings={['Clientes.', 'Negocios.']}
+            strings={['Empresa.', 'Negocio.','Marca.', 'Proyecto.']}
             typeSpeed={45}
             backSpeed={45}
             loop

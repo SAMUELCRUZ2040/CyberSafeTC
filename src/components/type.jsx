@@ -1,9 +1,9 @@
 "use client";
-import React, { useCallback, useEffect, useRef, useState } from "react";
-import { AnimatePresence, motion, LayoutGroup } from "framer-motion";
+import React, { useCallback, useEffect, useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/utils/lib";
 
-export const FlipWords = ({ words, duration = 3000, className }) => {
+export const FlipWords = ({ words, duration = 2000, className }) => {
   const [currentWord, setCurrentWord] = useState(words[0]);
   const [isAnimating, setIsAnimating] = useState(false);
 
@@ -29,7 +29,7 @@ export const FlipWords = ({ words, duration = 3000, className }) => {
       <motion.div
         initial={{
           opacity: 0,
-          y: 10,
+          x: 10,
         }}
         animate={{
           opacity: 1,
@@ -44,7 +44,7 @@ export const FlipWords = ({ words, duration = 3000, className }) => {
         }}
 
         className={cn(
-          "px-5",
+          "z-10 inline-block relative text-left",
           className
         )}
         key={currentWord}
