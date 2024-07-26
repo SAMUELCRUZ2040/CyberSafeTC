@@ -71,6 +71,29 @@ section{
                                         rgb(246, 246, 246) 93.33%, 
                                         #f6f6f6 100%)
 }
+.carousel {
+    position: relative;
+    overflow: hidden;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    width: 100%; /* Ajusta el ancho según tus necesidades */
+  }
+  
+  .carousel-inner {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+  
+  .carousel-item {
+    height: 100%; /* Cada ítem ocupará toda la altura del carrusel */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
 .animationScroll {
     animation: animationLL 30s linear infinite;
 }

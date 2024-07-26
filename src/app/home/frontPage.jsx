@@ -4,7 +4,7 @@ import TypedTex from '@/components/TypedTex'
 import { FlipWords } from '@/components/type';
 
 export default function FrontPage() {
-    const words = ['empresa.', 'negocio.','marca.', 'proyecto.'];
+    const words = ['Empresa.', 'Negocio.','Marca.', 'Proyecto.'];
   return (
     <section className='background_secondary space'>
         <div className="max-lg:grid-cols-1 max-md:gap-10 max-md:pt-10 grid grid-cols-2 container" >
@@ -12,7 +12,7 @@ export default function FrontPage() {
                 <h1 className="text-4xl lg:text-4xl xl:text-5xl 2xl:text-7xl flex flex-col  font-bold tracking-tight  leading-none">
                     <span>Soluciones digitales</span>
                     <span>Para el futuro de</span>
-                    <span>Tu<FlipWords words={words} /> </span>
+                    <span>Tu <FlipWords words={words} /> </span>
                 </h1>
                 <p className="text-xl me-4">Personalizamos soluciones tecnológicas para tu empresa, impulsando su rendimiento y eficiencia en comunicación, automatización y seguridad.</p>
                 <div className="mt-8 flex gap-5">

@@ -62,55 +62,55 @@
             "summary" : [
                 {
                     "icon" : "1",
-                    "alt"  : "esta imagen respresenta",
-                    "subtitle" : "ebok",
-                    "title"  : "Lorem ipsum dolor sit amet consectetur",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "alt"  : "esta imagen respresenta Innovación",
+                    "subtitle" : "Innovación",
+                    "title"  : "Tecnología Avanzada y Eficiente",
+                    "description" : "Nuestra tecnología avanzada garantiza soluciones eficientes y a la vanguardia, totalmente adaptadas a tus necesidades específicas.",
                     "url" : "/",
                     "background" : "dfdaff7a"
                 },
                 {
                     "icon" : "2",
                     "alt"  : "esta imagen respresenta",
-                    "subtitle" : "ebok",
-                    "title"  : "Lorem ipsum dolor sit amet consectetur",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "subtitle" : "Calidad",
+                    "title"  : "Excelencia y Calidad Asegurada",
+                    "description" : "Nos comprometemos con la excelencia en cada proyecto, asegurando productos y servicios de la más alta calidad y rendimiento comprobado.",
                     "url" : "/",
                     "background" : "cbdfff61"
                 },
                 {
                     "icon" : "3",
                     "alt"  : "esta imagen respresenta",
-                    "subtitle" : "ebok",
-                    "title"  : "Lorem ipsum dolor sit amet consectetur",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "subtitle" : "Experiencia",
+                    "title"  : "Expertos en el Área Tecnológica",
+                    "description" : "Contamos con un equipo de expertos en el área, con años de experiencia en el desarrollo de soluciones tecnológicas innovadoras.",
                     "url" : "/",
                     "background" : "cbdfff61"
                 },
                 {
                     "icon" : "4",
                     "alt"  : "esta imagen respresenta",
-                    "subtitle" : "ebok",
-                    "title"  : "Lorem ipsum dolor sit amet consectetur",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "subtitle" : "Soporte",
+                    "title"  : "Asistencia y Soporte 24/7",
+                    "description" : "Brindamos asistencia y soporte 24/7, asegurando que siempre tengas el soporte necesario cuando más lo necesitas.",
                     "url" : "/",
                     "background" : "cbdfff61"
                 },
                 {
                     "icon" : "5",
                     "alt"  : "esta imagen respresenta",
-                    "subtitle" : "ebok",
-                    "title"  : "Lorem ipsum dolor sit amet consectetur",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "subtitle" : "Adaptabilidad",
+                    "title"  : "Soluciones Flexibles y Dinámicas",
+                    "description" : "Nuestras soluciones son flexibles y se adaptan a los cambios y necesidades de tu negocio en todo momento, sin fallos.",
                     "url" : "/",
                     "background" : "cbdfff61"
                 },
                 {
                     "icon" : "6",
                     "alt"  : "esta imagen respresenta",
-                    "subtitle" : "ebok",
-                    "title"  : "Lorem ipsum dolor sit amet consectetur",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi",
+                    "subtitle" : "Resultados",
+                    "title"  : "Impacto Tangible y Garantizado",
+                    "description" : " Nos enfocamos en resultados tangibles y de impacto garantizado, impulsando el crecimiento y éxito continuo de tu empresa.",
                     "url" : "/",
                     "background" : "c5f2fb63"
                 }
