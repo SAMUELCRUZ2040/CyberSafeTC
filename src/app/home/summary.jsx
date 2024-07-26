@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Summary() {
   return (
-    <div className="flex justify-center align-center locas">
+    <div className="flex justify-center align-center">
         <div className="container flex items-center flex-col">
             <div className="title">
                 <h2 className='text-7xl font-normal tracking-tight max-lg:text-5xl leading-none flex flex-col text-center '>

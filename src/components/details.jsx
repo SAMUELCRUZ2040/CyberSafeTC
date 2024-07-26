@@ -26,7 +26,7 @@ export function Details({ idPage }) {
             <ul className="flex justify-center gap-14 w-full pt-[10rem] mt-[10rem] max-md:justify-start max-md:overflow-hidden max-md:overflow-x-scroll">
                 {resultInformation.map((options, keyOptions)=>(
                     <li 
-                        className='item cursor-pointer border-2 border-[#347faa] w-[11rem] h-[11rem]  justify-center text-center p-2 rounded-full flex justify-center items-center hover:bg-[#0000000f] max-lg:w-[8rem] max-lg:h-[8rem] max-lg:text-sm p-8 ' 
+                        className='item cursor-pointer border-2 border-[#347faa] w-[11rem] h-[11rem]  justify-center text-center rounded-full flex items-center hover:bg-[#0000000f] max-lg:w-[8rem] max-lg:h-[8rem] max-lg:text-sm p-8 ' 
                         key={keyOptions} 
                         onClick={()=>updateState(options.id)}
                     >
