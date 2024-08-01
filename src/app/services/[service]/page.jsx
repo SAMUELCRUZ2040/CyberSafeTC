@@ -12,7 +12,7 @@ export default  function Template({ params }) {
   service = counter(params.service);
   
   return (
-    <div 
+    <main
       className="flex justify-center items-center relative flex-col"
       style={{backgroundImage : "url(/image/figure.png)"}}
     >
@@ -39,6 +39,6 @@ export default  function Template({ params }) {
           </h2>
           <Link href={"/contact"} className='hover:scale-[1.04] shadow-xl py-4 px-12 border-2 rounded-xl text-xl font-bold text-center text-[#347faa]'>Contactar asesor</Link>
         </div>
-    </div>
+    </main>
   )
 }

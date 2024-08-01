@@ -1,18 +1,22 @@
 {
     "navigation" : [
         {
-            "name" : "Inicio",
-            "url" : "/"
-        },
-        {
-            "name" : "Nosotros",
-            "url" : "/about"
-        },
-        {
+            "combobox" : true,
             "name" : "Servicios",
             "url" : "/services"
         },
         {
+            "combobox" : false,
+            "name" : "Inicio",
+            "url" : "/"
+        },
+        {
+            "combobox" : false,
+            "name" : "Nosotros",
+            "url" : "/about"
+        },
+        {
+            "combobox" : null,
             "name" : "Contactanos",
             "url" : "/contact"
         }
@@ -117,44 +121,44 @@
             ],
             "average" : [
                 {
-                    "number" : "+ 210",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                    "number" : "98 %",
+                    "description" : "Nuestro enfoque en la eficiencia y la calidad se refleja en un índice de satisfacción del cliente superior al 98%, garantizando que cada proyecto cumple con los estándares más altos."
                 },
                 {
-                    "number" : "+ 70",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                    "number" : "30 %",
+                    "description" : "Implementamos prácticas optimizadas que han logrado reducir los tiempos de entrega en un 30%, asegurando resultados rápidos sin comprometer la calidad."
                 },
                 {
-                    "number" : "+ 150",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                    "number" : "15 años",
+                    "description" : "Con más de 15 años en la industria, hemos perfeccionado nuestras habilidades y procesos para ofrecer proyectos con la máxima eficiencia y calidad en cada etapa."
                 }
             ],
             "strategies" : [
                 {
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat"
+                    "description" : "Nuestro equipo está disponible las 24 horas del día, los 7 días de la semana, garantizando que siempre tengas ayuda y soporte cuando lo necesites."
                 },
                 {
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat"
+                    "description" : "Implementamos un sistema ágil para resolver cualquier inconveniente de manera rápida y eficiente, minimizando el tiempo de inactividad y asegurando la continuidad de tus operaciones."
                 },
                 {
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat"
+                    "description" : "Ofrecemos atención personalizada, anticipándonos a tus necesidades y brindando soluciones proactivas para optimizar el rendimiento y la satisfacción del cliente."
                 }
             ],
             "subStrategies" : [
                 {
                     "punctuation" : 5,
-                    "title" : "Trunspilot",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                    "title" : "Monitoreo Continuo",
+                    "description" : "Realizamos un monitoreo continuo para detectar y abordar posibles problemas antes de que impacten tus operaciones, asegurando un rendimiento óptimo y sin interrupciones."
                 },
                 {
                     "punctuation" : 5,
-                    "title" : "Trunspilot",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                    "title" : "Asistencia Especializada",
+                    "description" : "Nuestro equipo cuenta con expertos en diferentes áreas, ofreciendo asistencia especializada para resolver cualquier desafío técnico con el conocimiento adecuado."
                 },
                 {
                     "punctuation" : 5,
-                    "title" : "Trunspilot",
-                    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia iusto consequuntur facilis dolorem, voluptate repellat deleniti eligendi"
+                    "title" : "Actualizaciones Regulares",
+                    "description" : "Proporcionamos actualizaciones y mejoras continuas a tus sistemas para mantenerlos al día con las últimas tecnologías y prácticas recomendadas, garantizando su eficacia y seguridad."
                 }
             ],
             "users" : [
@@ -307,52 +311,60 @@
         {
             "servicesLogo" : [
                 {
-                    "image" : 1,
-                    "title" : "Desarrollo de Páginas Web",
-                    "description" : "Transforma tu presencia online con páginas web profesionales, responsivas y optimizadas para SEO.",
-                    "url" : "services/desarrollo-de-paginas-web"
+                    "image": 1,
+                    "title": "Desarrollo de Páginas Web",
+                    "miniDescription": "Web profesional y SEO",
+                    "description": "Transforma tu presencia online con páginas web profesionales, responsivas y optimizadas para SEO.",
+                    "url": "/services/desarrollo-de-paginas-web"
                 },
                 {
-                    "image" : 2,
-                    "title" : "Asesorias y Mantenimientos",
-                    "description" : "Mantén tus sistemas en óptimo funcionamiento con asesorías y mantenimientos personalizados y continuos.",
-                    "url" : "services/asesorias-y-mantenimientos"
+                    "image": 2,
+                    "title": "Asesorias y Mantenimientos",
+                    "miniDescription": "Asesoría y mantenimiento",
+                    "description": "Mantén tus sistemas en óptimo funcionamiento con asesorías y mantenimientos personalizados y continuos.",
+                    "url": "/services/asesorias-y-mantenimientos"
                 },
                 {
-                    "image" : 3,
-                    "title" : "Desarrollo de software",
-                    "description" : "Desarrollamos software a medida para mejorar la eficiencia operativa y darte una ventaja competitiva.",
-                    "url" : "services/desarrollo-de-software"
+                    "image": 3,
+                    "title": "Desarrollo de software",
+                    "miniDescription": "Software a medida",
+                    "description": "Desarrollamos software a medida para mejorar la eficiencia operativa y darte una ventaja competitiva.",
+                    "url": "/services/desarrollo-de-software"
                 },
                 {
-                    "image" : 4,
-                    "title" : "Gestion de despliegues",
-                    "description" : "Gestiona tus despliegues con confianza, asegurando una transición fluida y un rendimiento superior.",
-                    "url" : "services/gestion-de-despliegues"
+                    "image": 4,
+                    "title": "Gestion de despliegues",
+                    "miniDescription": "Gestión confiable",
+                    "description": "Gestiona tus despliegues con confianza, asegurando una transición fluida y un rendimiento superior.",
+                    "url": "/services/gestion-de-despliegues"
                 },
                 {
-                    "image" : 5,
-                    "title" : "Máquinas Virtuales",
-                    "description" : "Optimiza tus recursos con máquinas virtuales flexibles y escalables, reduciendo costos y facilitando la gestión.",
-                    "url" : "services/maquinas-virtuales"
+                    "image": 5,
+                    "title": "Máquinas Virtuales",
+                    "miniDescription": "Recursos optimizados",
+                    "description": "Optimiza tus recursos con máquinas virtuales flexibles y escalables, reduciendo costos y facilitando la gestión.",
+                    "url": "/services/maquinas-virtuales"
                 },
                 {
-                    "image" : 6,
-                    "title" : "Dominios",
-                    "description" : "Asegura tu presencia online con nuestro servicio de registro y gestión de dominios atractivos.",
-                    "url" : "services/dominios"
+                    "image": 6,
+                    "title": "Dominios",
+                    "miniDescription": "Gestión de dominios",
+                    "description": "Asegura tu presencia online con nuestro servicio de registro y gestión de dominios atractivos.",
+                    "url": "/services/dominios"
                 },
                 {
-                    "image" : 7,
-                    "title" : "Integracion de microservicios",
-                    "description" : "Mejora la agilidad y escalabilidad de tus aplicaciones con nuestra integración profesional de microservicios.",
-                    "url" : "services/integracion-de-microservicios"
+                    "image": 7,
+                    "title": "Integracion de microservicios",
+                    "miniDescription": "Microservicios ágiles",
+                    "description": "Mejora la agilidad y escalabilidad de tus aplicaciones con nuestra integración profesional de microservicios.",
+                    "url": "/services/integracion-de-microservicios"
                 },
                 {
-                    "image" : 8,
-                    "title" : "Telefonia IP",
-                    "description" : "Moderniza tu comunicación con soluciones avanzadas de telefonía IP, mejorando la productividad y colaboración.",
-                    "url" : "services/telefonia-IP"
+                    "image": 8,
+                    "title": "Telefonia IP",
+                    "miniDescription": "Comunicación avanzada",
+                    "description": "Moderniza tu comunicación con soluciones avanzadas de telefonía IP, mejorando la productividad y colaboración.",
+                    "url": "/services/telefonia-IP"
                 }
             ],
             "informationService" : [

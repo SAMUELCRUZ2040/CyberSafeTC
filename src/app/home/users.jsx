@@ -3,6 +3,7 @@
 import data from '@/json/data';
 import Image from 'next/image';
 import { useState } from "react"
+
 export default function Users() {
     const [state, setstate] = useState({
         toggle : false,
@@ -23,14 +24,14 @@ export default function Users() {
                         <span className='font-semibold'>Hablan por si mismos</span>
                     </h2>
                 </div>
-                <div className={`grid grid-cols-3 gap-5 my-14 max-lg:grid-cols-1 relative p-14 overflow-hidden h-${state.toggle ? "auto" : "[50rem]"}`}>
+                <div className={`grid grid-cols-3 gap-5 my-14 max-lg:grid-cols-1 relative p-14 overflow-hidden`} style={{height : `${state.toggle ? "auto" : "50rem"}`}}>
                     {data.home[0].users.map((ColumnUser, ColIndex_) => (
                         <div
                             className='flex flex-col gap-8'
                             key={ColIndex_}
                         >
                             {Object.entries(ColumnUser).map((cardUser, index_) => (
-                                <div className="p-8 border-2 shadow-lg rounded-lg" key={index_} style={{animationDuration : `${cardUser[1][0].transition}`}}>
+                                <div className="p-8 border-2 shadow-lg rounded-lg" key={index_}>
                                     <div className="flex gap-8">
                                         <div className="overflow-hidden rounded-full flex justify-center items-center w-[3rem] h-[3rem]">
                                             <Image
@@ -41,7 +42,7 @@ export default function Users() {
                                                 style={{ width: "100%", height: "auto" }}
                                             />
                                         </div>
-                                        <div className="">
+                                        <div>
                                             <h2 className='text-sm text-gray-400'>{cardUser[1][0].name}</h2>
                                             <h3 className='text-sm text-gray-400'>{cardUser[1][0].profession}</h3>
                                         </div>

@@ -71,42 +71,52 @@ section{
                                         rgb(246, 246, 246) 93.33%, 
                                         #f6f6f6 100%)
 }
-.carousel {
+
+
+.inner .slide-in {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    z-index: 10;
+    transform-origin: bottom;
+  }
+  
+  .inner .slide-out {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    z-index: 10;
+    transform-origin: top;
+  }
+  
+  .inner {
     position: relative;
-    overflow: hidden;
-    height: 300px; /* Ajusta la altura según tus necesidades */
-    width: 100%; /* Ajusta el ancho según tus necesidades */
   }
   
-  .carousel-inner {
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.5s ease-in-out;
-    height: 100%;
-  }
-  
-  .carousel-item {
-    height: 100%; /* Cada ítem ocupará toda la altura del carrusel */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-.animationScroll {
-    animation: animationLL 30s linear infinite;
-}
 
-@keyframes animationLL {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-50%);
-    }
+.inner .slide {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ff0000;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+  }
+  
+.service:hover ul{
+    display: flex;
+    transition: all .4s ease-in-out;
 }
-
+.service:hover .arrow{
+    transform: rotate(-90deg);
+}
 
 @media screen and (max-width: 1024px){
     section{
@@ -130,31 +140,3 @@ section{
     
 }
 
-
-
-/* element.style {
-    top: 0px;
-    left: -10%;
-    width: 120%;
-}
-.common_gridLineHorizontalDark__HxUpx, .common_gridLineHorizontal__WPmNg {
-    position: absolute;
-    width: calc(100% + var(--offset));
-    height: var(--height);
-    left: calc(var(--offset) / 2* -1);
-    background: linear-gradient(to right, var(--color), var(--color) 50%, transparent 0, transparent);
-    background-size: var(--width) var(--height);
-    mask: linear-gradient(to left, var(--background) var(--fade-stop), transparent), linear-gradient(to right, var(--background) var(--fade-stop), transparent), linear-gradient(#000, #000);
-    -webkit-mask: linear-gradient(to left, var(--background) var(--fade-stop), transparent), linear-gradient(to right, var(--background) var(--fade-stop), transparent), linear-gradient(#000, #000);
-    mask-composite: exclude;
-    -webkit-mask-composite: exclude;
-    z-index: 20;
-}
-.common_gridLineHorizontal__WPmNg {
-    --background: #fff;
-    --color: rgba(0,0,0,.2);
-    --height: 1px;
-    --width: 5px;
-    --fade-stop: 90%;
-    --offset: -100px;
-} */

@@ -1,9 +1,17 @@
+"use client"
+
 import Link from "next/link";
 import data from "@/json/data";
 import Image from "next/image";
 import MobileNabvar from "./responsiveDesigne/mobileNabvar";
-
+import {useState} from "react"
+import Combobox from "./Combobox";
 export default  function Navbar() {
+
+    const [state, setState] = useState({
+        stateToogle : false,
+    });
+
     return (
     <nav className="fixed top-0 left-0 w-full flex justify-center align-center z-50">
         <div className="flex justify-between align-center  position-absolute container rounded-md mt-5 p-6 px-[6rem] max-lg:px-[1rem] max-lg:p-[4] ">
@@ -21,8 +29,22 @@ export default  function Navbar() {
             </div>
             <ul className="list_item flex gap-7 h-full justify-center align-center max-md:hidden">
                 {data.navigation.map((item, key)=> (
-                    <li className="item grid place-content-center" key={key}>
-                        <Link href={`${item.url}`}>{item.name}</Link>
+                    <li className={`item grid place-content-center relative ${item.combobox && "service"} ${item.combobox == null && "bg-black p-4 rounded-2xl text-white" }`} key={key}>
+                        <Link className="flex gap-2 justify-center items-center" href={`${item.url}`}>
+                            {item.name}
+                            {item.combobox && 
+                                <span className="arrow rotate-90 transition ease-in-out">
+                                    <Image
+                                        src={`/icons/arrow.svg`}
+                                        width={400}
+                                        height={400}
+                                        alt={`start`}
+                                        style={{ width: "7px", height: "auto" }}
+                                    />
+                                </span>
+                            } 
+                        </Link>
+                        {item.combobox && <Combobox />} 
                     </li>
                 ))}
             </ul>
