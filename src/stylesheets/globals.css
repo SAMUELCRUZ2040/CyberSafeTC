@@ -18,6 +18,8 @@
   
 body{
     background: #f6f6f6;
+    margin: 0;
+    padding: 0;
 }
 
 section{
@@ -71,9 +73,10 @@ section{
                                         rgb(246, 246, 246) 93.33%, 
                                         #f6f6f6 100%)
 }
+  
 
 
-.inner .slide-in {
+  .inner .slide-in {
     position: fixed;
     top: 0;
     left: 0;
@@ -94,22 +97,7 @@ section{
     z-index: 10;
     transform-origin: top;
   }
-  
-  .inner {
-    position: relative;
-  }
-  
 
-.inner .slide {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #ff0000;
-    width: 100vw;
-    height: 100vh;
-    z-index: 10;
-  }
-  
 .service:hover ul{
     display: flex;
     transition: all .4s ease-in-out;

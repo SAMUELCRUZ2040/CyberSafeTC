@@ -1,12 +1,42 @@
-import Carousel from "@/components/carousel";
-import Combobox from "@/components/Combobox";
-import Image from "next/image";
-import Link from "next/link";
+"use client"
 
+import { AnimatePresence, easeIn, motion } from "framer-motion";
+import { useEffect, useState } from "react";
 export default function FrontPage() {
+  const  [deleteObject , setDeleteObject] = useState({
+    state : true,
+  });
+
+  useEffect(()=>{
+    setTimeout(()=>
+      setDeleteObject(prevState =>({
+        ...prevState,
+        state : false
+    }))
+    ,500)
+  })
+
   return (
     <section>
-        <Combobox />
+    <div className="flex relative items-center justify-center border-2 w-[20rem] h-[20rem]">
+      {deleteObject.state &&(
+          <motion.div 
+          // transition={{easeIn: 9000}}
+            initial={{scaleY: 0}}
+            animate={{scaleY: 1}}
+            exit={{scaleY: 0}}
+            transition={{duration : 0.5, ease : [0.22, 1, 0.36, 1]}}
+            className={`absolute w-full h-full bg-slate-500 origin-bottom ${deleteObject.state === false ? "hidden" : ""}`}
+        />
+      )}
+        <motion.button
+          initial={{scaleY: 1}}
+          animate={{scaleY: 0}}
+          exit={{scaleY: 0}}
+          transition={{duration : 0.5, delay: 0.5,  ease : [0.22, 1, 0.36, 1]}}
+          className={`absolute w-full h-full bg-slate-500 origin-top ${deleteObject.state === false ? "" : "hidden"}`}
+        />
+    </div>
     </section>
   );
 };

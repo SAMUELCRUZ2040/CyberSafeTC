@@ -1,8 +1,6 @@
-import Animate from "@/components/animate";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import "@/stylesheets/globals.css";
-import { AnimatePresence } from "framer-motion";
 
 export const metadata = {
   title: "CyberSafe-Solutions",
