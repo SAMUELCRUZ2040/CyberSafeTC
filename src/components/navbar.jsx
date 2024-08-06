@@ -6,6 +6,7 @@ import Image from "next/image";
 import MobileNabvar from "./responsiveDesigne/mobileNabvar";
 import {useState} from "react"
 import Combobox from "./Combobox";
+import Delay from "./delay";
 export default  function Navbar() {
 
     const [state, setState] = useState({
@@ -29,21 +30,22 @@ export default  function Navbar() {
             </div>
             <ul className="list_item flex gap-7 h-full justify-center align-center max-md:hidden">
                 {data.navigation.map((item, key)=> (
-                    <li className={`item grid place-content-center relative ${item.combobox && "service"} ${item.combobox == null && "bg-black p-4 rounded-2xl text-white" }`} key={key}>
-                        <Link className="flex gap-2 justify-center items-center" href={`${item.url}`}>
-                            {item.name}
-                            {item.combobox && 
-                                <span className="arrow rotate-90 transition ease-in-out">
-                                    <Image
-                                        src={`/icons/arrow.svg`}
-                                        width={400}
-                                        height={400}
-                                        alt={`start`}
-                                        style={{ width: "7px", height: "auto" }}
-                                    />
-                                </span>
-                            } 
-                        </Link>
+                    <li className={`item flex justify-center items-center gap-4 relative ${item.combobox && "service"} ${item.combobox == null && "bg-black p-4 rounded-2xl text-white" }`} key={key}>
+                        <Delay 
+                            href={item.url}
+                            content={item.name}
+                        />
+                        {item.combobox && 
+                            <span className="arrow rotate-90 transition ease-in-out">
+                                <Image
+                                    src={`/icons/arrow.svg`}
+                                    width={400}
+                                    height={400}
+                                    alt={`start`}
+                                    style={{ width: "7px", height: "auto" }}
+                                />
+                            </span>
+                        }
                         {item.combobox && <Combobox />} 
                     </li>
                 ))}

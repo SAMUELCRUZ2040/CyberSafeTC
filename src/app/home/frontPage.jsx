@@ -1,7 +1,8 @@
+
 import Link from 'next/link'
 import Cards from './cards'
-import TypedTex from '@/components/TypedTex'
 import { FlipWords } from '@/components/type';
+import Animation from '@/utils/animation';
 
 export default function FrontPage() {
     const words = ['Empresa.', 'Negocio.','Marca.', 'Proyecto.'];
@@ -11,8 +12,8 @@ export default function FrontPage() {
             <div className="flex justify-center items-start flex-col gap-7">
                 <h1 className="text-4xl lg:text-4xl xl:text-5xl 2xl:text-7xl flex flex-col  font-bold tracking-tight  leading-none">
                     <span>Soluciones digitales</span>
-                    <span>Para el futuro de</span>
-                    <span>Tu <FlipWords words={words} /> </span>
+                    <span className='delay-500'>Para el futuro de</span>
+                    <span className='delay-700'>Tu <FlipWords words={words} /></span>
                 </h1>
                 <p className="text-xl me-4">Personalizamos soluciones tecnológicas para tu empresa, impulsando su rendimiento y eficiencia en comunicación, automatización y seguridad.</p>
                 <div className="mt-8 flex gap-5">

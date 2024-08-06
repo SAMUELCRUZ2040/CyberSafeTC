@@ -34,6 +34,7 @@ export default  function Footer() {
                   height={1000}
                   alt="logo"
                   style={{width : "100%", height : "auto"}}
+                  unoptimized
                 />
               </div>
               {informationAbout.map((data, key)=>(

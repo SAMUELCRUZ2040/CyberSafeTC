@@ -776,5 +776,31 @@
                 }
             ]
         }
+    ],
+    "about" : [
+        {
+            "ilustration" : [
+                {
+                    "picture" : "1",
+                    "word" : "Agencia",
+                    "wordSrc" : "Ver"
+                },
+                {
+                    "picture" : "2",
+                    "word" : "Mascotas",
+                    "wordSrc" : "Ver"
+                },
+                {
+                    "picture" : "3",
+                    "word" : "Moda",
+                    "wordSrc" : "Ver"
+                },
+                {
+                    "picture" : "4",
+                    "word" : "Modernidad",
+                    "wordSrc" : "Ver"
+                }
+            ]
+        }
     ]
 }

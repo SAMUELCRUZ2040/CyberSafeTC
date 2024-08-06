@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Combobox() {
   return (
-    <ul className={`bg-[#ffffff05] transition ease-in-out backdrop-blur-lg absolute top-[100%] left-5 hidden py-8 p-2 border-2 rounded-3xl  flex-col gap-5 w-[25rem] h-[23rem] overflow-y-scroll`} style={{borderTopLeftRadius : "0"}}>
+    <ul className={`bg-[#ffffff05] transition ease-in-out backdrop-blur-lg absolute top-[130%] left-8 hidden py-8 p-2 border-2 rounded-3xl  flex-col gap-5 w-[25rem] h-[23rem] overflow-y-scroll`} style={{borderTopLeftRadius : "0"}}>
         {data.services[0].servicesLogo.map((data, _index)=>(
             <li className='px-8 py-1 hover:bg-[#8e8e8e5f] rounded-lg relative' key={_index}>
                 <div className="title flex items-center justify-start gap-2">
