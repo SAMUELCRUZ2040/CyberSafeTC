@@ -32,7 +32,7 @@ function FrontPage() {
                </Link>
           </div>
           <div className="ilustration flex items-center justify-center z-0 pt-14 bg-cover">
-              <div className="w-[90%] h-[70vh]  right-24 bg-cover bg-no-repeat bg-center" style={{backgroundImage: "url(/image/about/collage.png)"}} />
+              <div className="w-[100%] h-[100vh]  right-24 bg-cover bg-no-repeat bg-center" style={{backgroundImage: "url(/image/about/collage.png)"}} />
           </div>
         </div>
     </section>
