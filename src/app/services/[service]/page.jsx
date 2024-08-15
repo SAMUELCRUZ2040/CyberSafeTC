@@ -17,7 +17,7 @@ export default  function Template({ params }) {
       style={{backgroundImage : "url(/image/figure.png)"}}
     >
         <div className="container pt-14 mt-14">
-          <h1 className='text-4xl lg:text-4xl xl:text-5xl 2xl:text-7xl flex flex-col leading-5 tracking-tight  leading-none'>
+          <h1 className='text-4xl lg:text-4xl xl:text-5xl 2xl:text-7xl flex flex-col tracking-tight  leading-none'>
             <span>{service.title}</span>
             <span className='font-semibold'>{service.addTitle}</span>
           </h1>

@@ -1,6 +1,8 @@
 comandos de instalacionas de npm 
 
 npm run dev 
-npm install react-typed
-npm install animejs --save
-npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+npm install react-typed // si se va a usar la animacion ejecutar
+npm install animejs --save // si se va a usar la animacion ejecutar
+#npm install
+#npm install framer motion
+#npm install gsap
