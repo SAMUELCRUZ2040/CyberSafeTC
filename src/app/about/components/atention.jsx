@@ -19,7 +19,6 @@ export default function Atention() {
         trigger: container,
         pin: true,
         scrub: 1,
-        snap: 1 / (sections.length - 1),
         end: () => "+=" + container.offsetWidth,
       },
     });

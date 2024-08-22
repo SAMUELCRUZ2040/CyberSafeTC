@@ -28,13 +28,13 @@ export default function Strategies() {
                     </div>
                 </div>
                 <div className="flex">
-                    <Image
-                        src={`/image/home/person.webP`}
-                        width={400}
-                        height={400}
-                        alt={`check`}
-                        style={{ width: "100%", height: "auto" }}
-                    />
+                        <Image
+                            src={`/image/home/person2.png`}
+                            width={800}
+                            height={800}
+                            alt={`check`}
+                            style={{ width: "100%", height: "auto" }}
+                        />
                 </div>
             </div>
             <div className="flex justify-center items-center gap-14 container max-lg:flex-col">
