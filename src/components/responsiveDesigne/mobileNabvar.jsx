@@ -19,7 +19,7 @@ export default function MobileNabvar() {
 
   return (
     <>
-        <div className="tooltip fixed right-12 top-12 z-50 max-md:flex hidden cursor-pointer justify-center items-center w-[3rem] h-[3rem]" 
+        <div className="tooltip z-50 max-md:flex hidden cursor-pointer justify-center items-center w-[3rem] h-[3rem]" 
             onClick={toggleActive}
         >
             <Image
@@ -27,8 +27,8 @@ export default function MobileNabvar() {
                 width={500}
                 height={500}
                 alt={`logo`}
-                style={{ width: "50%", height: "auto" }}
-                className={`absolute ${state.toggle ?  "hidden" : "flex"  }`}
+                style={{ width: "1.3rem", height: "auto" }}
+                className={`${state.toggle ?  "hidden" : "flex"  }`}
 
             />
             <Image
@@ -36,8 +36,8 @@ export default function MobileNabvar() {
                 width={500}
                 height={500}
                 alt={`logo`}
-                style={{ width: "100%", height: "auto" }}
-                className={`absolute ${state.toggle ?  "flex" : "hidden"  }`}
+                style={{ width: "1.3rem", height: "auto" }}
+                className={`${state.toggle ?  "flex" : "hidden"  }`}
             />
         </div>
         <div className={`${state.toggle ? "flex" : "hidden" } flex flex-col bg-white fixed top-0 left-0 h-full w-full p-8 overflow-hidden z-40`}>

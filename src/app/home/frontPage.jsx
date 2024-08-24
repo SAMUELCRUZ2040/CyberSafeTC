@@ -7,29 +7,29 @@ import Animation from '@/utils/animation';
 export default function FrontPage() {
     const words = ['Empresa.', 'Negocio.','Marca.', 'Proyecto.'];
   return (
-    <section className='background_secondary space'>
+    <section className='background_secondary max-lg:px-5 max-lg:mb-14 max-lg:pb-14'>
         <div className="max-lg:grid-cols-1 max-md:gap-10 max-md:pt-10 grid grid-cols-2 container" >
-            <div className="flex justify-center items-start flex-col gap-7">
-                <h1 className="text-4xl lg:text-4xl xl:text-5xl 2xl:text-7xl flex flex-col  font-bold tracking-tight  leading-none">
+            <div className="flex justify-center items-start flex-col gap-8 max-lg:py-14">
+                <h1 className="text-4xl lg:text-4xl xl:text-5xl 2xl:text-7xl flex flex-col font-bold tracking-tight  leading-none">
                     <span>Soluciones digitales</span>
                     <span className='delay-500'>Para el futuro de</span>
                     <span className='delay-700'>Tu <FlipWords words={words} /></span>
                 </h1>
-                <p className="text-xl me-4">Personalizamos soluciones tecnológicas para tu empresa, impulsando su rendimiento y eficiencia en comunicación, automatización y seguridad.</p>
-                <div className="mt-8 flex gap-5">
-                    <Link className='max-sm:px-5 max-sm:py-4 max-sm:text-sm px-10 py-5 bg-black border-2 rounded-xl text-xl border-transparent text-white font-bold' 
+                <p className="text-xl me-4 max-lg:text-sm">Personalizamos soluciones tecnológicas para tu empresa, impulsando su rendimiento y eficiencia en comunicación, automatización y seguridad.</p>
+                <div className="max-lg:flex-col flex gap-5 w-full">
+                    <Link className='transition-none hover:scale-[1.05] max-sm:px-5 max-sm:py-4 max-sm:text-sm max-lg:text-center px-10 py-5 bg-black border-2 rounded-3xl text-md border-transparent text-white ' 
                           href={"/"}
                     >
-                        Ver más
+                        Conoce acerca de tu futuro
                     </Link>
-                    <Link className='max-sm:px-5 max-sm:py-4 max-sm:text-sm px-10 py-5 border-2 rounded-xl text-xl border-black font-bold' 
+                    <Link className='transition-none hover:scale-[1.05] max-sm:px-5 max-sm:py-4 max-sm:text-sm max-lg:text-center px-10 py-5 border-2 rounded-3xl text-md border-[#a7a2a259]  bg-white' 
                           href={"/"}
                     >
-                        Contactanos
+                        Conoce acerca de Nosotros
                     </Link>
                 </div>
             </div>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center max-lg:hidden">
                 <div className="w-full">
                     <Cards />
                 </div>

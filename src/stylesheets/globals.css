@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    font-family: cursive;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
 ::selection{
     background: #737d7f58;
 }
@@ -44,12 +52,7 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.space{
-    padding: 8rem 0;
-}
-.space-sm{
-    padding: 5rem 0;
-}
+
 .lopes{
     padding: 3rem 2rem;
     background: radial-gradient(circle, #5f60642b 10%, #83829735 10%, #667a7b00 60%, #7385850b 100%);
@@ -113,12 +116,15 @@ section{
 }
 @media screen and (max-width: 1024px){
     body{
-        padding: 8rem 2rem;
+        padding: 4rem 0;
     }
 }
 @media screen and (max-width: 768px){
-    body{
-        padding: 5rem 2rem;
+    .background_secondary{
+        background: url(../../public/image/grid.webp);
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: cover 50vh;
     }
 }
 @media screen and (min-height: 1486px){
