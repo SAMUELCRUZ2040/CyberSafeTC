@@ -71,7 +71,8 @@
                     "title"  : "Tecnología Avanzada y Eficiente",
                     "description" : "Nuestra tecnología avanzada garantiza soluciones eficientes y a la vanguardia, totalmente adaptadas a tus necesidades específicas.",
                     "url" : "/",
-                    "background" : "dfdaff7a"
+                    "background" : "dfdaff7a",
+                    "transition" : ".1"
                 },
                 {
                     "icon" : "2",
@@ -80,7 +81,8 @@
                     "title"  : "Excelencia y Calidad Asegurada",
                     "description" : "Nos comprometemos con la excelencia en cada proyecto, asegurando productos y servicios de la más alta calidad y rendimiento comprobado.",
                     "url" : "/",
-                    "background" : "cbdfff61"
+                    "background" : "cbdfff61",
+                    "transition" : ".2"
                 },
                 {
                     "icon" : "3",
@@ -89,7 +91,8 @@
                     "title"  : "Expertos en el Área Tecnológica",
                     "description" : "Contamos con un equipo de expertos en el área, con años de experiencia en el desarrollo de soluciones tecnológicas innovadoras.",
                     "url" : "/",
-                    "background" : "cbdfff61"
+                    "background" : "cbdfff61",
+                    "transition" : ".3"
                 },
                 {
                     "icon" : "4",
@@ -98,7 +101,8 @@
                     "title"  : "Asistencia y Soporte 24/7",
                     "description" : "Brindamos asistencia y soporte 24/7, asegurando que siempre tengas el soporte necesario cuando más lo necesitas.",
                     "url" : "/",
-                    "background" : "cbdfff61"
+                    "background" : "cbdfff61",
+                    "transition" : ".1"
                 },
                 {
                     "icon" : "5",
@@ -107,7 +111,8 @@
                     "title"  : "Soluciones Flexibles y Dinámicas",
                     "description" : "Nuestras soluciones son flexibles y se adaptan a los cambios y necesidades de tu negocio en todo momento, sin fallos.",
                     "url" : "/",
-                    "background" : "cbdfff61"
+                    "background" : "cbdfff61",
+                    "transition" : ".2"
                 },
                 {
                     "icon" : "6",
@@ -116,7 +121,8 @@
                     "title"  : "Impacto Tangible y Garantizado",
                     "description" : " Nos enfocamos en resultados tangibles y de impacto garantizado, impulsando el crecimiento y éxito continuo de tu empresa.",
                     "url" : "/",
-                    "background" : "c5f2fb63"
+                    "background" : "c5f2fb63",
+                    "transition" : ".3"
                 }
             ],
             "average" : [

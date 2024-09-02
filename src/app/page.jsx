@@ -1,3 +1,4 @@
+import Atention from "./about/components/atention";
 import Average from "./home/average";
 import FrontPage from "./home/frontPage";
 import Strategies from "./home/strategies";
@@ -9,8 +10,7 @@ export default function Home() {
     <>
       <FrontPage />
       <Summary />
-      <Average />
-      <Strategies />
+      <Atention />
       <Users />
     </> 
   );
