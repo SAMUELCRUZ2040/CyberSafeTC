@@ -24,7 +24,7 @@ export default function Average() {
             }
             return newCounts;
           });
-        }, 25); // Ajusta el tiempo para la velocidad del contador
+        }, 12.5); // Ajusta el tiempo para la velocidad del contador
 
         intervals.push(interval);
       });
@@ -59,7 +59,6 @@ export default function Average() {
                   delay: dataAverage.transition
 
               }}
-              viewport={{ once: true }}
               onAnimationComplete={() => setActive(true)} 
             >
                 <h2 

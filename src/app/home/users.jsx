@@ -34,15 +34,16 @@ export default function Users() {
                             {[...Array(2)].map((_, i) => (
                                 <div key={i} className='flex gap-14 flex-col'>
                                     {Object.entries(ColumnUser).map((cardUser, index_) => (
-                                        <div className="p-8 border-2 shadow-lg rounded-3xl" key={index_}>
+                                        <div className="p-8 border-2 shadow-lg rounded-3xl relative overflow-hidden" key={index_}>
                                             <div className="flex gap-8">
-                                                <div className="overflow-hidden rounded-full flex justify-center items-center w-[3rem] h-[3rem]">
+                                                <div className="overflow-hidden rounded-full flex justify-center items-center w-[4rem] h-[4rem]">
                                                     <Image
-                                                        src={`${cardUser[1][0].picture}`}
+                                                        src={`/image/home/persons/client_${cardUser[1][0].picture}.jpg`}
                                                         width={500}
                                                         height={500}
                                                         alt={`model`}
                                                         style={{ width: "100%", height: "auto" }}
+                                                        className='scale-[1.49]'
                                                     />
                                                 </div>
                                                 <div>
@@ -51,6 +52,15 @@ export default function Users() {
                                                 </div>
                                             </div>
                                             <p className="max-lg:text-sm pt-4 text-md">{cardUser[1][0].description}</p>
+                                            <div className="icon absolute top-5 right-5 opacity-80 cursor-pointer">
+                                                <Image
+                                                            src={`/icons/twitter.svg`}
+                                                            width={500}
+                                                            height={500}
+                                                            alt={`twitter`}
+                                                            style={{ width: "1.4rem", height: "1.2rem" }}
+                                                />
+                                            </div>
                                         </div>
                                     ))}
                                 </div>

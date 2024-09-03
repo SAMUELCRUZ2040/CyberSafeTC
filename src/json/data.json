@@ -33,7 +33,8 @@
                             "link" : "/",
                             "width" : 200,
                             "height" : 100,
-                            "alt" : "Esta imagen representa software y telefonia ip"
+                            "alt" : "Esta imagen representa software y telefonia ip",
+                            "transition" : ".1"
                         }
                     ]
                 },
@@ -46,7 +47,8 @@
                             "link" : "/",
                             "width" : 350,
                             "height" : 200,
-                            "alt" : "Esta imagen representa optimizacion y protección"
+                            "alt" : "Esta imagen representa optimizacion y protección",
+                            "transition" : ".2"
                         }
                     ],
                     "cardTwo" : [
@@ -57,7 +59,8 @@
                             "link" : "/",
                             "width" : 350,
                             "height" : 200,
-                            "alt" : "Esta imagen representa soluciones tecnologicas"
+                            "alt" : "Esta imagen representa soluciones tecnologicas",
+                            "transition" : ".3"
                         }
                     ]
                 }
@@ -183,7 +186,7 @@
                 {
                     "user" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hermosa-joven-sosteniendo-bolsas-compras_23-2148316133.jpg?t=st=1721623430~exp=1721627030~hmac=9a99f27fdf70f4cd696d8afc09efd55497628094a72bc22c5cbd12541c88342b&w=740",
+                            "picture" : "1",
                             "name" : "Lucía Martínez",
                             "profession" : "Gerente de TI",
                             "description" : "La gestión de despliegues fue impecable. Agradezco la atención al detalle y la eficacia del equipo, lo que nos permitió lanzar nuestra aplicación sin problemas ni retrasos."
@@ -191,49 +194,49 @@
                     ],
                     "user2" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hermosa-joven-sosteniendo-bolsas-compras_23-2148316133.jpg?t=st=1721623430~exp=1721627030~hmac=9a99f27fdf70f4cd696d8afc09efd55497628094a72bc22c5cbd12541c88342b&w=740",
+                            "picture" : "2",
                             "name" : "Carlos Herrera",
                             "profession" : "Propietario de una Startup",
-                            "description" : "La integración de microservicios ha sido una pieza fundamental en la escalabilidad de nuestras operaciones. Su implementación fue fluida, y el soporte continuo asegura que nuestras aplicaciones funcionen de manera óptima en todo momento."
+                            "description" : "La integración de microservicios ha sido una pieza fundamental en la escalabilidad de nuestras operaciones. Su implementación fue fluida"
                         }
                     ],
                     "user3" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hermosa-joven-sosteniendo-bolsas-compras_23-2148316133.jpg?t=st=1721623430~exp=1721627030~hmac=9a99f27fdf70f4cd696d8afc09efd55497628094a72bc22c5cbd12541c88342b&w=740",
+                            "picture" : "3",
                             "name" : "María González",
                             "profession" : "Consultora de Negocios",
-                            "description" : "Gracias a la creación de nuestras máquinas virtuales, nuestra infraestructura es ahora más flexible y resistente. Esto nos ha permitido adaptarnos rápidamente a las demandas del mercado, garantizando un rendimiento continuo sin interrupciones"
+                            "description" : "Gracias a la creación de nuestras máquinas virtuales, nuestra infraestructura es ahora más flexible y resistente. "
                         }
                     ],
                     "user4" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hermosa-joven-sosteniendo-bolsas-compras_23-2148316133.jpg?t=st=1721623430~exp=1721627030~hmac=9a99f27fdf70f4cd696d8afc09efd55497628094a72bc22c5cbd12541c88342b&w=740",
+                            "picture" : "4",
                             "name" : "Ana Rodríguez",
                             "profession" : "Directora de Marketing",
-                            "description" : "El desarrollo de nuestra página web fue un proceso fluido y creativo. El equipo entendió perfectamente nuestra visión y la convirtió en una plataforma atractiva y funcional que ha mejorado significativamente nuestra presencia en línea."
+                            "description" : "El desarrollo de nuestra página web fue un proceso fluido y creativo. El equipo entendió perfectamente nuestra visión y la convirtió en una plataforma atractiva y funcional."
                         }
                     ],
                     "user5" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hermosa-joven-sosteniendo-bolsas-compras_23-2148316133.jpg?t=st=1721623430~exp=1721627030~hmac=9a99f27fdf70f4cd696d8afc09efd55497628094a72bc22c5cbd12541c88342b&w=740",
-                            "name" : "Javier Pérez",
+                            "picture" : "5",
+                            "name" : "Ana Maria",
                             "profession" : "Coordinador de Proyectos",
-                            "description" : "La gestión de nuestros dominios ha sido manejada con una profesionalidad impresionante. Nunca hemos tenido que preocuparnos por problemas de disponibilidad o seguridad, lo que nos ha dado la tranquilidad para enfocarnos en nuestro negocio principal."
+                            "description" : "La gestión de nuestros dominios ha sido manejada con una profesionalidad impresionante. Nunca hemos tenido que preocuparnos por problemas de disponibilidad o seguridad."
                         }
                     ]
                 },
                 {
                     "user" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hermosa-joven-sosteniendo-bolsas-compras_23-2148316133.jpg?t=st=1721623430~exp=1721627030~hmac=9a99f27fdf70f4cd696d8afc09efd55497628094a72bc22c5cbd12541c88342b&w=740",
-                            "name" : "Miguel Torres",
+                            "picture" : "6",
+                            "name" : "Lucia de la cruz",
                             "profession" : "Jefe de Operaciones",
-                            "description" : "La asesoría y mantenimiento que recibimos nos ha permitido mantener nuestros sistemas operativos en excelente estado. Su capacidad para anticipar y resolver problemas antes de que se conviertan en grandes inconvenientes ha sido invaluable para nuestra operación."
+                            "description" : "La asesoría y mantenimiento que recibimos nos ha permitido mantener nuestros sistemas operativos en excelente estado."
                         }
                     ],
                     "user2" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hermosa-joven-sosteniendo-bolsas-compras_23-2148316133.jpg?t=st=1721623430~exp=1721627030~hmac=9a99f27fdf70f4cd696d8afc09efd55497628094a72bc22c5cbd12541c88342b&w=740",
+                            "picture" : "7",
                             "name" : "Laura Sánchez",
                             "profession" : "CEO de una PYME",
                             "description" : "La telefonía IP instalada en nuestra empresa ha transformado la manera en que nos comunicamos. No solo ha mejorado la eficiencia de nuestras comunicaciones internas, sino que también ha reducido costos, lo que ha sido un beneficio significativo."
@@ -241,68 +244,68 @@
                     ],
                     "user3" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hermosa-joven-sosteniendo-bolsas-compras_23-2148316133.jpg?t=st=1721623430~exp=1721627030~hmac=9a99f27fdf70f4cd696d8afc09efd55497628094a72bc22c5cbd12541c88342b&w=740",
+                            "picture" : "8",
                             "name" : "José Ramírez",
                             "profession" : "Director Técnico",
-                            "description" : "El desarrollo de software personalizado que recibimos ha optimizado nuestros procesos operativos de manera significativa. Su enfoque en la personalización y la atención al detalle han hecho que nuestra plataforma sea más intuitiva y funcional."
+                            "description" : "El desarrollo de software personalizado que recibimos ha optimizado nuestros procesos operativos de manera significativa."
                         }
                     ],
                     "user4" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hermosa-joven-sosteniendo-bolsas-compras_23-2148316133.jpg?t=st=1721623430~exp=1721627030~hmac=9a99f27fdf70f4cd696d8afc09efd55497628094a72bc22c5cbd12541c88342b&w=740",
+                            "picture" : "9",
                             "name" : "Elena Cruz",
                             "profession" : "Gerente de Infraestructura",
-                            "description" : "La implementación de nuestras máquinas virtuales fue rápida y efectiva, adaptándose perfectamente a nuestras necesidades. Esto ha permitido que nuestra infraestructura crezca junto con nuestro negocio sin los dolores de cabeza típicos asociados con el crecimiento tecnológico."
+                            "description" : "La implementación de nuestras máquinas virtuales fue rápida y efectiva, adaptándose perfectamente a nuestras necesidades."
                         }
                     ],
                     "user5" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hermosa-joven-sosteniendo-bolsas-compras_23-2148316133.jpg?t=st=1721623430~exp=1721627030~hmac=9a99f27fdf70f4cd696d8afc09efd55497628094a72bc22c5cbd12541c88342b&w=740",
+                            "picture" : "10",
                             "name" : "Andrés López",
                             "profession" : "Especialista en Redes",
-                            "description" : "La integración de microservicios ha simplificado la gestión de nuestras aplicaciones, permitiendo una mayor flexibilidad y escalabilidad. La facilidad con la que podemos añadir nuevas funcionalidades sin interrumpir el servicio es un gran beneficio."
+                            "description" : "La integración de microservicios ha simplificado la gestión de nuestras aplicaciones, permitiendo una mayor flexibilidad y escalabilidad."
                         }
                     ]
                 },
                 {
                     "user" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hermosa-joven-sosteniendo-bolsas-compras_23-2148316133.jpg?t=st=1721623430~exp=1721627030~hmac=9a99f27fdf70f4cd696d8afc09efd55497628094a72bc22c5cbd12541c88342b&w=740",
+                            "picture" : "11",
                             "name" : "Natalia Gómez",
                             "profession" : "Consultora Digital",
-                            "description" : "La gestión de nuestros dominios fue manejada con una profesionalidad impresionante, asegurando un funcionamiento sin problemas y brindándonos la confianza de que nuestra presencia en línea está en buenas manos."
+                            "description" : "La gestión de nuestros dominios fue manejada con una profesionalidad impresionante, asegurando un funcionamiento sin problemas."
                         }
                     ],
                     "user2" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hermosa-joven-sosteniendo-bolsas-compras_23-2148316133.jpg?t=st=1721623430~exp=1721627030~hmac=9a99f27fdf70f4cd696d8afc09efd55497628094a72bc22c5cbd12541c88342b&w=740",
-                            "name" : "Ricardo Vargas",
+                            "picture" : "12",
+                            "name" : "Catalina Angel",
                             "profession" : "Encargado de TI",
                             "description" : "El servicio de telefonía IP ha transformado nuestra forma de trabajar, facilitando la comunicación en todos los niveles. La calidad de las llamadas y la facilidad de uso han sido excepcionales."
                         }
                     ],
                     "user3" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hermosa-joven-sosteniendo-bolsas-compras_23-2148316133.jpg?t=st=1721623430~exp=1721627030~hmac=9a99f27fdf70f4cd696d8afc09efd55497628094a72bc22c5cbd12541c88342b&w=740",
+                            "picture" : "13",
                             "name" : "Isabel Mendoza",
                             "profession" : "Propietaria de una Empresa",
-                            "description" : "El equipo hizo un trabajo excepcional en el mantenimiento de nuestros sistemas. Su proactividad y atención al detalle han asegurado que todo funcione sin problemas, permitiéndonos centrarnos en lo que realmente importa: hacer crecer nuestro negocio."
+                            "description" : "El equipo hizo un trabajo excepcional en el mantenimiento de nuestros sistemas. Su proactividad y atención al detalle."
                         }
                     ],
                     "user4" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hermosa-joven-sosteniendo-bolsas-compras_23-2148316133.jpg?t=st=1721623430~exp=1721627030~hmac=9a99f27fdf70f4cd696d8afc09efd55497628094a72bc22c5cbd12541c88342b&w=740",
+                            "picture" : "14",
                             "name" : "Pablo Silva",
                             "profession" : "Gerente General",
-                            "description" : "Gracias a la infraestructura flexible creada con sus máquinas virtuales, nuestra empresa ha ganado en agilidad y seguridad. La capacidad para ajustar y escalar según las necesidades del negocio ha sido un factor clave en nuestro éxito continuo."
+                            "description" : "Gracias a la infraestructura flexible creada con sus máquinas virtuales, nuestra empresa ha ganado en agilidad y seguridad."
                         }
                     ],
                     "user5" : [
                         {
-                            "picture" : "https://img.freepik.com/foto-gratis/hermosa-joven-sosteniendo-bolsas-compras_23-2148316133.jpg?t=st=1721623430~exp=1721627030~hmac=9a99f27fdf70f4cd696d8afc09efd55497628094a72bc22c5cbd12541c88342b&w=740",
-                            "name" : "Alvarado Gurtierres",
+                            "picture" : "15",
+                            "name" : "Sofia Gomez",
                             "profession" : "Analista de Calidad",
-                            "description" : "El servicio de desarrollo de software superó nuestras expectativas. Cada detalle fue atendido con gran profesionalismo, y el resultado final ha sido clave para el crecimiento de nuestra empresa."
+                            "description" : "El servicio de desarrollo de software superó nuestras expectativas. Cada detalle fue atendido con gran profesionalismo."
                         }
                     ]
                 }

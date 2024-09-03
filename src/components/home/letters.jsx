@@ -9,37 +9,50 @@ function Letters() {
 
   return (
     <h1 className="text-4xl lg:text-4xl xl:text-5xl 2xl:text-7xl flex flex-col font-bold tracking-tight  leading-none">
-            <motion.div
-                className='origin-top ease-linear '
-                style={{transitionDuration: ".2s"}}
-                initial={{ scaleY: 0, opacity: 0}}
-                whileInView={{ scaleY: 1, opacity: 1}}
-                viewport={{ once: true }}
+            <motion.di
+              className="transition-none"
+              initial={{ y: 40, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{
+                  duration: .4,
+                  ease: "easeOut",
+                  delay: .1
+
+              }}
             >
                 Soluciones digitales
-            </motion.div>
-            <motion.span 
-                className='delay-100 origin-top ease-linear'
-                style={{transitionDuration: ".4s"}}
-                initial={{ scaleY: 0, opacity: 0}}
-                whileInView={{ scaleY: 1, opacity: 1}}
-                viewport={{ once: true }}
+            </motion.di>
+            <motion.span
+              className="transition-none"
+              initial={{ y: 40, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{
+                  duration: .4,
+                  ease: "easeOut",
+                  delay: .2
+
+              }}
                 
             >
                 Para el futuro de
             </motion.span>
-            <motion.span 
-                className='delay-100 origin-top ease-linear'
-                style={{transitionDuration: ".6s"}}
-                initial={{ scaleY: 0, opacity: 0}}
-                whileInView={{ scaleY: 1, opacity: 1}}
-                viewport={{ once: true }}
+            <motion.span
+              className="transition-none"
+              initial={{ y: 40, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{
+                  duration: .4,
+                  ease: "easeOut",
+                  delay: .3
+
+              }}
                 
             >
                 Tu <FlipWords words={words} />
             </motion.span>
 
     </h1>
+    
 )
 }
 
