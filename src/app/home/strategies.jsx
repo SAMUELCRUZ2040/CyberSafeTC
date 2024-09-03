@@ -26,6 +26,7 @@ export default function Strategies() {
                     width={400}
                     height={400}
                     alt={`picture of strategies`}
+                    priority
                     className='w-full h-auto my-14'
                 />
             </div>

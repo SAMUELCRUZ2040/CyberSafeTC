@@ -15,7 +15,8 @@ export default function HorizontalScroll() {
     const mediaQuery = window.matchMedia("(max-width: 1024px)");
     const handleResize = () => setMobile(mediaQuery.matches);
 
-    handleResize(); // Ejecuta en el montaje para establecer el valor inicial
+    // Ejecuta en el montaje para establecer el valor inicial
+    handleResize();
     mediaQuery.addEventListener("change", handleResize);
 
     return () => mediaQuery.removeEventListener("change", handleResize);
@@ -24,26 +25,35 @@ export default function HorizontalScroll() {
   useLayoutEffect(() => {
     const container = containerRef.current;
 
+    // Asegurarse de que el contenedor esté disponible antes de continuar
+    if (!container) return;
+
+    // Limpiar triggers existentes
     ScrollTrigger.getAll().forEach(trigger => trigger.kill());
 
-    if (!mobile && container) {
+    if (!mobile) {
       const sections = container.querySelectorAll(".section");
 
-      gsap.to(container, {
-        xPercent: -100 * (sections.length - 1),
-        ease: "none",
-        scrollTrigger: {
-          trigger: container,
-          pin: true,
-          scrub: 0.5,
-          end: () => "+=" + container.offsetWidth,
-          invalidateOnRefresh: true, // Vuelve a calcular al cambiar de tamaño
-        },
-      });
+      // Verificar que haya secciones para animar
+      if (sections.length > 0) {
+        gsap.to(container, {
+          xPercent: -100 * (sections.length - 1),
+          ease: "none",
+          scrollTrigger: {
+            trigger: container,
+            pin: true,
+            scrub: 0.5,
+            end: () => "+=" + container.offsetWidth,
+            invalidateOnRefresh: true, // Recalcula al cambiar de tamaño
+          },
+        });
+      }
     } else {
+      // Limpiar propiedades de animación en el contenedor
       gsap.set(container, { clearProps: "all" });
     }
 
+    // Limpiar triggers al desmontar o cambiar de modo
     return () => {
       ScrollTrigger.getAll().forEach(trigger => trigger.kill());
     };

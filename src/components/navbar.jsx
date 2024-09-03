@@ -4,17 +4,16 @@ import Link from "next/link";
 import data from "@/json/data";
 import Image from "next/image";
 import MobileNabvar from "./responsiveDesigne/mobileNabvar";
-import {useState} from "react"
 import Combobox from "./Combobox";
 import Delay from "./delay";
+import { motion, useScroll } from "framer-motion"
+
 export default  function Navbar() {
+    const { scrollYProgress } = useScroll();
 
-    const [state, setState] = useState({
-        stateToogle : false,
-    });
-
-    return (
-    <nav className="fixed top-0 left-0 w-full flex justify-center align-center z-50">
+    return (   
+    <motion.nav className="fixed top-0 left-0 w-full flex justify-center align-center z-50 py-4">
+        <motion.div style={{ scaleX: scrollYProgress }} />  
         <div className="flex justify-between items-center w-full container px-10 py-2 max-lg:px-5">
             <div className="logo">
                 <Link href={"/"}>
@@ -51,6 +50,6 @@ export default  function Navbar() {
             </ul>
             <MobileNabvar />
         </div>
-    </nav>
+    </motion.nav>
   )
 }

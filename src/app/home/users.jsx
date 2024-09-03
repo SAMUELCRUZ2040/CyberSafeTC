@@ -38,7 +38,7 @@ export default function Users() {
                                             <div className="flex gap-8">
                                                 <div className="overflow-hidden rounded-full flex justify-center items-center w-[4rem] h-[4rem]">
                                                     <Image
-                                                        src={`/image/home/persons/client_${cardUser[1][0].picture}.jpg`}
+                                                        src={`/image/home/persons/client_${cardUser[1][0].picture}.webp`}
                                                         width={500}
                                                         height={500}
                                                         alt={`model`}
