@@ -127,10 +127,12 @@ section{
         background-repeat: no-repeat;
         background-size: cover 50vh;
     }
+    
 }
 @media screen and (min-height: 1486px){
     section{
         height: auto;
+        padding: 5rem;
     }
     
 }

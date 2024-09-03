@@ -16,7 +16,6 @@ export default function Cardsummary({ dataSummary }) {
             ease: "easeOut",
             delay: dataSummary.transition
         }}
-        viewport={{ once: true }}
     >
         <div className="max-lg:gap-1 flex items-center gap-4 justify-start">
             <span className='w-16 overflow-hidden'>

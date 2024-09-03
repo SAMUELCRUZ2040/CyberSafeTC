@@ -1,7 +1,7 @@
 import Delay from '@/components/delay';
+import { SubStrategies, OptionStrategies} from '@/components/home/optionStrategies';
 import data from '@/json/data';
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function Strategies() {
     return (
@@ -14,16 +14,10 @@ export default function Strategies() {
                             <span>respalda, <span>24/7</span></span>
                         </h2>
                         {data.home[0].strategies.map((strategieData, keyCol)=>(
-                            <div className="flex gap-5 items-center pe-[14rem] max-lg:p-0" key={keyCol}>
-                                <Image
-                                    src={`/icons/check.webp`}
-                                    width={400}
-                                    height={400}
-                                    alt={`check`}
-                                    style={{ width: "15px", height: "15px" }}
-                                />
-                                <p className='max-lg:text-sm text-justify'>{strategieData.description}</p>
-                            </div>
+                            <OptionStrategies
+                                key={keyCol}
+                                strategieData={strategieData}
+                            />
                         ))}
                     </div>
                 </div>
@@ -37,44 +31,10 @@ export default function Strategies() {
             </div>
             <div className="flex justify-center items-center gap-14 container max-lg:flex-col max-lg:gap-4">
                 {data.home[0].subStrategies.map((subStrategiesData, keySubstrategies)=>(
-                    <div 
-                        className="p-4 flex flex-col gap-5" 
+                    <SubStrategies
                         key={keySubstrategies}
-                    >
-                        <h2 
-                            className='max-lg:text-lg text-2xl font-semibold'
-                            >
-                            {subStrategiesData.title}
-                        </h2>
-                        <p 
-                            className='max-lg:text-sm'
-                        >
-                            {subStrategiesData.description}
-                        </p>
-                        <div className="flex justify-between">
-                            <div className="flex gap-3">
-                                {Array.from({ length: subStrategiesData.punctuation }, (_, index) => (
-                                    <Image
-                                        src={`/icons/start.webP`}
-                                        width={400}
-                                        height={400}
-                                        alt={`start`}
-                                        key={index}
-                                        className='max-lg:w-[15px] h-auto w-[22px]'
-                                    />
-                                ))}
-                            </div>
-                            <Link href={"/"} className=''>
-                                <Image
-                                    src={`/icons/arrow.svg`}
-                                    width={400}
-                                    height={400}
-                                    alt={`start`}
-                                    className='max-lg:w-[8px] h-auto w-[10px]'
-                                />
-                            </Link>
-                        </div>
-                    </div>
+                        subStrategiesData={subStrategiesData}
+                    />
                 ))}
             </div>
             <div className="container flex justify-center items-center flex-col gap-5 mt-14">

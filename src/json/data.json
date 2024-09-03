@@ -127,44 +127,56 @@
             ],
             "average" : [
                 {
-                    "number" : "98 %",
-                    "description" : "Nuestro enfoque en la eficiencia y la calidad se refleja en un índice de satisfacción del cliente superior al 98%, garantizando que cada proyecto cumple con los estándares más altos."
+                    "number" : 100,
+                    "addIcon" : "%",
+                    "description" : "Nuestro enfoque en la eficiencia y la calidad se refleja en un índice de satisfacción del cliente superior al 98%, garantizando que cada proyecto cumple con los estándares más altos.",
+                    "transition" : ".1"
                 },
                 {
-                    "number" : "30 %",
-                    "description" : "Implementamos prácticas optimizadas que han logrado reducir los tiempos de entrega en un 30%, asegurando resultados rápidos sin comprometer la calidad."
+                    "number" : 150,
+                    "addIcon" : "",
+                    "description" : "proyectos basados en las mejores prácticas optimizadas que han logrado reducir los tiempos de entrega en un 30%, asegurando resultados rápidos sin comprometer la calidad.",
+                    "transition" : ".2"
                 },
                 {
-                    "number" : "15 años",
-                    "description" : "Con más de 15 años en la industria, hemos perfeccionado nuestras habilidades y procesos para ofrecer proyectos con la máxima eficiencia y calidad en cada etapa."
+                    "number" : 15,
+                    "addIcon" : "Años",
+                    "description" : "Con más de 15 años en la industria, hemos perfeccionado nuestras habilidades y procesos para ofrecer proyectos con la máxima eficiencia y calidad en cada etapa.",
+                    "transition" : ".3"
                 }
             ],
             "strategies" : [
                 {
-                    "description" : "Nuestro equipo está disponible las 24 horas del día, los 7 días de la semana, garantizando que siempre tengas ayuda y soporte cuando lo necesites."
+                    "description" : "Nuestro equipo está disponible las 24 horas del día, los 7 días de la semana, garantizando que siempre tengas ayuda y soporte cuando lo necesites.",
+                    "transition" : ".1"
                 },
                 {
-                    "description" : "Implementamos un sistema ágil para resolver cualquier inconveniente de manera rápida y eficiente, minimizando el tiempo de inactividad y asegurando la continuidad de tus operaciones."
+                    "description" : "Implementamos un sistema ágil para resolver cualquier inconveniente de manera rápida y eficiente, minimizando el tiempo de inactividad y asegurando la continuidad de tus operaciones.",
+                    "transition" : ".2"
                 },
                 {
-                    "description" : "Ofrecemos atención personalizada, anticipándonos a tus necesidades y brindando soluciones proactivas para optimizar el rendimiento y la satisfacción del cliente."
+                    "description" : "Ofrecemos atención personalizada, anticipándonos a tus necesidades y brindando soluciones proactivas para optimizar el rendimiento y la satisfacción del cliente.",
+                    "transition" : ".3"
                 }
             ],
             "subStrategies" : [
                 {
                     "punctuation" : 5,
                     "title" : "Monitoreo Continuo",
-                    "description" : "Realizamos un monitoreo continuo para detectar y abordar posibles problemas antes de que impacten tus operaciones, asegurando un rendimiento óptimo y sin interrupciones."
+                    "description" : "Realizamos un monitoreo continuo para detectar y abordar posibles problemas antes de que impacten tus operaciones, asegurando un rendimiento óptimo y sin interrupciones.",
+                    "transition" : ".4"
                 },
                 {
                     "punctuation" : 5,
                     "title" : "Asistencia Especializada",
-                    "description" : "Nuestro equipo cuenta con expertos en diferentes áreas, ofreciendo asistencia especializada para resolver cualquier desafío técnico con el conocimiento adecuado."
+                    "description" : "Nuestro equipo cuenta con expertos en diferentes áreas, ofreciendo asistencia especializada para resolver cualquier desafío técnico con el conocimiento adecuado.",
+                    "transition" : ".5"
                 },
                 {
                     "punctuation" : 5,
                     "title" : "Actualizaciones Regulares",
-                    "description" : "Proporcionamos actualizaciones y mejoras continuas a tus sistemas para mantenerlos al día con las últimas tecnologías y prácticas recomendadas, garantizando su eficacia y seguridad."
+                    "description" : "Proporcionamos actualizaciones y mejoras continuas a tus sistemas para mantenerlos al día con las últimas tecnologías y prácticas recomendadas, garantizando su eficacia y seguridad.",
+                    "transition" : ".6"
                 }
             ],
             "users" : [
