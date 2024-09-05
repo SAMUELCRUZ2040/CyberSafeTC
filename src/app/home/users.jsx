@@ -54,11 +54,11 @@ export default function Users() {
                                             <p className="max-lg:text-sm pt-4 text-md">{cardUser[1][0].description}</p>
                                             <div className="icon absolute top-5 right-5 opacity-80 cursor-pointer">
                                                 <Image
-                                                            src={`/icons/twitter.svg`}
-                                                            width={500}
-                                                            height={500}
-                                                            alt={`twitter`}
-                                                            style={{ width: "1.4rem", height: "1.2rem" }}
+                                                    src={`/icons/twitter.svg`}
+                                                    width={500}
+                                                    height={500}
+                                                    alt={`twitter`}
+                                                    style={{ width: "1.4rem", height: "1.2rem" }}
                                                 />
                                             </div>
                                         </div>

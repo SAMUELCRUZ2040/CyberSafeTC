@@ -7,14 +7,28 @@ import MobileNabvar from "./responsiveDesigne/mobileNabvar";
 import Combobox from "./Combobox";
 import Delay from "./delay";
 import { motion, useScroll } from "framer-motion"
+import { useEffect, useState } from "react";
 
 export default  function Navbar() {
-    const { scrollYProgress } = useScroll();
-
+    const [ navbar, setNavbar ] = useState(false)
+    useEffect(()=>{
+        const scrolls = ()=>{
+            if(window.scrollY > 0){
+                setNavbar(true);
+            }
+            else{
+                setNavbar(false)
+            }
+        }
+        window.addEventListener("scroll", scrolls);
+        
+        return()=>{
+            window.removeEventListener("scroll",  scrolls);
+        }
+    },[])
     return (   
-    <motion.nav className="fixed top-0 left-0 w-full flex justify-center align-center z-50 py-4">
-        <motion.div style={{ scaleX: scrollYProgress }} />  
-        <div className="flex justify-between items-center w-full container px-10 py-2 max-lg:px-5">
+    <nav className={`fixed top-0 left-0 w-full flex justify-center align-center py-4 z-[9999]`}>
+        <div className={`flex justify-between items-center w-full container mx-32 px-8 py-4  max-lg:mx-4 max-lg:px-5 max-lg:py-1 my-5 ${ navbar ? "shadow-xl rounded-3xl backdrop-blur-sm bg-[#e6e6e631]" : "" }`}>
             <div className="logo">
                 <Link href={"/"}>
                     <Image
@@ -50,6 +64,6 @@ export default  function Navbar() {
             </ul>
             <MobileNabvar />
         </div>
-    </motion.nav>
+    </nav>
   )
 }
