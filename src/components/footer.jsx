@@ -18,18 +18,18 @@ export default  function Footer() {
       description : "ejemplo@gmail.com",
       descriptionTwo : "ejemplo@gmail.com",
     },
-    
   ],
   socialNetworks = ["Linkedin", "Facebook", "instagram" ];
+  
   return (
-    <footer>
+    <footer className="max-lg:px-5">
       <Action />
         <div className="flex items-center justify-center flex-col">
           <div className="container py-14">
             <div className="max-md:items-center max-md:gap-5 flex justify-between px-14 max-md:flex-col max-md:p-0 max-md:text-center">
               <div className="logo w-[150px]">
                 <Image 
-                  src={"https://www.userogue.com/_next/image?url=%2Fimages%2Flogo-v3-dark%2Flogo.png&w=128&q=75"}
+                  src={"/icons/logo.webp"}
                   width={1000}
                   height={1000}
                   alt="logo"

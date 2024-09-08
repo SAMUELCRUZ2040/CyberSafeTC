@@ -47,17 +47,6 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.locas{
-    background: url(../../public/image/lines.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.lopes{
-    padding: 3rem 2rem;
-    background: radial-gradient(circle, #5f60642b 10%, #83829735 10%, #667a7b00 60%, #7385850b 100%);
-}
 
 .gradient{
     background: linear-gradient(180deg, rgba(246, 246, 246, 0) 0%, 
@@ -78,36 +67,14 @@ section{
                                         #f6f6f6 100%)
 }
   
-
-
-  .inner .slide-in {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: #000;
-    z-index: 10;
-    transform-origin: bottom;
-  }
-  
-  .inner .slide-out {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: #000;
-    z-index: 10;
-    transform-origin: top;
-  }
-
-.service:hover ul{
-    display: flex;
-    transition: all .4s ease-in-out;
+.hover__animation:hover .hover__container img{
+    transform: translateY(-5px);
 }
-.service:hover .arrow{
-    transform: rotate(-90deg);
+.hover__animation:hover .hover__container img:last-child{
+    opacity: 1;
+}
+.hover__animation:hover .hover__container img:first-child{
+    opacity: 0;
 }
 
 @media screen and (max-width: 1024px){
@@ -132,8 +99,7 @@ section{
 @media screen and (min-height: 1486px){
     section{
         height: auto;
-        padding: 5rem;
+        padding: 15rem 5rem;
     }
-    
 }
 

@@ -3,6 +3,7 @@
 import data from "@/json/data";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from 'framer-motion';
 import { useState } from "react";
 
 export default function MobileNabvar() {
@@ -40,14 +41,14 @@ export default function MobileNabvar() {
                 className={`${state.toggle ?  "flex" : "hidden"  }`}
             />
         </div>
-        <div className={`${state.toggle ? "flex" : "hidden" } flex flex-col bg-white fixed top-0 left-0 h-full w-full p-8 overflow-hidden z-40`}>
+        <div className={`${state.toggle ? "scale-y-1" : "scale-y-0" } origin-top flex flex-col bg-white p-8 overflow-hidden h-screen w-screen fixed  top-0 left-0`}>
             <div className="w-full">
                 <Link 
                     onClick={toggleActive}
                     href={"/"}
-                >
+                >   
                     <Image
-                        src={`https://www.userogue.com/_next/image?url=%2Fimages%2Flogo-v3-dark%2Flogo.png&w=128&q=75`}
+                        src={`/icons/logo.png`}
                         width={400}
                         height={400}
                         alt={`logo`}
@@ -55,24 +56,29 @@ export default function MobileNabvar() {
                     />
                 </Link>
             </div>
-            <ul className="list_item  flex justify-center flex-col items-start gap-14 py-14">
+            <ul className="list_item transition-none flex justify-center flex-col items-start gap-5 py-14 ">
                 {data.navigation.map((item, key)=> (
-                    <li 
-                    style={{WebkitTextStroke : "1px #000000b3", color : "transparent"}}
-                    className="item flex gap-5 text-4xl font-bold hover:translate-x-1 transition ease-in-out " key={key}
-                    onClick={toggleActive}
+                    <motion.li
+                        className="text-3xl font-bold transition-none " key={key}
+                        onClick={toggleActive}
+                        animate={state.toggle ? {y: 0, opacity: 1} : {y: 80, opacity: 0}}
+                        transition={{
+                            delay: item.transition
+                        }}
                     >
-                        <Image
-                            src={`/icons/arrow.svg`}
-                            width={400}
-                            height={400}
-                            alt={`start`}
-                            style={{ width: "15px", height: "auto" }}
-                        />
-                        <Link className=" hover:text-[#000000b3] transition-75" href={`${item.url}`}>{item.name}</Link>
-                    </li>
+                        <Link className="gap-4 transition-75 flex justify-center items-center" href={`${item.url}`}><span className="text-xl">-</span> {item.name}</Link>
+                    </motion.li>
                 ))}
             </ul>
+                <motion.div 
+                    className={`transition-none bottom-32 left-[-5rem] absolute opacity-0`}
+                    animate={{rotate: -90, opacity: state.toggle ? 1 : 0}}
+                    transition={{
+                        delay: .10
+                    }}
+                >
+                    @2024_cybersafe_relylove ♡
+                </motion.div>
         </div>
     </>
   )

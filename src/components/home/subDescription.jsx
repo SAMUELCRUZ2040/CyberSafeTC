@@ -20,10 +20,10 @@ export default function SubDescription() {
         >
             Personalizamos soluciones tecnológicas para tu empresa, impulsando su rendimiento y eficiencia en comunicación, automatización y seguridad.</motion.p>
         <div 
-            className="max-lg:flex-col flex gap-5 w-full transition-none my-6 py-6"
+            className="max-lg:flex-col flex gap-5 w-full transition-none pe-14 max-lg:pe-0"
         >
             <motion.div 
-                className="transition-none hover:scale-[1.05] max-sm:px-5 max-sm:py-4 max-sm:text-sm max-lg:text-center"
+                className=" w-full transition-none flex text-center rounded-3xl py-5 bg-black text-white"
                 initial={{ y: 40, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{
@@ -34,14 +34,14 @@ export default function SubDescription() {
                 }}
             >
                 <Link
-                    className='w-full h-full px-10 py-5 bg-black border-2 rounded-3xl text-md border-transparent text-white '
+                    className='w-full h-full hover:scale-[1.1]'
                     href={"/"}
                 >
                     Conoce acerca de tu futuro
                 </Link>
             </motion.div>
             <motion.div 
-                className="transition-none hover:scale-[1.05] max-sm:px-5 max-sm:py-4 max-sm:text-sm max-lg:text-center"
+                className=" w-full transition-none flex text-center rounded-3xl py-4 bg-white text-black border-2"
                 initial={{ y: 40, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{
@@ -52,7 +52,7 @@ export default function SubDescription() {
                 }}
             >
                 <Link
-                    className='w-full h-full px-10 py-5 border-2 rounded-3xl text-md border-[#a7a2a259]  bg-white'
+                    className='w-full h-full hover:scale-[1.1]'
                     href={"/"}
                 >
                     Conoce acerca de Nosotros

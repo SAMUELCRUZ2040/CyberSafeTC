@@ -6,7 +6,7 @@ import SubDescription from '@/components/home/subDescription';
 
 export default function FrontPage() {
   return (
-    <section className='background_secondary max-lg:px-5 max-lg:mb-14 max-lg:pb-14'>
+<section className='background_secondary max-lg:px-5 max-lg:mb-14 max-lg:pb-14'>
         <div className="max-lg:grid-cols-1 max-md:gap-10 max-md:pt-10 grid grid-cols-2 container" >
             <div className="flex justify-center items-start flex-col gap-8 max-lg:py-14">
                 <Letters />

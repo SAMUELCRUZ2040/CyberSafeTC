@@ -2,21 +2,25 @@
     "navigation" : [
         {
             "combobox" : true,
+            "transition" : ".2",
             "name" : "Servicios",
             "url" : "/services"
         },
         {
             "combobox" : false,
+            "transition" : ".4",
             "name" : "Inicio",
             "url" : "/"
         },
         {
             "combobox" : false,
+            "transition" : ".6",
             "name" : "Nosotros",
             "url" : "/about"
         },
         {
             "combobox" : null,
+            "transition" : ".8",
             "name" : "Contactanos",
             "url" : "/contact"
         }
@@ -805,6 +809,26 @@
                     "picture" : "4",
                     "word" : "Modernidad",
                     "wordSrc" : "Ver"
+                }
+            ]
+        }
+    ],
+    "footer" : [
+        {
+            "callAction" : [
+                {
+                    "picture" : "1",
+                    "pictureTwo" : "2",
+                    "alt" : "Imagen de soy un cliente con una gran idea a planear",
+                    "description" : "Soy un cliente con una gran idea a planear",
+                    "transition" : ".1"
+                },
+                {
+                    "picture" : "3",
+                    "pictureTwo" : "4",
+                    "alt": "SImagen de sy una empresa con grandes ideales",
+                    "description" : "Soy una empresa con grandes ideales",
+                    "transition" : ".2"
                 }
             ]
         }
