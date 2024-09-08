@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 export default function CardsAction({ i }) {
   return (
     <motion.div
-        className="transition-none hover:translate-y-[-3px] hover__animation max-lg:py-6 max-md:ps-[5rem] max-md:pe-[1rem] max-md:px-0 max-md:py-8 relative flex justify-center items-center border-2 rounded-3xl shadow-sm hover:shadow-xl py-11 px-[5rem] bg-white" 
+        className="transition-none hover:translate-y-[-3px] hover__animation max-lg:py-6 max-md:ps-[5rem] max-md:pe-[1rem] max-md:px-0 max-md:py-8 relative flex justify-center items-center border-2 rounded-3xl shadow-sm hover:shadow-xl py-11 px-[5rem] bg-[#f6f6f6]" 
         style={{borderBottomLeftRadius : "0"}}
         initial={{  y: 80, opacity: 0 }}
         whileInView={{  y: 0, opacity: 1 }}

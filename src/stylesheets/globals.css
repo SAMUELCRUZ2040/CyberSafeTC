@@ -37,7 +37,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: #ff0101; */
     grid-column-start: 5;
 }
 

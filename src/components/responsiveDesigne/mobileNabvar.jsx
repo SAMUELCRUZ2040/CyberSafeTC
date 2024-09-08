@@ -48,7 +48,7 @@ export default function MobileNabvar() {
                     href={"/"}
                 >   
                     <Image
-                        src={`/icons/logo.png`}
+                        src={`/icons/logo.webp`}
                         width={400}
                         height={400}
                         alt={`logo`}

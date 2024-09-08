@@ -1,5 +1,5 @@
 "use client";
-import { useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import Strategies from "@/app/home/strategies";
@@ -9,9 +9,7 @@ export default function HorizontalScroll() {
   const [mobile, setMobile] = useState(false);
   const containerRef = useRef(null);
 
-  gsap.registerPlugin(ScrollTrigger);
-
-  useLayoutEffect(() => {
+  useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 1024px)");
     const handleResize = () => setMobile(mediaQuery.matches);
 
@@ -22,14 +20,18 @@ export default function HorizontalScroll() {
     return () => mediaQuery.removeEventListener("change", handleResize);
   }, []);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+  }, []);
+
+  useEffect(() => {
     const container = containerRef.current;
 
     // Asegurarse de que el contenedor esté disponible antes de continuar
     if (!container) return;
 
     // Limpiar triggers existentes
-    ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+    ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
 
     if (!mobile) {
       const sections = container.querySelectorAll(".section");
@@ -55,7 +57,7 @@ export default function HorizontalScroll() {
 
     // Limpiar triggers al desmontar o cambiar de modo
     return () => {
-      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };
   }, [mobile]);
 
