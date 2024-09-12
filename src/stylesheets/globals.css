@@ -75,6 +75,9 @@ section{
 .hover__animation:hover .hover__container img:first-child{
     opacity: 0;
 }
+.combobox:hover .arrow{
+    transform: rotate(-90deg);
+}
 
 @media screen and (max-width: 1024px){
     section{

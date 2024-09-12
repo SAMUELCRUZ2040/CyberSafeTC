@@ -1,3 +1,4 @@
+import TransitionLink from '@/components/transitionLink';
 import data from '@/json/data';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -28,7 +29,12 @@ export default function Services() {
                         />
                         <h2 className='text-xl font-semibold tracking-wide' >{ServiceData.title}</h2>
                         <p className='text-sm' >{ServiceData.description}</p>
-                        <Link className='text-[#347faa] underline underline-offset-8 hover:text-cyan-400'  href={`${ServiceData.url}`}>VER DETALLE</Link>
+                        <TransitionLink
+                            href={ServiceData.url}
+                            className='text-[#347faa] underline underline-offset-8 hover:text-cyan-400'
+                        >
+                            VER DETALLE
+                        </TransitionLink>
                     </div>
                 ))}
             </div>

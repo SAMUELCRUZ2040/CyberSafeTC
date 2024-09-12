@@ -1,12 +1,11 @@
 "use client";
 
-import Link from "next/link";
 import data from "@/json/data";
 import Image from "next/image";
 import MobileNabvar from "./responsiveDesigne/mobileNabvar";
 import Combobox from "./Combobox";
-import Delay from "./delay";
 import { useEffect, useState } from "react";
+import TransitionLink from "./transitionLink";
 
 export default function Navbar() {
   const [navbar, setNavbar] = useState({
@@ -67,7 +66,9 @@ export default function Navbar() {
         }`}
       >
         <div className={`${navbar.addAnimateLogo ? "blur-sm" : ""}`}>
-          <Link href={"/"}>
+          <TransitionLink 
+            href={"/"}
+          >
             <Image
               src={`/icons/logo.webp`}
               width={400}
@@ -75,35 +76,19 @@ export default function Navbar() {
               alt={`logo`}
               style={{ width: "100%", height: "auto" }}
             />
-          </Link>
+          </TransitionLink>
+
         </div>
-        <ul className="list_item flex gap-7 h-full justify-center align-center max-md:hidden">
+        <div className="list_item flex gap-7 h-full justify-center align-center max-md:hidden">
           {data.navigation.map((item, key) => (
-            <li
-              className={`item flex justify-center items-center gap-4 relative ${
-                item.combobox && "service"
-              } ${
-                item.combobox == null &&
-                "bg-black p-4 rounded-2xl text-white"
-              }`}
+            <TransitionLink 
               key={key}
+              href={item.url}
             >
-              <Delay href={item.url} content={item.name} />
-              {item.combobox && (
-                <span className="arrow rotate-90 transition ease-in-out">
-                  <Image
-                    src={`/icons/arrow.svg`}
-                    width={400}
-                    height={400}
-                    alt={`start`}
-                    style={{ width: "7px", height: "auto" }}
-                  />
-                </span>
-              )}
-              {item.combobox && <Combobox />}
-            </li>
+              {item.name}
+            </TransitionLink>
           ))}
-        </ul>
+        </div>
         <MobileNabvar />
       </div>
     </nav>

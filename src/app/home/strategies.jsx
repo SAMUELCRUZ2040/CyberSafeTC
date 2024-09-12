@@ -1,5 +1,5 @@
-import Delay from '@/components/delay';
 import { SubStrategies, OptionStrategies} from '@/components/home/optionStrategies';
+import TransitionLink from '@/components/transitionLink';
 import data from '@/json/data';
 import Image from 'next/image';
 
@@ -40,11 +40,12 @@ export default function Strategies() {
             </div>
             <div className="container flex justify-center items-center flex-col gap-5 mt-14">
                 <h2 className='max-lg:text-lg max-lg:font-bold croll-m-20 text-2xl font-semibold tracking-tight'>No esperes más, es el momento</h2>
-                <Delay 
+                <TransitionLink
                     href={"/services"}
-                    content={"empezemos ya +"}
                     className="transition-none max-lg:text-sm hover:scale-[1.04] shadow-xl py-4 px-12 border-2 rounded-xl text-xl font-bold text-center text-[#347faa]"
-                />
+                >
+                    empezemos ya +
+                </TransitionLink>
             </div>
         </div>
     );
