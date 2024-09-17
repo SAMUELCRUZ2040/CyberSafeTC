@@ -57,7 +57,7 @@ export function StructureDetails({id, idPage}){
                 <p className='text-lg w-3/6 max-lg:w-full max-lg:text-sm max-lg:mt-8'>{inyectInformation.description}</p>
             </div>
             <div 
-                className="container_image w-full relative h-[30rem] bg-cover bg-no-repeat bg-center max-lg:w-full max-lg:h-[18rem] grayscale"
+                className="transition-none container_image w-full relative h-[30rem] bg-cover bg-no-repeat bg-center max-lg:w-full max-lg:h-[18rem] grayscale"
                 style={{backgroundImage : `url(/image/services/${inyectInformation.image}.webp)`, width : "69%"}}
             />
         </>

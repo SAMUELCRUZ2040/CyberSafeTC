@@ -1,6 +1,6 @@
 "use client"
 
-import { animatePageOut } from "@/utils/animation";
+import { animatePageIn, animatePageOut } from "@/utils/animation";
 import { usePathname, useRouter } from "next/navigation";
 
 export default function TransitionLink({ children, href, className , combobox}) {
@@ -13,6 +13,7 @@ export default function TransitionLink({ children, href, className , combobox}) 
     if (pathname !== href) {
       animatePageOut(() => {
           router.push(href);
+          animatePageIn();
       });
     }
   };
