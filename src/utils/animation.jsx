@@ -1,44 +1,40 @@
-import gsap from "gsap"
+import gsap from 'gsap';
+
+export const animatePageOut = () => {
+  return new Promise((resolve) => {
+    const banners = ["banner-1", "banner-2", "banner-3", "banner-4", "banner-5", "banner-6"].map(id => document.getElementById(id));
+
+    if (banners) {
+      const tl = gsap.timeline();
+
+      tl.set([banners], {
+        yPercent: -100,
+      }).to([banners], {
+        yPercent: 0,
+        stagger: 0.06,
+        onComplete: () => {
+          resolve(); // Resuelve la promesa cuando la animación termine
+        },
+      });
+    } else {
+      resolve(); // Si no se encuentran los elementos, resolver la promesa inmediatamente
+    }
+  });
+};
 
 export const animatePageIn = () => {
-  const bannerOne = document.getElementById("banner-1")
-  const bannerTwo = document.getElementById("banner-2")
-  const bannerThree = document.getElementById("banner-3")
-  const bannerFour = document.getElementById("banner-4")
-  const bannerFive = document.getElementById("banner-5")
-  const bannerSix = document.getElementById("banner-6")
-
-  if (bannerOne && bannerTwo && bannerThree && bannerFour && bannerFive && bannerSix) {
-    const tl = gsap.timeline()
-
-    tl.set([bannerOne, bannerTwo, bannerThree, bannerFour, bannerFive, bannerSix], {
-      yPercent: 0,
-    }).to([bannerOne, bannerTwo, bannerThree, bannerFour, bannerFive, bannerSix], {
-      yPercent: 100,
-      stagger: 0.03,
-    })
-  }
-}
-
-export const animatePageOut = (callback) => {
-  const bannerOne = document.getElementById("banner-1")
-  const bannerTwo = document.getElementById("banner-2")
-  const bannerThree = document.getElementById("banner-3")
-  const bannerFour = document.getElementById("banner-4")
-  const bannerFive = document.getElementById("banner-5")
-  const bannerSix = document.getElementById("banner-6")
-
-  if (bannerOne && bannerTwo && bannerThree && bannerFour && bannerFive && bannerSix) {
-    const tl = gsap.timeline()
-
-    tl.set([bannerOne, bannerTwo, bannerThree, bannerFour, bannerFive, bannerSix], {
-      yPercent: -100,
-    }).to([bannerOne, bannerTwo, bannerThree, bannerFour, bannerFive, bannerSix], {
-      yPercent: 0,
-      stagger: 0.03,
-      onComplete: () => {
-        if (callback) callback()
-      },
-    })
-  }
-}
+  return new Promise(()=>{
+    const banners = ["banner-1", "banner-2", "banner-3", "banner-4", "banner-5", "banner-6"].map(id => document.getElementById(id));
+  
+    if (banners) {
+      const tl = gsap.timeline();
+  
+      tl.set([banners], {
+        yPercent: 0,
+      }).to([banners], {
+        yPercent: 100,
+        stagger: 0.06,
+      });
+    }
+  })
+};
