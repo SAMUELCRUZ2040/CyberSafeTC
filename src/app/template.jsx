@@ -1,12 +1,22 @@
 "use client"
 
 import { animatePageIn } from "@/utils/animation"
+import { usePathname } from "next/navigation";
 import { useEffect } from "react"
 
 export default function Template({ children }){
+  const pathname = usePathname();
+
   useEffect(() => {
-    animatePageIn()
-  }, [])
+    if (pathname === "/") {
+      // Si estamos en la ruta principal, ejecutamos la animación con un ligero ajuste o directamente
+      animatePageIn();
+    } else {
+      // Para cualquier otra ruta, también ejecutamos la animación
+      animatePageIn();
+    }
+  }, [pathname]);
+
 
   return (
     <div>

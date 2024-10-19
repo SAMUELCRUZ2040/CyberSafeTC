@@ -1,16 +1,16 @@
 {
     "navigation" : [
         {
-            "combobox" : true,
-            "transition" : ".2",
-            "name" : "Servicios",
-            "url" : "/services"
-        },
-        {
             "combobox" : false,
             "transition" : ".4",
             "name" : "Inicio",
             "url" : "/"
+        },
+        {
+            "combobox" : true,
+            "transition" : ".2",
+            "name" : "Servicios",
+            "url" : "/services"
         },
         {
             "combobox" : false,
