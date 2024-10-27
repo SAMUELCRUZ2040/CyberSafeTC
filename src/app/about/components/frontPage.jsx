@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function FrontPage() {
   return (
-    <section>
+    <section className='bg-cover bg-center bg-no-repeat bg-fixed' style={{backgroundImage : "url(/image/figure.png)"}}>
         <div className="grid grid-cols-2 w-full h-full ">
           <div className="w-full p-14 flex flex-col items-center justify-center">
               <h1 className='w-full flex flex-col text-[10rem] leading-none z-10 gap-5'>

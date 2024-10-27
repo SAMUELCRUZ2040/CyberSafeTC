@@ -1,13 +1,11 @@
 import TransitionLink from '@/components/transitionLink';
 import data from '@/json/data';
 import Image from 'next/image';
-import Link from 'next/link';
-
 
 export default function Services() {
   return (
     <div className="flex justify-center items-center mb-[8rem] bg-cover bg-center bg-no-repeat bg-fixed"
-        style={{backgroundImage : "url(/image/figure.png)"}}
+        style={{backgroundImage : "url(/image/figure.png)"}} 
     >
         <div className="container px-[5rem]">
             <div className="title py-[10rem]">
