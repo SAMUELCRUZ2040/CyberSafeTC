@@ -793,22 +793,55 @@
                 {
                     "picture" : "1",
                     "word" : "Agencia",
-                    "wordSrc" : "Ver"
+                    "wordSrc" : "Ver",
+                    "component" : "ourWork"
                 },
                 {
                     "picture" : "2",
                     "word" : "Mascotas",
-                    "wordSrc" : "Ver"
+                    "wordSrc" : "Ver",
+                    "component" : "ourWork"
                 },
                 {
                     "picture" : "3",
                     "word" : "Moda",
-                    "wordSrc" : "Ver"
+                    "wordSrc" : "Ver",
+                    "component" : "ourWork"
                 },
                 {
                     "picture" : "4",
                     "word" : "Modernidad",
-                    "wordSrc" : "Ver"
+                    "wordSrc" : "Ver",
+                    "component" : "ourWork"
+                }
+            ],
+            "outWork" : [
+                {
+                    "picture" : "landingPage",
+                    "icon" : "1",
+                    "title" : "Landing Page",
+                    "description" : "Crea una página de aterrizaje visualmente impactante con un diseño que refleje el estilo único de tu marca. Atrae a los visitantes con un gran contenido, formularios y botones de llamada a la acción para maximizar las conversiones.",
+                    "miniDescription" : "Libertad creativa total, opciones de automatización y menos tiempo a la hora de crear una página de aterrizaje de alta conversión. Crea páginas de aterrizaje que generen resultados.",
+                    "direction" : false,
+                    "submit" : "Lanza tu one-pager ahora"
+                },
+                {
+                    "picture" : "MicrositiosOne-Pagers",
+                    "icon" : "2",
+                    "title" : "Micrositios y One-Pagers",
+                    "description" : "Crea una página de aterrizaje visualmente impactante con un diseño que refleje el estilo único de tu marca. Atrae a los visitantes con un gran contenido, formularios y botones de llamada a la acción para maximizar las conversiones.",
+                    "miniDescription" : "Libertad creativa total, opciones de automatización y menos tiempo a la hora de crear una página de aterrizaje de alta conversión. Crea páginas de aterrizaje que generen resultados.",
+                    "direction" : true,
+                    "submit" : "Lanza tu one-pager ahora"
+                },
+                {
+                    "picture" :"software",
+                    "icon" :"3",
+                    "title" : "Software",
+                    "description" : "Crea una página de aterrizaje visualmente impactante con un diseño que refleje el estilo único de tu marca. Atrae a los visitantes con un gran contenido, formularios y botones de llamada a la acción para maximizar las conversiones.",
+                    "miniDescription" : "Libertad creativa total, opciones de automatización y menos tiempo a la hora de crear una página de aterrizaje de alta conversión. Crea páginas de aterrizaje que generen resultados.",
+                    "direction" : false,
+                    "submit" : "Lanza tu one-pager ahora"
                 }
             ]
         }
