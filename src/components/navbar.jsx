@@ -3,7 +3,6 @@
 import data from "@/json/data";
 import Image from "next/image";
 import MobileNabvar from "./responsiveDesigne/mobileNabvar";
-import Combobox from "./Combobox";
 import { useEffect, useState } from "react";
 import TransitionLink from "./transitionLink";
 
@@ -61,7 +60,7 @@ export default function Navbar() {
       <div
         className={`flex justify-between items-center w-full container mx-[18rem] px-14 py-4 max-lg:mx-4 max-lg:px-5 max-lg:py-1 my-5 ${
           navbar.addAnimateNavbar
-            ? "shadow-xl rounded-3xl backdrop-blur-  bg-[#f8f8f87d]"
+            ? "shadow-xl rounded-3xl backdrop-blur-[3px]  bg-[#f8f8f87d]"
             : ""
         }`}
       >
@@ -84,7 +83,16 @@ export default function Navbar() {
             <TransitionLink 
               key={key}
               href={item.url}
+              className={"flex justify-center items-center gap-2 text-xl text-neutral-900 hover__arrow relative"}
             >
+              <Image
+                  src={`/icons/arrow.svg`}
+                  width={400}
+                  height={400}
+                  alt={`arrow`}
+                  unoptimized
+                  className='w-[8px] rotate-90'
+              />
               {item.name}
             </TransitionLink>
           ))}

@@ -325,6 +325,7 @@
                     "title": "Desarrollo de Páginas Web",
                     "miniDescription": "Web profesional y SEO",
                     "description": "Transforma tu presencia online con páginas web profesionales, responsivas y optimizadas para SEO.",
+                    "grid" : "gridLayouTop gridLayoutBottom",
                     "url": "/services/desarrollo-de-paginas-web"
                 },
                 {
@@ -332,6 +333,7 @@
                     "title": "Asesorias y Mantenimientos",
                     "miniDescription": "Asesoría y mantenimiento",
                     "description": "Mantén tus sistemas en óptimo funcionamiento con asesorías y mantenimientos personalizados y continuos.",
+                    "grid" : "gridLayouTop gridLayoutBottom",
                     "url": "/services/asesorias-y-mantenimientos"
                 },
                 {
@@ -339,6 +341,7 @@
                     "title": "Desarrollo de software",
                     "miniDescription": "Software a medida",
                     "description": "Desarrollamos software a medida para mejorar la eficiencia operativa y darte una ventaja competitiva.",
+                    "grid" : "gridLayouTop",
                     "url": "/services/desarrollo-de-software"
                 },
                 {
@@ -346,6 +349,7 @@
                     "title": "Gestion de despliegues",
                     "miniDescription": "Gestión confiable",
                     "description": "Gestiona tus despliegues con confianza, asegurando una transición fluida y un rendimiento superior.",
+                    "grid" : "gridLayouTop gridLayoutBottom",
                     "url": "/services/gestion-de-despliegues"
                 },
                 {
@@ -353,6 +357,7 @@
                     "title": "Máquinas Virtuales",
                     "miniDescription": "Recursos optimizados",
                     "description": "Optimiza tus recursos con máquinas virtuales flexibles y escalables, reduciendo costos y facilitando la gestión.",
+                    "grid" : "gridLayouTop gridLayoutBottom",
                     "url": "/services/maquinas-virtuales"
                 },
                 {
@@ -360,6 +365,7 @@
                     "title": "Dominios",
                     "miniDescription": "Gestión de dominios",
                     "description": "Asegura tu presencia online con nuestro servicio de registro y gestión de dominios atractivos.",
+                    "grid" : "gridLayouTop",
                     "url": "/services/dominios"
                 },
                 {
@@ -367,6 +373,7 @@
                     "title": "Integracion de microservicios",
                     "miniDescription": "Microservicios ágiles",
                     "description": "Mejora la agilidad y escalabilidad de tus aplicaciones con nuestra integración profesional de microservicios.",
+                    "grid" : "gridLayoutBottom",
                     "url": "/services/integracion-de-microservicios"
                 },
                 {
@@ -374,6 +381,7 @@
                     "title": "Telefonia IP",
                     "miniDescription": "Comunicación avanzada",
                     "description": "Moderniza tu comunicación con soluciones avanzadas de telefonía IP, mejorando la productividad y colaboración.",
+                    "grid" : "gridLayoutBottom",
                     "url": "/services/telefonia-IP"
                 }
             ],

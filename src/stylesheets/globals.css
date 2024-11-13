@@ -16,7 +16,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 1px;
+    width: 8px;
     height: 7px;
   }
   
@@ -77,6 +77,46 @@ section{
 }
 .combobox:hover .arrow{
     transform: rotate(-90deg);
+}
+.hover__arrow::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1.4px;
+    bottom: 15%;
+    left: 0;
+    transition: 0.5s ease;
+    /* background: linear-gradient(to right, #596662 30%, transparent); */
+    background: linear-gradient(to right, transparent, #596662 30%, #596662 70%);
+}
+.hover__arrow:hover::after{
+    width: 100%;
+}
+
+.hover__arrow:hover img{
+    transform: rotate(-90deg);
+    transition: .4s all;
+}
+
+
+
+.gridLayouTop::before{
+    content: '';
+    position: absolute;
+    width: 150%;
+    height: 1px;
+    background: #c5c4c4c5;
+    left: -25%;
+    bottom: -15%;
+}
+.gridLayoutBottom::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 160%;
+    background: #c5c4c4c5;
+    right: -15%;
+    bottom: -15%;
 }
 
 @media screen and (max-width: 1024px){

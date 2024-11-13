@@ -16,20 +16,22 @@ export default function Services() {
             </div>
             <div className="services grid grid-cols-3 gap-[8rem] my-14 flex-wrap max-lg:grid-cols-2 max-sm:grid-cols-1">
                 {data.services[0].servicesLogo.map((ServiceData, keyService)=>(
-                    <div className="card flex flex-col gap-5" key={keyService}>
+                    <div 
+                        key={keyService}
+                        className={`flex justify-center items-start flex-col gap-5 relative ${ServiceData.grid}`}>
                         <Image
                             src={`/icons/services/${ServiceData.image}.png`}
                             width={500}
                             height={500}
                             alt={`logo`}
-                            style={{ width: "5rem", height: "auto" }}
+                            style={{ width: "5rem", height: "5rem" }}
 
                         />
                         <h2 className='text-xl font-semibold tracking-wide' >{ServiceData.title}</h2>
                         <p className='text-sm' >{ServiceData.description}</p>
                         <TransitionLink
                             href={ServiceData.url}
-                            className='text-[#347faa] underline underline-offset-8 hover:text-cyan-400'
+                            className='text-[#347faa] underline underline-offset-8 hover:text-cyan-400 text-start'
                         >
                             VER DETALLE
                         </TransitionLink>
