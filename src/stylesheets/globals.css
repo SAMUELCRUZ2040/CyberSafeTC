@@ -82,23 +82,22 @@ section{
     content: '';
     position: absolute;
     width: 0%;
-    height: 1.4px;
-    bottom: 15%;
+    height: 1.7px;
+    bottom: 0;
     left: 0;
     transition: 0.5s ease;
     /* background: linear-gradient(to right, #596662 30%, transparent); */
-    background: linear-gradient(to right, transparent, #596662 30%, #596662 70%);
+    /* background: linear-gradient(to right, transparent, #596662 30%, #596662 70%); */
+    background: #349aaaae;
 }
-.hover__arrow:hover::after{
+
+.container__arrow__hover:hover .hover__arrow::after{
     width: 100%;
 }
 
 .hover__arrow:hover img{
-    transform: rotate(-90deg);
-    transition: .4s all;
+    transform: translateY(0.2rem) rotate(90deg);
 }
-
-
 
 .gridLayouTop::before{
     content: '';
@@ -113,7 +112,7 @@ section{
     content: '';
     position: absolute;
     width: 1px;
-    height: 160%;
+    height: 170%;
     background: #c5c4c4c5;
     right: -15%;
     bottom: -15%;

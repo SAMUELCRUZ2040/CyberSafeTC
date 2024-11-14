@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Services() {
   return (
     <div className="flex justify-center items-center mb-[8rem] bg-cover bg-center bg-no-repeat bg-fixed"
-        style={{backgroundImage : "url(/image/figure.png)"}} 
+        // style={{backgroundImage : "url(/image/figure.png)"}} 
     >
         <div className="container px-[5rem]">
             <div className="title py-[10rem]">
@@ -18,22 +18,27 @@ export default function Services() {
                 {data.services[0].servicesLogo.map((ServiceData, keyService)=>(
                     <div 
                         key={keyService}
-                        className={`flex justify-center items-start flex-col gap-5 relative ${ServiceData.grid}`}>
-                        <Image
-                            src={`/icons/services/${ServiceData.image}.png`}
-                            width={500}
-                            height={500}
-                            alt={`logo`}
-                            style={{ width: "5rem", height: "5rem" }}
-
-                        />
-                        <h2 className='text-xl font-semibold tracking-wide' >{ServiceData.title}</h2>
-                        <p className='text-sm' >{ServiceData.description}</p>
+                        className={`relative ${ServiceData.grid}`}>
                         <TransitionLink
-                            href={ServiceData.url}
-                            className='text-[#347faa] underline underline-offset-8 hover:text-cyan-400 text-start'
+                                href={ServiceData.url}
+                                className={"w-full h-full justify-center items-start flex-col gap-5 flex text-start container__arrow__hover"}
                         >
-                            VER DETALLE
+                            <Image
+                                src={`/icons/services/${ServiceData.image}.gif`}
+                                width={500}
+                                height={500}
+                                alt={`logo`}
+                                style={{ width: "5rem", height: "5rem" }}
+
+                            />
+                            <h2 className='text-xl font-semibold tracking-wide' >{ServiceData.title}</h2>
+                            <p className='text-sm' >{ServiceData.description}</p>
+                            <a
+                                href={ServiceData.url}
+                                className='text-[#347faa] hover__arrow relative hover:text-[#349aaaae] text-start'
+                            >
+                                VER DETALLE
+                            </a>
                         </TransitionLink>
                     </div>
                 ))}

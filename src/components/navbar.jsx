@@ -83,17 +83,17 @@ export default function Navbar() {
             <TransitionLink 
               key={key}
               href={item.url}
-              className={"flex justify-center items-center gap-2 text-xl text-neutral-900 hover__arrow relative"}
+              className={"flex justify-center items-center gap-2 text-xl text-neutral-900 transition-none hover__arrow hover:text-[#5f5d5d] px-1 container__arrow__hover"}
             >
+              {item.name}
               <Image
                   src={`/icons/arrow.svg`}
                   width={400}
                   height={400}
                   alt={`arrow`}
                   unoptimized
-                  className='w-[8px] rotate-90'
+                  className='w-[8px] rotate-90 transition-none'
               />
-              {item.name}
             </TransitionLink>
           ))}
         </div>
