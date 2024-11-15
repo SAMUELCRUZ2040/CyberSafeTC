@@ -16,7 +16,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 0px;
     height: 7px;
   }
   
@@ -86,8 +86,6 @@ section{
     bottom: 0;
     left: 0;
     transition: 0.5s ease;
-    /* background: linear-gradient(to right, #596662 30%, transparent); */
-    /* background: linear-gradient(to right, transparent, #596662 30%, #596662 70%); */
     background: #349aaaae;
 }
 
@@ -102,7 +100,7 @@ section{
 .gridLayouTop::before{
     content: '';
     position: absolute;
-    width: 150%;
+    width: 0%;
     height: 1px;
     background: #c5c4c4c5;
     left: -25%;
@@ -112,12 +110,22 @@ section{
     content: '';
     position: absolute;
     width: 1px;
-    height: 170%;
+    height: 0%;
     background: #c5c4c4c5;
     right: -15%;
     bottom: -15%;
 }
 
+.gridUpdateAf::after{
+    height: 170%;
+    transition: 800ms all;
+    transition-delay: .5s;
+}
+.gridUpdateBe::before{
+    width: 170%;
+    transition: 800ms all;
+    transition-delay: .5s;
+}
 @media screen and (max-width: 1024px){
     section{
         height: auto;

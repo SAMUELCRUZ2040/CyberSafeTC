@@ -1,6 +1,5 @@
 import TransitionLink from '@/components/transitionLink';
 
-
 export default  function FrontPage() {
   return (
     <section className='bg-cover bg-center bg-no-repeat bg-fixed' style={{backgroundImage : "url(/image/figure.png)"}}>
@@ -28,7 +27,6 @@ export default  function FrontPage() {
                 Descubrelo todo {`>`}
               </TransitionLink>
           </div>
-
         </div>
     </section>
   )
