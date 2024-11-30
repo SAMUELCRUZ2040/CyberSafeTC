@@ -3,11 +3,11 @@ import data from '@/json/data';
 
 export default function Services() {
   return (
-    <div className="flex justify-center items-center mb-[7rem]"
+    <section className="flex justify-center items-center mb-[7rem]"
     >
         <div className="container px-[5rem]">
-            <div className="title py-[10rem]">
-                <h1 className='text-4xl lg:text-4xl xl:text-5xl 2xl:text-7xl flex flex-col  font-extrabold tracking-tight  leading-none'>
+            <div className="title py-[10rem] max-lg:pb-[4rem]">
+                <h1 className='text-4xl lg:text-4xl xl:text-5xl 2xl:text-8xl flex flex-col  font-extrabold tracking-tight  leading-none'>
                     <span className='font-normal'>Somos especialistas</span>    
                     <span>En lo que hacemos</span>    
                 </h1>
@@ -21,6 +21,6 @@ export default function Services() {
                 ))}
             </div>
         </div>
-    </div>
+    </section>
   )
 }

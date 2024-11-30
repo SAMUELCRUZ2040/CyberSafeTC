@@ -82,7 +82,7 @@ section{
     content: '';
     position: absolute;
     width: 0%;
-    height: 1.7px;
+    height: 1px;
     bottom: 0;
     left: 0;
     transition: 0.5s ease;
@@ -126,16 +126,19 @@ section{
     transition: 800ms all;
     transition-delay: .5s;
 }
+
 @media screen and (max-width: 1024px){
     section{
         height: auto;
     }
 }
+
 @media screen and (max-width: 1024px){
     body{
         padding: 4rem 0;
     }
 }
+
 @media screen and (max-width: 768px){
     .background_secondary{
         background: url(../../public/image/grid.webp);
@@ -145,10 +148,23 @@ section{
     }
     
 }
-@media screen and (min-height: 1486px){
+@media screen and (max-width: 568px){
+    .gridUpdateAf::after{
+        height: 0%;
+    }
+    
+}
+
+@media screen and (min-height: 1024px){
     section{
         height: auto;
         padding: 15rem 5rem;
+    }
+    .background_secondary{
+        background: url(../../public/image/grid.webp);
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 

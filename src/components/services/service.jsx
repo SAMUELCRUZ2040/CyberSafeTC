@@ -2,7 +2,7 @@
 
 import TransitionLink from '@/components/transitionLink';
 import Image from 'next/image';
-import { animate, delay, motion } from 'framer-motion';
+import {  motion } from 'framer-motion';
 import { useState } from 'react';
 
 export default  function Service({ ServiceData }) {
@@ -35,11 +35,12 @@ export default  function Service({ ServiceData }) {
                 }}
             >
                 <Image
-                    src={`/icons/services/${ServiceData.image}.gif`}
+                    src={`/icons/services/${ServiceData.image}.webp`}
                     width={500}
                     height={500}
                     alt={`logo`}
-                    style={{ width: "5rem", height: "5rem" }}
+                    className="w-[7rem] h-[7rem] max-xl:h-[6rem] max-xl:w-[6rem] max-lg:h-[5rem] max-lg:w-[5rem] max-sm:h-[4rem] max-sm:w-[4rem]"
+                    unoptimized
 
                 />
             </motion.span>
@@ -52,7 +53,7 @@ export default  function Service({ ServiceData }) {
                     ease: "easeOut",
                     delay: ServiceData.transition
                 }}
-                className='transition-none text-xl font-semibold tracking-wide' 
+                className='transition-none font-semibold tracking-wide text-[1.5rem] max-lg:text-3xl' 
             >
                 {ServiceData.title}
             </motion.h2>
@@ -65,7 +66,7 @@ export default  function Service({ ServiceData }) {
                     ease: "easeOut",
                     delay: ServiceData.transition
                 }}
-                className='transition-none text-sm' 
+                className='transition-none text-lg ' 
             >
                 {ServiceData.description}
             </motion.p>
@@ -78,7 +79,7 @@ export default  function Service({ ServiceData }) {
                     ease: "easeOut",
                     delay: ServiceData.transition
                 }}
-                className='transition-none text-[#347faa] hover__arrow relative hover:text-[#349aaaae] text-start'
+                className='transition-none text-[#347faa] hover__arrow relative '
             >
                 VER DETALLE
             </motion.span>

@@ -8,7 +8,7 @@ function Letters() {
     const words = ['Empresa.', 'Negocio.','Marca.', 'Proyecto.'];
 
   return (
-    <h1 className="text-4xl lg:text-4xl xl:text-5xl 2xl:text-7xl flex flex-col font-bold tracking-tight  leading-none">
+    <h1 className="text-7xl max-sm:text-5xl lg:text-7xl xl:text-7xl 2xl:text-8xl flex flex-col font-bold tracking-tight  leading-none">
             <motion.di
               className="transition-none"
               initial={{ y: 40, opacity: 0 }}
