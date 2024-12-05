@@ -4,6 +4,7 @@ import data from '@/json/data';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useEffect, useRef } from "react";
+import types from '@/components/fontLetters';
 
 export default function Users() {
     const columnsRef = useRef([]);
@@ -12,7 +13,7 @@ export default function Users() {
         <div className="flex justify-center align-center max-lg:px-5">
             <div className="container flex items-center flex-col">
                 <div className="title">
-                    <h2 className='max-lg:text-start text-6xl font-normal tracking-tight max-lg:text-3xl leading-none flex flex-col text-center'>
+                    <h2 className={`${types.h2} text-center ${types.flex}`}>
                         <span>Nuestros <span className="text-[#347faa]">clientes</span></span>
                         <span className='font-semibold'>Hablan por sí mismos</span>
                     </h2>

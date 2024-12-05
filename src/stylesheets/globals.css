@@ -40,7 +40,7 @@ section{
     grid-column-start: 5;
 }
 
-.background_secondary{
+.grid__home{
     background: url(../../public/image/grid.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -69,15 +69,19 @@ section{
 .hover__animation:hover .hover__container img{
     transform: translateY(-5px);
 }
+
 .hover__animation:hover .hover__container img:last-child{
     opacity: 1;
 }
+
 .hover__animation:hover .hover__container img:first-child{
     opacity: 0;
 }
+
 .combobox:hover .arrow{
     transform: rotate(-90deg);
 }
+
 .hover__arrow::after{
     content: '';
     position: absolute;
@@ -127,6 +131,8 @@ section{
     transition-delay: .5s;
 }
 
+
+/* responsive designe */
 @media screen and (max-width: 1024px){
     section{
         height: auto;
@@ -165,6 +171,16 @@ section{
         background-position: left top;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+}
+
+
+/*extra media queries*/
+
+@media screen and (max-width: 600px) and (max-height: 1024px){
+    section{
+        height: auto;
+        padding: 5rem 5rem;
     }
 }
 

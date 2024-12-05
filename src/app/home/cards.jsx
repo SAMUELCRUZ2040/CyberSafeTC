@@ -4,6 +4,7 @@ import Image from "next/image";
 import data from "@/json/data"
 import Link from "next/link";
 import { motion } from 'framer-motion';
+import types from "@/components/fontLetters";
 
 export default function Cards() {
 
@@ -42,7 +43,7 @@ export default function Cards() {
                                 style={{ width: "100%", height: "auto" }}
                             />
                             <p 
-                                className="p-4 max-xl:text-sm"
+                                className={`${types.p} p-6`}
                             >   
                                 {dataCard[1][0].description}
                             </p>

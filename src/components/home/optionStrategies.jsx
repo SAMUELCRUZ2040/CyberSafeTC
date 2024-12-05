@@ -4,8 +4,10 @@ import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import types from '../fontLetters';
+import TransitionLink from '../transitionLink';
 
-export function OptionStrategies({strategieData}) {
+export function OptionStrategies({ strategieData }) {
   return (
     <motion.div 
         className="flex gap-5 items-center max-lg:p-0 transition-none"
@@ -25,7 +27,7 @@ export function OptionStrategies({strategieData}) {
             alt={`check`}
             style={{ width: "15px", height: "15px" }}
         />
-        <p className='max-lg:text-sm text-justify'>{strategieData.description}</p>
+        <p className={types.p}>{strategieData.description}</p>
     </motion.div>
   )
 }
@@ -43,10 +45,10 @@ export function SubStrategies({subStrategiesData}) {
 
         }}
     >
-        <h2 className='max-lg:text-lg text-2xl font-semibold'>
+        <h4 className={types.h4}>
             {subStrategiesData.title}
-        </h2>
-        <p className='max-lg:text-sm'>
+        </h4>
+        <p className={types.p}>
             {subStrategiesData.description}
         </p>
         <div className="flex justify-between">
@@ -62,15 +64,17 @@ export function SubStrategies({subStrategiesData}) {
                     />
                 ))}
             </div>
-            <Link href={"/"} className=''>
+            <TransitionLink
+                href={"/Contact"}
+            >
                 <Image
-                    src={`/icons/arrow.svg`}
-                    width={400}
-                    height={400}
-                    alt={`start`}
-                    className='max-lg:w-[8px] h-auto w-[10px]'
+                        src={`/icons/arrow.svg`}
+                        width={400}
+                        height={400}
+                        alt={`start`}
+                        className='max-lg:w-[8px] h-auto w-[10px]'
                 />
-            </Link>
+            </TransitionLink>
         </div>
     </motion.div>
   )

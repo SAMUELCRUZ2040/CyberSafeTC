@@ -1,14 +1,15 @@
 "use client"
 
 import React from 'react'
-import { delay, motion } from 'framer-motion';
+import {  motion } from 'framer-motion';
 import Link from 'next/link';
+import types from '../fontLetters';
 
 export default function SubDescription() {
   return (
     <>
         <motion.p 
-              className="text-xl me-4 max-lg:text-sm transition-none"
+              className={types.p}
               initial={{ y: 40, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{

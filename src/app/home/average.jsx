@@ -3,6 +3,7 @@
 import data from '@/json/data';
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
+import types from '@/components/fontLetters';
 
 export default function Average() {
   const [counts, setCounts] = useState([]);
@@ -42,9 +43,9 @@ export default function Average() {
   return (
     <div className="flex justify-center items-center bg-[#92c2c217] max-lg:px-5 max-lg:py-10 h-full w-full ">
       <div className="container">
-        <h2 className="max-lg:text-3xl max-lg:text-start text-center text-7xl tracking-tight flex flex-col">
-          <span>Nos Enfocamos en la <span className="font-bold text-[#347faa]">Eficiencia y la Calidad</span></span>
-          <span><span className="font-bold text-[#347faa]">En cada</span> Proyecto</span>
+        <h2 className={`${types.h2}  ${types.flex} text-center`}>
+          <span className='text-center'>Nos Enfocamos en la <span className="font-bold text-[#347faa] text-center">Eficiencia y la Calidad</span></span>
+          <span><span className="font-bold text-[#347faa] text-center">En cada</span> Proyecto</span>
         </h2>
         <div className="gap-[7rem] flex items-center justify-center py-[6rem] max-lg:flex-col">
           {data.home[0].average.map((dataAverage, index) => (
@@ -68,7 +69,7 @@ export default function Average() {
                     + {counts[index]} {dataAverage.addIcon}
                 </h2>
                 <p
-                    className='max-lg:text-sm max-lg:text-justify text-md transition-none'
+                    className={types.p}
                 >
                     {dataAverage.description}
                 </p>

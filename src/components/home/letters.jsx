@@ -3,12 +3,15 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import { FlipWords } from '../type'
+import types from '../fontLetters';
 
 function Letters() {
     const words = ['Empresa.', 'Negocio.','Marca.', 'Proyecto.'];
 
+
+
   return (
-    <h1 className="text-7xl max-sm:text-5xl lg:text-7xl xl:text-7xl 2xl:text-8xl flex flex-col font-bold tracking-tight  leading-none">
+    <h1 className={types.h1}>
             <motion.di
               className="transition-none"
               initial={{ y: 40, opacity: 0 }}
