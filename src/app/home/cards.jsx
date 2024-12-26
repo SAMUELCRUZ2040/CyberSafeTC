@@ -14,7 +14,7 @@ export default function Cards() {
             // crear el numero de columnas 
             <div
                 key={key} 
-                className={`max-lg:mt-8 max-sm:grid-cols-1 mt-4 grid grid-cols-${Object.keys(data).length} gap-5 `}
+                className={`max-lg:mt-8 max-sm:grid-cols-1 mt-4 grid grid-cols-${Object.keys(data).length} gap-5`}
 
             >
                 {Object.entries(data).map((dataCard, keyCard)=>(
@@ -43,7 +43,7 @@ export default function Cards() {
                                 style={{ width: "100%", height: "auto" }}
                             />
                             <p 
-                                className={`${types.p} p-6`}
+                                className={`${types.p}  lg:p-2 p-6 `}
                             >   
                                 {dataCard[1][0].description}
                             </p>

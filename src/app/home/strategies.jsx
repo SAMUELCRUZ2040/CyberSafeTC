@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export default function Strategies() {
     return (
-        <div className='flex justify-center items-center flex-col max-lg:px-5 w-full h-full p-14'>
+        <div className='flex justify-center items-center flex-col max-lg:px-5 w-full h-full p-14 space'>
             <div className="grid grid-cols-2 justify-center items-center max-lg:grid-cols-1 container h-full">
                 <div className="flex">
                     <div className="flex flex-col justify-center items-start gap-8">

@@ -176,11 +176,51 @@ section{
 
 
 /*extra media queries*/
+@media screen and (max-width: 412px){
+    .space{
+        margin: 1vh 0 !important;
+        padding: 2rem 2rem !important;
+    }
+}
 
+@media screen and (max-width: 344px){
+    .sf-text{
+        font-size: 2.25rem !important;
+    }
+}
 @media screen and (max-width: 600px) and (max-height: 1024px){
     section{
         height: auto;
         padding: 5rem 5rem;
+    }
+}
+
+@media screen and (max-width: 1280px) and (max-height: 800px){
+    section{
+        height: auto;
+        padding: 5rem 5rem;
+    }
+}
+@media screen and (max-width: 1024px) and (max-height: 1366px){
+    section{
+        height: auto;
+        padding: 2rem 4rem;
+        margin: 6rem 0rem;
+    }
+    .card__home div:first-child a img{
+        display: none;
+    }
+    .space{
+        margin: 2vh 0;
+        padding: 5rem 4rem;
+    }
+
+}
+
+
+@media screen and (min-width: 853px) and (min-height: 1280px){
+    .card__home div:first-child a img{
+        display: none;
     }
 }
 

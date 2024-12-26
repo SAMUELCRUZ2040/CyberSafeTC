@@ -41,7 +41,7 @@ export default function Average() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center bg-[#92c2c217] max-lg:px-5 max-lg:py-10 h-full w-full ">
+    <div className="flex justify-center items-center bg-[#92c2c217] max-lg:px-5 max-lg:py-10 h-full w-full space">
       <div className="container">
         <h2 className={`${types.h2}  ${types.flex} text-center`}>
           <span className='text-center'>Nos Enfocamos en la <span className="font-bold text-[#347faa] text-center">Eficiencia y la Calidad</span></span>

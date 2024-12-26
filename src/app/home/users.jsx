@@ -10,7 +10,7 @@ export default function Users() {
     const columnsRef = useRef([]);
 
     return (
-        <div className="flex justify-center align-center max-lg:px-5">
+        <div className="flex justify-center align-center max-lg:px-5 space">
             <div className="container flex items-center flex-col">
                 <div className="title">
                     <h2 className={`${types.h2} text-center ${types.flex}`}>
