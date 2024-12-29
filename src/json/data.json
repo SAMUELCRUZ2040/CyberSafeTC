@@ -807,25 +807,27 @@
         {
             "counter" : [
                 {
-                    "number" : "1",
-                    "delay" : "Agencia",
-                    "description" : "ourWork"
+                    "number" : 20,
+                    "delay" : ".2",
+                    "description" : "Años en el mercado"
                 },
                 {
-                    "number" : "2",
-                    "delay" : "Mascotas",
-                    "description" : "ourWork"
+                    "number" : 99,
+                    "delay" : ".5",
+                    "description" : "De efectividad en la creacion y entrega de proyectos",
+                    "AditionalTrace" : "%"
                 },
                 {
-                    "number" : "3",
-                    "delay" : "Moda",
-                    "description" : "ourWork"
+                    "number" : 470,
+                    "delay" : ".3",
+                    "description" : "proyectos realizados"
                 },
                 {
-                    "number" : "4",
-                    "delay" : "Modernidad",
-                    "description" : "ourWork"
+                    "number" : 240,
+                    "delay" : ".4",
+                    "description" : "colaboradores a tu disposición"
                 }
+
             ],
             "outWork" : [
                 {

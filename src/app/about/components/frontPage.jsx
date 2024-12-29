@@ -1,14 +1,17 @@
+"use client"
+
 import types from '@/components/fontLetters';
 import TransitionLink from '@/components/transitionLink';
 import data from '@/json/data';
+import Counter from './counter';
 
 export default  function FrontPage() {
   return (
-    <section className='bg-cover bg-center bg-no-repeat bg-fixed' style={{backgroundImage : "url(/image/figure.png)"}}>
+    <section className='bg-cover bg-center bg-no-repeat bg-fixed my-54 py-54' style={{backgroundImage : "url(/image/figure.png)"}}>
         <div className="grid grid-cols-3 container">
               <div className="title flex-col gap-8 flex items-start">
                 <p className={`${types.p}`}>Somo un equipo impulsado por el </p>
-                <h1 className={`${types.h1} w-full flex gap-8`}>
+                <h1 className={`${types.h1} w-full flex gap-12`}>
                   <span className={`w-full flex justify-start font-bold`}>
                   Enfoque la
                   </span>
@@ -28,9 +31,23 @@ export default  function FrontPage() {
               <div className="w-[100%] h-[100%] bg-cover bg-no-repeat bg-center" style={{backgroundImage: "url(/image/about/collage.webp)"}} />
               <div className="counter flex flex-col gap-4 items-center justify-between">
                   {data.about[0].counter.map((item, index) => (
-                    <span key={index}>
-                      
-                    </span>
+                    <div 
+                      key={index} 
+                        className={`flex flex-col items-center justify-center gap-5`}
+                      >
+                      <h2
+                        className={`${types.h2} flex items-center justify-center gap-5`}
+
+                      >
+                        <span>+</span>
+                        <Counter 
+                          number={item.number}
+                          delay={item.delay}
+                        />
+                        <span>{item.AditionalTrace && item.AditionalTrace}</span>
+                      </h2>
+                      <p className={`${types.p}`}>{item.description}</p>
+                    </div>
                   ))}
               </div>
         </div>

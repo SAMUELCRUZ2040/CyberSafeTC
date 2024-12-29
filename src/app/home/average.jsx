@@ -1,49 +1,16 @@
 "use client";
 
 import data from '@/json/data';
-import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import types from '@/components/fontLetters';
+import Counter from '../about/components/counter';
 
 export default function Average() {
-  const [counts, setCounts] = useState([]);
-  const [active, setActive] = useState(false);
-
-  useEffect(() => {
-    if (active) {
-      const intervals = [];
-
-      // Inicializar los contadores para cada número
-      data.home[0].average.forEach((dataAverage, index) => {
-        const interval = setInterval(() => {
-          setCounts(prevCounts => {
-            const newCounts = [...prevCounts];
-            if (newCounts[index] < dataAverage.number) {
-              newCounts[index] += 1; // Incrementar el contador
-            } else {
-              clearInterval(interval); // Detener el contador cuando llegue al límite
-            }
-            return newCounts;
-          });
-        }, 12.5); // Ajusta el tiempo para la velocidad del contador
-
-        intervals.push(interval);
-      });
-
-      // Limpiar los intervalos al desmontar el componente o cuando `active` cambie
-      return () => intervals.forEach(interval => clearInterval(interval));
-    }
-  }, [active]); // Dependencia en `active` para ejecutar el efecto cuando cambie
-
-  useEffect(() => {
-    // Inicializar los contadores a 0 al principio
-    setCounts(data.home[0].average.map(() => 0));
-  }, []);
 
   return (
     <div className="flex justify-center items-center bg-[#92c2c217] max-lg:px-5 max-lg:py-10 h-full w-full space">
       <div className="container">
-        <h2 className={`${types.h2}  ${types.flex} text-center`}>
+        <h2 className={`${types.h2}  ${types.flex} text-center flex flex-col`}>
           <span className='text-center'>Nos Enfocamos en la <span className="font-bold text-[#347faa] text-center">Eficiencia y la Calidad</span></span>
           <span><span className="font-bold text-[#347faa] text-center">En cada</span> Proyecto</span>
         </h2>
@@ -51,22 +18,16 @@ export default function Average() {
           {data.home[0].average.map((dataAverage, index) => (
             <motion.div
               className='text-center  transition-none'
-              key={index}
-              initial={{ y: 40, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              transition={{
-                  duration: .4,
-                  ease: "easeOut",
-                  delay: dataAverage.transition
-
-              }}
-              onAnimationComplete={() => setActive(true)} 
             >
                 <h2 
-                    className='text-[#347faa] text-center text-7xl tracking-tight max-lg:text-4xl mb-4'
+                    className='text-[#347faa] text-center text-7xl tracking-tight max-lg:text-4xl mb-4 flex gap-5 justify-center items-center'
 
                 >
-                    + {counts[index]} {dataAverage.addIcon}
+
+                + <Counter 
+                  delay={dataAverage.transition}
+                  number={dataAverage.number}
+                />
                 </h2>
                 <p
                     className={types.p}
