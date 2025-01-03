@@ -5,7 +5,7 @@ const types = {
     h4: "max-lg:text-center text-xl  xl:text-3xl font-semibold",
     p: "max-lg:text-center text-xl me-4 max-lg:text-sm transition-none",
     buttom: "max-lg:text-lg text-2xl font-semibold",
-    flex: "flex justify-center items-center"
+    flexCenter: "justify-center items-center"
 };
 
 export default types;

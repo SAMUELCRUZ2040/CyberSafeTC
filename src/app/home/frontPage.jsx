@@ -5,7 +5,7 @@ import SubDescription from '@/components/home/subDescription';
 
 export default function FrontPage() {
   return (
-<section className='grid__home max-lg:px-5 max-lg:mb-14 max-lg:pb-14 space'>
+<section className='grid__home max-lg:px-5 max-lg:mb-14 max-lg:pb-14 space py-60'>
         <div className="max-lg:grid-cols-1 max-md:gap-10 max-md:pt-10 grid grid-cols-2 container" >
             <div className="max-lg:items-center flex justify-center items-start flex-col gap-8 max-lg:py-14">
                 <Letters />

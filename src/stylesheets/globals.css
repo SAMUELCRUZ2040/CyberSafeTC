@@ -133,17 +133,22 @@ section{
 
 
 /* responsive designe */
-
-@media screen and (max-width: 1024px){
-    body{
-        padding: 4rem 0;
+@media screen and (max-width: 344px){
+    .sf-text{
+        font-size: 2.25rem !important;
     }
-    section{
-        height: auto;
+}
+@media screen and (max-width: 412px){
+    .space{
+        margin: 1vh 0 !important;
+        padding: 2rem 2rem !important;
     }
-    .origin__order{
-        order: initial !important;
+}
+@media screen and (max-width: 568px){
+    .gridUpdateAf::after{
+        height: 0%;
     }
+    
 }
 
 @media screen and (max-width: 768px){
@@ -153,20 +158,20 @@ section{
         background-repeat: no-repeat;
         background-size: cover 50vh;
     }
-    
 }
-@media screen and (max-width: 568px){
-    .gridUpdateAf::after{
-        height: 0%;
+
+
+@media screen and (max-width: 1024px){
+    .origin__order{
+        order: initial !important;
+    }
+    .size{
+        width: 100% !important;
     }
     
 }
 
 @media screen and (min-height: 1024px){
-    section{
-        height: auto;
-        padding: 15rem 5rem;
-    }
     .background_secondary{
         background: url(../../public/image/grid.webp);
         background-position: left top;
@@ -175,36 +180,20 @@ section{
     }
 }
 
-
-/*extra media queries*/
-@media screen and (max-width: 412px){
-    .space{
-        margin: 1vh 0 !important;
-        padding: 2rem 2rem !important;
-    }
-}
-
-@media screen and (max-width: 344px){
-    .sf-text{
-        font-size: 2.25rem !important;
-    }
-}
+/* extra media queries*/
 @media screen and (max-width: 600px) and (max-height: 1024px){
     section{
-        height: auto;
-        padding: 5rem 5rem;
+        padding: 3rem 3rem;
+    }
+}
+@media screen and (min-width: 853px) and (min-height: 1280px){
+    .card__home div:first-child a img{
+        display: none;
     }
 }
 
-@media screen and (max-width: 1280px) and (max-height: 800px){
-    section{
-        height: auto;
-        padding: 5rem 5rem;
-    }
-}
 @media screen and (max-width: 1024px) and (max-height: 1366px){
     section{
-        height: auto;
         padding: 2rem 4rem;
         margin: 6rem 0rem;
     }
@@ -218,10 +207,10 @@ section{
 
 }
 
-
-@media screen and (min-width: 853px) and (min-height: 1280px){
-    .card__home div:first-child a img{
-        display: none;
+@media screen and (max-width: 1280px) and (max-height: 800px){
+    section{
+        height: auto;
+        padding: 3rem 3rem;
     }
 }
 

@@ -7,8 +7,8 @@ import { motion } from 'framer-motion';
 
 export default function OurWork() {
   return (
-    <section className="flex justify-center items-center space">
-        <div className="container bg-[#f6f6f6]">
+    <section className="flex justify-center items-center space mt-40">
+        <div className="container">
             <motion.h2 
                 className={`${types.h2} transition-none`}
                 initial={{ y: 40, opacity: 0 }}

@@ -814,7 +814,7 @@
                 {
                     "number" : 99,
                     "delay" : ".5",
-                    "description" : "De efectividad en la creacion y entrega de proyectos",
+                    "description" : "De efectividad en la creación y entrega de proyectos",
                     "AditionalTrace" : "%"
                 },
                 {
@@ -853,6 +853,123 @@
                     "miniDescription" : "Libertad creativa total, opciones de automatización y menos tiempo a la hora de crear una página de aterrizaje de alta conversión. Crea páginas de aterrizaje que generen resultados.",
                     "direction" : false,
                     "submit" : "Lanza tu one-pager ahora"
+                }
+            ],
+            "ilustration" : [
+                {
+                    "gridOne" : [
+                        {
+                            "title" : "Diseño",
+                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
+                            "component" : "Desarrollo_Páginas_eb",
+                            "className" : "60%",
+                            "background" : "cbdfff61",
+                            "delay" : ".6"
+                        }
+                    ],
+                    "gridTwo" : [
+                        {
+                            "title" : "Colaboraciones",
+                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
+                            "component" : "Desarrollo_Páginas_eb",
+                            "className" : "40%",
+                            "background" : "cbdfff61",
+                            "delay" : ".7"
+                        }
+                    ]
+                    
+                },
+                {
+                    "gridOne" : [
+                        {
+                            "title" : "Responsive Designe",
+                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
+                            "component" : "Desarrollo_Páginas_eb",
+                            "className" : "40%",
+                            "background" : "cbdfff61",
+                            "delay" : ".8"
+                        }
+                    ],
+                    "gridTwo" : [
+                        {
+                            "title" : "Efectos y transiciones",
+                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
+                            "component" : "Desarrollo_Páginas_eb",
+                            "className" : "60%",
+                            "background" : "cbdfff61",
+                            "delay" : ".9"
+                        }
+                    ]
+                    
+                },
+                {
+                    "gridOne" : [
+                        {
+                            "title" : "Navegaciones y Menús interactivos",
+                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
+                            "component" : "Desarrollo_Páginas_eb",
+                            "className" : "60%",
+                            "background" : "cbdfff61",
+                            "delay" : ".10"
+                        }
+                    ],
+                    "gridTwo" : [
+                        {
+                            "title" : "Plugins",
+                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
+                            "component" : "Desarrollo_Páginas_eb",
+                            "className" : "40%",
+                            "background" : "cbdfff61",
+                            "delay" : ".11"
+                        }
+                    ]
+                    
+                },
+                {
+                    "gridOne" : [
+                        {
+                            "title" : "SEO & Performance",
+                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
+                            "component" : "Desarrollo_Páginas_eb",
+                            "className" : "40%",
+                            "background" : "cbdfff61",
+                            "delay" : ".12"
+                        }
+                    ],
+                    "gridTwo" : [
+                        {
+                            "title" : "Localización",
+                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
+                            "component" : "Desarrollo_Páginas_eb",
+                            "className" : "60%",
+                            "background" : "cbdfff61",
+                            "delay" : ".12"
+                        }
+                    ]
+                    
+                },
+                {
+                    "gridOne" : [
+                        {
+                            "title" : "Construccion en AMD",
+                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
+                            "component" : "Desarrollo_Páginas_eb",
+                            "className" : "60%",
+                            "background" : "cbdfff61",
+                            "delay" : ".14"
+                        }
+                    ],
+                    "gridTwo" : [
+                        {
+                            "title" : "Infraestructura",
+                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
+                            "component" : "Desarrollo_Páginas_eb",
+                            "className" : "40%",
+                            "background" : "cbdfff61",
+                            "delay" : ".14"
+                        }
+                    ]
+                    
                 }
             ]
         }

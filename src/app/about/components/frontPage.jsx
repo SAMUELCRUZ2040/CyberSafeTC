@@ -7,7 +7,7 @@ import Counter from './counter';
 
 export default  function FrontPage() {
   return (
-    <section className='bg-cover bg-center bg-no-repeat bg-fixed my-54 py-54' style={{backgroundImage : "url(/image/figure.png)"}}>
+    <section className='pt-64 py-40 space'>
         <div className="grid grid-cols-3 container">
               <div className="title flex-col gap-8 flex items-start">
                 <p className={`${types.p}`}>Somo un equipo impulsado por el </p>
@@ -44,7 +44,7 @@ export default  function FrontPage() {
                           number={item.number}
                           delay={item.delay}
                         />
-                        <span>{item.AditionalTrace && item.AditionalTrace}</span>
+                        {item.AditionalTrace && item.AditionalTrace}
                       </h2>
                       <p className={`${types.p}`}>{item.description}</p>
                     </div>

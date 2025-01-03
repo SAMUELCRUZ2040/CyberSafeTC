@@ -18,6 +18,7 @@ export default function Average() {
           {data.home[0].average.map((dataAverage, index) => (
             <motion.div
               className='text-center  transition-none'
+              key={index}
             >
                 <h2 
                     className='text-[#347faa] text-center text-7xl tracking-tight max-lg:text-4xl mb-4 flex gap-5 justify-center items-center'
