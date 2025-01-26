@@ -1,7 +1,8 @@
 import data from '@/json/data';
 import Grid from './grid';
 import types from "@/components/fontLetters";
-import { First } from './componentAnimation';
+// import { Designe, Colaborations } from './componentAnimation';
+import { Components } from '../../../utils/componentAnimation';
 
 export default function Ilustration() {
   return (
@@ -19,7 +20,6 @@ export default function Ilustration() {
           </p>
         </div>
         {data.about[0].ilustration.map((data, index) =>{
-          const number = Object.keys(data).length + 1; 
           return(
           <div
             className={`flex gap-3 my-3 max-lg:flex-col `}
@@ -35,7 +35,9 @@ export default function Ilustration() {
               >
                 <h4 className={`${types.h4}`}>{dataGrid[1][0].title}</h4>
                 <p className={`${types.p}`}>{dataGrid[1][0].description}</p>
-                <First />
+                <Components 
+                  search={dataGrid[1][0].component}
+                />
               </Grid>
             ))}
           </div>

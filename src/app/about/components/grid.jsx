@@ -12,7 +12,7 @@ export default function Grid ({ children , delay, className, backgroundColor, st
                 ease: "easeOut",
                 delay: delay
             }}
-            className={`border-2 border-gray-300 rounded-2xl p-8 pb-0 shadow-lg transition-none py-8 backdrop-blur-[4px] ${className} size`}
+            className={`border-2 border-gray-300 rounded-2xl p-8 pb-0 shadow-lg transition-none py-8 backdrop-blur-[4px]  ${className} overflow-hidden`}
             style={{background : `${backgroundColor}`, width : `${style}`}}
         >
             {children}

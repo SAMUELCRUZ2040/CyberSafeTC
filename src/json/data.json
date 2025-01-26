@@ -861,9 +861,9 @@
                         {
                             "title" : "Diseño",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "Desarrollo_Páginas_eb",
+                            "component" : "designe",
                             "className" : "60%",
-                            "background" : "cbdfff61",
+                            "background" : "radial-gradient(77% 99% at 2.5% 99.1%, #5a00ff82 0%, rgb(0 0 0 / 6%) 100%)",
                             "delay" : ".6"
                         }
                     ],
@@ -871,9 +871,9 @@
                         {
                             "title" : "Colaboraciones",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "Desarrollo_Páginas_eb",
+                            "component" : "carousel",
                             "className" : "40%",
-                            "background" : "cbdfff61",
+                            "background" : "radial-gradient(77% 99% at 97.5% 99.1%, rgb(251 196 50 / 26%) 0%, rgba(0, 0, 0, 0.06) 100%)",
                             "delay" : ".7"
                         }
                     ]
@@ -884,7 +884,7 @@
                         {
                             "title" : "Responsive Designe",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "Desarrollo_Páginas_eb",
+                            "component" : "designe",
                             "className" : "40%",
                             "background" : "cbdfff61",
                             "delay" : ".8"
@@ -894,7 +894,7 @@
                         {
                             "title" : "Efectos y transiciones",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "Desarrollo_Páginas_eb",
+                            "component" : "designe",
                             "className" : "60%",
                             "background" : "cbdfff61",
                             "delay" : ".9"
@@ -907,7 +907,7 @@
                         {
                             "title" : "Navegaciones y Menús interactivos",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "Desarrollo_Páginas_eb",
+                            "component" : "designe",
                             "className" : "60%",
                             "background" : "cbdfff61",
                             "delay" : ".10"
@@ -917,7 +917,7 @@
                         {
                             "title" : "Plugins",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "Desarrollo_Páginas_eb",
+                            "component" : "designe",
                             "className" : "40%",
                             "background" : "cbdfff61",
                             "delay" : ".11"
@@ -930,7 +930,7 @@
                         {
                             "title" : "SEO & Performance",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "Desarrollo_Páginas_eb",
+                            "component" : "designe",
                             "className" : "40%",
                             "background" : "cbdfff61",
                             "delay" : ".12"
@@ -940,7 +940,7 @@
                         {
                             "title" : "Localización",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "Desarrollo_Páginas_eb",
+                            "component" : "designe",
                             "className" : "60%",
                             "background" : "cbdfff61",
                             "delay" : ".12"
@@ -953,7 +953,7 @@
                         {
                             "title" : "Construccion en AMD",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "Desarrollo_Páginas_eb",
+                            "component" : "designe",
                             "className" : "60%",
                             "background" : "cbdfff61",
                             "delay" : ".14"
@@ -963,7 +963,7 @@
                         {
                             "title" : "Infraestructura",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "Desarrollo_Páginas_eb",
+                            "component" : "designe",
                             "className" : "40%",
                             "background" : "cbdfff61",
                             "delay" : ".14"

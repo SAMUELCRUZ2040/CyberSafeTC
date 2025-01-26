@@ -40,6 +40,7 @@ section{
     grid-column-start: 5;
 }
 
+
 .grid__home{
     background: url(../../public/image/grid.webp);
     background-position: center;
@@ -131,6 +132,12 @@ section{
     transition-delay: .5s;
 }
 
+.animateEnter{
+    display: block;
+}
+.animateLeave{
+    display: none;
+}
 
 /* responsive designe */
 @media screen and (max-width: 344px){
