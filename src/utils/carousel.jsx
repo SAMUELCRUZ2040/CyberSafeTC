@@ -7,7 +7,7 @@ export const Carousel = ({ children, percent, duration, value, direction, ubicat
   const animations = useRef([]);
 
   useEffect(() => {
-    const animate = (index, initialDelay = 3.389) => {
+    const animate = (index, initialDelay = 2.01) => {
       gsap.to(animations.current[index], {
         [percent]: `${value}`,
         ease: "linear",
@@ -25,7 +25,7 @@ export const Carousel = ({ children, percent, duration, value, direction, ubicat
     };
 
     const ctx = gsap.context(() => {
-      animations.current.forEach((_, index) => animate(index, index * 6.70));
+      animations.current.forEach((_, index) => animate(index, index * 5.01));
     });
 
     return () => ctx.revert();
@@ -38,7 +38,7 @@ export const Carousel = ({ children, percent, duration, value, direction, ubicat
       {[...Array(2)].map((_, i) => (
         <div
           key={i}
-          // ref={(el) => animations.current[i] = el}
+          ref={(el) => animations.current[i] = el}
           className={`transition-none absolute  flex ${direction}`}
         >
             {children}

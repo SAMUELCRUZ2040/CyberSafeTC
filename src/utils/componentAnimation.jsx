@@ -1,14 +1,20 @@
 "use client"
 
-import { Designe } from '@/core/DesignAbout';
-import { Colaborations } from '@/core/ColaborationsAbout';
-import CarouselAbout from '@/core/CarouselAbout';
+import DesigneAbout   from '@/core/DesigneAbout';
+import { CollaborationsAbout } from '@/core/CollaborationsAbout';
+import { CreateDreamsAbout } from '@/core/createDreamsAbout';
+import { DiferentsEffectsAbout } from '@/core/diferentsEffectsAbout';
+import { DeploymentsSecurityAbout } from '@/core/deploymentsSecurityAbout';
+import { AnimationsAbout } from '@/core/animationsAbout';
 
 export const Components = ({ search }) => {
     const component = {
-        designe: <Designe />,
-        colaborations: <Colaborations />,
-        carousel: <CarouselAbout />,
+        designeAbout: <DesigneAbout />,
+        collaborationsAbout: <CollaborationsAbout />,
+        createDreamsAbout: <CreateDreamsAbout />,
+        diferentsEffectsAbout : <DiferentsEffectsAbout />,
+        deploymentsSecurityAbout : <DeploymentsSecurityAbout />,
+        animationsAbout: <AnimationsAbout />,
     };
     return component[search] || null;
 }

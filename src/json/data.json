@@ -859,21 +859,21 @@
                 {
                     "gridOne" : [
                         {
-                            "title" : "Diseño",
+                            "title" : "Design your product with us",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "designe",
-                            "className" : "60%",
-                            "background" : "radial-gradient(77% 99% at 2.5% 99.1%, #5a00ff82 0%, rgb(0 0 0 / 6%) 100%)",
+                            "component" : "designeAbout",
+                            "className" : "51%",
+                            "background" : "radia",
                             "delay" : ".6"
                         }
                     ],
                     "gridTwo" : [
                         {
-                            "title" : "Colaboraciones",
+                            "title" : "Our Collaborations",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "carousel",
-                            "className" : "40%",
-                            "background" : "radial-gradient(77% 99% at 97.5% 99.1%, rgb(251 196 50 / 26%) 0%, rgba(0, 0, 0, 0.06) 100%)",
+                            "component" : "collaborationsAbout",
+                            "className" : "49%",
+                            "background" : "",
                             "delay" : ".7"
                         }
                     ]
@@ -882,20 +882,21 @@
                 {
                     "gridOne" : [
                         {
-                            "title" : "Responsive Designe",
+                            "title" : "We create the page of your dreams",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "designe",
-                            "className" : "40%",
-                            "background" : "cbdfff61",
+                            "component" : "createDreamsAbout",
+                            "className" : "49%",
+                            "background" : "radia",
                             "delay" : ".8"
                         }
                     ],
                     "gridTwo" : [
+                        
                         {
-                            "title" : "Efectos y transiciones",
+                            "title" : "Diferents Effects",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "designe",
-                            "className" : "60%",
+                            "component" : "diferentsEffectsAbout",
+                            "className" : "51%",
                             "background" : "cbdfff61",
                             "delay" : ".9"
                         }
@@ -905,68 +906,22 @@
                 {
                     "gridOne" : [
                         {
-                            "title" : "Navegaciones y Menús interactivos",
+                            "title" : "Deployments and security in every project",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "designe",
-                            "className" : "60%",
+                            "component" : "deploymentsSecurityAbout",
+                            "className" : "51%",
                             "background" : "cbdfff61",
                             "delay" : ".10"
                         }
                     ],
                     "gridTwo" : [
                         {
-                            "title" : "Plugins",
+                            "title" : "Animations for your project",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "designe",
-                            "className" : "40%",
+                            "component" : "animationsAbout",
+                            "className" : "49%",
                             "background" : "cbdfff61",
                             "delay" : ".11"
-                        }
-                    ]
-                    
-                },
-                {
-                    "gridOne" : [
-                        {
-                            "title" : "SEO & Performance",
-                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "designe",
-                            "className" : "40%",
-                            "background" : "cbdfff61",
-                            "delay" : ".12"
-                        }
-                    ],
-                    "gridTwo" : [
-                        {
-                            "title" : "Localización",
-                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "designe",
-                            "className" : "60%",
-                            "background" : "cbdfff61",
-                            "delay" : ".12"
-                        }
-                    ]
-                    
-                },
-                {
-                    "gridOne" : [
-                        {
-                            "title" : "Construccion en AMD",
-                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "designe",
-                            "className" : "60%",
-                            "background" : "cbdfff61",
-                            "delay" : ".14"
-                        }
-                    ],
-                    "gridTwo" : [
-                        {
-                            "title" : "Infraestructura",
-                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "designe",
-                            "className" : "40%",
-                            "background" : "cbdfff61",
-                            "delay" : ".14"
                         }
                     ]
                     

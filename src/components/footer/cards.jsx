@@ -19,7 +19,7 @@ export default function CardsAction({ i }) {
     >
         <div className="hover__container flex justify-end items-center rounded-full absolute top-[5%] left-[-18%] w-[150px] h-[150px] max-lg:w-[100px] max-lg:h-[100px] max-lg:top-[14%] max-lg:left-[-9.8%]">
             <Image 
-                src={`/image/footer/person_waving_${i.picture}.png`}
+                src={`/image/footer/person_waving_${i.picture}.webp`}
                 alt={`${i.alt}`}
                 width={1000}
                 height={1000}
@@ -27,7 +27,7 @@ export default function CardsAction({ i }) {
                 className="absolute transition-none"
             />
             <Image 
-                src={`/image/footer/person_waving_${i.pictureTwo}.png`}
+                src={`/image/footer/person_waving_${i.pictureTwo}.webp`}
                 alt={`${i.alt}`}
                 width={1000}
                 height={1000}

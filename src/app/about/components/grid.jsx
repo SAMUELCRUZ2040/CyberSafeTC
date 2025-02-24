@@ -12,12 +12,10 @@ export default function Grid ({ children , delay, className, backgroundColor, st
                 ease: "easeOut",
                 delay: delay
             }}
-            className={`border-2 border-gray-300 rounded-2xl p-8 pb-0 shadow-lg transition-none py-8 backdrop-blur-[4px]  ${className} overflow-hidde`}
+            className={`border-2 border-gray-300 rounded-2xl p-8 pb-0 shadow-lg transition-none py-8 backdrop-blur-[4px] h-[45rem] ${className} overflow-hidden relative  max-lg:w-full`}
             style={{background : `${backgroundColor}`, width : `${style}`}}
         >
             {children}
         </motion.div>
     )
 }
- 
-//5 1.69 3.35

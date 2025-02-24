@@ -22,7 +22,7 @@ export default function Ilustration() {
         {data.about[0].ilustration.map((data, index) =>{
           return(
           <div
-            className={`flex gap-3 my-3 max-lg:flex-col `}
+            className={`flex gap-3 my-3 max-lg:flex-col`}
             key={index}
           >
             {Object.entries(data).map((dataGrid, index) => (
@@ -30,7 +30,7 @@ export default function Ilustration() {
                 key={index}
                 delay={dataGrid[1][0].transition}
                 backgroundColor={dataGrid[1][0].background}
-                className={`flex flex-col gap-8`}
+                className={`flex flex-col gap-8 max-lg:!w-full`}
                 style={dataGrid[1][0].className}
               >
                 <h4 className={`${types.h4}`}>{dataGrid[1][0].title}</h4>

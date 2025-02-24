@@ -1,7 +1,7 @@
 "use client";
 import React, { useCallback, useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { cn } from "@/utils/lib";
+import { cn } from "@/utils/cn";
 
 export const FlipWords = ({ words, duration = 1500, className }) => {
   const [currentWord, setCurrentWord] = useState(words[0]);
