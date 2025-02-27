@@ -14,7 +14,7 @@ export default function Ilustration() {
       bottomRight: "absolute bottom-0 right-0",
       center: "absolute top-0 right-0 w-full h-auto flex justify-center items-center flex-col text-center",
       longTextSmall: "w-[75%]",
-      longTextLong: "w-[60%]",
+      longTextLong: "w-[68%]",
     }
     return classDirection[directionObject] || null;
   }
