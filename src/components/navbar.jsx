@@ -5,6 +5,7 @@ import Image from "next/image";
 import MobileNabvar from "./responsiveDesigne/mobileNabvar";
 import { useEffect, useState } from "react";
 import TransitionLink from "./transitionLink";
+import Link from "next/link";
 
 export default function Navbar() {
   const [navbar, setNavbar] = useState({
@@ -65,7 +66,10 @@ export default function Navbar() {
         }`}
       >
         <div className={`${navbar.addAnimateLogo ? "blur-sm" : ""}`}>
-          <TransitionLink 
+          {/* <TransitionLink 
+            href={"/"}
+          > */}
+          <Link
             href={"/"}
           >
             <Image
@@ -75,17 +79,19 @@ export default function Navbar() {
               alt={`logo`}
               style={{ width: "100%", height: "auto" }}
             />
-          </TransitionLink>
+          </Link>
+
+          {/* </TransitionLink> */}
 
         </div>
         <div className="list_item flex gap-7 h-full justify-center align-center max-md:hidden">
           {data.navigation.map((item, key) => (
-            <TransitionLink 
-              key={key}
-              href={item.url}
-              className={"flex justify-center items-center gap-2 text-xl text-neutral-900 transition-none hover__arrow hover:text-[#5f5d5d] px-1 container__arrow__hover"}
-            >
-              {item.name}
+            // <TransitionLink 
+            //   key={key}
+            //   href={item.url}
+            //   className={"flex justify-center items-center gap-2 text-xl text-neutral-900 transition-none hover__arrow hover:text-[#5f5d5d] px-1 container__arrow__hover"}
+            // >
+            <Link key={key} href={item.url} className="flex justify-center items-center gap-2 text-xl text-neutral-900 transition-none hover__arrow hover:text-[#5f5d5d] px-1 container__arrow__hover">
               <Image
                   src={`/icons/arrow.svg`}
                   width={400}
@@ -94,7 +100,9 @@ export default function Navbar() {
                   unoptimized
                   className='w-[8px] rotate-90 transition-none'
               />
-            </TransitionLink>
+              {item.name}
+            </Link>
+            // </TransitionLink>
           ))}
         </div>
         <MobileNabvar />
@@ -102,3 +110,4 @@ export default function Navbar() {
     </nav>
   );
 }
+ 

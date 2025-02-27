@@ -31,7 +31,12 @@ export const CollaborationsAbout = () => {
   ]
 
   return (
-    <span className="w-full h-full relative flex justify-center items-center">
+    <>
+    <span className="absolute right-10 bottom-10 z-[999] font-black text-xl">
+      Our collaborations recommend our projects
+      <p className="text-sm font-normal">That's why the work we do is the best</p>
+    </span>
+    <div className="w-full h-full relative flex justify-center items-center">
       {groups.map((group, index) => (
         <Carousel
           percent={group.percent}
@@ -44,7 +49,7 @@ export const CollaborationsAbout = () => {
             {images.map((data, index) => (
               <div
                 key={index}
-                className={`w-[150px] h-[190px] flex gap-2 flex-shrink-0 transition-none`}
+                className={`w-[150px] h-[200px] flex gap-2 flex-shrink-0 transition-none`}
               >
                   <Image
                     src={`/image/about/carousel/${data}.svg`}
@@ -57,8 +62,7 @@ export const CollaborationsAbout = () => {
             ))}
         </Carousel>
       ))}
-      <div className={`z-50 absolute right-96 -bottom-12 w-full h-[15rem] gradient rotate-90`}/>
-      <div className={`z-50 absolute -right-96 -bottom-12 w-full h-[15rem] gradient -rotate-90`}/>
-    </span>
+    </div>
+    </>
   );
 }

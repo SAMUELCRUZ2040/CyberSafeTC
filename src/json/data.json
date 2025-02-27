@@ -862,8 +862,11 @@
                             "title" : "Design your product with us",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
                             "component" : "designeAbout",
-                            "className" : "51%",
-                            "background" : "radia",
+                            "extraComponent" : "counter",
+                            "directionComponent" : "bottomRight",
+                            "directionText" : "topRight",
+                            "className" : "58%",
+                            "value" : true,
                             "delay" : ".6"
                         }
                     ],
@@ -872,8 +875,9 @@
                             "title" : "Our Collaborations",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
                             "component" : "collaborationsAbout",
-                            "className" : "49%",
-                            "background" : "",
+                            "className" : "42%",
+                            "directionText" : "topLeft",
+                            "value" : false,
                             "delay" : ".7"
                         }
                     ]
@@ -882,23 +886,24 @@
                 {
                     "gridOne" : [
                         {
-                            "title" : "We create the page of your dreams",
+                            "title" : "Animations for your project",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "createDreamsAbout",
-                            "className" : "49%",
-                            "background" : "radia",
-                            "delay" : ".8"
+                            "component" : "animationsAbout",
+                            "className" : "42%",
+                            "directionText" : "topLeft",
+                            "value" : false,
+                            "delay" : ".9"
                         }
                     ],
                     "gridTwo" : [
-                        
                         {
-                            "title" : "Diferents Effects",
+                            "title" : "We create the page of your dreams",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "diferentsEffectsAbout",
-                            "className" : "51%",
-                            "background" : "cbdfff61",
-                            "delay" : ".9"
+                            "component" : "createDreamsAbout",
+                            "directionText" : "topLeft",
+                            "className" : "58%",
+                            "value" : false,
+                            "delay" : ".8"
                         }
                     ]
                     
@@ -909,18 +914,21 @@
                             "title" : "Deployments and security in every project",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
                             "component" : "deploymentsSecurityAbout",
-                            "className" : "51%",
-                            "background" : "cbdfff61",
+                            "className" : "58%",
+                            "directionText" : "topLeft",
+                            "value" : true,
                             "delay" : ".10"
                         }
                     ],
                     "gridTwo" : [
                         {
-                            "title" : "Animations for your project",
-                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "animationsAbout",
-                            "className" : "49%",
-                            "background" : "cbdfff61",
+                            "title" : "Diferents Effects",
+                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",                            
+                            "component" : "diferentsEffectsAbout",
+                            "extraComponent" : "rippleAbout",
+                            "className" : "42%",
+                            "directionText" : "center",
+                            "value" : true,
                             "delay" : ".11"
                         }
                     ]

@@ -1,22 +1,31 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+ 
+const colors = require("tailwindcss/colors");
+const {
+  default: flattenColorPalette,
+} = require("tailwindcss/lib/util/flattenColorPalette");
+ 
+ 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    darkMode: ['class'],
-    content: [
-    './app/**/*.{js,ts,jsx,tsx,mdx}', // Note the addition of the `app` directory.
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
- 
-    // Or if using `src` directory:
-    './src/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+	content: [
+		'./app/**/*.{js,ts,jsx,tsx,mdx}', // Note the addition of the `app` directory.
+		'./pages/**/*.{js,ts,jsx,tsx,mdx}',
+		'./components/**/*.{js,ts,jsx,tsx,mdx}',
+		
+		// Or if using `src` directory:
+		'./src/**/*.{js,ts,jsx,tsx,mdx}',
+	],
+	darkMode: ["class", 'class'],
   theme: {
   	extend: {
-  		borderRadius: {
-  			lg: 'var(--radius)',
-  			md: 'calc(var(--radius) - 2px)',
-  			sm: 'calc(var(--radius) - 4px)'
-  		},
   		colors: {
+  			border: 'hsl(var(--border))',
+  			'color-1': 'hsl(210, 100%, 50%)',
+  			'color-2': 'hsl(150, 100%, 50%)',
+  			'color-3': 'hsl(90, 100%, 50%)',
+  			'color-4': 'hsl(30, 100%, 50%)',
+  			'color-5': 'hsl(0, 100%, 50%)',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -47,7 +56,6 @@ module.exports = {
   				DEFAULT: 'hsl(var(--destructive))',
   				foreground: 'hsl(var(--destructive-foreground))'
   			},
-  			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
   			chart: {
@@ -57,8 +65,39 @@ module.exports = {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
+  		},
+  		borderRadius: {
+  			lg: 'var(--radius)',
+  			md: 'calc(var(--radius) - 2px)',
+  			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		animation: {
+  			ripple: 'ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite'
+  		},
+  		keyframes: {
+  			ripple: {
+  				'0%, 100%': {
+  					transform: 'translate(-50%, -50%) scale(1)'
+  				},
+  				'50%': {
+  					transform: 'translate(-50%, -50%) scale(0.9)'
+  				}
+  			}
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+	require("tailwindcss-animate"),
+	addVariablesForColors
+  ],
 }
+function addVariablesForColors({ addBase, theme }) {
+	let allColors = flattenColorPalette(theme('colors'));
+	let newVars = Object.fromEntries(
+	  Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+	);
+  
+	addBase({
+	  ':root': newVars,
+	});
+  }

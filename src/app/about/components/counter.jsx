@@ -23,7 +23,7 @@ export default  function Counter({ number, delay }) {
   }, [active, number]);
 
   return (
-        <motion.div
+      <motion.div
         className='text-center transition-none'
         initial={{ y: 40, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}

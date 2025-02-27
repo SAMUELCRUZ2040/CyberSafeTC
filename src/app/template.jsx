@@ -20,7 +20,7 @@ export default function Template({ children }){
 
   return (
     <div>
-      <div
+      {/* <div
         id="banner-1"
         className="z-[9999] transition-none min-h-screen bg-neutral-950 fixed top-0 left-0 w-[17%]"
       />
@@ -43,7 +43,7 @@ export default function Template({ children }){
       <div
         id="banner-6"
         className="z-[9999] transition-none min-h-screen bg-neutral-950 fixed top-0 left-[83%] w-[17%]"
-      />
+      /> */}
       {children}
     </div>
   )

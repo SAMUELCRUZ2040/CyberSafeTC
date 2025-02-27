@@ -39,9 +39,8 @@ const Notification = ({ name, description, icon, color, time }) => {
     <figure
       className={cn(
         "relative mx-auto min-h-fit w-full max-w-[600px] cursor-pointer overflow-hidden rounded-2xl p-4",
-        "transition-all duration-200 ease-in-out hover:scale-[103%]",
-        "bg-white [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)]",
-        "transform-gpu dark:bg-transparent dark:backdrop-blur-md dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]"
+        "transition-all duration-200 ease-in-out hover:scale-[100.2%] ",
+        "border-2 border-[#38393933] gradient__inset__third"
       )}
     >
       <div className="flex flex-row items-center gap-3">
@@ -66,13 +65,15 @@ const Notification = ({ name, description, icon, color, time }) => {
 
 export function DiferentsEffectsAbout({ className }) {
   return (
-    <div className={cn("relative flex h-[400px] w-full flex-col overflow-hidden p-2", className)}>
-      <ConfiDiferentsEffectsAbout>
-        {notifications.map((item, idx) => (
-          <Notification {...item} key={idx} />
-        ))}
-      </ConfiDiferentsEffectsAbout>
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-background"></div>
+    <>
+    <div className={cn("relative flex h-[400px] w-full flex-col overflow-hidden p-2 pt-[10rem]", className)}>
+        <ConfiDiferentsEffectsAbout>
+          {notifications.map((item, idx) => (
+            <Notification {...item} key={idx} />
+          ))}
+        </ConfiDiferentsEffectsAbout>
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-background"></div>
     </div>
+    </>
   );
 }

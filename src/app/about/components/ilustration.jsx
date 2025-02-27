@@ -3,8 +3,22 @@ import Grid from './grid';
 import types from "@/components/fontLetters";
 // import { Designe, Colaborations } from './componentAnimation';
 import { Components } from '../../../utils/componentAnimation';
+import { cn } from '@/utils/cn';
 
 export default function Ilustration() {
+  const direction = ( directionObject ) =>{
+    const classDirection = {
+      topLeft: "absolute top-0 left-0",
+      topRight: "absolute top-0 right-0",
+      bottomLeft: "absolute bottom-0 left-0",
+      bottomRight: "absolute bottom-0 right-0",
+      center: "absolute top-0 right-0 w-full h-auto flex justify-center items-center flex-col text-center",
+      longTextSmall: "w-[75%]",
+      longTextLong: "w-[60%]",
+    }
+    return classDirection[directionObject] || null;
+  }
+
   return (
     <section>
       <div className='container'>
@@ -22,7 +36,7 @@ export default function Ilustration() {
         {data.about[0].ilustration.map((data, index) =>{
           return(
           <div
-            className={`flex gap-3 my-3 max-lg:flex-col`}
+            className={`flex gap-3 my-3 max-lg:flex-col px-[18rem]`}
             key={index}
           >
             {Object.entries(data).map((dataGrid, index) => (
@@ -30,14 +44,31 @@ export default function Ilustration() {
                 key={index}
                 delay={dataGrid[1][0].transition}
                 backgroundColor={dataGrid[1][0].background}
-                className={`flex flex-col gap-8 max-lg:!w-full`}
+                className={`max-lg:!w-full relative`}
                 style={dataGrid[1][0].className}
               >
-                <h4 className={`${types.h4}`}>{dataGrid[1][0].title}</h4>
-                <p className={`${types.p}`}>{dataGrid[1][0].description}</p>
-                <Components 
-                  search={dataGrid[1][0].component}
-                />
+                <div className={cn(
+                  //special dates
+                  `${dataGrid[1][0].className === "58%" ? direction("longTextLong") : direction("longTextSmall")} ${direction(dataGrid[1][0].directionText)}`,
+                  //base styles
+                  "z-[0] p-8"
+                )}>
+                      <h4 className={`text-2xl !font-black`}>{dataGrid[1][0].title}</h4>
+                      <p className='text-md w-full'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, suscipit!</p>
+                </div>
+                
+                <div className={`h-auto p-8 ${direction(dataGrid[1][0].directionComponent)}`}>
+                  {dataGrid[1][0].value && (
+                    <Components 
+                      search={dataGrid[1][0].extraComponent}
+                    />
+                  )}
+                </div>
+                <div className="absolute w-full h-full top-0 left-0 flex justify-center items-center z-[-1] p-10 opacity-80">
+                  <Components 
+                    search={dataGrid[1][0].component}
+                  />
+                </div>
               </Grid>
             ))}
           </div>
@@ -46,4 +77,9 @@ export default function Ilustration() {
       </div>
     </section>
   );
+}
+
+
+const ComponentsUse = ({}) => {
+  return(p)
 }

@@ -2,16 +2,15 @@
 
 import React from 'react'
 import { motion } from 'framer-motion';
-import { FlipWords } from '../type'
 import types from '../fontLetters';
+import { Focus } from '../focus';
 
 function Letters() {
-    const words = ['Empresa.', 'Negocio.','Marca.', 'Proyecto.'];
 
 
 
   return (
-    <h1 className={types.h1}>
+    <h1 className={`${types.h1} gap-6`}>
             <motion.di
               className="transition-none"
               initial={{ y: 40, opacity: 0 }}
@@ -40,7 +39,7 @@ function Letters() {
                 Para el futuro de
             </motion.span>
             <motion.span
-              className="transition-none"
+              className="transition-none flex gap-10"
               initial={{ y: 40, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{
@@ -51,7 +50,7 @@ function Letters() {
               }}
                 
             >
-                Tu <FlipWords words={words} />
+                Tu <Focus />
             </motion.span>
 
     </h1>

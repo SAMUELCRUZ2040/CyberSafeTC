@@ -9,7 +9,7 @@ const Circle = forwardRef(({ className, children }, ref) => {
     <div
       ref={ref}
       className={cn(
-        "z-10 flex size-[4.50rem] items-center justify-center rounded-full border-2 border-border bg-white p-3 shadow-[0_0_20px_-12px_rgba(0,0,0,0.8)]",
+        "z-10 flex size-[4.50rem] items-center justify-center rounded-full border-2 bg-white p-3 shadow-[0_0_20px_-12px_rgba(0,0,0,0.8)]",
         className,
       )}
     >
@@ -32,7 +32,7 @@ export default function DesigneAbout({ className }) {
 
   return (
     <div
-      className={cn("relative flex h-[500px] w-full items-center justify-center overflow-hidden p-10", className)}
+      className={cn("relative flex h-[500px] w-[100%] items-center justify-center overflow-hidden pe-[12rem]", className)}
       ref={containerRef}
     >
       <div className="flex size-full max-w-lg flex-row items-stretch justify-between gap-10">

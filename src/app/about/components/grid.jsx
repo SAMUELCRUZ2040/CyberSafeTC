@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 
-export default function Grid ({ children , delay, className, backgroundColor, style}) {
+export default function Grid ({ children , delay, className, style}) {
     return(
         <motion.div
             initial={{ y: 40, opacity: 0 }}
@@ -12,9 +12,9 @@ export default function Grid ({ children , delay, className, backgroundColor, st
                 ease: "easeOut",
                 delay: delay
             }}
-            className={`border-2 border-gray-300 rounded-2xl p-8 pb-0 shadow-lg transition-none py-8 backdrop-blur-[4px] h-[45rem] ${className} overflow-hidden relative  max-lg:w-full`}
-            style={{background : `${backgroundColor}`, width : `${style}`}}
-        >
+            className={`border-2 border-white rounded-2xl  shadow-lg transition-none py-8 backdrop-blur-[4px] h-[30rem] ${className} overflow-hidden relative  max-lg:w-full gradient_inset`}
+            style={{width : `${style}`}}
+        >            
             {children}
         </motion.div>
     )

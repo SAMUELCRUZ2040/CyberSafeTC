@@ -1,16 +1,13 @@
-import ConfiAnimationsAbout from "./confiComponents/confiAnimationsAbout";
+import { ConfiAnimationsAbout } from "./confiComponents/confiAnimationsAbout";
 
 export const AnimationsAbout = () => {
     return (
-            <div className="flex justify-center" style={{position: 'relative', overflow: 'hidden', minHeight: '400px', maxHeight: '400px', width: '100%'}}>
-                <span className=" font-black text-8xl absolute text-transparent mt-[8rem]" style={{WebkitTextStroke: "1px #000" }}>Dynamic</span>
-                <ConfiAnimationsAbout
-                    count={30}
-                    gravity={1}
-                    friction={1}
-                    wallBounce={0.5}
-                    followCursor={false}
-                />
+        <>
+            <div className="absolute w-full h-full top-0 lef-0 bg-no-repeat bg-center bg-cover" style={{backgroundImage : "url(/image/about/layout/Animation_project.png)"}}/>
+            <div className="flex flex-col absolute bottom-5 left-5 text-7xl font-light w-[40%]">
+                <span className="">100 +</span>
+                <span className="">Countries</span>
             </div>
+        </>
     );
 }
