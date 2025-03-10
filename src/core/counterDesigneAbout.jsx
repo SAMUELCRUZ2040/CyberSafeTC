@@ -1,5 +1,5 @@
-import Counter from "@/app/about/components/counter";
-import { Icon } from "lucide-react";
+import Counter from "@/components/counter";
+
 
 export const CounterDesigneAbout = () => {
     const counters = [
@@ -25,7 +25,7 @@ export const CounterDesigneAbout = () => {
             {counters.map((counter, index) => (
                 <div 
                     key={index} 
-                    className="border-[#da07ff33] p-2 border-2 rounded-full shadow-sm w-[9rem] h-[9rem] text-4xl text-center gradient__inset__second flex flex-col justify-center items-center"
+                    className="border-[#da07ff36] p-2 border-2 rounded-full shadow-sm w-[9rem] h-[9rem] text-4xl text-center gradient__inset__second flex flex-col justify-center items-center"
                 >
                     <div className="flex">+ <Counter key={index} number={counter.number} delay={counter.delay} /> {counter.icon && ( counter.icon )}</div>
                     <p className="text-sm">{counter.text}</p>

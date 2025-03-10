@@ -1,5 +1,5 @@
 import data from '@/json/data';
-import Grid from './grid';
+import Grid from '../../../components/grid';
 import types from "@/components/fontLetters";
 // import { Designe, Colaborations } from './componentAnimation';
 import { Components } from '../../../utils/componentAnimation';
@@ -36,7 +36,7 @@ export default function Ilustration() {
         {data.about[0].ilustration.map((data, index) =>{
           return(
           <div
-            className={`flex gap-3 my-3 max-lg:flex-col px-[18rem]`}
+            className={`flex gap-3 my-3 max-lg:flex-col max-lg:px-0 px-[18rem]`}
             key={index}
           >
             {Object.entries(data).map((dataGrid, index) => (

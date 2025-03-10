@@ -3,7 +3,7 @@
 import data from '@/json/data';
 import { motion } from 'framer-motion';
 import types from '@/components/fontLetters';
-import Counter from '../about/components/counter';
+import Counter from '../../components/counter';
 
 export default function Average() {
 

@@ -1,41 +1,49 @@
-'use client'
+"use client";
 
-import React, { useState, useEffect, useRef } from 'react';
+import gsap from "gsap";
+import { useEffect, useRef } from "react";
 
-const Carousel = ({ data }) => {
-  const users = Object.values(data).flat();
-  const [index, setIndex] = useState(0);
-  const carouselRef = useRef(null);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((prevIndex) => (prevIndex + 1) % users.length);
-    }, 4000);
-
-    return () => clearInterval(interval);
-  }, [users.length]);
+export const Carousel = ({ children, percent, duration, value, direction, ubication}) => {
+  const animations = useRef([]);
 
   useEffect(() => {
-    if (carouselRef.current) {
-      carouselRef.current.style.transition = 'transform 0.5s ease-in-out';
-      carouselRef.current.style.transform = `translateY(-${index * 100}%)`;
-    }
-  }, [index]);
+    const animate = (index, initialDelay = 2.01) => {
+      gsap.to(animations.current[index], {
+        [percent]: `${value}`,
+        ease: "linear",
+        duration: [duration],
+        delay: initialDelay,
+        onComplete: () => {
+          gsap.set(animations.current[index], {
+            [percent]: `0`,
+            ease: "linear",
+            duration: 0,
+          });
+          animate(index); // Repeat the animation without delay
+        }
+      });
+    };
+
+    const ctx = gsap.context(() => {
+      animations.current.forEach((_, index) => animate(index, index * 5.01));
+    });
+
+    return () => ctx.revert();
+  }, []);
 
   return (
-    <div className="carousel">
-      <div className="carousel-inner" ref={carouselRef}>
-        {users.map((user, i) => (
-          <div className="carousel-item" key={i} style={{ transitionDuration: user.transition }}>
-            <img src={user.picture} alt={user.name} />
-            <h2>{user.name}</h2>
-            <p>{user.profession}</p>
-            <p>{user.description}</p>
-          </div>
-        ))}
-      </div>
+    <div
+        className={`transition-none flex h-full w-full  relative ${ubication}`}
+    >
+      {[...Array(2)].map((_, i) => (
+        <div
+          key={i}
+          ref={(el) => animations.current[i] = el}
+          className={`transition-none absolute  flex ${direction}`}
+        >
+            {children}
+        </div>
+      ))}
     </div>
   );
 };
-
-export default Carousel;

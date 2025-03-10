@@ -21,11 +21,11 @@ module.exports = {
   	extend: {
   		colors: {
   			border: 'hsl(var(--border))',
-  			'color-1': 'hsl(210, 100%, 50%)',
-  			'color-2': 'hsl(150, 100%, 50%)',
-  			'color-3': 'hsl(90, 100%, 50%)',
-  			'color-4': 'hsl(30, 100%, 50%)',
-  			'color-5': 'hsl(0, 100%, 50%)',
+  			'color-1': 'hsl(var(--color-1))',
+  			'color-2': 'hsl(var(--color-2))',
+  			'color-3': 'hsl(var(--color-3))',
+  			'color-4': 'hsl(var(--color-4))',
+  			'color-5': 'hsl(var(--color-5))',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -72,7 +72,8 @@ module.exports = {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		animation: {
-  			ripple: 'ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite'
+  			ripple: 'ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite',
+  			rainbow: 'rainbow var(--speed, 2s) infinite linear'
   		},
   		keyframes: {
   			ripple: {
@@ -81,6 +82,14 @@ module.exports = {
   				},
   				'50%': {
   					transform: 'translate(-50%, -50%) scale(0.9)'
+  				}
+  			},
+  			rainbow: {
+  				'0%': {
+  					'background-position': '0%'
+  				},
+  				'100%': {
+  					'background-position': '200%'
   				}
   			}
   		}

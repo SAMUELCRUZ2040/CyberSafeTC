@@ -27,49 +27,7 @@
     ],
     "home" : [
         {
-            "frontPage" : [
-                {
-                    "cardOne" : [
-                        {
-                            "picture" : "one",
-                            "description" : "Creamos e implementamos soluciones y diseños para software y telefonía IP. Mejoramos la comunicación, automatizamos procesos y protegemos datos para optimizar el rendimiento de tu empresa.",
-                            "direction" : "row",
-                            "link" : "/",
-                            "width" : 200,
-                            "height" : 100,
-                            "alt" : "Esta imagen representa software y telefonia ip",
-                            "transition" : ".1"
-                        }
-                    ]
-                },
-                {
-                    "cardOne" : [
-                        {
-                            "picture" : "two",
-                            "description" : "Creamos e implementamos infraestructura tecnológica para optimizar y proteger tu empresa.",
-                            "direction" : "col",
-                            "link" : "/",
-                            "width" : 350,
-                            "height" : 200,
-                            "alt" : "Esta imagen representa optimizacion y protección",
-                            "transition" : ".2"
-                        }
-                    ],
-                    "cardTwo" : [
-                        {
-                            "picture" : "three",
-                            "description" : "Proporcionamos soluciones tecnológicas integrales para impulsar el éxito de tu empresa en todas las áreas.",
-                            "direction" : "col",
-                            "link" : "/",
-                            "width" : 350,
-                            "height" : 200,
-                            "alt" : "Esta imagen representa soluciones tecnologicas",
-                            "transition" : ".3"
-                        }
-                    ]
-                }
-                
-            ],
+
             "summary" : [
                 {
                     "icon" : "1",

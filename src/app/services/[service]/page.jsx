@@ -1,4 +1,4 @@
-import { Details } from '@/components/details';
+import { DetailsService } from '@/components/detailsService';
 import data from '@/json/data';
 import Link from 'next/link';
 
@@ -29,7 +29,7 @@ export default  function Template({ params }) {
             style={{backgroundImage : `url(/image/services/${service.image}.webp)`, width : "calc(100% - 257px)"}}
           />
         </div>
-        <Details 
+        <DetailsService
           idPage = {params.service}
         />
         <div className="container flex flex-col items-center gap-5 p-14 my-14">

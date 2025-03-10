@@ -1,4 +1,4 @@
-import { Carousel } from "@/utils/carousel";
+import { Carousel } from "@/components/carousel";
 import Image from "next/image";
 
 export const CollaborationsAbout = () => {

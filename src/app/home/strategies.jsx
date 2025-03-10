@@ -1,8 +1,7 @@
 import types from '@/components/fontLetters';
-import { SubStrategies, OptionStrategies} from '@/components/home/optionStrategies';
-import TransitionLink from '@/components/transitionLink';
 import data from '@/json/data';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Strategies() {
     return (
@@ -15,10 +14,7 @@ export default function Strategies() {
                             <span>respalda, <span>24/7</span></span>
                         </h3>
                         {data.home[0].strategies.map((strategieData, keyCol)=>(
-                            <OptionStrategies
-                                key={keyCol}
-                                strategieData={strategieData}
-                            />
+                            <span key={keyCol}></span>
                         ))}
                     </div>
                 </div>
@@ -33,20 +29,17 @@ export default function Strategies() {
             </div>
             <div className="flex justify-center items-center gap-14 container max-lg:flex-col max-lg:gap-4">
                 {data.home[0].subStrategies.map((subStrategiesData, keySubstrategies)=>(
-                    <SubStrategies
-                        key={keySubstrategies}
-                        subStrategiesData={subStrategiesData}
-                    />
+                    <span key={keySubstrategies}></span>
                 ))}
             </div>
             <div className="container flex justify-center items-center flex-col gap-5 my-14">
                 <h2 className={types.h4}>No esperes más, es el momento</h2>
-                <TransitionLink
+                <Link
                     href={"/contact"}
                     className={`transition-none max-lg:text-sm hover:scale-[1.04] shadow-xl py-4 px-12 border-2 rounded-xl text-[#347faa] ${types.buttom}`}
                 >
                     empezemos ya +
-                </TransitionLink>
+                </Link>
             </div>
         </div>
     );

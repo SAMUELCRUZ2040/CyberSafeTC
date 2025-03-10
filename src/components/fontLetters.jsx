@@ -5,7 +5,16 @@ const types = {
     h4: "max-lg:text-center text-xl  xl:text-3xl font-semibold",
     p: "max-lg:text-center text-xl me-4 max-lg:text-sm transition-none",
     buttom: "max-lg:text-lg text-2xl font-semibold",
-    flexCenter: "justify-center items-center"
+    flexCenter: "justify-center items-center",
+    animation: {
+        initial: { y: 40, opacity: 0 },
+        whileInView: { y: 0, opacity: 1 },
+        transition: {
+            duration: 0.4,
+            ease: "easeOut",
+            delay: 0.1
+        }
+    }
 };
 
 export default types;
