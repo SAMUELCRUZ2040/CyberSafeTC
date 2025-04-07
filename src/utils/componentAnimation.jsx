@@ -8,6 +8,7 @@ import { DeploymentsSecurityAbout } from '@/core/deploymentsSecurityAbout';
 import { AnimationsAbout } from '@/core/animationsAbout';
 import { CounterDesigneAbout } from '@/core/counterDesigneAbout';
 import { RippleAbout } from '@/core/ripleAbout';
+import { SkeletonFour, SkeletonOne, SkeletonThree, SkeletonTwo } from '@/core/skeletonHome';
 
 export const Components = ({ search, ...params}) => {
     const component = {
@@ -18,7 +19,11 @@ export const Components = ({ search, ...params}) => {
         deploymentsSecurityAbout : <DeploymentsSecurityAbout />,
         animationsAbout: <AnimationsAbout />,
         counter: <CounterDesigneAbout/>,
-        rippleAbout: <RippleAbout />
+        rippleAbout: <RippleAbout />,
+        skeletonOne: <SkeletonOne />,
+        skeletonTwo: <SkeletonTwo />,
+        skeletonThree: <SkeletonThree />,
+        skeletonFour: <SkeletonFour />,
     };
     return component[search] || null;
 }

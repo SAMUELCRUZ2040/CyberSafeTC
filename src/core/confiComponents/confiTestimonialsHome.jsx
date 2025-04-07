@@ -100,16 +100,16 @@ export const ConfiTestimonials = ({ testimonials, autoplay = false }) => {
               ))}
             </motion.p>
           </motion.div>
-          <div className="flex gap-4 pt-12 md:pt-0">
+          <div className="flex gap-4 pt-12 md:pt-0 max-md:justify-center max-md:items-center">
             <button
               onClick={handlePrev}
               className="h-7 w-7 rounded-full bg-gray-100 dark:bg-neutral-800 flex items-center justify-center group/button">
-              <span>i</span>
+              <span className="bg-center bg-no-repeat bg-cover w-[1rem] h-[1rem]" style={{backgroundImage : "url(/icons/arrow-left-solid.svg)"}}/>
             </button>
             <button
               onClick={handleNext}
               className="h-7 w-7 rounded-full bg-gray-100 dark:bg-neutral-800 flex items-center justify-center group/button">
-              <span>d</span>
+              <span className="bg-center bg-no-repeat bg-cover w-[1rem] h-[1rem]" style={{backgroundImage : "url(/icons/arrow-right-solid.svg)"}}/>
             </button>
           </div>
         </div>

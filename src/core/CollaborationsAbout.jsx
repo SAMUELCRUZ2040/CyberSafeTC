@@ -19,14 +19,18 @@ export const CollaborationsAbout = () => {
       duration: 8,
       value: 160,
       direction: "gap-10 p-5 flex-row right-[110%]",
-      ubication: "justify-end items-end"
+      ubication: "justify-end items-end",
+      delayInitial : 2.01,
+      delayGeneral : 5.01
     },
     {
       percent: "xPercent",
       duration: 8,
       value: -160,
       direction: "gap-10 p-5 flex-row left-[110%]",
-      ubication: "justify-end items-start"
+      ubication: "justify-end items-start",
+      delayInitial : 2.01,
+      delayGeneral : 5.01
     }
   ]
 
@@ -44,6 +48,8 @@ export const CollaborationsAbout = () => {
           value={group.value}
           direction={group.direction} // cuadrar el espaciado de cada elemento y y de la cuadrilla y la direction con flex
           ubication={group.ubication} // cuadrar la ubicacion con flex
+          delayInitial={group.delayInitial}
+          delayGeneral={group.delayGeneral}
           key={index}
         >
             {images.map((data, index) => (

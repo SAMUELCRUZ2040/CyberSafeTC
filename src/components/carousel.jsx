@@ -3,11 +3,11 @@
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 
-export const Carousel = ({ children, percent, duration, value, direction, ubication}) => {
+export const Carousel = ({ children, percent, duration, value, direction, ubication, delayInitial, delayGeneral}) => {
   const animations = useRef([]);
 
   useEffect(() => {
-    const animate = (index, initialDelay = 2.01) => {
+    const animate = (index, initialDelay = delayInitial) => {
       gsap.to(animations.current[index], {
         [percent]: `${value}`,
         ease: "linear",
@@ -16,7 +16,7 @@ export const Carousel = ({ children, percent, duration, value, direction, ubicat
         onComplete: () => {
           gsap.set(animations.current[index], {
             [percent]: `0`,
-            ease: "linear",
+            ease: "easeOut",
             duration: 0,
           });
           animate(index); // Repeat the animation without delay
@@ -25,7 +25,7 @@ export const Carousel = ({ children, percent, duration, value, direction, ubicat
     };
 
     const ctx = gsap.context(() => {
-      animations.current.forEach((_, index) => animate(index, index * 5.01));
+      animations.current.forEach((_, index) => animate(index, index * delayGeneral));
     });
 
     return () => ctx.revert();
@@ -33,13 +33,13 @@ export const Carousel = ({ children, percent, duration, value, direction, ubicat
 
   return (
     <div
-        className={`transition-none flex h-full w-full  relative ${ubication}`}
+        className={`flex h-full w-full relative ${ubication}`}
     >
       {[...Array(2)].map((_, i) => (
         <div
           key={i}
           ref={(el) => animations.current[i] = el}
-          className={`transition-none absolute  flex ${direction}`}
+          className={`absolute flex ${direction}`}
         >
             {children}
         </div>

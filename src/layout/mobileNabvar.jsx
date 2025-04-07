@@ -4,13 +4,12 @@ import data from "@/json/data";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from 'framer-motion';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function MobileNabvar() {
     const [state, setstate] = useState({
         toggle : false,
     })
-
     const toggleActive = ()=>{
         setstate(prevState =>({
             ...prevState,
@@ -18,28 +17,13 @@ export default function MobileNabvar() {
         }))
     }
 
+
   return (
     <>
-        <div className="tooltip z-50 max-md:flex hidden cursor-pointer justify-center items-center w-[3rem] h-[3rem]" 
-            onClick={toggleActive}
-        >
-            <Image
-                src={"/icons/enter.webp"}
-                width={500}
-                height={500}
-                alt={`logo`}
-                style={{ width: "1.3rem", height: "auto" }}
-                className={`${state.toggle ?  "hidden" : "flex"  }`}
-
-            />
-            <Image
-                src={"/icons/exit.webp"}
-                width={500}
-                height={500}
-                alt={`logo`}
-                style={{ width: "1.3rem", height: "auto" }}
-                className={`${state.toggle ?  "flex" : "hidden"  }`}
-            />
+        <div className={`toggle max-md:gap-2 max-md:flex-col z-50 max-md:flex hidden cursor-pointer justify-center items-center w-[3rem] h-[3rem]  ${state.toggle ? "animate" : "" }`} onClick={toggleActive}>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
         <div className={`${state.toggle ? "scale-y-1" : "scale-y-0" } origin-top flex flex-col bg-white p-8 overflow-hidden h-screen w-screen fixed  top-0 left-0`}>
             <div className="w-full">

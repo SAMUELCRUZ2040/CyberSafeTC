@@ -1,6 +1,7 @@
 import Footer from "@/layout/footer";
 import Navbar from "@/layout/navbar";
 import { Inter } from "next/font/google";
+import { ScreenProvider } from "@/layout/breakpoints";
 import "@/stylesheets/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,11 +15,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-          <Navbar />
-            <main>
-                {children}
-            </main>
-          <Footer />
+          <ScreenProvider>
+            <Navbar />
+              <main>
+                  {children}
+              </main>
+            <Footer />
+          </ScreenProvider>
       </body>
     </html>
   );

@@ -1,27 +1,23 @@
 {
     "navigation" : [
         {
-            "combobox" : false,
             "transition" : ".4",
-            "name" : "Inicio",
+            "name" : "Home",
             "url" : "/"
         },
         {
-            "combobox" : true,
             "transition" : ".2",
-            "name" : "Servicios",
+            "name" : "Services",
             "url" : "/services"
         },
         {
-            "combobox" : false,
             "transition" : ".6",
-            "name" : "Nosotros",
+            "name" : "About",
             "url" : "/about"
         },
         {
-            "combobox" : null,
             "transition" : ".8",
-            "name" : "Contactanos",
+            "name" : "Contact",
             "url" : "/contact"
         }
     ],
@@ -31,117 +27,107 @@
             "summary" : [
                 {
                     "icon" : "1",
-                    "alt"  : "esta imagen respresenta Innovación",
+                    "alt"  : "Innovación",
                     "subtitle" : "Innovación",
-                    "title"  : "Tecnología Avanzada y Eficiente",
-                    "description" : "Nuestra tecnología avanzada garantiza soluciones eficientes y a la vanguardia, totalmente adaptadas a tus necesidades específicas.",
+                    "title"  : "Advanced and Efficient Technology",
+                    "description" : "Our advanced technology guarantees efficient, cutting-edge solutions, fully tailored to your specific needs.",
                     "url" : "/",
-                    "background" : "dfdaff7a",
                     "transition" : ".1"
                 },
                 {
                     "icon" : "2",
-                    "alt"  : "esta imagen respresenta",
-                    "subtitle" : "Calidad",
-                    "title"  : "Excelencia y Calidad Asegurada",
-                    "description" : "Nos comprometemos con la excelencia en cada proyecto, asegurando productos y servicios de la más alta calidad y rendimiento comprobado.",
+                    "alt"  : "Quality",
+                    "subtitle" : "Quality",
+                    "title"  : "Excellence and Quality Assured",
+                    "description" : "We are committed to excellence in every project, ensuring products and services of the highest quality and proven performance.",
                     "url" : "/",
-                    "background" : "cbdfff61",
                     "transition" : ".2"
                 },
                 {
                     "icon" : "3",
-                    "alt"  : "esta imagen respresenta",
-                    "subtitle" : "Experiencia",
-                    "title"  : "Expertos en el Área Tecnológica",
-                    "description" : "Contamos con un equipo de expertos en el área, con años de experiencia en el desarrollo de soluciones tecnológicas innovadoras.",
+                    "alt"  : "Experience",
+                    "subtitle" : "Experience",
+                    "title"  : "Experts in the Technological Field",
+                    "description" : "We have a team of experts in the field, with years of experience in developing innovative technological solutions.",
                     "url" : "/",
-                    "background" : "cbdfff61",
                     "transition" : ".3"
                 },
                 {
                     "icon" : "4",
-                    "alt"  : "esta imagen respresenta",
-                    "subtitle" : "Soporte",
-                    "title"  : "Asistencia y Soporte 24/7",
-                    "description" : "Brindamos asistencia y soporte 24/7, asegurando que siempre tengas el soporte necesario cuando más lo necesitas.",
+                    "alt"  : "Support",
+                    "subtitle" : "Support",
+                    "title"  : "24/7 Assistance and Support",
+                    "description" : "We provide 24/7 assistance and support, ensuring you always have the help you need when you need it most.",
                     "url" : "/",
-                    "background" : "cbdfff61",
                     "transition" : ".1"
                 },
                 {
                     "icon" : "5",
-                    "alt"  : "esta imagen respresenta",
-                    "subtitle" : "Adaptabilidad",
-                    "title"  : "Soluciones Flexibles y Dinámicas",
-                    "description" : "Nuestras soluciones son flexibles y se adaptan a los cambios y necesidades de tu negocio en todo momento, sin fallos.",
+                    "alt"  : "Adaptability",
+                    "subtitle" : "Adaptability",
+                    "title"  : "Flexible and Dynamic Solutions",
+                    "description" : "Our solutions are flexible and adapt to the changes and needs of your business at all times, without fail.",
                     "url" : "/",
-                    "background" : "cbdfff61",
                     "transition" : ".2"
                 },
                 {
                     "icon" : "6",
-                    "alt"  : "esta imagen respresenta",
-                    "subtitle" : "Resultados",
-                    "title"  : "Impacto Tangible y Garantizado",
-                    "description" : " Nos enfocamos en resultados tangibles y de impacto garantizado, impulsando el crecimiento y éxito continuo de tu empresa.",
+                    "alt"  : "Results",
+                    "subtitle" : "Results",
+                    "title"  : "Tangible and Guaranteed Impact",
+                    "description" : "We focus on tangible and guaranteed results, driving the continuous growth and success of your company.",
                     "url" : "/",
-                    "background" : "c5f2fb63",
                     "transition" : ".3"
                 }
+            ],
+            "features" : [
+                {
+                    "title": "Our team is 100% available for you",
+                    "description":
+                      "Our team is available at any time.",
+                    "skeleton": "skeletonOne",
+                    "className": "skeletonOne"
+                  },
+                  {
+                    "title": "A little bit of our work",
+                    "description":
+                      "Capture stunning photos effortlessly using our advanced AI technology.",
+                    "skeleton": "skeletonTwo",
+                    "className": "SkeletonTwo"
+                  },
+                  {
+                    "title": "Watch our AI on YouTube",
+                    "description":
+                      "Whether its you or Tyler Durden, you can get to know about our product on YouTube",
+                    "skeleton": "skeletonThree",
+                    "className": "SkeletonThree"
+                  },
+                  {
+                    "title": "Deploy in seconds",
+                    "description":
+                      "With our blazing fast, state of the art, cutting edge, we are so back cloud servies (read AWS) - you can deploy your model in seconds.",
+                    "skeleton": "skeletonFour",
+                    "className": "SkeletonFour"
+                  }
             ],
             "average" : [
                 {
                     "number" : 100,
                     "addIcon" : "%",
-                    "description" : "Nuestro enfoque en la eficiencia y la calidad se refleja en un índice de satisfacción del cliente superior al 98%, garantizando que cada proyecto cumple con los estándares más altos.",
+                    "description" : "Our focus on efficiency and quality is reflected in a customer satisfaction rate of over 98%, ensuring that each project meets the highest standards.",
                     "transition" : ".1"
                 },
                 {
                     "number" : 150,
                     "addIcon" : "",
-                    "description" : "proyectos basados en las mejores prácticas optimizadas que han logrado reducir los tiempos de entrega en un 30%, asegurando resultados rápidos sin comprometer la calidad.",
+                    "description" : "Projects based on optimized best practices have achieved a 30% reduction in delivery times, ensuring fast results without compromising quality.",
                     "transition" : ".2"
                 },
                 {
                     "number" : 15,
-                    "addIcon" : "Años",
-                    "description" : "Con más de 15 años en la industria, hemos perfeccionado nuestras habilidades y procesos para ofrecer proyectos con la máxima eficiencia y calidad en cada etapa.",
+                    "addIcon" : "Years",
+                    "description" : "With over 15 years in the industry, we have honed our skills and processes to deliver projects with maximum efficiency and quality at every stage.",
                     "transition" : ".3"
-                }
-            ],
-            "strategies" : [
-                {
-                    "description" : "Nuestro equipo está disponible las 24 horas del día, los 7 días de la semana, garantizando que siempre tengas ayuda y soporte cuando lo necesites.",
-                    "transition" : ".1"
-                },
-                {
-                    "description" : "Implementamos un sistema ágil para resolver cualquier inconveniente de manera rápida y eficiente, minimizando el tiempo de inactividad y asegurando la continuidad de tus operaciones.",
-                    "transition" : ".2"
-                },
-                {
-                    "description" : "Ofrecemos atención personalizada, anticipándonos a tus necesidades y brindando soluciones proactivas para optimizar el rendimiento y la satisfacción del cliente.",
-                    "transition" : ".3"
-                }
-            ],
-            "subStrategies" : [
-                {
-                    "punctuation" : 5,
-                    "title" : "Monitoreo Continuo",
-                    "description" : "Realizamos un monitoreo continuo para detectar y abordar posibles problemas antes de que impacten tus operaciones, asegurando un rendimiento óptimo y sin interrupciones.",
-                    "transition" : ".4"
-                },
-                {
-                    "punctuation" : 5,
-                    "title" : "Asistencia Especializada",
-                    "description" : "Nuestro equipo cuenta con expertos en diferentes áreas, ofreciendo asistencia especializada para resolver cualquier desafío técnico con el conocimiento adecuado.",
-                    "transition" : ".5"
-                },
-                {
-                    "punctuation" : 5,
-                    "title" : "Actualizaciones Regulares",
-                    "description" : "Proporcionamos actualizaciones y mejoras continuas a tus sistemas para mantenerlos al día con las últimas tecnologías y prácticas recomendadas, garantizando su eficacia y seguridad.",
-                    "transition" : ".6"
                 }
             ],
             "users" : [
@@ -150,40 +136,40 @@
                         {
                             "picture" : "1",
                             "name" : "Lucía Martínez",
-                            "profession" : "Gerente de TI",
-                            "description" : "La gestión de despliegues fue impecable. Agradezco la atención al detalle y la eficacia del equipo, lo que nos permitió lanzar nuestra aplicación sin problemas ni retrasos."
+                            "profession" : "IT Manager",
+                            "description" : "The deployment management was impeccable. I appreciate the attention to detail and the efficiency of the team, which allowed us to launch our application without any issues or delays. 🚀"
                         }
                     ],
                     "user2" : [
                         {
                             "picture" : "2",
                             "name" : "Carlos Herrera",
-                            "profession" : "Propietario de una Startup",
-                            "description" : "La integración de microservicios ha sido una pieza fundamental en la escalabilidad de nuestras operaciones. Su implementación fue fluida"
+                            "profession" : "Startup Owner",
+                            "description" : "The integration of microservices has been a key factor in the scalability of our operations. Its implementation was smooth. 🔧"
                         }
                     ],
                     "user3" : [
                         {
                             "picture" : "3",
                             "name" : "María González",
-                            "profession" : "Consultora de Negocios",
-                            "description" : "Gracias a la creación de nuestras máquinas virtuales, nuestra infraestructura es ahora más flexible y resistente. "
+                            "profession" : "Business Consultant",
+                            "description" : "Thanks to the creation of our virtual machines, our infrastructure is now more flexible and resilient. 💪"
                         }
                     ],
                     "user4" : [
                         {
                             "picture" : "4",
                             "name" : "Ana Rodríguez",
-                            "profession" : "Directora de Marketing",
-                            "description" : "El desarrollo de nuestra página web fue un proceso fluido y creativo. El equipo entendió perfectamente nuestra visión y la convirtió en una plataforma atractiva y funcional."
+                            "profession" : "Marketing Director",
+                            "description" : "The development of our website was a smooth and creative process. The team perfectly understood our vision and turned it into an attractive and functional platform. 🌐"
                         }
                     ],
                     "user5" : [
                         {
                             "picture" : "5",
                             "name" : "Ana Maria",
-                            "profession" : "Coordinador de Proyectos",
-                            "description" : "La gestión de nuestros dominios ha sido manejada con una profesionalidad impresionante. Nunca hemos tenido que preocuparnos por problemas de disponibilidad o seguridad."
+                            "profession" : "Project Coordinator",
+                            "description" : "The management of our domains has been handled with impressive professionalism. We have never had to worry about availability or security issues. 🔒"
                         }
                     ]
                 },
@@ -191,41 +177,41 @@
                     "user" : [
                         {
                             "picture" : "6",
-                            "name" : "Lucia de la cruz",
-                            "profession" : "Jefe de Operaciones",
-                            "description" : "La asesoría y mantenimiento que recibimos nos ha permitido mantener nuestros sistemas operativos en excelente estado."
+                            "name" : "Lucia de la Cruz",
+                            "profession" : "Operations Manager",
+                            "description" : "The advisory and maintenance services we received have allowed us to keep our operating systems in excellent condition. 💼"
                         }
                     ],
                     "user2" : [
                         {
                             "picture" : "7",
                             "name" : "Laura Sánchez",
-                            "profession" : "CEO de una PYME",
-                            "description" : "La telefonía IP instalada en nuestra empresa ha transformado la manera en que nos comunicamos. No solo ha mejorado la eficiencia de nuestras comunicaciones internas, sino que también ha reducido costos, lo que ha sido un beneficio significativo."
+                            "profession" : "SME CEO",
+                            "description" : "The IP telephony installed in our company has transformed the way we communicate. It has not only improved the efficiency of our internal communications but also reduced costs, which has been a significant benefit. 📞"
                         }
                     ],
                     "user3" : [
                         {
                             "picture" : "8",
                             "name" : "José Ramírez",
-                            "profession" : "Director Técnico",
-                            "description" : "El desarrollo de software personalizado que recibimos ha optimizado nuestros procesos operativos de manera significativa."
+                            "profession" : "Technical Director",
+                            "description" : "The custom software development we received has significantly optimized our operational processes. 💻"
                         }
                     ],
                     "user4" : [
                         {
                             "picture" : "9",
                             "name" : "Elena Cruz",
-                            "profession" : "Gerente de Infraestructura",
-                            "description" : "La implementación de nuestras máquinas virtuales fue rápida y efectiva, adaptándose perfectamente a nuestras necesidades."
+                            "profession" : "Infrastructure Manager",
+                            "description" : "The implementation of our virtual machines was quick and effective, perfectly adapting to our needs. 🖥️"
                         }
                     ],
                     "user5" : [
                         {
                             "picture" : "10",
                             "name" : "Andrés López",
-                            "profession" : "Especialista en Redes",
-                            "description" : "La integración de microservicios ha simplificado la gestión de nuestras aplicaciones, permitiendo una mayor flexibilidad y escalabilidad."
+                            "profession" : "Network Specialist",
+                            "description" : "The integration of microservices has simplified the management of our applications, allowing for greater flexibility and scalability. 🌐"
                         }
                     ]
                 },
@@ -234,44 +220,43 @@
                         {
                             "picture" : "11",
                             "name" : "Natalia Gómez",
-                            "profession" : "Consultora Digital",
-                            "description" : "La gestión de nuestros dominios fue manejada con una profesionalidad impresionante, asegurando un funcionamiento sin problemas."
+                            "profession" : "Digital Consultant",
+                            "description" : "The management of our domains was handled with impressive professionalism, ensuring smooth operation. 🌟"
                         }
                     ],
                     "user2" : [
                         {
                             "picture" : "12",
                             "name" : "Catalina Angel",
-                            "profession" : "Encargado de TI",
-                            "description" : "El servicio de telefonía IP ha transformado nuestra forma de trabajar, facilitando la comunicación en todos los niveles. La calidad de las llamadas y la facilidad de uso han sido excepcionales."
+                            "profession" : "IT Manager",
+                            "description" : "The IP telephony service has transformed our way of working, facilitating communication at all levels. The call quality and ease of use have been exceptional. 📱"
                         }
                     ],
                     "user3" : [
                         {
                             "picture" : "13",
                             "name" : "Isabel Mendoza",
-                            "profession" : "Propietaria de una Empresa",
-                            "description" : "El equipo hizo un trabajo excepcional en el mantenimiento de nuestros sistemas. Su proactividad y atención al detalle."
+                            "profession" : "Business Owner",
+                            "description" : "The team did an exceptional job in maintaining our systems. Their proactivity and attention to detail. 🛠️"
                         }
                     ],
                     "user4" : [
                         {
                             "picture" : "14",
                             "name" : "Pablo Silva",
-                            "profession" : "Gerente General",
-                            "description" : "Gracias a la infraestructura flexible creada con sus máquinas virtuales, nuestra empresa ha ganado en agilidad y seguridad."
+                            "profession" : "General Manager",
+                            "description" : "Thanks to the flexible infrastructure created with their virtual machines, our company has gained in agility and security. 🔒"
                         }
                     ],
                     "user5" : [
                         {
                             "picture" : "15",
                             "name" : "Sofia Gomez",
-                            "profession" : "Analista de Calidad",
-                            "description" : "El servicio de desarrollo de software superó nuestras expectativas. Cada detalle fue atendido con gran profesionalismo."
+                            "profession" : "Quality Analyst",
+                            "description" : "The software development service exceeded our expectations. Every detail was attended to with great professionalism. 🏆"
                         }
                     ]
                 }
-
             ]
         }
     ],
@@ -897,20 +882,81 @@
     ],
     "footer" : [
         {
-            "callAction" : [
+            "footerLinks1" : [
                 {
-                    "picture" : "1",
-                    "pictureTwo" : "2",
-                    "alt" : "Imagen de soy un cliente con una gran idea a planear",
-                    "description" : "Soy un cliente con una gran idea a planear",
-                    "transition" : ".1"
-                },
+                    "title" : true,
+                    "word" : "Pages"
+                }
+            ],
+            "footerLinks2" : [
                 {
-                    "picture" : "3",
-                    "pictureTwo" : "4",
-                    "alt": "SImagen de sy una empresa con grandes ideales",
-                    "description" : "Soy una empresa con grandes ideales",
-                    "transition" : ".2"
+                    "word" : "Home"
+                }
+            ],
+            "footerLinks3" : [
+                {
+                    "word" : "services"
+                }
+            ],
+            "footerLinks4" : [
+                {
+                    "word" : "About"
+                }
+            ],
+            "footerLinks5" : [
+                {
+                    "word" : "Contact"
+                }
+            ]
+        },
+        {
+            "footerLinks1" : [
+                {
+                    "title" : true,
+                    "word" : "social networks"
+                }
+            ],
+            "footerLinks2" : [
+                {
+                    "word" : " Facebook"
+                }
+            ],
+            "footerLinks3" : [
+                {
+                    "word" : "Instagram"
+                }
+            ],
+            "footerLinks4" : [
+                {
+                    "word" : "twitter"
+                }
+            ],
+            "footerLinks5" : [
+                {
+                    "word" : "LinkedIn"
+                }
+            ]
+        },
+        {
+            "footerLinks1" : [
+                {
+                    "title" : true,
+                    "word" : "Legal"
+                }
+            ],
+            "footerLinks2" : [
+                {
+                    "word" : "Privacy Policy"
+                }
+            ],
+            "footerLinks3" : [
+                {
+                    "word" : "Terms of Service"
+                }
+            ],
+            "footerLinks4" : [
+                {
+                    "word" : "Cookie Policy"
                 }
             ]
         }

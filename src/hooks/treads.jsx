@@ -83,14 +83,14 @@ const SVG = ({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       initial={{ opacity: 0 }}
-      animate={{ opacity: 0.5 }}
-      transition={{ duration: 1 }}
+      animate={{ opacity: 0.9 }}
+      transition={{ duration: 0.1 }}
       className="absolute inset-0 w-full h-full transition-none">
       {paths.map((path, idx) => (
         <motion.path
           d={path}
           stroke={colors[idx]}
-          strokeWidth="2.3"
+          strokeWidth="5.1"
           strokeLinecap="round"
           variants={pathVariants}
           initial="initial"

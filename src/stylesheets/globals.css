@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    -webkit-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
 ::selection{
     background: #737d7f58;
 }
@@ -39,12 +31,44 @@ section{
     grid-column-start: 5;
 }
 
-.space{
-    margin: 0vh 0;
-    padding: 10rem 0rem;
-    padding-top: 22rem;
+.toggle span:first-child{
+    width: 60%;
+    height: 1px;
+    background: #000;
+    transition: all linear .1s;
+}
+.toggle span:nth-child(2){
+    width: 60%;
+    height: 1px;
+    background: #000;
+    transition: all linear .1s;
+}
+.toggle span:last-child{
+    width: 60%;
+    height: 1px;
+    background: #000;
+    transition: all linear .1s;
 }
 
+.toggle.animate span:first-child{
+    transform: rotate(35deg) translate(-1px, 10px);
+}
+.toggle.animate span:nth-child(2){
+    transform: translate(100%, 0);
+    opacity: 0;
+}
+.toggle.animate span:last-child{
+    transform: rotate(-35deg) translate(-3px, -9px);
+}
+
+.space{
+    margin: 0vh 0;
+    padding: 5rem 0rem;
+}
+
+.hover:hover{
+    transform: scale(1.01) !important;
+}
 .gradient{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, 
                                         rgba(246, 246, 246, 0.01) 6.67%, 
@@ -80,21 +104,6 @@ section{
                 inset 0 0 20px #38393909, 
                 inset 0 0 30px #38393908;
  } 
-.hover__animation:hover .hover__container img{
-    transform: translateY(-5px);
-}
-
-.hover__animation:hover .hover__container img:last-child{
-    opacity: 1;
-}
-
-.hover__animation:hover .hover__container img:first-child{
-    opacity: 0;
-}
-
-.combobox:hover .arrow{
-    transform: rotate(-90deg);
-}
 
 .hover__arrow::after{
     content: '';
@@ -111,9 +120,6 @@ section{
     width: 100%;
 }
 
-.hover__arrow:hover img{
-    transform: translateY(0.2rem) rotate(90deg);
-}
 
 .gridLayouTop::before{
     content: '';
@@ -145,12 +151,6 @@ section{
     transition-delay: .5s;
 }
 
-.animateEnter{
-    display: block;
-}
-.animateLeave{
-    display: none;
-}
 
 /* responsive designe */
 @media screen and (max-width: 344px){
@@ -158,28 +158,13 @@ section{
         font-size: 2.25rem !important;
     }
 }
-@media screen and (max-width: 412px){
-    .space{
-        margin: 1vh 0 !important;
-        padding: 14rem 2rem !important;
-    }
-}
+
 @media screen and (max-width: 568px){
     .gridUpdateAf::after{
         height: 0%;
     }
     
 }
-
-@media screen and (max-width: 768px){
-    .background_secondary{
-        background: url(../../public/image/grid.webp);
-        background-position: right top;
-        background-repeat: no-repeat;
-        background-size: cover 50vh;
-    }
-}
-
 
 @media screen and (max-width: 1024px){
     .origin__order{
@@ -188,7 +173,6 @@ section{
     .size{
         width: 100% !important;
     }
-    
 }
 
 @media screen and (min-height: 1024px){
@@ -206,25 +190,12 @@ section{
         padding: 3rem 3rem;
     }
 }
-@media screen and (min-width: 853px) and (min-height: 1280px){
-    .card__home div:first-child a img{
-        display: none;
-    }
-}
 
 @media screen and (max-width: 1024px) and (max-height: 1366px){
     section{
         padding: 2rem 4rem;
         margin: 6rem 0rem;
     }
-    .card__home div:first-child a img{
-        display: none;
-    }
-    .space{
-        margin: 2vh 0;
-        padding: 5rem 4rem;
-    }
-
 }
 
 @media screen and (max-width: 1280px) and (max-height: 800px){
@@ -233,8 +204,6 @@ section{
         padding: 3rem 3rem;
     }
 }
-
-
 
 @layer base {
   :root {
@@ -301,8 +270,6 @@ section{
         --color-5: 90 100% 63%;
     }
 }
-
-
 
 @layer base {
   * {
