@@ -1,7 +1,7 @@
 {
     "navigation" : [
         {
-            "transition" : ".4",
+            "transition" : ".1",
             "name" : "Home",
             "url" : "/"
         },
@@ -11,12 +11,12 @@
             "url" : "/services"
         },
         {
-            "transition" : ".6",
+            "transition" : ".3",
             "name" : "About",
             "url" : "/about"
         },
         {
-            "transition" : ".8",
+            "transition" : ".4",
             "name" : "Contact",
             "url" : "/contact"
         }
@@ -28,7 +28,7 @@
                 {
                     "icon" : "1",
                     "alt"  : "Innovación",
-                    "subtitle" : "Innovación",
+                    "subtitle" : "Innovation",
                     "title"  : "Advanced and Efficient Technology",
                     "description" : "Our advanced technology guarantees efficient, cutting-edge solutions, fully tailored to your specific needs.",
                     "url" : "/",

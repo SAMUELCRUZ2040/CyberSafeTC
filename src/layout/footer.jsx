@@ -7,6 +7,7 @@ export default  function Footer() {
   return (
     <footer className="max-lg:px-5">
       <Action />
+      <hr className="mt-12"/>
         <div className="flex items-center justify-center flex-col">
           <div className="container flex justify-between items-center pe-12 pt-12 mt-12 max-md:flex-col max-md:gap-12 max-md:pe-0">
             <div className="flex justify-start flex-col items-start max-md:items-center max-md:gap-4 max-md:justify-center">
@@ -24,7 +25,7 @@ export default  function Footer() {
             </div>
           </div>
           <div className="flex justify-center items-center w-full container">
-            <h2 className="text-center uppercase mt-20 text-5xl md:text-9xlxl lg:text-[12rem] xl:text-[13rem] font-bold bg-clip-text text-transparent bg-gradient-to-b from-[#81ccff27] dark:from-neutral-950 to-neutral-200 dark:to-neutral-800 inset-x-0 max-md:pb-8 max-md:text-[5rem]">let's start</h2>
+            <h2 className="text-center uppercase mt-20 text-5xl md:text-9xlxl lg:text-[12rem] xl:text-[13rem] font-bold bg-clip-text text-transparent bg-gradient-to-b from-[#ffffff2f] dark:from-neutral-950 to-neutral-200 dark:to-neutral-800 inset-x-0 max-md:pb-8 max-md:text-[5rem]">let's start</h2>
             </div>
         </div>
     </footer>

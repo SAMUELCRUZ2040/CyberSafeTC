@@ -9,8 +9,8 @@ export default function Home() {
     <div className="bg-cover bg-center bg-no-repeat bg-fixed" style={{backgroundImage : "url(/image/figure.png)"}}>
       <FrontPage />
       <Summary />
-      <Atention />
       <Average />
+      <Atention />
       <Users />
     </div> 
   );

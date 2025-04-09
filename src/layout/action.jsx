@@ -20,7 +20,7 @@ export default function Action() {
           </div>
         </div>
         <div className=" flex items-center justify-end max-md:justify-center max-md:mt-8">
-          <Link href={"/"} className="py-5 px-16 bg-[#0000000f] border-2 rounded-xl shadow-xl hover">
+          <Link href={"/"} className="py-5 px-16 bg-[#0000000f] border-2 rounded-xl shadow-xl hover:scale-[1.01]">
               let's meet
           </Link>
         </div>

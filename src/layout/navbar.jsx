@@ -17,14 +17,14 @@ export default function Navbar() {
             <Link
               key={key}
               href={item.url}
-              className="flex justify-center items-center gap-2 text-xl text-neutral-900 group px-1"
+              className="flex justify-center items-center gap-2 text-xl text-neutral-900 group px-1 !z-[9999]"
             >
               <Image
                 src="/icons/arrow.png"
                 width={400}
                 height={400}
                 alt="arrow"
-                className="w-[20px] group-hover:translate-y-[3px] transition-all"
+                className="w-[20px] group-hover:translate-y-[3px] transition-all !z-[9999]"
               />
               {item.name}
             </Link>

@@ -1,7 +1,7 @@
 "use client"
 
 import { Carousel } from '@/components/carousel';
-import React, { useEffect } from 'react';
+import React from 'react';
 import data from '@/json/data';
 import Image from 'next/image';
 

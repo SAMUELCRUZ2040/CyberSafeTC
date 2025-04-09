@@ -24,7 +24,7 @@ export function Atention() {
         </h4>
 
         <p
-          className={`${types.smallP} mx-auto text-center`}>
+          className={`${types.smallP} mx-auto text-center mt-2`}>
           You can build your dreams in seconds with us in the fastest and easiest way.
           You just have to call us and we will be there for you.
         </p>

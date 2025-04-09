@@ -9,17 +9,20 @@ export default function Summary() {
 return (
     <div className="flex justify-center align-center max-lg:px-5">
         <div className="container flex items-center flex-col">
-            <div className="title">
+            <div className="title flex flex-col justify-center items-center">
                 <h2 className={`${types.h2} ${types.flex} text-center flex flex-col`}>
-                    <span className='text-center'>Do you know <span className="text-[#347faa] text-center">Why we're</span></span>
-                    <span className='font-semibold text-center'>The better option for your business?</span>
+                    <span>Do you know Why we're</span>
+                    <span>The better option for your business?</span>
                 </h2>
+                <p className={`${types.smallP} text-center mt-5`}>
+                    You can build your dreams in seconds with us in the fastest and easiest way. You just have to call us and we will be there for you.
+                </p>
             </div>
-            <div className="grid grid-cols-3 gap-5 my-14 py-14 max-lg:grid-cols-1 max-lg:my-0">
+            <div className="grid grid-cols-3 gap-3 my-14 py-14 max-lg:grid-cols-1 max-lg:my-0">
                 {data.home[0].summary.map((dataSummary, keySummary) => (
                     <motion.div
                         key={keySummary}
-                        className="max-lg:gap-2 p-5 h-full rounded-2xl flex flex-col max-lg:items-center max-lg:justify-center gap-14 w-[25rem] max-xl:w-full backdrop-blur-sm border-2 bg-[#46464604] hover"
+                        className="max-lg:gap-2 p-10 h-full rounded-2xl flex flex-col max-lg:items-center max-lg:justify-center gap-8 w-[25rem] max-xl:w-full backdrop-blur-[1.5px] border-2 bg-[#46464604]"
                         initial={{ y: 80, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{
@@ -39,10 +42,10 @@ return (
                                     className='max-lg:w-[60%] h-auto w-full'
                                 />
                             </span>
-                            <h4 className='max-lg:text-sm max-lg:my-0 text-lg my-3'>{dataSummary.subtitle}</h4>
+                            <h4 className={`${types.extraP} my-3`}>{dataSummary.subtitle}</h4>
                         </div>
-                        <span className='max-lg:text-lg font-semibold text-3xl my-3'>{dataSummary.title}</span>
-                        <p className={types.p}>{dataSummary.description}</p>
+                        <span className={`${types.h4} my-3`}>{dataSummary.title}</span>
+                        <p className={types.smallP}>{dataSummary.description}</p>
                     </motion.div>
                 ))}
             </div>
