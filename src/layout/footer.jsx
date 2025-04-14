@@ -16,7 +16,7 @@ export default  function Footer() {
             </div>
             <div className="flex gap-12">
               {data.footer.map((dataFooter, _index) => (
-                <div className="flex flex-col gap-5">
+                <div className="flex flex-col gap-5" key={_index}>
                   {Object.entries(dataFooter).map((dataFooterCol, _indexCol)=>(
                     <Link href={"/"} className={`${dataFooterCol[1][0].title && "font-black !ps-1 !text-black"} ${types.smallP} ps-2`}>{dataFooterCol[1][0].word}</Link>
                   ))}

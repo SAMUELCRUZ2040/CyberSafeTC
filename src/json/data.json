@@ -110,6 +110,26 @@
                     "className": "SkeletonFour"
                   }
             ],
+            "gallery": [
+                {
+                    "word" : "We bring technology"
+                },
+                {
+                    "word" : "to life, turning your"
+                },
+                {
+                    "word" : "ideas into meaningful"
+                },
+                {
+                    "word" : "solutions that grow,"
+                },
+                {
+                    "word" : "connect, and inspire"
+                },
+                {
+                    "word" : "the world."
+                }
+            ],
             "average" : [
                 {
                     "number" : 100,

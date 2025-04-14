@@ -3,6 +3,7 @@ import Summary from "./home/summary";
 import Users from "./home/users";
 import Average from "./home/average";
 import { Atention } from "@/app/home/atention";
+import Gallery from "./home/gallery";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <FrontPage />
       <Summary />
       <Average />
+      <Gallery />
       <Atention />
       <Users />
     </div> 

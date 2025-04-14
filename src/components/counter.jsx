@@ -1,3 +1,5 @@
+"use client"
+
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
@@ -25,8 +27,8 @@ export default  function Counter({ number, delay }) {
   return (
       <motion.div
         className='text-center transition-none'
-        initial={{ y: 40, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
         transition={{
           duration: 0.4,
           ease: "easeOut",
