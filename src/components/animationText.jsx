@@ -7,7 +7,7 @@ export const AnimationText = ({
     text = '',
     className = '',
     delay = 20,
-    animationFrom = { opacity: 0, transform: 'translate3d(0,60px,0)' },
+    animationFrom = { opacity: 0, transform: 'translate3d(0,220px,0)' },
     animationTo = { opacity: 1, transform: 'translate3d(0,0,0)' },
     easing = 'easeOutCubic',
     threshold = 0.1,
@@ -62,7 +62,7 @@ export const AnimationText = ({
         style={{ textAlign, whiteSpace: 'normal', wordWrap: 'break-word' }}
       >
         {words.map((word, wordIndex) => (
-          <span key={wordIndex} style={{ display: 'inline-block', whiteSpace: 'nowrap' }}>
+          <span key={wordIndex} style={{whiteSpace: 'nowrap' }}>
             {word.map((letter, letterIndex) => {
               const index = words
                 .slice(0, wordIndex)
@@ -78,7 +78,7 @@ export const AnimationText = ({
                 </animated.span>
               );
             })}
-            <span style={{ display: 'inline-block', width: '0.3em' }}>&nbsp;</span>
+            <span style={{width: '0.3em' }}>&nbsp;</span>
           </span>
         ))}
       </p>

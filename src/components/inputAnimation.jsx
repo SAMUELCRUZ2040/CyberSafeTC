@@ -17,3 +17,19 @@ export const InputAnimation = ({ children, className = '', delay = 0 }) => {
         </motion.div>
     );
 };
+
+export const InputAnimationText = ({ children, className = '', delay = 0 }) => {
+    return (
+        <motion.div
+            className={className}
+            initial={{ y: 90, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{
+                transition : {duration : 0.6},
+                delay: delay,
+            }}
+        >
+            {children}
+        </motion.div>
+    );
+};

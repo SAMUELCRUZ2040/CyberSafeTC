@@ -49,6 +49,7 @@ section{
     height: 1px;
     background: #000;
     transition: all linear .1s;
+    background: linear-gradient(153.58deg,#e8ad3e 32.25%,#98139b40 92.68%);
 }
 
 .toggle.animate span:first-child{

@@ -112,22 +112,53 @@
             ],
             "gallery": [
                 {
-                    "word" : "We bring technology"
+                    "word" : {
+                        "words" : [
+                            "Create and",
+                            "ease",
+                            "easing"
+                        ]
+                    },
+                    "component" : "NeonLetters"
                 },
                 {
-                    "word" : "to life, turning your"
+                    "word" : "We bring technology",
+                    "component" : "transitionLetter"
                 },
                 {
-                    "word" : "ideas into meaningful"
+                    "word" : "to",
+                    "component" : "inputAnimationText",
+                    "delay" : ".2"
                 },
                 {
-                    "word" : "solutions that grow,"
+                    "word" : "life",
+                    "component" : "inputAnimationText",
+                    "delay" : ".3"
                 },
                 {
-                    "word" : "connect, and inspire"
+                    "word" : "turning,",
+                    "component" : "inputAnimationText",
+                    "delay" : ".4"
                 },
                 {
-                    "word" : "the world."
+                    "word" : "your ideas into",
+                    "component" : "transitionLetter"
+                }, 
+                {
+                    "word" : "meaningful",
+                    "component" : "transitionLetter"
+                },
+                {
+                    "word" : "solutions that grow,",
+                    "component" : "transitionLetter"
+                },
+                {
+                    "word" : "connect, and inspire",
+                    "component" : "transitionLetter"
+                },
+                {
+                    "word" : "the world",
+                    "component" : "transitionLetter"
                 }
             ],
             "average" : [
