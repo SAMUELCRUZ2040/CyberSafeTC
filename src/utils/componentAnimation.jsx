@@ -9,9 +9,8 @@ import { AnimationsAbout } from '@/core/animationsAbout';
 import { CounterDesigneAbout } from '@/core/counterDesigneAbout';
 import { RippleAbout } from '@/core/ripleAbout';
 import { SkeletonFour, SkeletonOne, SkeletonThree, SkeletonTwo } from '@/core/skeletonHome';
-import { AnimationText } from '@/components/animationText';
-import { NeonLetters } from '@/core/confiComponents/confiAnimationsLettersHome';
-import { InputAnimationText } from '@/components/inputAnimation';
+import { AnimationTextDouble, AnimationTextFlex, AnimationTextRise, NeonLetters } from '@/core/confiComponents/confiAnimationsLettersHome';
+import { InputAnimation } from '@/components/inputAnimation';
 
 export const Components = ({ search, ...params}) => {
 
@@ -30,9 +29,11 @@ export const Components = ({ search, ...params}) => {
         skeletonTwo: <SkeletonTwo />,
         skeletonThree: <SkeletonThree />,
         skeletonFour: <SkeletonFour />,
-        transitionLetter : <AnimationText text={`${params.content}`} />,
         NeonLetters : <NeonLetters  text={`${params.content}`}/>,
-        inputAnimationText : <InputAnimationText delay={params.delay}>{params.content}</InputAnimationText>,
+        AnimationTextFlex : <AnimationTextFlex text={`${params.content}`} />,
+        inputAnimationText : <InputAnimation delay={params.delay} typeInput='animationTranslate'>{params.content}</InputAnimation>,
+        AnimationTextRise : <AnimationTextRise delay={params.delay} text={params.content}/>,
+        AnimationTextDouble : <AnimationTextDouble delay={params.delay} text={params.content}/>,
         
     };
     return component[search] || null;

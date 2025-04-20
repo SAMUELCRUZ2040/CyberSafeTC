@@ -1,9 +1,26 @@
-import Image from "next/image";
 import createGlobe from "cobe";
 import {useEffect, useRef } from "react";
-import { motion } from "framer-motion";
+import FallingText from "./fallingTextHome";
 
-export const SkeletonOne = () => {
+
+  export const SkeletonOne = () => {
+  return(
+    <>
+      <FallingText
+        text={`Cybersecurity offers you many tools to benefit you, one of which is incredible customer service at any time.`}
+        highlightWords={["offers", "benefit", "animated", "incredible", "service"]}
+        highlightClass="highlighted"
+        trigger="hover"
+        backgroundColor="transparent"
+        wireframes={false}
+        gravity={0.56}
+        fontSize="2rem"
+        mouseConstraintStiffness={0.9}
+      />
+    </>
+  )
+  };
+  export const SkeletonTwo = () => {
     return (
       (<div className="relative flex gap-10 h-full">
         <div
@@ -14,71 +31,6 @@ export const SkeletonOne = () => {
           className="absolute bottom-0 z-40 inset-x-0 h-60 bg-gradient-to-t from-[#f6f6f6] dark:from-black via-[#f6f6f6] dark:via-black to-transparent w-full pointer-events-none" />
         <div
           className="absolute top-0 z-40 inset-x-0 h-60 bg-gradient-to-b from-[#f6f6f6] dark:from-black via-transparent to-transparent w-full pointer-events-none" />
-      </div>)
-    );
-  };
-
-  export const SkeletonTwo = () => {
-    const images = [
-      "/image/home/atention_2.jpg",
-      "/image/home/atention_3.jpg",
-      "/image/home/atention_4.jpg",
-    ];
-
-    const imageVariants = {
-      whileHover: {
-        scale: 1.1,
-        rotate: 0,
-        zIndex: 100,
-      },
-      whileTap: {
-        scale: 1.1,
-        rotate: 0,
-        zIndex: 100,
-      },
-    };
-    return (
-      (<div
-        className="relative flex flex-col items-start p-8 gap-10 h-full overflow-hidden max-lg:items-center">
-        {/* TODO */}
-        <div className="flex flex-row -ml-20">
-          {images.map((image, idx) => (
-            <motion.div
-              variants={imageVariants}
-              key={"images-first" + idx}
-              whileHover="whileHover"
-              whileTap="whileTap"
-              className="rounded-xl -mr-4 mt-4 p-1 bg-[#f6f6f6] dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 flex-shrink-0 overflow-hidden transition-none">
-              <Image
-                src={image}
-                alt="bali images"
-                width="500"
-                height="500"
-                className="rounded-lg h-20 w-20 object-cover flex-shrink-0 max-lg:h-[8rem] max-lg:w-[8rem]" />
-            </motion.div>
-          ))}
-        </div>
-        <div className="flex flex-row">
-          {images.map((image, idx) => (
-            <motion.div
-              key={"images-second" + idx}
-              variants={imageVariants}
-              whileHover="whileHover"
-              whileTap="whileTap"
-              className="rounded-xl -mr-4 mt-4 p-1 bg-[#f6f6f6] dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 flex-shrink-0 overflow-hidden transition-none">
-              <Image
-                src={image}
-                alt="bali images"
-                width="500"
-                height="500"
-                className="rounded-lg h-20 w-20 object-cover flex-shrink-0 max-lg:h-[8rem] max-lg:w-[8rem]" />
-            </motion.div>
-          ))}
-        </div>
-        <div
-          className="absolute left-0 z-[100] inset-y-0 w-20 bg-gradient-to-r from-[#f6f6f6] dark:from-black to-transparent  h-full pointer-events-none" />
-        <div
-          className="absolute right-0 z-[100] inset-y-0 w-20 bg-gradient-to-l from-[#f6f6f6] dark:from-black  to-transparent h-full pointer-events-none" />
       </div>)
     );
   };

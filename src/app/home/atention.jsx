@@ -1,9 +1,9 @@
 
-import React from "react";
 import { cn } from "@/utils/cn";
 import data from "@/json/data"
 import { Components } from "@/utils/componentAnimation";
 import types from "@/components/fontLetters";
+import { InputAnimation } from "@/components/inputAnimation";
 
 
 export function Atention() {
@@ -33,7 +33,7 @@ export function Atention() {
         <div
           className="grid grid-cols-1 lg:grid-cols-6 mt-12 xl:border rounded-md dark:border-neutral-800">
           {data.home[0].features.map((feature) => (
-            <FeatureCard key={feature.title} className={className[feature.className]}>
+            <FeatureCard key={feature.title} className={className[feature.className]} delay={feature.delay}>
               <FeatureTitle>{feature.title}</FeatureTitle>
               <FeatureDescription>{feature.description}</FeatureDescription>
               <div className=" h-full w-full">{<Components search={feature.skeleton}/>}</div>
@@ -47,12 +47,13 @@ export function Atention() {
 
 const FeatureCard = ({
   children,
+  delay,
   className
 }) => {
   return (
-    (<div className={cn(`p-4 sm:p-8 relative overflow-hidden max-lg:my-5`, className)}>
+    (<InputAnimation delay={delay} className={cn(`p-4 sm:p-8 relative overflow-hidden max-lg:my-5`, className)}>
       {children}
-    </div>)
+    </InputAnimation>)
   );
 };
 

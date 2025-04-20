@@ -36,10 +36,13 @@ export default function MobileNabvar() {
             <span></span>
             <span></span>
         </div>
-        <div className={cn(
+        <div
+        style={{backgroundImage : "url(image/grid.webp)"}}
+        className={cn(
             `${state.toggle ? "scale-y-100" : "scale-y-0" }`,
             `fixed top-0 left-0 origin-top-left !z-[-1] transition_navbar`,
-            `overflow-hidden h-screen w-screen p-8 bg-white`
+            `overflow-hidden h-screen w-screen p-8 bg-white`,
+            `bg-cover bg-center bg-no-repeat`
         )}>
             <ul className="list_item flex justify-center items-center flex-col gap-5 py-14 h-full">
                 {data.navigation.map((item, key)=> (

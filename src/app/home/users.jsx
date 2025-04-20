@@ -1,4 +1,5 @@
 import types from '@/components/fontLetters';
+import { InputAnimation } from '@/components/inputAnimation';
 import { CarouselHome } from '@/core/carouselHome';
 
 export default function Users() {
@@ -7,8 +8,8 @@ export default function Users() {
             <div className="container flex items-center flex-col">
                 <div className="title">
                     <h2 className={`${types.h2} text-center flex flex-col ${types.flex}`}>
-                        <span>Ours Clients</span>
-                        <span>Speak for Themselves</span>
+                        <InputAnimation delay={.1}>Ours Clients</InputAnimation>
+                        <InputAnimation delay={.2}>Speak for Themselves</InputAnimation>
                     </h2>
                     <p className={`${types.smallP} text-center mt-5`}>You can build your dreams in seconds with us in the fastest and easiest way. You just have to call us and we will be there for you.</p>
                 </div>

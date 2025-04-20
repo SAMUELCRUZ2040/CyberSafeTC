@@ -49,7 +49,7 @@ section{
     height: 1px;
     background: #000;
     transition: all linear .1s;
-    background: linear-gradient(153.58deg,#e8ad3e 32.25%,#98139b40 92.68%);
+    background: #000;
 }
 
 .toggle.animate span:first-child{
@@ -96,7 +96,7 @@ section{
  .gradient__inset__third{
     box-shadow: inset 0 0 10px #38393910, 
                 inset 0 0 20px #38393909, 
-                inset 0 0 30px #38393908;
+                inset 0 0 30px #38393908 
  } 
 
 .hover__arrow::after{

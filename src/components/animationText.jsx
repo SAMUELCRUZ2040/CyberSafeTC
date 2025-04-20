@@ -6,8 +6,8 @@ import { useSprings, animated } from '@react-spring/web';
 export const AnimationText = ({
     text = '',
     className = '',
-    delay = 20,
-    animationFrom = { opacity: 0, transform: 'translate3d(0,220px,0)' },
+    delay = 50,
+    animationFrom = { opacity: 0, transform: 'translate3d(0,20px,0)' },
     animationTo = { opacity: 1, transform: 'translate3d(0,0,0)' },
     easing = 'easeOutCubic',
     threshold = 0.1,

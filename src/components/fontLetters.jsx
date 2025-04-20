@@ -8,6 +8,8 @@ const types = {
     extraP : "text-sm lg:text-base  max-w-2xl",
     buttom: "max-lg:text-lg text-2xl font-semibold",
     flexCenter: "justify-center items-center",
+    textDoubleUp: "bg-lime-400 p-5 px-14 text-8xl rounded-xl rotate-12 -translate-x-16 -translate-y-7",
+    textDoubleDown: "bg-violet-400 p-5 px-14 text-6xl rounded-xl -rotate-6 translate-y-6",
     animation: {
         initial: { y: 40, opacity: 0 },
         whileInView: { y: 0, opacity: 1 },
@@ -16,9 +18,17 @@ const types = {
             ease: "easeOut",
             delay: 0.1
         }
-    }
+    },
+    animationScale: {
+        viewport : { once: true },
+        initial : { scale: 0, opacity: 0 },
+        whileInView : { scale: 1, opacity: 1 }
+    },
+    animationTranslate : {
+        viewport : { once: true },
+        initial : { y: 90, opacity: 0 },
+        whileInView : { y: 0, opacity: 1 }
+    },
 };
 
 export default types;
-
-//   mx-auto text-center 

@@ -1,56 +1,95 @@
-"use client"
+"use client";
 
 import { cn } from "@/utils/cn";
 import { motion } from "framer-motion";
-import { useEffect } from "react";
+import data from '@/json/data'
+import  types  from "@/components/fontLetters";
 
-export const NeonLetters = ({ text }) => {
 
-    const letter = Object.entries(text)
-    useEffect(() => {
-        console.log(letter)
-    }, []);
+export const NeonLetters = () => {
+  return (
+    <div className="flex relative me-52">
+      {data.home[0].itemsGallerry.map((item, index) => (
+        <motion.div
+          key={index}
+          initial={{ y: -180, rotate: item.rotate, opacity: 0 }}
+          whileInView={{ y: 0, rotate: index === 2 ? 12 : 0, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: item.delay }}
+          className={cn(
+            "rounded-xl shadow-2xl leading-tight whitespace-nowrap z-" + item.zIndex,
+            item.padding,
+            item.className,
+            item.position
+          )}
+          style={item.style}
+        >
+          {item.text}
+        </motion.div>
+      ))}
+    </div>
+  );
+};
+export const AnimationTextFlex = ({ text = "" , className}) => {
+    const letters = text.split("");
+  
     return (
-        <div className="flex relative me-96">
-            <motion.div 
-                initial = { {x : 40, y: -180, rotate : -20, opacity: 0 }}
-                whileInView = {{ y: 0, opacity: 1, rotate : 0} }
-                transition = {{
-                    ease: "easeOut",
-                }}
-                className={cn(
-                    "rounded-3xl p-5 bg-gradient-to-r from-sky-400 to-cyan-200 leading-tight whitespace-nowrap shadow-2xl",
-                )}
+      <div className="flex gap-1">
+        {letters.map((char, i) => {
+          if (char === " ") {
+            return (
+              <span key={i} className="inline-block w-2">
+                &nbsp;
+              </span>
+            );
+          }
+  
+          const isEven = i % 2 === 0;
+          const direction = isEven ? -122 : 122;
+  
+          return (
+            <motion.span
+              key={i}
+              initial={{ y: direction, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true, amount: 0.6 }}
+              transition={{
+                delay: i * 0.04,
+                type: "spring",
+                stiffness: 100,
+              }}
+              className={className}
             >
-                 Create and
-            </motion.div>
-            <motion.div 
-                initial = { {x : 40, y: -180, rotate : -20, opacity: 0 }}
-                whileInView = {{ y: 0, opacity: 1, rotate : 0} }
-                transition = {{
-                    ease: "easeOut",
-                    delay : 0.2
-                }}
-                className={cn(
-                    "rounded-3xl p-6 !text-6xl absolute -right-36 -top-11 rotate-2 z-10 shadow-2xl",
-                )} style={{background : "linear-gradient(153.58deg,#f7bdf8 32.25%,#2f3cc0 92.68%)"}}
-            >
-                ease
-            </motion.div>
-            <motion.div 
-                initial = { {x : 40, y: -180, rotate : -20, opacity: 0 }}
-                whileInView = {{ y: 0, opacity: 1, rotate : 0} }
-                transition = {{
-                    ease: "easeOut",
-                    delay : 0.4
-                }}
-                className={cn(
-                    "rounded-3xl p-6 !text-6xl absolute -right-72 top-10 rotate-12 z-0 shadow-2xl",
-                )} style={{background : "linear-gradient(153.58deg,#e8ad3e 32.25%,#98139b40 92.68%)"}}
-            >
-                easing
-            </motion.div>
-        </div>
+              {char}
+            </motion.span>
+          );
+        })}
+      </div>
     );
-}
+  };
 
+  
+export const AnimationTextRise = ({ text = "" , delay}) => {
+    return(
+    <motion.div
+        initial={{ scale: 6, opacity: 0 }}
+        whileInView={{ scale: 1, opacity: 1 }}
+        viewport={{ once: true, amount: 0.6 }}
+        transition={{
+            transition : .5,
+            delay: delay,
+        }}
+    >
+        {text}
+    </motion.div>
+    )
+};
+export const AnimationTextDouble = ({ text = "", delay}) => {
+    return(
+        <div className="flex flex-wrap gap-5">
+            {text.map((item, index) => (
+                <span className={types[item.classNameLetter]} key={index}>{item.text}</span>
+            ))}
+        </div>
+    )
+};

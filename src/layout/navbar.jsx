@@ -31,11 +31,11 @@ export default function Navbar() {
 
   return (
     <nav className={`fixed top-0 left-0 w-full flex justify-center align-center !z-[9999] ${isScrolled ? "max-lg:px-3" : "" }`}>
-      <div className={`relative container flex justify-between items-center my-10 py-6 max-md:px-8 ${isScrolled ? "px-8 rounded-3xl w-1/2 max-2xl:w-2/3 max-xl:w-3/4 max-lg:w-full" : "" }`}>
+      <div className={`relative container flex justify-between items-center my-10 py-6 max-md:px-8 max-md:py-2 ${isScrolled ? "px-8 rounded-3xl w-1/2 max-2xl:w-2/3 max-xl:w-3/4 max-lg:w-full" : "" }`}>
         <div>
         <span className={`${isScrolled ? "w-full h-full top-0 left-0 absolute backdrop-blur-[9.5px] bg-[#e6e6e67c] z-[-1] rounded-3xl" : ""}`} />
           <Link href="/">
-            <div className="bg-cover bg-center bg-no-repeat w-[12rem] h-[3rem] max-md:w-[8rem] max-md:h-[2rem] ms-8" style={{backgroundImage : "url(/icons/logo.webp)"}} />
+            <div className="bg-cover bg-center bg-no-repeat w-[12rem] h-[3rem] max-md:w-[8rem] max-md:h-[2rem]" style={{backgroundImage : "url(/icons/logo.webp)"}} />
           </Link>
         </div>
         <div className="list_item flex gap-7 h-full justify-center align-center max-md:hidden">

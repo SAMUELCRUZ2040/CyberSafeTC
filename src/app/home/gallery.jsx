@@ -53,7 +53,10 @@ export default function Gallery() {
                   key={index}
                   className="w-auto flex justify-start items-center pe-6"
                 >
-                  <span className="max-lg:text-xl text-9xl  font-semibold">
+                  <span className="max-lg:text-xl text-9xl  font-semibold relative">
+                    {data.state &&(
+                      <div className="image w-[7rem] h-[7rem] absolute -top-40 left-[50%] bg-cover bg-center bg-no-repeat" style={{backgroundImage : "url(/icons/hand.png)"}} />
+                    )}
                     <AnimationLettersHome letters={data.word} type={data.component} delay={data.delay}/>
                   </span>
                 </div>

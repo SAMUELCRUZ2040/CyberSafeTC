@@ -86,28 +86,32 @@
                     "description":
                       "Our team is available at any time.",
                     "skeleton": "skeletonOne",
-                    "className": "skeletonOne"
+                    "className": "skeletonOne",
+                    "delay" : ".2"
                   },
                   {
                     "title": "A little bit of our work",
                     "description":
                       "Capture stunning photos effortlessly using our advanced AI technology.",
                     "skeleton": "skeletonTwo",
-                    "className": "SkeletonTwo"
+                    "className": "SkeletonTwo",
+                    "delay" : ".3"
                   },
                   {
                     "title": "Watch our AI on YouTube",
                     "description":
                       "Whether its you or Tyler Durden, you can get to know about our product on YouTube",
                     "skeleton": "skeletonThree",
-                    "className": "SkeletonThree"
+                    "className": "SkeletonThree",
+                    "delay" : ".4"
                   },
                   {
                     "title": "Deploy in seconds",
                     "description":
                       "With our blazing fast, state of the art, cutting edge, we are so back cloud servies (read AWS) - you can deploy your model in seconds.",
                     "skeleton": "skeletonFour",
-                    "className": "SkeletonFour"
+                    "className": "SkeletonFour",
+                    "delay" : ".5"
                   }
             ],
             "gallery": [
@@ -123,7 +127,8 @@
                 },
                 {
                     "word" : "We bring technology",
-                    "component" : "transitionLetter"
+                    "component" : "AnimationTextFlex",
+                    "state" : true
                 },
                 {
                     "word" : "to",
@@ -141,16 +146,42 @@
                     "delay" : ".4"
                 },
                 {
-                    "word" : "your ideas into",
-                    "component" : "transitionLetter"
+                    "word" : "your",
+                    "component" : "inputAnimationText",
+                    "delay" : ".5"
+                },
+                {
+                    "word" : "ideas,",
+                    "component" : "inputAnimationText",
+                    "delay" : ".6"
+                },
+                {
+                    "word" : " into",
+                    "component" : "AnimationTextRise",
+                    "delay" : ".7"
                 }, 
                 {
                     "word" : "meaningful",
-                    "component" : "transitionLetter"
+                    "component" : "inputAnimationText",
+                    "delay" : ".8"
                 },
                 {
-                    "word" : "solutions that grow,",
-                    "component" : "transitionLetter"
+                    "word" : "solutions",
+                    "component" : "inputAnimationText",
+                    "delay" : ".9"
+                },
+                {
+                    "word" : [
+                        {
+                            "text" : "that",
+                            "classNameLetter" : "textDoubleUp"
+                        },
+                        {
+                            "text" : "grow",
+                            "classNameLetter" : "textDoubleDown"
+                        }
+                    ],
+                    "component" : "AnimationTextDouble"
                 },
                 {
                     "word" : "connect, and inspire",
@@ -159,6 +190,42 @@
                 {
                     "word" : "the world",
                     "component" : "transitionLetter"
+                }
+            ],
+            "itemsGallerry" : [
+                {
+                    "text": "Create and",
+                    "className": "text-9xl max-lg:text-6xl bg-gradient-to-r from-sky-400 to-cyan-200",
+                    "style": {},
+                    "delay": 0,
+                    "rotate": -20,
+                    "zIndex": -1,
+                    "position": "static",
+                    "padding": "p-5"
+                },
+                {
+                    "text": "Easy",
+                    "className": "text-4xl max-lg:text-3xl",
+                    "style": {
+                        "background": "linear-gradient(153.58deg,#f7bdf8 32.25%,#2f3cc0 92.68%)"
+                    },
+                    "delay": 0.3,
+                    "rotate": -50,
+                    "zIndex": 10,
+                    "position": "absolute -right-28 -top-14 rotate-2",
+                    "padding": "p-6 px-10"
+                },
+                {
+                    "text": "Easing",
+                    "className": "text-4xl max-lg:text-3xl max-lg:-right-60",
+                    "style": {
+                        "background": "linear-gradient(153.58deg,#bde1f8 32.25%,#84c02f 92.68%)"
+                    },
+                    "delay": 0.6,
+                    "rotate": -80,
+                    "zIndex": 0,
+                    "position": "absolute -right-52 top-10",
+                    "padding": "p-6 px-10"
                 }
             ],
             "average" : [
@@ -936,26 +1003,31 @@
             "footerLinks1" : [
                 {
                     "title" : true,
+                    "delay" : ".1",
                     "word" : "Pages"
                 }
             ],
             "footerLinks2" : [
                 {
+                    "delay" : ".2",
                     "word" : "Home"
                 }
             ],
             "footerLinks3" : [
                 {
+                    "delay" : ".3",
                     "word" : "services"
                 }
             ],
             "footerLinks4" : [
                 {
+                    "delay" : ".4",
                     "word" : "About"
                 }
             ],
             "footerLinks5" : [
                 {
+                    "delay" : ".5",
                     "word" : "Contact"
                 }
             ]
@@ -964,26 +1036,31 @@
             "footerLinks1" : [
                 {
                     "title" : true,
+                    "delay" : ".1",
                     "word" : "social networks"
                 }
             ],
             "footerLinks2" : [
                 {
+                    "delay" : ".2",
                     "word" : " Facebook"
                 }
             ],
             "footerLinks3" : [
                 {
+                    "delay" : ".3",
                     "word" : "Instagram"
                 }
             ],
             "footerLinks4" : [
                 {
+                    "delay" : ".4",
                     "word" : "twitter"
                 }
             ],
             "footerLinks5" : [
                 {
+                    "delay" : ".5",
                     "word" : "LinkedIn"
                 }
             ]
@@ -992,21 +1069,25 @@
             "footerLinks1" : [
                 {
                     "title" : true,
+                    "delay" : ".1",
                     "word" : "Legal"
                 }
             ],
             "footerLinks2" : [
                 {
+                    "delay" : ".2",
                     "word" : "Privacy Policy"
                 }
             ],
             "footerLinks3" : [
                 {
+                    "delay" : ".3",
                     "word" : "Terms of Service"
                 }
             ],
             "footerLinks4" : [
                 {
+                    "delay" : ".4",
                     "word" : "Cookie Policy"
                 }
             ]
