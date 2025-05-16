@@ -4,32 +4,15 @@ import { cn } from "@/utils/cn";
 import { motion } from "framer-motion";
 import data from '@/json/data'
 import  types  from "@/components/fontLetters";
+import RotatingText from "../rotatingTextHome";
 
 
-export const NeonLetters = () => {
+export const LoaderWords = ({ text = "", delay }) => {
   return (
-    <div className="flex relative me-52">
-      {data.home[0].itemsGallerry.map((item, index) => (
-        <motion.div
-          key={index}
-          initial={{ y: -180, rotate: item.rotate, opacity: 0 }}
-          whileInView={{ y: 0, rotate: index === 2 ? 12 : 0, opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: item.delay }}
-          className={cn(
-            "rounded-xl shadow-2xl leading-tight whitespace-nowrap z-" + item.zIndex,
-            item.padding,
-            item.className,
-            item.position
-          )}
-          style={item.style}
-        >
-          {item.text}
-        </motion.div>
-      ))}
-    </div>
-  );
-};
+    <></>
+  )
+}
+
 export const AnimationTextFlex = ({ text = "" , className}) => {
     const letters = text.split("");
   
@@ -38,7 +21,7 @@ export const AnimationTextFlex = ({ text = "" , className}) => {
         {letters.map((char, i) => {
           if (char === " ") {
             return (
-              <span key={i} className="inline-block w-2">
+              <span key={i} className="inline-block w-10">
                 &nbsp;
               </span>
             );
@@ -62,6 +45,7 @@ export const AnimationTextFlex = ({ text = "" , className}) => {
             >
               {char}
             </motion.span>
+            
           );
         })}
       </div>
@@ -79,17 +63,9 @@ export const AnimationTextRise = ({ text = "" , delay}) => {
             transition : .5,
             delay: delay,
         }}
+        className="mx-6"
     >
         {text}
     </motion.div>
-    )
-};
-export const AnimationTextDouble = ({ text = "", delay}) => {
-    return(
-        <div className="flex flex-wrap gap-5">
-            {text.map((item, index) => (
-                <span className={types[item.classNameLetter]} key={index}>{item.text}</span>
-            ))}
-        </div>
     )
 };

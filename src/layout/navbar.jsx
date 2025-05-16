@@ -35,7 +35,7 @@ export default function Navbar() {
         <div>
         <span className={`${isScrolled ? "w-full h-full top-0 left-0 absolute backdrop-blur-[9.5px] bg-[#e6e6e67c] z-[-1] rounded-3xl" : ""}`} />
           <Link href="/">
-            <div className="bg-cover bg-center bg-no-repeat w-[12rem] h-[3rem] max-md:w-[8rem] max-md:h-[2rem]" style={{backgroundImage : "url(/icons/logo.webp)"}} />
+            <div className="bg-cover bg-center bg-no-repeat w-[8rem] h-[2rem] max-md:w-[8rem] max-md:h-[2rem]" style={{backgroundImage : "url(/icons/logo.webp)"}} />
           </Link>
         </div>
         <div className="list_item flex gap-7 h-full justify-center align-center max-md:hidden">
@@ -57,7 +57,7 @@ export default function Navbar() {
           ))}
         </div>
         <div className="flex max-md:hidden">
-          <Link href={"/contact"} className={`flex justify-center items-center gap-2 text-xl bg-[#000000] text-white rounded-lg px-11 py-3 hover:scale-[1.06] transition-all`} >Contact</Link>
+          <Link href={"/contact"} className={`flex justify-center items-center gap-2 text-xl bg-[#000000] text-white rounded-tr-xl rounded-bl-xl px-11 py-3 hover:scale-[1.06] transition-all`} >Let's start?</Link>
         </div>
         <MobileNabvar />
       </div>

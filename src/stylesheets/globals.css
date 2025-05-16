@@ -13,7 +13,7 @@
   
 
 ::-webkit-scrollbar-thumb {
-    background: #e1dddd;
+    background: #8282825d;
 }
   
 body{
@@ -94,9 +94,9 @@ section{
                 
  } 
  .gradient__inset__third{
-    box-shadow: inset 0 0 10px #38393910, 
-                inset 0 0 20px #38393909, 
-                inset 0 0 30px #38393908 
+    box-shadow: inset 0 0 8px #00000010, 
+                inset 0 0 15px #00000009, 
+                inset 0 0 20px #00000008 
  } 
 
 .hover__arrow::after{
@@ -144,8 +144,7 @@ section{
     transition: 800ms all;
     transition-delay: .5s;
 }
-
-
+  
 /* responsive designe */
 @media screen and (max-width: 344px){
     .sf-text{

@@ -31,11 +31,8 @@ export const ConfiTimeline = ({
       className="w-full relative dark:bg-neutral-950 font-sans md:px-10"
       ref={containerRef}>
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
-        <span className={`${types.h2}  !font-bold w-full flex  text-center justify-center items-center flex-col`}>
-          Who we are?
-        </span>
         {data.map((item, index) => (
-          <div key={index} className="flex justify-start pt-10 md:pt-40 md:gap-10">
+          <div key={index} className="flex justify-start pt-4 md:pt-10 md:gap-10">
             <div
               className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
               <div
@@ -68,7 +65,7 @@ export const ConfiTimeline = ({
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[3px] bg-gradient-to-t from-[#ed91ff] via-[#864ce49b] to-transparent from-[0%] via-[10%] rounded-full transition-none" />
+            className="absolute inset-x-0 top-0  w-[3px] bg-gradient-to-t from-[#2828287b] via-[#373737fc] to-transparent from-[0%] via-[10%] rounded-full transition-none" />
         </div>
       </div>
     </div>)

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@getbrevo/brevo": "^2.2.0",
     "@react-spring/web": "^9.7.5",
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",

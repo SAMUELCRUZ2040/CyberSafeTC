@@ -1,6 +1,6 @@
 import { Components } from "@/utils/componentAnimation";
 
-export  const AnimationLettersHome = ({ type, letters, delay, classNameLetter}) => {
+export  const AnimationLettersHome = ({ type, letters, delay }) => {
 
     return (
         <>

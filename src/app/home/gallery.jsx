@@ -6,6 +6,7 @@ import { useScreenStore } from '@/hooks/useScreenStore'
 import { useRef, useEffect, useState } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { AnimationLettersHome } from '@/core/AnimationLettersHome'
+import Average from './average'
 
 export default function Gallery() {
   const width = useScreenStore((state) => state.width)
@@ -32,13 +33,6 @@ export default function Gallery() {
   return (
     <>
       <div id="gallery" className="w-screen">
-        {/* Header */}
-        <div className="h-[10vh] flex justify-center items-center mt-10 text-center">
-          <h2 className={`${types.h2}`}>
-            Let us show you how to build your dreams together.
-          </h2>
-        </div>
-
         <div ref={scrollRef} className="h-[400vh] relative">
           <div className="sticky top-0 overflow-hidden h-screen">
             <motion.div
@@ -46,38 +40,29 @@ export default function Gallery() {
               style={{ x }}
               className="flex h-full"
             >
-              <div className="min-w-[100vw]"></div>
+              <div className="min-w-[100vw] me-60">
+                <Average />
+              </div>
               {data.home[0].gallery.map((data, index) => (
                 
                 <div
                   key={index}
                   className="w-auto flex justify-start items-center pe-6"
                 >
-                  <span className="max-lg:text-xl text-9xl  font-semibold relative">
+                  <div className={`${types.h1} !text-8xl`}>
                     {data.state &&(
-                      <div className="image w-[7rem] h-[7rem] absolute -top-40 left-[50%] bg-cover bg-center bg-no-repeat" style={{backgroundImage : "url(/icons/hand.png)"}} />
+                      <motion.div {...types[data.animationObject]} className="w-[7rem] h-[7rem] bg-cover bg-no-repeat bg-center absolute" style={{backgroundImage : "url(/icons/hand.png)"}}/>
                     )}
-                    <AnimationLettersHome letters={data.word} type={data.component} delay={data.delay}/>
-                  </span>
+                      <AnimationLettersHome letters={data.word} type={data.component} delay={data.delay}/>
+                   {data.state &&(
+                    <p></p>
+                   )}
+                  </div>
                 </div>
               ))}
               <div className="min-w-[50vw]"></div>
             </motion.div>
           </div>
-        </div>
-
-        <div className="h-[10vh] flex justify-center items-center">
-          <p className="text-center">
-            Photos by{' '}
-            <a
-              href="https://twitter.com/mattgperry"
-              target="_blank"
-              className="text-purple-600 underline"
-              rel="noopener noreferrer"
-            >
-              Matt Perry
-            </a>
-          </p>
         </div>
       </div>
     </>

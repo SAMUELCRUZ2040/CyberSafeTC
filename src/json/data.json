@@ -26,58 +26,76 @@
 
             "summary" : [
                 {
-                    "icon" : "1",
-                    "alt"  : "Innovación",
-                    "subtitle" : "Innovation",
-                    "title"  : "Advanced and Efficient Technology",
-                    "description" : "Our advanced technology guarantees efficient, cutting-edge solutions, fully tailored to your specific needs.",
-                    "url" : "/",
-                    "transition" : ".1"
+                    "summaryOne" : [
+                        {
+                            "icon" : "1",
+                            "alt"  : "Innovación",
+                            "subtitle" : "Innovation",
+                            "title"  : "Advanced and Efficient Technology",
+                            "description" : "Our advanced technology guarantees efficient, cutting-edge solutions, fully tailored to your specific needs.",
+                            "url" : "/",
+                            "transition" : ".3"
+                        }
+                    ],
+                    "summaryTwo" : [
+                        {
+                            "icon" : "2",
+                            "alt"  : "Quality",
+                            "subtitle" : "Quality",
+                            "title"  : "Excellence and Quality Assured",
+                            "description" : "We are committed to excellence in every project, ensuring products and services of the highest quality and proven performance.",
+                            "url" : "/",
+                            "transition" : ".4"
+                        }
+                    ]
                 },
                 {
-                    "icon" : "2",
-                    "alt"  : "Quality",
-                    "subtitle" : "Quality",
-                    "title"  : "Excellence and Quality Assured",
-                    "description" : "We are committed to excellence in every project, ensuring products and services of the highest quality and proven performance.",
-                    "url" : "/",
-                    "transition" : ".2"
+                    "summaryOne" : [
+                        {
+                            "icon" : "3",
+                            "alt"  : "Experience",
+                            "subtitle" : "Experience",
+                            "title"  : "Experts in the Technological Field",
+                            "description" : "👉 We have a team of experts in the field, with years of experience in developing innovative technological solutions.",
+                            "aditional" : true,
+                            "transition" : ".1"
+                        }
+                    ],
+                    "summaryTwo" : [
+                        {
+                            "icon" : "4",
+                            "alt"  : "Support",
+                            "subtitle" : "Support",
+                            "title"  : "24/7 Assistance and Support",
+                            "description" : " 👉  Our dedicated specialists are always ready to help, offering continuous and highly efficient support every single day.",
+                            "aditional" : true,
+                            "transition" : ".2"
+                        }
+                    ],
+                    "summaryThree" : [
+                        {
+                            "icon" : "5",
+                            "alt"  : "Adaptability",
+                            "subtitle" : "Adaptability",
+                            "title"  : "Flexible and Dynamic Solutions",
+                            "description" : " 👉 Our solutions are flexible and adapt to the changes and needs of your business at all times, offering excellent service.",
+                            "aditional" : true,
+                            "transition" : ".3"
+                        }
+                    ]
                 },
                 {
-                    "icon" : "3",
-                    "alt"  : "Experience",
-                    "subtitle" : "Experience",
-                    "title"  : "Experts in the Technological Field",
-                    "description" : "We have a team of experts in the field, with years of experience in developing innovative technological solutions.",
-                    "url" : "/",
-                    "transition" : ".3"
-                },
-                {
-                    "icon" : "4",
-                    "alt"  : "Support",
-                    "subtitle" : "Support",
-                    "title"  : "24/7 Assistance and Support",
-                    "description" : "We provide 24/7 assistance and support, ensuring you always have the help you need when you need it most.",
-                    "url" : "/",
-                    "transition" : ".1"
-                },
-                {
-                    "icon" : "5",
-                    "alt"  : "Adaptability",
-                    "subtitle" : "Adaptability",
-                    "title"  : "Flexible and Dynamic Solutions",
-                    "description" : "Our solutions are flexible and adapt to the changes and needs of your business at all times, without fail.",
-                    "url" : "/",
-                    "transition" : ".2"
-                },
-                {
-                    "icon" : "6",
-                    "alt"  : "Results",
-                    "subtitle" : "Results",
-                    "title"  : "Tangible and Guaranteed Impact",
-                    "description" : "We focus on tangible and guaranteed results, driving the continuous growth and success of your company.",
-                    "url" : "/",
-                    "transition" : ".3"
+                    "summaryOne" : [
+                        {
+                            "icon" : "6",
+                            "alt"  : "Results",
+                            "subtitle" : "Results",
+                            "title"  : "Tangible and Guaranteed Impact",
+                            "description" : "We adapt to your needs with smart strategies, built to evolve and scale with your business.",
+                            "url" : "/",
+                            "transition" : ".3"
+                        }
+                    ]
                 }
             ],
             "features" : [
@@ -116,29 +134,20 @@
             ],
             "gallery": [
                 {
-                    "word" : {
-                        "words" : [
-                            "Create and",
-                            "ease",
-                            "easing"
-                        ]
-                    },
-                    "component" : "NeonLetters"
-                },
-                {
                     "word" : "We bring technology",
                     "component" : "AnimationTextFlex",
-                    "state" : true
+                    "state" : true,
+                    "animationObject" : "viewportObject"
                 },
                 {
                     "word" : "to",
                     "component" : "inputAnimationText",
-                    "delay" : ".2"
+                    "delay" : ".1"
                 },
                 {
                     "word" : "life",
                     "component" : "inputAnimationText",
-                    "delay" : ".3"
+                    "delay" : ".2"
                 },
                 {
                     "word" : "turning,",
@@ -148,84 +157,64 @@
                 {
                     "word" : "your",
                     "component" : "inputAnimationText",
-                    "delay" : ".5"
+                    "delay" : ".4"
                 },
                 {
                     "word" : "ideas,",
                     "component" : "inputAnimationText",
-                    "delay" : ".6"
+                    "delay" : ".5"
                 },
                 {
                     "word" : " into",
                     "component" : "AnimationTextRise",
-                    "delay" : ".7"
+                    "delay" : ".6"
                 }, 
                 {
                     "word" : "meaningful",
                     "component" : "inputAnimationText",
-                    "delay" : ".8"
+                    "delay" : ".7"
                 },
                 {
                     "word" : "solutions",
-                    "component" : "inputAnimationText",
-                    "delay" : ".9"
-                },
-                {
-                    "word" : [
-                        {
-                            "text" : "that",
-                            "classNameLetter" : "textDoubleUp"
-                        },
-                        {
-                            "text" : "grow",
-                            "classNameLetter" : "textDoubleDown"
-                        }
-                    ],
-                    "component" : "AnimationTextDouble"
+                    "component" : "AnimationTextRise",
+                    "delay" : ".1"
                 },
                 {
                     "word" : "connect, and inspire",
-                    "component" : "transitionLetter"
+                    "component" : "AnimationTextFlex",
+                    "delay" : ".2"
                 },
                 {
-                    "word" : "the world",
-                    "component" : "transitionLetter"
+                    "word" : "world",
+                    "component" : "inputAnimationText",
+                    "delay" : ".3"
                 }
             ],
             "itemsGallerry" : [
                 {
                     "text": "Create and",
-                    "className": "text-9xl max-lg:text-6xl bg-gradient-to-r from-sky-400 to-cyan-200",
+                    "className": "neonLettersUp",
                     "style": {},
                     "delay": 0,
-                    "rotate": -20,
-                    "zIndex": -1,
-                    "position": "static",
-                    "padding": "p-5"
+                    "zIndex": -1
                 },
                 {
                     "text": "Easy",
-                    "className": "text-4xl max-lg:text-3xl",
+                    "className": "neonLettersCenter",
                     "style": {
-                        "background": "linear-gradient(153.58deg,#f7bdf8 32.25%,#2f3cc0 92.68%)"
+                        "background": ""
                     },
                     "delay": 0.3,
-                    "rotate": -50,
-                    "zIndex": 10,
-                    "position": "absolute -right-28 -top-14 rotate-2",
-                    "padding": "p-6 px-10"
+                    "zIndex": 10
                 },
                 {
                     "text": "Easing",
-                    "className": "text-4xl max-lg:text-3xl max-lg:-right-60",
+                    "className": "neonLettersDown",
                     "style": {
-                        "background": "linear-gradient(153.58deg,#bde1f8 32.25%,#84c02f 92.68%)"
+                        "background": ""
                     },
                     "delay": 0.6,
-                    "rotate": -80,
-                    "zIndex": 0,
-                    "position": "absolute -right-52 top-10",
-                    "padding": "p-6 px-10"
+                    "zIndex": 0
                 }
             ],
             "average" : [
@@ -892,28 +881,32 @@
             ],
             "outWork" : [
                 {
-                    "picture" : "1",
-                    "title" : "Landing Page",
-                    "description" : "Crea una página de aterrizaje visualmente impactante con un diseño que refleje el estilo único de tu marca. Atrae a los visitantes con un gran contenido, formularios y botones de llamada a la acción para maximizar las conversiones.",
-                    "miniDescription" : "Libertad creativa total, opciones de automatización y menos tiempo a la hora de crear una página de aterrizaje de alta conversión. Crea páginas de aterrizaje que generen resultados.",
-                    "direction" : false,
-                    "submit" : "Lanza tu one-pager ahora"
+                    "outWorkOne" : [{
+                        "SubTitle" : "Designe",
+                        "title" : "Design your product with us",
+                        "description" : "También contarás con clases online y en vivo en donde podrás resolver tus dudas y aprender junto a grandes expertos.",
+                        "picture" : "outWork_1"
+                    }],
+                    "outWorkTwo" : [{
+                        "SubTitle" : "Deployments",
+                        "title" : "Deployments and security in every project",
+                        "description" : "También contarás con clases online y en vivo en donde podrás resolver tus dudas y aprender junto a grandes expertos.",
+                        "picture" : "outWork_2"
+                        }]
                 },
                 {
-                    "picture" : "2",
-                    "title" : "Micrositios y One-Pagers",
-                    "description" : "Crea una página de aterrizaje visualmente impactante con un diseño que refleje el estilo único de tu marca. Atrae a los visitantes con un gran contenido, formularios y botones de llamada a la acción para maximizar las conversiones.",
-                    "miniDescription" : "Libertad creativa total, opciones de automatización y menos tiempo a la hora de crear una página de aterrizaje de alta conversión. Crea páginas de aterrizaje que generen resultados.",
-                    "direction" : true,
-                    "submit" : "Lanza tu one-pager ahora"
-                },
-                {
-                    "picture" :"3",
-                    "title" : "Software",
-                    "description" : "Crea una página de aterrizaje visualmente impactante con un diseño que refleje el estilo único de tu marca. Atrae a los visitantes con un gran contenido, formularios y botones de llamada a la acción para maximizar las conversiones.",
-                    "miniDescription" : "Libertad creativa total, opciones de automatización y menos tiempo a la hora de crear una página de aterrizaje de alta conversión. Crea páginas de aterrizaje que generen resultados.",
-                    "direction" : false,
-                    "submit" : "Lanza tu one-pager ahora"
+                    "outWorkOne" : [{
+                        "SubTitle" : "Services",
+                        "title" : "Micrositios y One-Pagers",
+                        "description" : "También contarás con clases online y en vivo en donde podrás resolver tus dudas y aprender junto a grandes expertos.",
+                        "picture" : "outWork_3"
+                    }],
+                    "outWorkTwo" : [{
+                        "SubTitle" : "Software",
+                        "title" : "Create your Software",
+                        "description" : "También contarás con clases online y en vivo en donde podrás resolver tus dudas y aprender junto a grandes expertos.",
+                        "picture" : "outWork_4"
+                    }]
                 }
             ],
             "ilustration" : [
@@ -994,6 +987,60 @@
                         }
                     ]
                     
+                }
+            ]
+        }
+    ],
+    "contact" : [
+        {
+            "titleForm" : [
+                {
+                    "text" : "Great, isn't it! Ready to get started?",
+                    "delay" : ".1"
+                },
+                {
+                    "text" : "We're here to answer your questions.",
+                    "delay" : ".2",
+                    "color" : true
+                }
+            ],
+            "form" : [
+                {
+                    "gridForm" : [
+                        {                    
+                            "type" : "text",
+                            "inputType" : "input",
+                            "name" : "nameUser",
+                            "placeholder" : "write your name"
+                        }
+                    ],
+                    "gridForm2" : [
+                        {
+                            "type" : "number",
+                            "inputType" : "input",
+                            "name" : "phone",
+                            "placeholder" : "write your phone"
+                        }
+                    ]
+                },
+                {
+                    "gridForm" : [
+                        {
+                            "type" : "email",
+                            "inputType" : "input",
+                            "name" : "email",
+                            "placeholder" : "wrire your email"
+                        }
+                    ]
+                },
+                {
+                    "gridForm" : [
+                        {
+                            "inputType" : "textarea",
+                            "name" : "message",
+                            "placeholder" : "wrire your message"
+                        }
+                    ]
                 }
             ]
         }

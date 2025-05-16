@@ -61,13 +61,13 @@ export const ConfiTestimonials = ({ testimonials, autoplay = false }) => {
                     ease: "easeInOut",
                   }}
                   className="absolute inset-0 origin-bottom transition-none">
-                  <Image
+                  <video
                     src={testimonial.src}
-                    alt={testimonial.name}
-                    width={500}
-                    height={500}
-                    draggable={false}
-                    className="h-full w-full rounded-3xl object-cover object-center"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="w-full h-full object-cover rounded-3xl"
                   />
                 </motion.div>
               ))}

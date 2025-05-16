@@ -7,9 +7,9 @@ export default function About() {
     return (
       <>
         <FrontPage />
-        <Timeline />
-        <Ilustration />
         <OurWork/>
+        <Timeline />
+        {/* <Ilustration /> */}
       </>
     );
   }
