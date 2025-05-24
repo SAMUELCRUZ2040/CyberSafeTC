@@ -56,7 +56,7 @@
                             "alt"  : "Experience",
                             "subtitle" : "Experience",
                             "title"  : "Experts in the Technological Field",
-                            "description" : "👉 We have a team of experts in the field, with years of experience in developing innovative technological solutions.",
+                            "description" : "We have a team of experts in the field, with years of experience in developing innovative technological solutions.",
                             "aditional" : true,
                             "transition" : ".1"
                         }
@@ -67,7 +67,7 @@
                             "alt"  : "Support",
                             "subtitle" : "Support",
                             "title"  : "24/7 Assistance and Support",
-                            "description" : " 👉  Our dedicated specialists are always ready to help, offering continuous and highly efficient support every single day.",
+                            "description" : "Our dedicated specialists are always ready to help, offering continuous and highly efficient support every single day.",
                             "aditional" : true,
                             "transition" : ".2"
                         }
@@ -78,7 +78,7 @@
                             "alt"  : "Adaptability",
                             "subtitle" : "Adaptability",
                             "title"  : "Flexible and Dynamic Solutions",
-                            "description" : " 👉 Our solutions are flexible and adapt to the changes and needs of your business at all times, offering excellent service.",
+                            "description" : "Our solutions are flexible and adapt to the changes and needs of your business at all times, offering excellent service.",
                             "aditional" : true,
                             "transition" : ".3"
                         }
@@ -885,13 +885,15 @@
                         "SubTitle" : "Designe",
                         "title" : "Design your product with us",
                         "description" : "También contarás con clases online y en vivo en donde podrás resolver tus dudas y aprender junto a grandes expertos.",
-                        "picture" : "outWork_1"
+                        "picture" : "outWork_1",
+                        "delay" : ".1"
                     }],
                     "outWorkTwo" : [{
                         "SubTitle" : "Deployments",
                         "title" : "Deployments and security in every project",
                         "description" : "También contarás con clases online y en vivo en donde podrás resolver tus dudas y aprender junto a grandes expertos.",
-                        "picture" : "outWork_2"
+                        "picture" : "outWork_2",
+                        "delay" : ".2"
                         }]
                 },
                 {
@@ -899,13 +901,15 @@
                         "SubTitle" : "Services",
                         "title" : "Micrositios y One-Pagers",
                         "description" : "También contarás con clases online y en vivo en donde podrás resolver tus dudas y aprender junto a grandes expertos.",
-                        "picture" : "outWork_3"
+                        "picture" : "outWork_3",
+                        "delay" : ".3"
                     }],
                     "outWorkTwo" : [{
                         "SubTitle" : "Software",
-                        "title" : "Create your Software",
+                        "title" : "Create your microservice",
                         "description" : "También contarás con clases online y en vivo en donde podrás resolver tus dudas y aprender junto a grandes expertos.",
-                        "picture" : "outWork_4"
+                        "picture" : "outWork_4",
+                        "delay" : ".4"
                     }]
                 }
             ],
@@ -951,42 +955,50 @@
                     ],
                     "gridTwo" : [
                         {
-                            "title" : "We create the page of your dreams",
-                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "createDreamsAbout",
-                            "directionText" : "topLeft",
-                            "className" : "58%",
-                            "value" : false,
-                            "delay" : ".8"
-                        }
-                    ]
-                    
-                },
-                {
-                    "gridOne" : [
-                        {
-                            "title" : "Deployments and security in every project",
-                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
-                            "component" : "deploymentsSecurityAbout",
-                            "className" : "58%",
-                            "directionText" : "topLeft",
-                            "value" : true,
-                            "delay" : ".10"
-                        }
-                    ],
-                    "gridTwo" : [
-                        {
                             "title" : "Diferents Effects",
                             "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",                            
                             "component" : "diferentsEffectsAbout",
                             "extraComponent" : "rippleAbout",
-                            "className" : "42%",
+                            "className" : "58%",
                             "directionText" : "center",
                             "value" : true,
                             "delay" : ".11"
                         }
                     ]
                     
+                }
+            ],
+            "timeLine": [
+                {
+                    "title": "2019",
+                    "description": "In 2019, the idea of Cyber was born, a company focused on innovation and technological growth. In a constantly evolving world, we identified the need to offer innovative and efficient technological solutions for companies and entrepreneurs seeking to optimize and scale their processes.",
+                    "images": ["/image/about/timeline_1.webp", "/image/about/timeline_2.jpg"],
+                    "delay": ".5"
+                },
+                {
+                    "title": "Early 2022",
+                    "description": "With a clear vision and a commitment to innovation, Cyber began to expand its services, consolidating its presence in the technology sector. During this period, we optimized our processes, incorporated new technologies, and strengthened our team, allowing us to tackle more complex projects and offer more specialized solutions to our clients.",
+                    "images": ["/image/about/timeline_3.jpg", "/image/about/timeline_4.webp"],
+                    "delay": ".6"
+                },
+                {
+                    "title": "Early 2024",
+                    "description": "Entering 2024, Cyber has significantly evolved, establishing itself as a benchmark in technology and innovation. This year marked the beginning of a new growth phase, with the implementation of more advanced solutions in software development, infrastructure, and security. Additionally, we expanded our service portfolio and strengthened our strategic partnerships to continue driving the digital transformation of our clients.",
+                    "images": ["/image/about/timeline_5.webp", "/image/about/timeline_6.webp"],
+                    "delay": ".1"
+                },
+                {
+                    "title": "Finally",
+                    "description": "We now drive innovation with tailor-made technological solutions, ensuring quality, efficiency, and a constant commitment to the success of our clients.",
+                    "highlights": [
+                        "✅ Constant Innovation",
+                        "✅ Personalized Approach",
+                        "✅ Quality and Efficiency",
+                        "✅ Specialized Team",
+                        "✅ Commitment to the Client"
+                    ],
+                    "images": ["/image/about/timeline_7.webp", "/image/about/timeline_8.webp"],
+                    "delay": ".2"
                 }
             ]
         }

@@ -16,7 +16,7 @@ export async function SendEmail({to, htmlContent, email }) {
     const smtpEmail = new brevo.SendSmtpEmail();
     smtpEmail.subject = "New client for wiht a need bussiness";
     smtpEmail.to = to;
-    smtpEmail.htmlContent = `<html><body>${htmlContent}</htmlContentbody></html>`;
+    smtpEmail.htmlContent = `<html><body>${htmlContent}</body></html>`;
     smtpEmail.sender = { name: "Samuel", email: email }
 
     await apiInstace.sendTransacEmail(smtpEmail);

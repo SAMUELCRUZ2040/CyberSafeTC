@@ -6,7 +6,6 @@ import Gallery from "./home/gallery";
 
 export default function Home() {
   return (
-    // <div className="bg-cover bg-center bg-no-repeat bg-fixed" style={{backgroundImage : "url(/image/figure.png)"}}>
     <>
       <FrontPage />
       <Summary />
@@ -14,6 +13,5 @@ export default function Home() {
       <Atention />
       <Users />
     </>
-    // </div> 
   );
 }

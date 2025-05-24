@@ -1,5 +1,3 @@
-"use client"
-
 import types from '@/components/fontLetters';
 import { InputAnimation } from '@/components/inputAnimation';
 import { Squares } from '@/hooks/squares';

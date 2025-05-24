@@ -1,4 +1,3 @@
-import { ConfiAnimationsAbout } from "./confiComponents/confiAnimationsAbout";
 
 export const AnimationsAbout = () => {
     return (

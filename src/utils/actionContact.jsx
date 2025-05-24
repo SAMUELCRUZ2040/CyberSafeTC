@@ -1,24 +1,34 @@
 "use server"
 
-import { SendEmail } from "@/lib/brevo"
+import { contactSchema } from "@/lib/ValidationContact";
+import { SendEmail } from "@/lib/brevo";
+import { Message } from "@/lib/message";
 
-export async function HandleForm( FormData ){
-    const name = FormData.get('nameUser')
-    const email = FormData.get('email')
-    const phone = FormData.get('phone')
-    const message = FormData.get('message')
+export async function HandleForm(formData) {
+  const rawData = {
+    nameUser: formData.get("nameUser"),
+    email: formData.get("email"),
+    phone: formData.get("phone"),
+    message: formData.get("message"),
+  };
 
-    if(!name || !email || !phone || !message){
-        throw new Error("Todos los campos son obligatorios")
-    }
-    console.log(name, email, phone, message)
-      await SendEmail({
-        to: [
-            {name:  name , email: "samuelcruz2040@gmail.com"}
-        ],
-        htmlContent : message + phone,
-        email: email
-      })
+  const result = contactSchema.safeParse(rawData);
 
-      return { success: true };
+  if (!result.success) {
+    const formattedErrors = result.error.format();
+    return {
+      success: false,
+      errors: formattedErrors,
+    };
+  }
+
+  const { nameUser, email, phone, message } = result.data;
+
+  await SendEmail({
+    to: [{ name: nameUser, email: "samuelcruz2040@gmail.com" }],
+    htmlContent: Message({ nameUser, email, phone, message }),
+    email,
+  });
+
+  return { success: true };
 }

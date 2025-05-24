@@ -4,7 +4,6 @@ import { cn } from "@/utils/cn";
 import { motion } from "framer-motion";
 import data from '@/json/data'
 import  types  from "@/components/fontLetters";
-import RotatingText from "../rotatingTextHome";
 
 
 export const LoaderWords = ({ text = "", delay }) => {
