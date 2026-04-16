@@ -1,0 +1,26 @@
+const types = {
+    h1: "text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold tracking-tight leading-none sf-text max-lg:text-center",
+    h2: "text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold tracking-tight leading-none sf-text max-lg:text-center",
+    h3: "text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold tracking-tight leading-none sf-text max-lg:text-center",
+    h4: "text-sm sm:text-md md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-bold tracking-tight leading-none sf-text max-lg:text-center",
+    h5: "text-md sm:text-md md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl font-bold tracking-tight leading-none sf-text max-lg:text-center",
+    h6: "text-[0.825rem] sm:text-[0.825rem] md:text-sm lg:text-md xl:text-lg 2xl:text-xl font-bold tracking-tight leading-none sf-text max-lg:text-center",
+    h7: "text-[0.775rem] sm:text-[0.775rem]  md:text-sm lg:text-[0.825rem]  xl:text-sm 2xl:text-md font-extrabold tracking-tight leading-none sf-text max-lg:text-center",
+    p: "text-[0.70rem] sm:text-[0.80rem] md:text-sm lg:text-md xl:text-lg 2xl:text-lg text-gray-400 leading-relaxed dark:text-neutral-300 max-lg:text-center",
+    pHero: "text-[0.50rem] sm:text-[0.50rem] md:text-[0.60rem] lg:text-[0.70rem] xl:text-[0.80rem] 2xl:text-md text-gray-600 leading-relaxed dark:text-neutral-300 max-lg:text-center",
+    pSmall: "text-[0.525rem] sm:text-[0.575rem] md:text-[0.615rem] lg:text-[0.675rem] xl:text-[0.685rem] 2xl:text-[0.695rem] max-lg:text-center",
+    buttom: "max-lg:text-lg text-2xl font-semibold",
+    flexCenter: "justify-center items-center",
+    neonLettersUp: "bg-gradient-to-r from-sky-400 to-cyan-400 p-5 rounded-xl",
+    neonLettersCenter: "bg-gradient-to-r from-green-400 to-lime-400 absolute -right-24 -top-14 p-5 px-12 rounded-lg",
+    neonLettersDown: "bg-gradient-to-r from-orange-400 to-yellow-400 max-lg:-right-60 absolute -right-48 top-2 p-6 px-12 rounded-lg",
+    topLeft: "absolute top-0 left-0",
+    topRight: "absolute top-0 right-0 w-[52%]",
+    bottomLeft: "absolute bottom-0 left-0",
+    bottomRight: "absolute bottom-8 right-8 text-end w-[45%]",
+    center: "absolute top-0 right-0 w-full h-auto flex justify-center items-center flex-col text-center",
+    longTextSmall: "w-[75%]",
+    longTextLong: "w-[68%]",
+};
+
+export default types;

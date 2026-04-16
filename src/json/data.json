@@ -1,0 +1,1785 @@
+{
+    "navigation" : [
+        {
+            "transition" : ".1",
+            "name" : "Home",
+            "url" : "/"
+        },
+
+        {
+            "transition" : ".3",
+            "name" : "About",
+            "url" : "/about"
+        },
+    {
+            "transition" : ".2",
+            "name" : "Services",
+            "url" : ""
+        }
+    ],
+    "home" : [
+        {
+
+            "summary" : [
+                {
+                    "summaryOne" : [
+                        {
+                            "icon" : "1",
+                            "alt"  : "Innovación",
+                            "subtitle" : "Innovation",
+                            "title"  : "Advanced and Efficient Technology",
+                            "description" : "Our advanced technology guarantees efficient, cutting-edge solutions, fully tailored to your specific needs.",
+                            "url" : "/",
+                            "transition" : ".3"
+                        }
+                    ],
+                    "summaryTwo" : [
+                        {
+                            "icon" : "2",
+                            "alt"  : "Quality",
+                            "subtitle" : "Quality",
+                            "title"  : "Excellence and Quality Assured",
+                            "description" : "We are committed to excellence in every project, ensuring products and services of the highest quality and proven performance.",
+                            "url" : "/",
+                            "transition" : ".4"
+                        }
+                    ]
+                },
+                {
+                    "summaryOne" : [
+                        {
+                            "icon" : "3",
+                            "alt"  : "Experience",
+                            "subtitle" : "Experience",
+                            "title"  : "Experts in the Technological Field",
+                            "description" : "We have a team of experts in the field, with years of experience in developing innovative technological solutions.",
+                            "aditional" : true,
+                            "transition" : ".1"
+                        }
+                    ],
+                    "summaryTwo" : [
+                        {
+                            "icon" : "4",
+                            "alt"  : "Support",
+                            "subtitle" : "Support",
+                            "title"  : "24/7 Assistance and Support",
+                            "description" : "Our dedicated specialists are always ready to help, offering continuous and highly efficient support every single day.",
+                            "aditional" : true,
+                            "transition" : ".2"
+                        }
+                    ],
+                    "summaryThree" : [
+                        {
+                            "icon" : "5",
+                            "alt"  : "Adaptability",
+                            "subtitle" : "Adaptability",
+                            "title"  : "Flexible and Dynamic Solutions",
+                            "description" : "Our solutions are flexible and adapt to the changes and needs of your business at all times, offering excellent service.",
+                            "aditional" : true,
+                            "transition" : ".3"
+                        }
+                    ]
+                },
+                {
+                    "summaryOne" : [
+                        {
+                            "icon" : "6",
+                            "alt"  : "Results",
+                            "subtitle" : "Results",
+                            "title"  : "Tangible and Guaranteed Impact",
+                            "description" : "We adapt to your needs with smart strategies, built to evolve and scale with your business.",
+                            "url" : "/",
+                            "transition" : ".3"
+                        }
+                    ]
+                }
+            ],
+            "features" : [
+                {
+                    "title": "Our team is 100% available for you",
+                    "description":
+                      "Our team is available at any time.",
+                    "skeleton": "skeletonOne",
+                    "className": "skeletonOne",
+                    "delay" : ".2"
+                  },
+                  {
+                    "title": "A little bit of our work",
+                    "description":
+                      "Capture stunning photos effortlessly using our advanced AI technology.",
+                    "skeleton": "skeletonTwo",
+                    "className": "SkeletonTwo",
+                    "delay" : ".3"
+                  },
+                  {
+                    "title": "Watch our AI on YouTube",
+                    "description":
+                      "Whether its you or Tyler Durden, you can get to know about our product on YouTube",
+                    "skeleton": "skeletonThree",
+                    "className": "SkeletonThree",
+                    "delay" : ".4"
+                  },
+                  {
+                    "title": "Deploy in seconds",
+                    "description":
+                      "With our blazing fast, state of the art, cutting edge, we are so back cloud servies (read AWS) - you can deploy your model in seconds.",
+                    "skeleton": "skeletonFour",
+                    "className": "SkeletonFour",
+                    "delay" : ".5"
+                  }
+            ],
+            "gallery": [
+                {
+                    "word" : "We bring technology",
+                    "component" : "AnimationTextFlex",
+                    "state" : true,
+                    "animationObject" : "viewportObject"
+                },
+                {
+                    "word" : "to",
+                    "component" : "inputAnimationText",
+                    "delay" : ".1"
+                },
+                {
+                    "word" : "life",
+                    "component" : "inputAnimationText",
+                    "delay" : ".2"
+                },
+                {
+                    "word" : "turning,",
+                    "component" : "inputAnimationText",
+                    "delay" : ".4"
+                },
+                {
+                    "word" : "your",
+                    "component" : "inputAnimationText",
+                    "delay" : ".4"
+                },
+                {
+                    "word" : "ideas,",
+                    "component" : "inputAnimationText",
+                    "delay" : ".5"
+                },
+                {
+                    "word" : " into",
+                    "component" : "AnimationTextRise",
+                    "delay" : ".6"
+                }, 
+                {
+                    "word" : "meaningful",
+                    "component" : "inputAnimationText",
+                    "delay" : ".7"
+                },
+                {
+                    "word" : "solutions",
+                    "component" : "AnimationTextRise",
+                    "delay" : ".1"
+                },
+                {
+                    "word" : "connect, and inspire",
+                    "component" : "AnimationTextFlex",
+                    "delay" : ".2"
+                },
+                {
+                    "word" : "world",
+                    "component" : "inputAnimationText",
+                    "delay" : ".3"
+                }
+            ],
+            "itemsGallerry" : [
+                {
+                    "text": "Create and",
+                    "className": "neonLettersUp",
+                    "style": {},
+                    "delay": 0,
+                    "zIndex": -1
+                },
+                {
+                    "text": "Easy",
+                    "className": "neonLettersCenter",
+                    "style": {
+                        "background": ""
+                    },
+                    "delay": 0.3,
+                    "zIndex": 10
+                },
+                {
+                    "text": "Easing",
+                    "className": "neonLettersDown",
+                    "style": {
+                        "background": ""
+                    },
+                    "delay": 0.6,
+                    "zIndex": 0
+                }
+            ],
+            "average" : [
+                {
+                    "number" : 100,
+                    "addIcon" : "%",
+                    "description" : "Our focus on efficiency and quality is reflected in a customer satisfaction rate of over 98%, ensuring that each project meets the highest standards.",
+                    "transition" : ".1"
+                },
+                {
+                    "number" : 150,
+                    "addIcon" : "",
+                    "description" : "Projects based on optimized best practices have achieved a 30% reduction in delivery times, ensuring fast results without compromising quality.",
+                    "transition" : ".2"
+                },
+                {
+                    "number" : 15,
+                    "addIcon" : "Years",
+                    "description" : "With over 15 years in the industry, we have honed our skills and processes to deliver projects with maximum efficiency and quality at every stage.",
+                    "transition" : ".3"
+                }
+            ],
+            "users" : [
+                {
+                    "user" : [
+                        {
+                            "picture" : "1",
+                            "name" : "Lucía Martínez",
+                            "profession" : "IT Manager",
+                            "description" : "The deployment management was impeccable. I appreciate the attention to detail and the efficiency of the team, which allowed us to launch our application without any issues or delays."
+                        }
+                    ],
+                    "user2" : [
+                        {
+                            "picture" : "2",
+                            "name" : "Carlos Herrera",
+                            "profession" : "Startup Owner",
+                            "description" : "The integration of microservices has been a key factor in the scalability of our operations. Its implementation was smooth."
+                        }
+                    ],
+                    "user3" : [
+                        {
+                            "picture" : "3",
+                            "name" : "María González",
+                            "profession" : "Business Consultant",
+                            "description" : "Thanks to the creation of our virtual machines, our infrastructure is now more flexible and resilient."
+                        }
+                    ],
+                    "user4" : [
+                        {
+                            "picture" : "4",
+                            "name" : "Ana Rodríguez",
+                            "profession" : "Marketing Director",
+                            "description" : "The development of our website was a smooth and creative process. The team perfectly understood our vision and turned it into an attractive and functional platform."
+                        }
+                    ],
+                    "user5" : [
+                        {
+                            "picture" : "5",
+                            "name" : "Ana Maria",
+                            "profession" : "Project Coordinator",
+                            "description" : "The management of our domains has been handled with impressive professionalism. We have never had to worry about availability or security issues."
+                        }
+                    ]
+                },
+                {
+                    "user" : [
+                        {
+                            "picture" : "6",
+                            "name" : "Lucia de la Cruz",
+                            "profession" : "Operations Manager",
+                            "description" : "The advisory and maintenance services we received have allowed us to keep our operating systems in excellent condition."
+                        }
+                    ],
+                    "user2" : [
+                        {
+                            "picture" : "7",
+                            "name" : "Laura Sánchez",
+                            "profession" : "SME CEO",
+                            "description" : "The IP telephony installed in our company has transformed the way we communicate. It has not only improved the efficiency of our internal communications but also reduced costs, which has been a significant benefit."
+                        }
+                    ],
+                    "user3" : [
+                        {
+                            "picture" : "8",
+                            "name" : "José Ramírez",
+                            "profession" : "Technical Director",
+                            "description" : "The custom software development we received has significantly optimized our operational processes."
+                        }
+                    ],
+                    "user4" : [
+                        {
+                            "picture" : "9",
+                            "name" : "Elena Cruz",
+                            "profession" : "Infrastructure Manager",
+                            "description" : "The implementation of our virtual machines was quick and effective, perfectly adapting to our needs."
+                        }
+                    ],
+                    "user5" : [
+                        {
+                            "picture" : "10",
+                            "name" : "Andrés López",
+                            "profession" : "Network Specialist",
+                            "description" : "The integration of microservices has simplified the management of our applications, allowing for greater flexibility and scalability."
+                        }
+                    ]
+                },
+                {
+                    "user" : [
+                        {
+                            "picture" : "11",
+                            "name" : "Natalia Gómez",
+                            "profession" : "Digital Consultant",
+                            "description" : "The management of our domains was handled with impressive professionalism, ensuring smooth operation."
+                        }
+                    ],
+                    "user2" : [
+                        {
+                            "picture" : "12",
+                            "name" : "Catalina Angel",
+                            "profession" : "IT Manager",
+                            "description" : "The IP telephony service has transformed our way of working, facilitating communication at all levels. The call quality and ease of use have been exceptional."
+                        }
+                    ],
+                    "user3" : [
+                        {
+                            "picture" : "13",
+                            "name" : "Isabel Mendoza",
+                            "profession" : "Business Owner",
+                            "description" : "The team did an exceptional job in maintaining our systems. Their proactivity and attention to detail."
+                        }
+                    ],
+                    "user4" : [
+                        {
+                            "picture" : "14",
+                            "name" : "Pablo Silva",
+                            "profession" : "General Manager",
+                            "description" : "Thanks to the flexible infrastructure created with their virtual machines, our company has gained in agility and security."
+                        }
+                    ],
+                    "user5" : [
+                        {
+                            "picture" : "15",
+                            "name" : "Sofia Gomez",
+                            "profession" : "Quality Analyst",
+                            "description" : "The software development service exceeded our expectations. Every detail was attended to with great professionalism."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "services" : [
+        {
+            "servicesLogo" : [
+                {
+                    "icon": "AppWindowMac",
+                    "title": "Desarrollo de Páginas Web",
+                    "miniDescription": "Web profesional y SEO",
+                    "description": "Transforma tu presencia online con páginas web profesionales, responsivas y optimizadas para SEO.",
+                    "grid" : "gridLayouTop gridLayoutBottom ",
+                    "transition" : ".1",
+                    "url": "/services/desarrollo-de-paginas-web"
+                },
+                {
+                    "icon": "User",
+                    "title": "Asesorias y Mantenimientos",
+                    "miniDescription": "Asesoría y mantenimiento",
+                    "description": "Mantén tus sistemas en óptimo funcionamiento con asesorías y mantenimientos personalizados y continuos.",
+                    "grid" : "gridLayouTop gridLayoutBottom",
+                    "transition" : ".2",
+                    "url": "/services/asesorias-y-mantenimientos"
+                },
+                {
+                    "icon": "Code",
+                    "title": "Desarrollo de software",
+                    "miniDescription": "Software a medida",
+                    "description": "Desarrollamos software a medida para mejorar la eficiencia operativa y darte una ventaja competitiva.",
+                    "grid" : "gridLayouTop",
+                    "transition" : ".3",
+                    "url": "/services/desarrollo-de-software"
+                },
+                {
+                    "icon": "CloudCheck",
+                    "title": "Gestion de despliegues",
+                    "miniDescription": "Gestión confiable",
+                    "description": "Gestiona tus despliegues con confianza, asegurando una transición fluida y un rendimiento superior.",
+                    "grid" : "gridLayouTop gridLayoutBottom",
+                    "transition" : ".4",
+                    "url": "/services/gestion-de-despliegues"
+                },
+                {
+                    "icon": "BrainCircuit",
+                    "title": "Máquinas Virtuales",
+                    "miniDescription": "Recursos optimizados",
+                    "description": "Optimiza tus recursos con máquinas virtuales flexibles y escalables, reduciendo costos y facilitando la gestión.",
+                    "grid" : "gridLayouTop gridLayoutBottom",
+                    "transition" : ".5",
+                    "url": "/services/maquinas-virtuales"
+                },
+                {
+                    "icon": "GitCompareArrows",
+                    "title": "Dominios",
+                    "miniDescription": "Gestión de dominios",
+                    "description": "Asegura tu presencia online con nuestro servicio de registro y gestión de dominios atractivos.",
+                    "grid" : "gridLayouTop",
+                    "transition" : ".6",
+                    "url": "/services/dominios"
+                }
+            ],
+            "informationService" : [
+                {
+                    "id": "desarrollo-de-paginas-web",
+                    "title": "Digital Construction",
+                    "title2": "Professional Web Development",
+                    "addTitle": "of Web Pages",
+                    "addTitle2": "with Real Results",
+                    "FeaturesSectionDemo": "desarrollo-de-paginas-web",
+                    "description": "We create websites that convert visitors into customers. Modern design, fast loading, and SEO optimization from day one.",
+                    "description2": "Your professional digital presence. Responsive, secure, and scalable pages that drive your online business growth.",
+                    "imageHeader": "/image/services/detailsService/desarrollo-de-paginas-web1.webp",
+                    "DetailsService": [
+                        {
+                            "title": "Responsive Design",
+                            "media": "/image/services/detailsService/desarrollo-de-paginas-web1.webp",
+                            "paragraph1": [
+                                "Perfect on any screen size.",
+                                "Flawless adaptive designs."
+                            ],
+                            "paragraph2": [
+                                "Smooth mobile and desktop.",
+                                "Intuitive for all users."
+                            ],
+                            "paragraph3": [
+                                "Speed and performance optimized.",
+                                "Ultra-fast loading guaranteed."
+                            ],
+                            "paragraph4": [
+                                "Works on all modern browsers.",
+                                "Tested on Chrome, Safari, more."
+                            ],
+                            "paragraph5": [
+                                "Modern and visually attractive.",
+                                "Designs that capture attention."
+                            ],
+                            "paragraph6": [
+                                "Mobile-first for conversions.",
+                                "Priority on mobile experience."
+                            ]
+                        },
+                        {
+                            "title": "Animations",
+                            "media": "/image/services/detailsService/media/desarrollo-de-paginas-web1.webm",
+                            "paragraph1": [
+                                "Smooth moves bring life.",
+                                "Visual interactions enhance UX."
+                            ]
+                        },
+                        {
+                            "title": "SEO Optimized",
+                            "media": "/image/services/detailsService/desarrollo-de-paginas-web4.webp",
+                            "paragraph1": [
+                                "Google ranking from start.",
+                                "Optimized for search engines."
+                            ],
+                            "paragraph2": [
+                                "Strategic keywords placement.",
+                                "Content designed to rank."
+                            ],
+                            "paragraph3": [
+                                "Speed optimized for SEO.",
+                                "Perfect Core Web Vitals."
+                            ]
+                        },
+                        {
+                            "title": "Interactivity",
+                            "media": "/image/services/detailsService/media/desarrollo-de-paginas-web2.webm",
+                            "paragraph1": [
+                                "Dynamic elements engage users.",
+                                "Smooth professional effects."
+                            ],
+                            "paragraph2": [
+                                "Intuitive easy-to-fill forms.",
+                                "Real-time validation for UX."
+                            ],
+                            "paragraph3": [
+                                "Micro-interactions boost conversion.",
+                                "Instant visual feedback."
+                            ]
+                        },
+                        {
+                            "title": "Modern Tech",
+                            "media": "/image/services/detailsService/desarrollo-de-paginas-web3.webp",
+                            "paragraph1": [
+                                "Built with latest tools.",
+                                "React, Next.js, cutting-edge."
+                            ],
+                            "paragraph2": [
+                                "Clean scalable code.",
+                                "Architecture grows with you."
+                            ],
+                            "paragraph3": [
+                                "API and service integration.",
+                                "Connect your favorite tools."
+                            ],
+                            "paragraph4": [
+                                "Security from development.",
+                                "Protected against threats."
+                            ],
+                            "paragraph5": [
+                                "Integrated content management.",
+                                "Update without tech skills."
+                            ],
+                            "paragraph6": [
+                                "Complete documentation included.",
+                                "Detailed guides for your team."
+                            ]
+                        },
+                        {
+                            "title": "Performance",
+                            "media": "/image/services/detailsService/desarrollo-de-paginas-web2.webp",
+                            "paragraph1": [
+                                "Ultra-fast sites retain visitors.",
+                                "Automatic resource optimization."
+                            ],
+                            "paragraph2": [
+                                "Progressive loading for speed.",
+                                "Content in under 2 seconds."
+                            ],
+                            "paragraph3": [
+                                "Smart caching for performance.",
+                                "Edge computing when needed."
+                            ],
+                            "paragraph4": [
+                                "Continuous speed monitoring.",
+                                "Automatic alerts for issues."
+                            ],
+                            "paragraph5": [
+                                "Constant Core Web Vitals tuning.",
+                                "Continuous real-metric improvements."
+                            ],
+                            "paragraph6": [
+                                "Scalable infrastructure grows.",
+                                "Ready for heavy traffic peaks."
+                            ]
+                        },
+                        {
+                            "title": "Premium UX/UI",
+                            "media": "/image/services/detailsService/media/desarrollo-de-paginas-web3.webm",
+                            "paragraph1": [
+                                "Designs convert visitors.",
+                                "Research-based user experience."
+                            ]
+                        },
+                        {
+                            "title": "Maintenance",
+                            "media": "/image/services/detailsService/desarrollo-de-paginas-web5.webp",
+                            "paragraph1": [
+                                "support",
+                                "Always updated, 100% functional."
+                            ]
+                        }
+                    ],
+                    "OurWork": [
+                        {
+                            "title": "Custom Design",
+                            "description": "We create your unique digital identity. Tailor-made designs that reflect your brand essence and connect with your audience.",
+                            "picture": "/image/services/ourWork/desarrollo-de-paginas-webOurWork1.webp",
+                            "delay": ".1"
+                        },
+                        {
+                            "title": "Guaranteed Security",
+                            "description": "We implement best security practices. SSL certificates, attack protection, and automatic daily backups included.",
+                            "picture": "/image/services/ourWork/desarrollo-de-paginas-webOurWork2.webp",
+                            "delay": ".2"
+                        },
+                        {
+                            "title": "One-Page Sites",
+                            "description": "High-impact landing pages. Designed to convert, with visual storytelling and strategic calls-to-action.",
+                            "picture": "/image/services/ourWork/desarrollo-de-paginas-webOurWork3.webp",
+                            "delay": ".3"
+                        }
+                    ]
+                },
+                {
+                    "id": "asesorias-y-mantenimientos",
+                    "title": "Personalized Strategies in",
+                    "title2": "Expert Strategies for",
+                    "addTitle": "Consulting & Maintenance",
+                    "addTitle2": "Support & Optimization",
+                    "description": "Custom strategies to keep your systems running flawlessly. Expert team providing proactive solutions for efficiency.",
+                    "description2": "Continuous support that anticipates issues. We optimize performance and ensure reliable operations for your business.",
+                    "imageHeader": "/image/services/detailsService/asesorias-y-mantenimientos4.webp",
+                    "FeaturesSectionDemo": "asesorias-y-mantenimientos",
+                    "DetailsService": [
+                        {
+                            "title": "Proactive Support",
+                            "media": "/image/services/detailsService/media/asesorias-y-mantenimientos1.webm",
+                            "paragraph1": [
+                                "Issues solved before impact.",
+                                "Continuous system monitoring."
+                            ],
+                            "paragraph2": [
+                                "Expert team always available.",
+                                "Quick response guaranteed."
+                            ],
+                            "paragraph3": [
+                                "Preventive maintenance plans.",
+                                "Avoid costly downtime."
+                            ],
+                            "paragraph4": [
+                                "Regular health checkups.",
+                                "Systems always optimized."
+                            ],
+                            "paragraph5": [
+                                "Performance tracking reports.",
+                                "Clear insights monthly."
+                            ],
+                            "paragraph6": [
+                                "24/7 emergency assistance.",
+                                "We're here when needed."
+                            ]
+                        },
+                        {
+                            "title": "Strategic Consulting",
+                            "media": "/image/services/detailsService/asesorias-y-mantenimientos4.webp",
+                            "paragraph1": [
+                                "Expert guidance for growth.",
+                                "Technology roadmap planning."
+                            ]
+                        },
+                        {
+                            "title": "System Optimization",
+                            "media": "/image/services/detailsService/media/asesorias-y-mantenimientos2.webm",
+                            "paragraph1": [
+                                "Peak performance achieved.",
+                                "Resources used efficiently."
+                            ],
+                            "paragraph2": [
+                                "Speed improvements applied.",
+                                "Systems run smoother."
+                            ],
+                            "paragraph3": [
+                                "Database tuning included.",
+                                "Faster queries delivered."
+                            ]
+                        },
+                        {
+                            "title": "Security Updates",
+                            "media": "/image/services/detailsService/media/asesorias-y-mantenimientos3.webm",
+                            "paragraph1": [
+                                "Latest patches applied.",
+                                "Protection always current."
+                            ],
+                            "paragraph2": [
+                                "Vulnerability scans regular.",
+                                "Threats detected early."
+                            ],
+                            "paragraph3": [
+                                "Backup systems verified.",
+                                "Data always protected."
+                            ]
+                        },
+                        {
+                            "title": "Custom Solutions",
+                            "media": "/image/services/detailsService/asesorias-y-mantenimientos1.webp",
+                            "paragraph1": [
+                                "Tailored to your needs.",
+                                "No one-size-fits-all."
+                            ],
+                            "paragraph2": [
+                                "Scalable as you grow.",
+                                "Adapts to changes."
+                            ],
+                            "paragraph3": [
+                                "Integration with tools.",
+                                "Seamless workflows created."
+                            ],
+                            "paragraph4": [
+                                "Process automation added.",
+                                "Save time daily."
+                            ],
+                            "paragraph5": [
+                                "Training for your team.",
+                                "Knowledge transfer included."
+                            ],
+                            "paragraph6": [
+                                "Documentation provided complete.",
+                                "Clear guides always."
+                            ]
+                        },
+                        {
+                            "title": "Performance Monitoring",
+                            "media": "/image/services/detailsService/asesorias-y-mantenimientos3.webp",
+                            "paragraph1": [
+                                "Real-time system tracking.",
+                                "Metrics always visible."
+                            ],
+                            "paragraph2": [
+                                "Alerts configured smart.",
+                                "Notifications when needed."
+                            ],
+                            "paragraph3": [
+                                "Resource usage analyzed.",
+                                "Optimization opportunities found."
+                            ],
+                            "paragraph4": [
+                                "Uptime tracking detailed.",
+                                "Reliability measured constantly."
+                            ],
+                            "paragraph5": [
+                                "Error logs reviewed.",
+                                "Issues addressed quickly."
+                            ],
+                            "paragraph6": [
+                                "Capacity planning support.",
+                                "Growth prepared ahead."
+                            ]
+                        },
+                        {
+                            "title": "Technical Audits",
+                            "media": "/image/services/detailsService/asesorias-y-mantenimientos2.webp",
+                            "paragraph1": [
+                                "Complete system reviews.",
+                                "Improvements identified clearly."
+                            ]
+                        },
+                        {
+                            "title": "Ongoing Training",
+                            "media": "/image/services/detailsService/asesorias-y-mantenimientos5.webp",
+                            "paragraph1": [
+                                "Team skills enhanced.",
+                                "Best practices taught."
+                            ]
+                        }
+                    ],
+                    "OurWork": [
+                        {
+                            "title": "Preventive Maintenance",
+                            "description": "Regular checkups keep systems healthy. Scheduled maintenance prevents problems before they impact your operations.",
+                            "picture": "/image/services/ourWork/asesorias-y-mantenimientosOurWork1.webp",
+                            "delay": ".1"
+                        },
+                        {
+                            "title": "Emergency Response",
+                            "description": "24/7 support when issues arise. Fast response times with expert technicians ready to resolve critical problems.",
+                            "picture": "/image/services/ourWork/asesorias-y-mantenimientosOurWork2.webp",
+                            "delay": ".2"
+                        },
+                        {
+                            "title": "Growth Consulting",
+                            "description": "Strategic guidance for scaling. Technology recommendations aligned with your business goals and future expansion.",
+                            "picture": "/image/services/ourWork/asesorias-y-mantenimientosOurWork3.webp",
+                            "delay": ".3"
+                        }
+                    ]
+                },
+                {
+                    "id": "desarrollo-de-software",
+                    "title": "Digital Innovation in",
+                    "title2": "Custom Innovation for",
+                    "addTitle": "Custom Software Development",
+                    "addTitle2": "Software Solutions",
+                    "description": "Tailored software that fits your exact business needs. We build efficient, competitive solutions on time and on budget.",
+                    "description2": "Custom development that drives results. From enterprise apps to mobile solutions, we deliver robust, secure software.",
+                    "imageHeader": "/image/services/detailsService/desarrollo-de-software1.webp",
+                    "FeaturesSectionDemo": "desarrollo-de-software",
+                    "DetailsService": [
+                        {
+                            "title": "Agile Development",
+                            "media": "/image/services/detailsService/desarrollo-de-software4.webp",
+                            "paragraph1": [
+                                "Fast iterative delivery.",
+                                "Continuous feedback loops."
+                            ],
+                            "paragraph2": [
+                                "Flexible to changes.",
+                                "Requirements evolve naturally."
+                            ],
+                            "paragraph3": [
+                                "Sprint-based milestones.",
+                                "Progress visible always."
+                            ],
+                            "paragraph4": [
+                                "Daily standups included.",
+                                "Communication stays clear."
+                            ],
+                            "paragraph5": [
+                                "Quality assurance integrated.",
+                                "Testing throughout process."
+                            ],
+                            "paragraph6": [
+                                "Stakeholder demos regular.",
+                                "You're involved constantly."
+                            ]
+                        },
+                        {
+                            "title": "Custom Solutions",
+                            "media": "/image/services/detailsService/desarrollo-de-software1.webp",
+                            "paragraph1": [
+                                "Built for your needs.",
+                                "No generic templates used."
+                            ]
+                        },
+                        {
+                            "title": "Mobile Apps",
+                            "media": "/image/services/detailsService/desarrollo-de-software3.webp",
+                            "paragraph1": [
+                                "Native iOS and Android.",
+                                "Performance optimized fully."
+                            ],
+                            "paragraph2": [
+                                "Cross-platform options available.",
+                                "React Native expertise."
+                            ],
+                            "paragraph3": [
+                                "App Store ready.",
+                                "Submission handled smoothly."
+                            ]
+                        },
+                        {
+                            "title": "Enterprise Systems",
+                            "media": "/image/services/detailsService/desarrollo-de-software5.webp",
+                            "paragraph1": [
+                                "Complex workflows automated.",
+                                "Business logic implemented."
+                            ],
+                            "paragraph2": [
+                                "Legacy system integration.",
+                                "Data migration secure."
+                            ],
+                            "paragraph3": [
+                                "User management robust.",
+                                "Roles and permissions."
+                            ]
+                        },
+                        {
+                            "title": "API Development",
+                            "media": "/image/services/detailsService/desarrollo-de-software2.webp",
+                            "paragraph1": [
+                                "RESTful APIs created.",
+                                "Documentation complete always."
+                            ],
+                            "paragraph2": [
+                                "GraphQL when needed.",
+                                "Flexible data queries."
+                            ],
+                            "paragraph3": [
+                                "Authentication secure built.",
+                                "OAuth and JWT."
+                            ],
+                            "paragraph4": [
+                                "Rate limiting applied.",
+                                "Resources protected well."
+                            ],
+                            "paragraph5": [
+                                "Versioning strategy solid.",
+                                "Backwards compatibility kept."
+                            ],
+                            "paragraph6": [
+                                "Testing suite comprehensive.",
+                                "Reliability guaranteed always."
+                            ]
+                        },
+                        {
+                            "title": "Cloud Architecture",
+                            "media": "/image/services/detailsService/media/desarrollo-de-software1.webm",
+                            "paragraph1": [
+                                "Scalable infrastructure deployed.",
+                                "AWS, Azure, GCP."
+                            ],
+                            "paragraph2": [
+                                "Microservices architecture used.",
+                                "Independent scaling possible."
+                            ],
+                            "paragraph3": [
+                                "Container orchestration setup.",
+                                "Kubernetes expertise applied."
+                            ],
+                            "paragraph4": [
+                                "CI/CD pipelines automated.",
+                                "Deployments push-button easy."
+                            ],
+                            "paragraph5": [
+                                "Monitoring and logging.",
+                                "Issues detected instantly."
+                            ],
+                            "paragraph6": [
+                                "Cost optimization ongoing.",
+                                "Resources used efficiently."
+                            ]
+                        },
+                        {
+                            "title": "Database Design",
+                            "media": "/image/services/detailsService/desarrollo-de-software6.webp",
+                            "paragraph1": [
+                                "Optimized schema structure.",
+                                "Queries lightning fast."
+                            ]
+                        },
+                        {
+                            "title": "Security First",
+                            "media": "/image/services/detailsService/desarrollo-de-software7.webp",
+                            "paragraph1": [
+                                "Encryption at rest.",
+                                "Data always protected."
+                            ]
+                        }
+                    ],
+                    "OurWork": [
+                        {
+                            "title": "Product Design",
+                            "description": "Collaborative design process. We work closely with your team to create intuitive, user-friendly software interfaces.",
+                            "picture": "/image/services/ourWork/desarrollo-de-softwareOurWork1.webp",
+                            "delay": ".1"
+                        },
+                        {
+                            "title": "Secure Deployment",
+                            "description": "Enterprise-grade security in every project. Automated deployments with continuous integration and comprehensive testing.",
+                            "picture": "/image/services/ourWork/desarrollo-de-softwareOurWork2.webp",
+                            "delay": ".2"
+                        },
+                        {
+                            "title": "Scalable Architecture",
+                            "description": "Built to grow with your business. Cloud-native solutions that handle increasing loads without performance loss.",
+                            "picture": "/image/services/ourWork/desarrollo-de-softwareOurWork3.webp",
+                            "delay": ".3"
+                        }
+                    ]
+                },
+                {
+                    "id" : "gestion-de-despliegues",
+                    "title" : "Implementación Eficiente y ",
+                    "addTitle" : "Avanzada en gestion de despliegues",
+                    "description" : "En la implementación eficiente y avanzada de la gestión de despliegues, nos enfocamos en asegurar que tus aplicaciones y sistemas se lancen de manera fluida y sin contratiempos. Nuestro enfoque se centra en la planificación meticulosa y la ejecución precisa para garantizar una transición sin problemas desde el entorno de desarrollo hasta la producción. Utilizamos herramientas y metodologías modernas para automatizar el proceso, minimizando el riesgo de errores y maximizando la estabilidad del sistema. Con nuestra experiencia en la gestión de despliegues, te ayudamos a optimizar la velocidad y la calidad de las actualizaciones, asegurando que tus usuarios finales experimenten un rendimiento confiable y sin interrupciones.",
+                    "title2" : "Implementación Eficiente y ",
+                    "addTitle2" : "Avanzada en gestion de despliegues",
+                    "description2" : "En la implementación eficiente y avanzada de la gestión de despliegues, nos enfocamos en asegurar que tus aplicaciones y sistemas se lancen de manera fluida y sin contratiempos. Nuestro enfoque se centra en la planificación meticulosa y la ejecución precisa para garantizar una transición sin problemas desde el entorno de desarrollo hasta la producción. Utilizamos herramientas y metodologías modernas para automatizar el proceso, minimizando el riesgo de errores y maximizando la estabilidad del sistema. Con nuestra experiencia en la gestión de despliegues, te ayudamos a optimizar la velocidad y la calidad de las actualizaciones, asegurando que tus usuarios finales experimenten un rendimiento confiable y sin interrupciones.",
+                    "imageHeader": "/image/services/detailsService/gestion-de-despliegues1.webp",
+                    "FeaturesSectionDemo" : "gestion-de-despliegues",
+                    "DetailsService" : [
+                        {
+                            "title" : "Google ss s s",
+                            "media" : "/image/services/detailsService/gestion-de-despliegues2.webp",
+                            "paragraph1" : [
+                                "Lorem, ipsum dolor. ssds ",
+                                "Lorem ipsum dolor sit. lolos"
+                            ],
+                            "paragraph2" : [
+                                "Lorem, ipsum dolor. asd",
+                                "Lorem ipsum dolor sit. 2"
+                            ],
+                            "paragraph3" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph4" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph5" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph6" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit. asdas"
+                            ]
+                        },
+                        {
+                            "title" : "Google",
+                            "media" : "/image/services/detailsService/gestion-de-despliegues4.webp",
+                            "paragraph1" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ]
+                        },
+                        {
+                            "title" : "Google",
+                            "media" : "/image/services/detailsService/media/gestion-de-despliegues2.webm",
+                            "paragraph1" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph2" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph3" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ]
+                        },
+                        {
+                            "title" : "Google",
+                            "media" : "/image/services/detailsService/gestion-de-despliegues1.webp",
+                            "paragraph1" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph2" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph3" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ]
+                        },
+                        {
+                            "title" : "Google",
+                            "media" : "/image/services/detailsService/media/gestion-de-despliegues1.webm",
+                            "paragraph1" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph2" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph3" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph4" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph5" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph6" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ]
+                        },
+                        {
+                            "title" : "Google",
+                            "media" : "/image/services/detailsService/gestion-de-despliegues3.webp",
+                            "paragraph1" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph2" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph3" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph4" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph5" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ],
+                            "paragraph6" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ]
+                        },
+                        {
+                            "title" : "Google",
+                            "media" : "/image/services/detailsService/gestion-de-despliegues7.webp",
+                            "paragraph1" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ]
+                        },
+                        {
+                            "title" : "Google",
+                            "media" : "/image/services/detailsService/gestion-de-despliegues5.webp",
+                            "paragraph1" : [
+                                "Lorem, ipsum dolor.",
+                                "Lorem ipsum dolor sit."
+                            ]
+                        }
+
+                    ],
+                    "OurWork" : [
+                        {
+                            "title" : "Design your product with us",
+                            "description" : "También contarás con clases online y en vivo en donde podrás resolver tus dudas y aprender junto a grandes expertos.",
+                            "picture" : "/image/services/ourWork/gestion-de-desplieguesOurWork1.webp",
+                            "delay" : ".1"
+                        },
+                        {
+                            "title" : "Deployments and security in every project",
+                            "description" : "También contarás con clases online y en vivo en donde podrás resolver tus dudas y aprender junto a grandes expertos.",
+                            "picture" : "/image/services/ourWork/gestion-de-desplieguesOurWork2.webp",
+                            "delay" : ".2"
+                        },
+                        {
+                            "title" : "Micrositios y One-Pagers",
+                            "description" : "También contarás con clases online y en vivo en donde podrás resolver tus dudas y aprender junto a grandes expertos.",
+                            "picture" : "/image/services/ourWork/gestion-de-desplieguesOurWork3.webp",
+                            "delay" : ".3"
+                        }
+                    ]
+                    
+                },
+                {
+                    "id": "maquinas-virtuales",
+                    "title": "Flexible Infrastructure in",
+                    "title2": "Scalable Solutions for",
+                    "addTitle": "Virtual Machine Management",
+                    "addTitle2": "VM Creation & Control",
+                    "description": "Flexible VM infrastructure tailored to your needs. Scale efficiently, optimize hardware, and reduce operational costs.",
+                    "description2": "Secure virtualization with rapid deployment. Dynamic resource management that improves agility and business response.",
+                    "imageHeader": "/image/services/detailsService/maquinas-virtuales6.webp",
+                    "FeaturesSectionDemo": "maquinas-virtuales",
+                    "DetailsService": [
+                        {
+                            "title": "Resource Scaling",
+                            "media": "/image/services/detailsService/maquinas-virtuales1.webp",
+                            "paragraph1": [
+                                "Scale up instantly.",
+                                "Resources on demand."
+                            ],
+                            "paragraph2": [
+                                "Auto-scaling configured smart.",
+                                "Handles traffic spikes."
+                            ],
+                            "paragraph3": [
+                                "Pay only usage.",
+                                "Cost optimization built-in."
+                            ],
+                            "paragraph4": [
+                                "Vertical scaling easy.",
+                                "Horizontal too available."
+                            ],
+                            "paragraph5": [
+                                "Load balancing automatic.",
+                                "Performance stays consistent."
+                            ],
+                            "paragraph6": [
+                                "Elastic infrastructure ready.",
+                                "Grows with business."
+                            ]
+                        },
+                        {
+                            "title": "Quick Deployment",
+                            "media": "/image/services/detailsService/maquinas-virtuales2.webp",
+                            "paragraph1": [
+                                "VMs ready minutes.",
+                                "Templates pre-configured."
+                            ]
+                        },
+                        {
+                            "title": "Multi-Cloud Support",
+                            "media": "/image/services/detailsService/maquinas-virtuales6.webp",
+                            "paragraph1": [
+                                "AWS, Azure, GCP.",
+                                "Platform flexibility yours."
+                            ],
+                            "paragraph2": [
+                                "Hybrid cloud supported.",
+                                "On-prem integration smooth."
+                            ],
+                            "paragraph3": [
+                                "Avoid vendor lock-in.",
+                                "Freedom to migrate."
+                            ]
+                        },
+                        {
+                            "title": "High Availability",
+                            "media": "/image/services/detailsService/maquinas-virtuales8.webp",
+                            "paragraph1": [
+                                "99.9% uptime guaranteed.",
+                                "Redundancy built everywhere."
+                            ],
+                            "paragraph2": [
+                                "Failover automatic setup.",
+                                "Zero downtime achieved."
+                            ],
+                            "paragraph3": [
+                                "Geographic distribution possible.",
+                                "Disaster recovery ready."
+                            ]
+                        },
+                        {
+                            "title": "Security Hardened",
+                            "media": "/image/services/detailsService/maquinas-virtuales3.webp",
+                            "paragraph1": [
+                                "Isolated VM environments.",
+                                "Network segmentation applied."
+                            ],
+                            "paragraph2": [
+                                "Firewall rules configured.",
+                                "Access tightly controlled."
+                            ],
+                            "paragraph3": [
+                                "Encryption at rest.",
+                                "Data always protected."
+                            ],
+                            "paragraph4": [
+                                "Regular security patches.",
+                                "Vulnerabilities closed fast."
+                            ],
+                            "paragraph5": [
+                                "Compliance standards met.",
+                                "Audit trails maintained."
+                            ],
+                            "paragraph6": [
+                                "DDoS protection included.",
+                                "Infrastructure stays safe."
+                            ]
+                        },
+                        {
+                            "title": "Performance Tuning",
+                            "media": "/image/services/detailsService/maquinas-virtuales9.webp",
+                            "paragraph1": [
+                                "CPU optimized instances.",
+                                "Memory configurations flexible."
+                            ],
+                            "paragraph2": [
+                                "Storage performance high.",
+                                "SSD options available."
+                            ],
+                            "paragraph3": [
+                                "Network bandwidth guaranteed.",
+                                "Latency minimized always."
+                            ],
+                            "paragraph4": [
+                                "Resource allocation smart.",
+                                "No wasted capacity."
+                            ],
+                            "paragraph5": [
+                                "Monitoring metrics detailed.",
+                                "Bottlenecks identified quick."
+                            ],
+                            "paragraph6": [
+                                "Continuous optimization applied.",
+                                "Performance stays peak."
+                            ]
+                        },
+                        {
+                            "title": "Snapshot Backups",
+                            "media": "/image/services/detailsService/maquinas-virtuales7.webp",
+                            "paragraph1": [
+                                "Instant snapshots taken.",
+                                "Point-in-time recovery."
+                            ]
+                        },
+                        {
+                            "title": "Easy Management",
+                            "media": "/image/services/detailsService/maquinas-virtuales4.webp",
+                            "paragraph1": [
+                                "Intuitive control panel.",
+                                "Manage everything simply."
+                            ]
+                        }
+                    ],
+                    "OurWork": [
+                        {
+                            "title": "Infrastructure Design",
+                            "description": "Custom VM architecture planned for your needs. Optimized topology with security and performance considerations.",
+                            "picture": "/image/services/ourWork/maquinas-virtualesOurWork1.webp",
+                            "delay": ".1"
+                        },
+                        {
+                            "title": "Migration Services",
+                            "description": "Seamless migration from physical to virtual. Zero downtime transitions with complete data integrity verification.",
+                            "picture": "/image/services/ourWork/maquinas-virtualesOurWork2.webp",
+                            "delay": ".2"
+                        },
+                        {
+                            "title": "24/7 Monitoring",
+                            "description": "Continuous health checks and alerts. Proactive issue detection with automated remediation for critical systems.",
+                            "picture": "/image/services/ourWork/maquinas-virtualesOurWork3.webp",
+                            "delay": ".3"
+                        }
+                    ]
+                },
+                {
+                    "id": "dominios",
+                    "title": "Establish Your Identity with",
+                    "title2": "Secure & Reliable",
+                    "addTitle": "Professional Domain Registration",
+                    "addTitle2": "Domain Names & DNS Control",
+                    "description": "Premium domain registration and management services tailored for your brand. Secure your online presence, build trust, and ensure high accessibility.",
+                    "description2": "Fast domain acquisition with advanced DNS management. Protect your digital identity with secure ownership and seamless platform integration.",
+                    "imageHeader": "/image/services/detailsService/dominios4.webp",
+                    "FeaturesSectionDemo": "dominios",
+                    "DetailsService": [
+                    {
+                        "title": "Global Extensions",
+                        "media": "/image/services/detailsService/dominios1.webp",
+                        "paragraph1": [
+                            "Wide variety of TLDs.",
+                            "Global and local reach."
+                        ],
+                        "paragraph2": [
+                            "Customized brand matching.",
+                            "Memorable name search."
+                        ],
+                        "paragraph3": [
+                            "Instant availability check.",
+                            "Simple acquisition process."
+                        ],
+                        "paragraph4": [
+                            "International domain support.",
+                            "Regional SEO benefits."
+                        ],
+                        "paragraph5": [
+                            "Premium domain options.",
+                            "Valuable asset protection."
+                        ],
+                        "paragraph6": [
+                            "Future-proof extensions.",
+                            "Scalable identity growth."
+                        ]
+                    },
+                    {
+                        "title": "DNS Management",
+                        "media": "/image/services/detailsService/dominios2.webp",
+                        "paragraph1": [
+                            "Low-latency DNS servers.",
+                            "High-speed resolution."
+                        ]
+                    },
+                    {
+                        "title": "Privacy Protection",
+                        "media": "/image/services/detailsService/dominios3.webp",
+                        "paragraph1": [
+                            "WHOIS privacy included.",
+                            "Spam and identity shield."
+                        ],
+                        "paragraph2": [
+                            "Hidden ownership details.",
+                            "Reduced unsolicited mail."
+                        ],
+                        "paragraph3": [
+                            "Secure data handling.",
+                            "Privacy compliance ready."
+                        ]
+                    },
+                    {
+                        "title": "Automatic Renewal",
+                        "media": "/image/services/detailsService/dominios5.webp",
+                        "paragraph1": [
+                            "Never lose your domain.",
+                            "Automated billing system."
+                        ],
+                        "paragraph2": [
+                            "Early warning alerts.",
+                            "Continuous online status."
+                        ],
+                        "paragraph3": [
+                            "Flexible renewal terms.",
+                            "Long-term lease options."
+                        ]
+                    },
+                    {
+                        "title": "SSL Integration",
+                        "media": "/image/services/detailsService/dominios4.webp",
+                        "paragraph1": [
+                            "Secure HTTPS connection.",
+                            "Encrypt user data."
+                        ],
+                        "paragraph2": [
+                            "Build visitor trust.",
+                            "Boost search rankings."
+                        ],
+                        "paragraph3": [
+                            "One-click certificate link.",
+                            "Automated verification."
+                        ],
+                        "paragraph4": [
+                            "Browser padlock display.",
+                            "Standard security protocols."
+                        ],
+                        "paragraph5": [
+                            "Multiple cert types.",
+                            "E-commerce ready."
+                        ],
+                        "paragraph6": [
+                            "Total encryption peace.",
+                            "Certified brand safety."
+                        ]
+                    },
+                    {
+                        "title": "Domain Forwarding",
+                        "media": "/image/services/detailsService/dominios7.webp",
+                        "paragraph1": [
+                            "Seamless traffic redirection.",
+                            "Marketing campaign links."
+                        ],
+                        "paragraph2": [
+                            "Multiple domain alias.",
+                            "Consolidate web traffic."
+                        ],
+                        "paragraph3": [
+                            "Smart URL masking.",
+                            "Professional link shorteners."
+                        ],
+                        "paragraph4": [
+                            "Social media shortcuts.",
+                            "Simplified brand paths."
+                        ],
+                        "paragraph5": [
+                            "Subdomain management.",
+                            "Structured web hierarchy."
+                        ],
+                        "paragraph6": [
+                            "Easy redirection rules.",
+                            "Zero loss of visitors."
+                        ]
+                    },
+                    {
+                        "title": "Transfers & Migrations",
+                        "media": "/image/services/detailsService/dominios6.webp",
+                        "paragraph1": [
+                            "Smooth domain transfers.",
+                            "Zero downtime during moves."
+                        ]
+                    },
+                    {
+                        "title": "Expert Support",
+                        "media": "/image/services/detailsService/dominios8.webp",
+                        "paragraph1": [
+                            "Technical setup assistance.",
+                            "Troubleshooting experts."
+                        ]
+                    }
+    ],
+    "OurWork": [
+        {
+            "title": "Domain Strategy",
+            "description": "Custom consulting to choose the perfect domain that aligns with your branding, SEO goals, and target audience.",
+            "picture": "/image/services/ourWork/dominiosOurWork1.webp",
+            "delay": ".1"
+        },
+        {
+            "title": "Security Hardening",
+            "description": "Implementation of Registry Lock, DNSSEC, and two-factor authentication to keep your assets safe from hijacking.",
+            "picture": "/image/services/ourWork/dominiosOurWork2.webp",
+            "delay": ".2"
+        },
+        {
+            "title": "DNS Optimization",
+            "description": "Fine-tuning record types (A, MX, CNAME, TXT) to ensure your email delivery and web performance are at peak levels.",
+            "picture": "/image/services/ourWork/dominiosOurWork3.webp",
+            "delay": ".3"
+        }
+    ]
+                }
+            ]
+
+        }
+    ],
+    "about" : [
+        {
+            "counter" : [
+                {
+                    "number" : 20,
+                    "delay" : ".2",
+                    "description" : "Años en el mercado"
+                },
+                {
+                    "number" : 99,
+                    "delay" : ".5",
+                    "description" : "De efectividad en la creación y entrega de proyectos",
+                    "AditionalTrace" : "%"
+                },
+                {
+                    "number" : 470,
+                    "delay" : ".3",
+                    "description" : "proyectos realizados"
+                },
+                {
+                    "number" : 240,
+                    "delay" : ".4",
+                    "description" : "colaboradores a tu disposición"
+                }
+
+            ],
+            "outWork" : [
+                {
+                    "SubTitle" : "Designe",
+                    "title" : "Design your product with us",
+                    "description" : "También contarás con clases online y en vivo en donde podrás resolver tus dudas y aprender junto a grandes expertos.",
+                    "picture" : "outWork_1",
+                    "delay" : ".1"
+                },
+                {
+                    "SubTitle" : "Deployments",
+                    "title" : "Deployments and security in every project",
+                    "description" : "También contarás con clases online y en vivo en donde podrás resolver tus dudas y aprender junto a grandes expertos.",
+                    "picture" : "outWork_2",
+                    "delay" : ".2"
+                },
+                {
+                    "SubTitle" : "Services",
+                    "title" : "Micrositios y One-Pagers",
+                    "description" : "También contarás con clases online y en vivo en donde podrás resolver tus dudas y aprender junto a grandes expertos.",
+                    "picture" : "outWork_3",
+                    "delay" : ".3"
+                }
+            ],
+            "ilustration" : [
+                {
+                    "gridOne" : [
+                        {
+                            "title" : "Design your product with us",
+                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
+                            "descriptionTwo" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, suscipit!",
+                            "titleTwo" : "Lorem ipsum dolor si",
+                            "component" : "designeAbout",
+                            "directionComponent" : "bottomRight",
+                            "directionText" : "topRight",
+                            "className" : "58%",
+                            "value" : true,
+                            "image" : "imageOne",
+                            "delay" : ".6"
+                        }
+                    ],
+                    "gridTwo" : [
+                        {
+                            "title" : "Our Collaborations",
+                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
+                            "descriptionTwo" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, suscipit!",
+                            "titleTwo" : "Lorem ipsum dolor si",
+                            "component" : "collaborationsAbout",
+                            "className" : "42%",
+                            "directionText" : "center",
+                            "value" : false,
+                            "image" : "imageTwo",
+                            "delay" : ".7"
+                        }
+                    ]
+                    
+                },
+                {
+                    "gridOne" : [
+                        {
+                            "title" : "Animations for your project",
+                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.",
+                            "titleTwo" : "Lorem ipsum dolor si",
+                            "descriptionTwo" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, suscipit!",
+                            "component" : "animationsAbout",
+                            "className" : "42%",
+                            "directionText" : "topLeft",
+                            "value" : false,
+                            "image" : "imageOne",
+                            "delay" : ".9"
+                        }
+                    ],
+                    "gridTwo" : [
+                        {
+                            "title" : "Diferents Effects",
+                            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente natus magni veniam distinctio expedita saepe eum similique! Facilis illo vel, molestiae debitis eos autem modi repudiandae iure vero ratione.", 
+                            "component" : "diferentsEffectsAbout",
+                            "className" : "58%",
+                            "directionText" : "bottomRight",
+                            "value" : true,
+                            "image" : "imageTwo",
+                            "delay" : ".11"
+                        }
+                    ]
+                    
+                }
+            ],
+            "timeLine": [
+                {
+                    "title": "Cyber was born",
+                    "titleTwo": "company foundation",
+                    "description": "In 2019, the idea of Cyber was born, a company focused on innovation and technological growth. In a constantly evolving world, we identified the need to offer innovative and efficient technological solutions for companies and entrepreneurs seeking to optimize and scale their processes.",
+                    "components": ["chromaGrid", "CodeComparison"],
+                    "delay": 0.6
+                },
+                {
+                    "title": "clear vision and",
+                    "titleTwo": "commitment",
+                    "description": "With a clear vision and a commitment to innovation, Cyber began to expand its services, consolidating its presence in the technology sector. During this period, we optimized our processes, incorporated new technologies, and strengthened our team, allowing us to tackle more complex projects and offer more specialized solutions to our clients.",
+                    "components": ["terminal", "customerService"],
+                    "delay": 0.7
+                },
+                {
+                    "title": "innovation with",
+                    "titleTwo": "technological solutions",
+                    "description": "We now drive innovation with tailor-made technological solutions, ensuring quality, efficiency, and a constant commitment to the success of our clients.",
+                    "highlights": [
+                        "- Constant Innovation",
+                        "- Personalized Approach",
+                        "- Quality and Efficiency",
+                        "- Specialized Team",
+                        "- Commitment to the Client"
+                    ],
+                    "components": ["codeOptimization", "animatedList"],
+                    "delay": 0.2
+                }
+            ],
+            "informationCards" : [
+                        {
+                            "number" : "01",
+                            "title" : "IDEATE",
+                            "subtitle" : "Explore 100s of possibilities",
+                            "description" : "Text, image, and video models in one place. No tab-switching, no limits.",
+                            "video" : "/media/prueba4.webm"
+                        },
+                        {
+                            "number" :"02",
+                            "title" : "ITERATE",
+                            "subtitle" : "Get to final faster",
+                            "description" : "Iterate in real-time with the whole team. Evolve ideas and maintain momentum.",
+                            "video" : "/media/prueba5.webm"
+                        },
+                        {
+                            "number" : "03",
+                            "title" : "SCALE",
+                            "subtitle" : "Create scalable workflows",
+                            "description" : "Take a single concept from headshots to production—and automate.",
+                            "video" : "/media/prueba6.webm"
+                        }
+            ]
+        }
+    ],
+    "contact" : [
+        {
+            "titleForm" : [
+                {
+                    "text" : "Great, isn't it! Ready to get started?",
+                    "delay" : ".1"
+                },
+                {
+                    "text" : "We're here to answer your questions.",
+                    "delay" : ".2",
+                    "color" : true
+                }
+            ],
+            "form" : [
+                {
+                    "gridForm" : [
+                        {                    
+                            "type" : "text",
+                            "inputType" : "input",
+                            "name" : "nameUser",
+                            "placeholder" : "write your name"
+                        }
+                    ],
+                    "gridForm2" : [
+                        {
+                            "type" : "number",
+                            "inputType" : "input",
+                            "name" : "phone",
+                            "placeholder" : "write your phone"
+                        }
+                    ]
+                },
+                {
+                    "gridForm" : [
+                        {
+                            "type" : "email",
+                            "inputType" : "input",
+                            "name" : "email",
+                            "placeholder" : "wrire your email"
+                        }
+                    ]
+                },
+                {
+                    "gridForm" : [
+                        {
+                            "inputType" : "textarea",
+                            "name" : "message",
+                            "placeholder" : "wrire your message"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "footer" : [
+        {
+            "footerLinks1" : [
+                {
+                    "title" : true,
+                    "delay" : ".1",
+                    "word" : "Pages"
+                }
+            ],
+            "footerLinks2" : [
+                {
+                    "delay" : ".2",
+                    "word" : "Home"
+                }
+            ],
+            "footerLinks3" : [
+                {
+                    "delay" : ".3",
+                    "word" : "services"
+                }
+            ],
+            "footerLinks4" : [
+                {
+                    "delay" : ".4",
+                    "word" : "About"
+                }
+            ],
+            "footerLinks5" : [
+                {
+                    "delay" : ".5",
+                    "word" : "Contact"
+                }
+            ]
+        },
+        {
+            "footerLinks1" : [
+                {
+                    "title" : true,
+                    "delay" : ".1",
+                    "word" : "social networks"
+                }
+            ],
+            "footerLinks2" : [
+                {
+                    "delay" : ".2",
+                    "word" : " Facebook"
+                }
+            ],
+            "footerLinks3" : [
+                {
+                    "delay" : ".3",
+                    "word" : "Instagram"
+                }
+            ],
+            "footerLinks4" : [
+                {
+                    "delay" : ".4",
+                    "word" : "twitter"
+                }
+            ],
+            "footerLinks5" : [
+                {
+                    "delay" : ".5",
+                    "word" : "LinkedIn"
+                }
+            ]
+        },
+        {
+            "footerLinks1" : [
+                {
+                    "title" : true,
+                    "delay" : ".1",
+                    "word" : "Legal"
+                }
+            ],
+            "footerLinks2" : [
+                {
+                    "delay" : ".2",
+                    "word" : "Privacy Policy"
+                }
+            ],
+            "footerLinks3" : [
+                {
+                    "delay" : ".3",
+                    "word" : "Terms of Service"
+                }
+            ],
+            "footerLinks4" : [
+                {
+                    "delay" : ".4",
+                    "word" : "Cookie Policy"
+                }
+            ]
+        }
+    ]
+}
