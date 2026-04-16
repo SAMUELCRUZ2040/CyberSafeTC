@@ -37,7 +37,7 @@ export default async function Template({ params }) {
           
           {/* Primera Sección: Título y Descripción 1 */}
           <div className="flex flex-col items-center md:items-end text-center md:text-end">
-            <h1 className={`${types.h3} flex flex-col clip-reveal`}>
+            <h1 className={`${types.h3} flex flex-col`}>
               <span>{service.title}</span>
               <span className="font-semibold">{service.addTitle}</span>
             </h1>
@@ -46,14 +46,14 @@ export default async function Template({ params }) {
               max-w-2xl my-6 md:my-8 
               px-4 md:px-0 md:pr-6 
               border-none md:border-r-2 md:border-white/20
-            clip-reveal `}>
+           `}>
               {service.description}
             </p>
           </div>
 
           {/* Segunda Sección: Título 2 y Descripción 2 */}
           <div className="flex flex-col items-center md:items-start text-center md:text-start">
-            <h1 className={`${types.h3} flex flex-col clip-reveal`}>
+            <h1 className={`${types.h3} flex flex-col`}>
               <span>{service.title2}</span>
               <span className="font-semibold">{service.addTitle2}</span>
             </h1>
@@ -61,7 +61,7 @@ export default async function Template({ params }) {
               ${types.p} 
               max-w-2xl my-6 md:my-8 
               px-4 md:px-0 md:pl-6 
-              border-none md:border-l-2 md:border-white/20 clip-reveal
+              border-none md:border-l-2 md:border-white/20
             `}>
               {/* Aquí corregí para que use description2 si existe en tu JSON */}
               {service.description2 || service.description}

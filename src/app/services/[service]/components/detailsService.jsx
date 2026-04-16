@@ -15,7 +15,7 @@ const ServiceCard = ({ item, className = "" }) => {
     .map(key => item[key]);
 
   return (
-    <div className={`border-[1px] border-[#a0a0a025] rounded-3xl p-8 relative overflow-hidden flex flex-col group clip-reveal ${className}`}>
+    <div className={`border-[1px] border-[#a0a0a025] rounded-3xl p-8 relative overflow-hidden flex flex-col group ${className}`}>
       
       {/* Media de fondo */}
       <div className="absolute top-0 left-0 w-full h-full z-0 opacity-60">
