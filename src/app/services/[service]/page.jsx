@@ -1,9 +1,13 @@
+
+
 import data from '@/json/data';
 import types from '@/components/fontLetters';
 import { CarouselGeneral } from './components/carouselGeneral';
 import OurWork from './components/ourWork';
 import { DetailsService } from './components/detailsService';
 import { FeaturesSectionDemo } from './components/featuresSectionDemo';
+import { Writer } from './components/writer';
+
 
 // 1. Definimos la función como async para manejar params
 export default async function Template({ params }) {
@@ -31,50 +35,16 @@ export default async function Template({ params }) {
   }
 
   return (
-    <main className="flex justify-center items-center relative flex-col">
-      <div className="container px-4 pt-20 mt-10 md:pt-28 md:mt-14 flex justify-center flex-col items-center">
-        <div className="w-full max-w-7xl flex flex-col gap-10 md:gap-14">
-          
-          {/* Primera Sección: Título y Descripción 1 */}
-          <div className="flex flex-col items-center md:items-end text-center md:text-end">
-            <h1 className={`${types.h3} flex flex-col`}>
-              <span>{service.title}</span>
-              <span className="font-semibold">{service.addTitle}</span>
-            </h1>
-            <p className={`
-              ${types.p} 
-              max-w-2xl my-6 md:my-8 
-              px-4 md:px-0 md:pr-6 
-              border-none md:border-r-2 md:border-white/20
-           `}>
-              {service.description}
-            </p>
-          </div>
+<main className="flex justify-center items-center relative flex-col overflow-hidden">
 
-          {/* Segunda Sección: Título 2 y Descripción 2 */}
-          <div className="flex flex-col items-center md:items-start text-center md:text-start">
-            <h1 className={`${types.h3} flex flex-col`}>
-              <span>{service.title2}</span>
-              <span className="font-semibold">{service.addTitle2}</span>
-            </h1>
-            <p className={`
-              ${types.p} 
-              max-w-2xl my-6 md:my-8 
-              px-4 md:px-0 md:pl-6 
-              border-none md:border-l-2 md:border-white/20
-            `}>
-              {/* Aquí corregí para que use description2 si existe en tu JSON */}
-              {service.description2 || service.description}
-            </p>
-          </div>
-
-        </div>
-      </div>
-
-      {/* Componentes hijos pasando el ID correcto */}
-      <DetailsService idPage={currentServiceId} />
-      <OurWork idPage={currentServiceId} />
-      <FeaturesSectionDemo idPage={currentServiceId} />
+    <Writer idPage={currentServiceId} />
+    
+    {/* Componentes hijos (ID preservado) */}
+    <div className="w-full">
+        <DetailsService idPage={currentServiceId} />
+        <OurWork idPage={currentServiceId} />
+        <FeaturesSectionDemo idPage={currentServiceId} />
+    </div>
       
       <div className="w-full flex flex-col items-center pt-20 pb-28">
         <div className="w-full max-w-7xl px-6 mb-10">
