@@ -776,7 +776,7 @@
                     "addTitle2": "Software Solutions",
                     "description": "Tailored software that fits your exact business needs. We build efficient, competitive solutions on time and on budget.",
                     "description2": "Custom development that drives results. From enterprise apps to mobile solutions, we deliver robust, secure software.",
-                    "imageHeader": "/image/services/detailsService/desarrollo-de-software1.webp",
+                    "imageHeader": "/image/services/detailsService/desarrollo-de-software2.webp",
                     "FeaturesSectionDemo": "desarrollo-de-software",
                     "DetailsService": [
                         {
@@ -942,157 +942,156 @@
                     ]
                 },
                 {
-                    "id" : "gestion-de-despliegues",
-                    "title" : "Implementación Eficiente y ",
-                    "addTitle" : "Avanzada en gestion de despliegues",
-                    "description" : "En la implementación eficiente y avanzada de la gestión de despliegues, nos enfocamos en asegurar que tus aplicaciones y sistemas se lancen de manera fluida y sin contratiempos. Nuestro enfoque se centra en la planificación meticulosa y la ejecución precisa para garantizar una transición sin problemas desde el entorno de desarrollo hasta la producción. Utilizamos herramientas y metodologías modernas para automatizar el proceso, minimizando el riesgo de errores y maximizando la estabilidad del sistema. Con nuestra experiencia en la gestión de despliegues, te ayudamos a optimizar la velocidad y la calidad de las actualizaciones, asegurando que tus usuarios finales experimenten un rendimiento confiable y sin interrupciones.",
-                    "title2" : "Implementación Eficiente y ",
-                    "addTitle2" : "Avanzada en gestion de despliegues",
-                    "description2" : "En la implementación eficiente y avanzada de la gestión de despliegues, nos enfocamos en asegurar que tus aplicaciones y sistemas se lancen de manera fluida y sin contratiempos. Nuestro enfoque se centra en la planificación meticulosa y la ejecución precisa para garantizar una transición sin problemas desde el entorno de desarrollo hasta la producción. Utilizamos herramientas y metodologías modernas para automatizar el proceso, minimizando el riesgo de errores y maximizando la estabilidad del sistema. Con nuestra experiencia en la gestión de despliegues, te ayudamos a optimizar la velocidad y la calidad de las actualizaciones, asegurando que tus usuarios finales experimenten un rendimiento confiable y sin interrupciones.",
-                    "imageHeader": "/image/services/detailsService/gestion-de-despliegues1.webp",
-                    "FeaturesSectionDemo" : "gestion-de-despliegues",
-                    "DetailsService" : [
+                    "id": "gestion-de-despliegues",
+                    "title": "CI/CD & Automated",
+                    "addTitle": "Deployment Strategies",
+                    "description": "We eliminate deployment friction by implementing robust CI/CD pipelines. Our focus ensures that your software moves from development to production with surgical precision, utilizing automated testing and security scans to guarantee that every release is a non-event. Scale your delivery speed without compromising stability.",
+                    "title2": "Agile Delivery &",
+                    "addTitle2": "System Reliability",
+                    "description2": "Modern software requires constant iteration. We provide the infrastructure needed to deploy updates in seconds, not hours. Through advanced orchestration and meticulous planning, we minimize human error and maximize uptime, ensuring your end-users always experience a seamless and reliable performance.",
+                    "imageHeader": "/image/services/detailsService/gestion-de-despliegues7.webp",
+                    "FeaturesSectionDemo": "gestion-de-despliegues",
+                    "DetailsService": [
                         {
-                            "title" : "Google ss s s",
-                            "media" : "/image/services/detailsService/gestion-de-despliegues2.webp",
-                            "paragraph1" : [
-                                "Lorem, ipsum dolor. ssds ",
-                                "Lorem ipsum dolor sit. lolos"
+                            "title": "Automated Pipelines",
+                            "media": "/image/services/detailsService/gestion-de-despliegues2.webp",
+                            "paragraph1": [
+                                "Continuous Integration",
+                                "Automated unit and integration testing."
                             ],
-                            "paragraph2" : [
-                                "Lorem, ipsum dolor. asd",
-                                "Lorem ipsum dolor sit. 2"
+                            "paragraph2": [
+                                "Continuous Deployment",
+                                "Direct push to staging and production."
                             ],
-                            "paragraph3" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph3": [
+                                "Build Optimization",
+                                "Faster compile times for dev teams."
                             ],
-                            "paragraph4" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph4": [
+                                "Code Quality",
+                                "Automated linting and style checks."
                             ],
-                            "paragraph5" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph5": [
+                                "Environment Parity",
+                                "Identical setups across all stages."
                             ],
-                            "paragraph6" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit. asdas"
+                            "paragraph6": [
+                                "Feedback Loops",
+                                "Instant alerts on deployment status."
                             ]
                         },
                         {
-                            "title" : "Google",
-                            "media" : "/image/services/detailsService/gestion-de-despliegues4.webp",
-                            "paragraph1" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "title": "Zero Downtime",
+                            "media": "/image/services/detailsService/gestion-de-despliegues4.webp",
+                            "paragraph1": [
+                                "Blue-Green Releases",
+                                "Switch traffic between versions instantly."
                             ]
                         },
                         {
-                            "title" : "Google",
-                            "media" : "/image/services/detailsService/media/gestion-de-despliegues2.webm",
-                            "paragraph1" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "title": "Instant Rollbacks",
+                            "media": "/image/services/detailsService/media/gestion-de-despliegues2.webm",
+                            "paragraph1": [
+                                "Risk Mitigation",
+                                "One-click return to previous stable versions."
                             ],
-                            "paragraph2" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph2": [
+                                "Health Monitoring",
+                                "Auto-rollback if errors are detected."
                             ],
-                            "paragraph3" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph3": [
+                                "Data Safety",
+                                "Ensuring database integrity during reverts."
                             ]
                         },
                         {
-                            "title" : "Google",
-                            "media" : "/image/services/detailsService/gestion-de-despliegues1.webp",
-                            "paragraph1" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "title": "Infrastructure as Code",
+                            "media": "/image/services/detailsService/gestion-de-despliegues1.webp",
+                            "paragraph1": [
+                                "Terraform & Ansible",
+                                "Declarative infrastructure management."
                             ],
-                            "paragraph2" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph2": [
+                                "Versioned Configs",
+                                "Track every change in your hardware setup."
                             ],
-                            "paragraph3" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph3": [
+                                "Disaster Recovery",
+                                "Rebuild entire stacks in minutes."
                             ]
                         },
                         {
-                            "title" : "Google",
-                            "media" : "/image/services/detailsService/media/gestion-de-despliegues1.webm",
-                            "paragraph1" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "title": "Security Scans",
+                            "media": "/image/services/detailsService/media/gestion-de-despliegues1.webm",
+                            "paragraph1": [
+                                "Vulnerability Detection",
+                                "Scan dependencies during every build."
                             ],
-                            "paragraph2" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph2": [
+                                "Secret Management",
+                                "Secure handling of API keys and tokens."
                             ],
-                            "paragraph3" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph3": [
+                                "Compliance",
+                                "Adhering to industry security standards."
                             ],
-                            "paragraph4" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph4": [
+                                "Access Control",
+                                "Granular permissions for deployment."
                             ],
-                            "paragraph5" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph5": [
+                                "Audit Logs",
+                                "Full history of who deployed what and when."
                             ],
-                            "paragraph6" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph6": [
+                                "Container Security",
+                                "Hardened Docker and K8s images."
                             ]
                         },
                         {
-                            "title" : "Google",
-                            "media" : "/image/services/detailsService/gestion-de-despliegues3.webp",
-                            "paragraph1" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "title": "Performance Tuning",
+                            "media": "/image/services/detailsService/gestion-de-despliegues3.webp",
+                            "paragraph1": [
+                                "Load Balancing",
+                                "Distribute traffic efficiently across nodes."
                             ],
-                            "paragraph2" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph2": [
+                                "Edge Deployment",
+                                "Releasing code closer to your users."
                             ],
-                            "paragraph3" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph3": [
+                                "Resource Scaling",
+                                "Auto-scaling based on real-time demand."
                             ],
-                            "paragraph4" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph4": [
+                                "Caching Strategies",
+                                "Optimizing CDN invalidation on release."
                             ],
-                            "paragraph5" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph5": [
+                                "Latency Reduction",
+                                "Minimizing TTFB for global applications."
                             ],
-                            "paragraph6" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "paragraph6": [
+                                "Core Web Vitals",
+                                "Deploying with performance as a priority."
                             ]
                         },
                         {
-                            "title" : "Google",
-                            "media" : "/image/services/detailsService/gestion-de-despliegues7.webp",
-                            "paragraph1" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "title": "Cloud Orchestration",
+                            "media": "/image/services/detailsService/gestion-de-despliegues7.webp",
+                            "paragraph1": [
+                                "Multi-Cloud Support",
+                                "Deploy to AWS, Azure, or GCP seamlessly."
                             ]
                         },
                         {
-                            "title" : "Google",
-                            "media" : "/image/services/detailsService/gestion-de-despliegues5.webp",
-                            "paragraph1" : [
-                                "Lorem, ipsum dolor.",
-                                "Lorem ipsum dolor sit."
+                            "title": "Deployment Analytics",
+                            "media": "/image/services/detailsService/gestion-de-despliegues5.webp",
+                            "paragraph1": [
+                                "Vitals Monitoring",
+                                "Real-time tracking of post-release health."
                             ]
                         }
-
                     ],
                     "OurWork" : [
                         {

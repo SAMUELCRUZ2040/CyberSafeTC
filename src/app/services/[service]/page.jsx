@@ -35,7 +35,7 @@ export default async function Template({ params }) {
   }
 
   return (
-<main className="flex justify-center items-center relative flex-col overflow-hidden">
+<main className="flex justify-center items-center relative flex-col ">
 
     <Writer idPage={currentServiceId} />
     

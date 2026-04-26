@@ -13,8 +13,10 @@ export const CarouselGeneral = ({ services }) => {
   const cards = filteredServices.map((service, index) => {
     const cardData = {
       src: service.imageHeader || "",
-      title: `${service.title} ${service.addTitle}`,
+      title: service.title,
+      subtitle: service.addTitle,
       linkService: `/services/${service.id}`,
+      id: service.id
     };
     return <Card key={service.id || index} card={cardData} index={index} />;
   });
