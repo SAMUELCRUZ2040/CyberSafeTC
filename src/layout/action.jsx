@@ -80,7 +80,7 @@ export default function Action() {
                   href="/contact"
                   className="group/btn flex items-center justify-center gap-2 bg-white text-black font-bold text-sm px-8 py-3.5 rounded-xl transition-all duration-300 hover:bg-white/90 hover:scale-[1.02] active:scale-[0.98]"
                 >
-                  <span>let's meet</span>
+                  <span className="text-gray-700">let's meet</span>
                   <svg
                     className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-1"
                     fill="none"
